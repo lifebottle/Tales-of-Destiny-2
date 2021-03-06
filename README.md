@@ -1,7 +1,7 @@
 # Tales of Destiny 2 (PS2)
 This project is an attempt at an open-source translation for Tales of Destiny 2 (PS2).
 To be clear, this is *not* for Tales of Eternia (PSP) or Tales of Destiny II (PS1).
-After starting and handing off an open-source project for [Tales of Destiny Director's Cut](https://github.com/furiousg4m3r/Tales-of-Destiny-DC "Tales of Destiny DC") (PS2), the aim of this project is have tools and resources available to complete a patch for Tales of Destiny 2 (PS2), a "sequel" to to the first game.
+After starting and handing off an open-source project for [Tales of Destiny Director's Cut](https://github.com/furiousg4m3r/Tales-of-Destiny-DC "Tales of Destiny DC") (PS2), the aim of this project is have tools and resources available to complete a patch for Tales of Destiny 2 (PS2), a "sequel" to the first game.
 
 ## Wanted Items
 1. Any exisiting tools, source code, repositories, but also available to be open-sourced in this repository
