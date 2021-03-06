@@ -15,3 +15,7 @@ After starting and handing off an open-source project for [Tales of Destiny Dire
 Offset   | Description | Notes
 ---------|-------------|----------------------
 00000000 | ELF Start   | Beginning of file
+
+## Screenshots
+
+![SLPS_251.72](https://raw.githubusercontent.com/pnvnd/Tales-of-Destiny-2/main/tod2_slps_base.png)
