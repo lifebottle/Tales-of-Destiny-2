@@ -1,0 +1,21 @@
+C:\TEMP\TOD2>tree /f
+│   FILE.FPB
+│   FILESYS.IRX
+│   IOPRP243.IMG
+│   MOVIE.FPB
+│   SLPS_251.72
+│   SYSTEM.CNF
+│   VENUS.ELF
+│
+├───VIMAGE
+│       BGMIMAGE.BIN
+│       CDIMAGE.BIN
+│       MOVIMAGE.BIN
+│
+└───VIRX
+        IOPRP255.IMG
+        LIBSD.IRX
+        NUSNDSTR.IRX
+        NUSOUND.IRX
+        PADMAN.IRX
+        SIO2MAN.IRX
