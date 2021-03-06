@@ -11,6 +11,7 @@ After starting and handing off an open-source project for [Tales of Destiny Dire
 5. Any other advice that can be offered to get all the tools available for patch making
 
 ## SLPS_251.72 Table of Contents
+
 Offset   | Description | Notes
------------------------------
+---------|-------------|----------------------
 00000000 | ELF Start   | Beginning of file
