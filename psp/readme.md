@@ -15,11 +15,10 @@ This script has only been tested with the PSP version of Tales of Destiny 2
 6. Drag and drop `TOD2.ISO` into the `_setup.bat` to start extracting `file.fpb` and extract text
 7. Alternatively, open a command prompt and enter `python setup.py`
 
-## Skits (not verified)
-1. Get `pakcomposer` and `comptoe` and extract `.bin` files from 0213.bin to 1457.bin as `.pak1` files.
-2. Move all of the `.SCED` files into a folder, `SCED` for example.
-3. Modify `string_dump.py` line 156 and change `SCPK` to `SCED`
-4. Open command prompt and enter `python string_dump.py` to get skit text dumped
+## PAK1 Files
+1. Get `pakcomposer` and `comptoe` and extract `.bin` files from:
+2. 0213.bin to 1457.bin (skits?)
+3. 8331.bin to 9224.bin (enemies?)
 
 ## Help Wanted
 1. Need script to reinsert `.tsv` file into `.SCED`
