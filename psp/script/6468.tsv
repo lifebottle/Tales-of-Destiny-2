@@ -1,0 +1,912 @@
+0			
+1	デバッグマップ・ＤＥＢＵＧＭＡＰ・でばっぐまっぷ！		
+2	・・デバッグ　マップ・・		
+3	デバッグマップ		
+4	MAP-SIZE X = %d		
+5	MAP-SIZE Y = %d		
+6	move_posX: %d		
+7	move_posY: %d		
+8	move_posX: %d	6468 6	
+9	move_posY: %d	6468 7	
+10	move_posX: %d	6468 6	
+11	move_posY: %d	6468 7	
+12	move_posX: %d	6468 6	
+13	move_posY: %d	6468 7	
+14			
+15	さよなら DEAD COUNTER		
+16	「トラップ発生」		
+17	「イベント発生」		
+18	「ＣＨＡＮＧＥ　マップ」		
+19	{152202c0}		
+20	{152202c0}がパーティーから		linebreak
+	抜けます。		linebreak
+			
+21	{152202c0}	6468 19	
+22	パーティーに入ります		
+23			
+24	六人パーティにするよ！		linebreak
+			
+25			
+26	フリーメッセージオフ！		
+27			
+28	フリーメッセージオン！		
+29	{Char:01}		
+30	12345 の 平方根は {14b0a85ebc}		
+31	東{93e8c8c02e}{14b0a85ebc}		
+32	東{93e8c9c000}		
+33	定期船アイグレッテ～チェリク{03:0}		linebreak
+	　乗る！		linebreak
+	　乗らない！		linebreak
+			
+34			
+35	定期船チェリク～アイグレッテ{03:0}		linebreak
+	　乗る！		linebreak
+	　乗らない！		linebreak
+			
+36			
+37	定期船チェリク～ノイシュタット{03:0}		linebreak
+	　乗る！		linebreak
+	　乗らない！		linebreak
+			
+38			
+39	定期船ノイシュタット～チェリク{03:0}		linebreak
+	　乗る！		linebreak
+	　乗らない！		linebreak
+			
+40			
+41	定期船ノイシュタット～スノーフリア{03:0}		linebreak
+	　乗る！		linebreak
+	　乗らない！		linebreak
+			
+42			
+43	定期船スノーフリア～ノイシュタット{03:0}		linebreak
+	　乗る！		linebreak
+	　乗らない！		linebreak
+			
+44			
+45	FLD_EVENT_NUM_SP_01(定期船浮上)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+46			
+47	FLD_EVENT_NUM_SP_02(リーネの村へ)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+48			
+49	FLD_EVENT_NUM_SP_03(飛空艇入手)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+50			
+51	FLD_EVENT_NUM_SP_04(飛行竜逃走)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+52			
+53	FLD_EVENT_NUM_SP_05(飛行竜追撃)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+54			
+55	FLD_EVENT_NUM_SP_06(歪みに巻き込まれる)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+56			
+57	FLD_EVENT_NUM_SP_07(ダイクロフト出現)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+58			
+59	FLD_EVENT_NUM_SP_08(レンズの光)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+60			
+61	FLD_EVENT_NUM_SP_09(光のほこら)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+62			
+63	FLD_EVENT_NUM_SP_10(ロケット)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+64			
+65	FLD_EVENT_NUM_SP_11(神のたまご)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+66			
+67	FLD_EVENT_NUM_SP_12(ＥＸダンジョン出現)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+68			
+69	定期船アイグレッテ～チェリク(後半部分){03:0}		linebreak
+	　乗る！		linebreak
+	　乗らない！		linebreak
+			
+70			
+71	定期船チェリク～アイグレッテ(後半部分){03:0}		linebreak
+	　乗る！		linebreak
+	　乗らない！		linebreak
+			
+72			
+73	定期船チェリク～ノイシュタット(後半部分){03:0}		linebreak
+	　乗る！		linebreak
+	　乗らない！		linebreak
+			
+74			
+75	定期船ノイシュタット～チェリク(後半部分){03:0}		linebreak
+	　乗る！		linebreak
+	　乗らない！		linebreak
+			
+76			
+77	定期船ノイシュタット～スノーフリア(後半部分){03:0}		linebreak
+	　乗る！		linebreak
+	　乗らない！		linebreak
+			
+78			
+79	定期船スノーフリア～ノイシュタット(後半部分){03:0}		linebreak
+	　乗る！		linebreak
+	　乗らない！		linebreak
+			
+80			
+81	FLD_EVENT_NUM_SP_13(ゲーム後ゲーム直前クレスタ)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+82			
+83	FLD_EVENT_NUM_SP_14(神のたまご突入)？{03:0}		linebreak
+	　みる！		linebreak
+	　みない！		linebreak
+			
+84			
+85	ダンジョン(外殻)に行く？{03:0}		linebreak
+	・行く！		linebreak
+	・行かない！		linebreak
+			
+86			
+87	所持ガルドを操作しますか？		pagebreak
+			
+88	SELECT		
+89	{03:0}{Num:10000}ガルド増やす		linebreak
+	{Num:10000}ガルド減らす		linebreak
+	大金持になる		linebreak
+	無一文になる		
+90	になりました		
+91	持っています		
+92	無一文ですね		
+93			
+94	{143408c0}ガルド{184460c0}		
+95			
+96			
+97	ダンジョン１に行く？{03:0}		linebreak
+	・行く！		linebreak
+	・行かない！		linebreak
+			
+98			
+99	ダンジョン２に行く？{03:0}		linebreak
+	・行く！		linebreak
+	・行かない！		linebreak
+			
+100			
+101	ダンジョン３に行く？{03:0}		linebreak
+	・行く！		linebreak
+	・行かない！		linebreak
+			
+102			
+103	{03:0}アイテム操作／称号取得／時代変更		pagebreak
+			
+104	SELECT	6468 88	
+105	{03:0}称号全部取得		linebreak
+	アイテム没収		linebreak
+	アイテム入手		linebreak
+	フィールドの時代を変更する		
+106	SELECT	6468 88	
+107	{03:0}現代　　　　　キャンセルで		linebreak
+	未来　　　　　最終現代が		linebreak
+	改変現代　　　セット		linebreak
+	天地戦争　　　されます		
+108	shop menu		
+109	{03:0}{1424f4c0}番目の店で買物		linebreak
+	{Btn:41} : -10  {Btn:42} : +10		linebreak
+	{Btn:43} : - 1  {Btn:44} : + 1		
+110			
+111	飛空艇ほしい？{03:0}		linebreak
+	・ほしい！		linebreak
+	・いらない！		linebreak
+	・座標セット(-120 -1 50)！		linebreak
+			
+112	SELECT	6468 88	
+113	{03:0}アクアヴェイル		linebreak
+	カルビオラ地下墓地		linebreak
+	地上軍拠点跡地		linebreak
+	ラストダンジョン		
+114	SELECT	6468 88	
+115	{03:0}ダイクロフト（天地戦争）		linebreak
+	スパイラルケイブ		linebreak
+	ベルクラント		linebreak
+	ダイクロフト（ＴＯＤ１）		
+116	SELECT	6468 88	
+117	{03:0}海岸の洞窟		linebreak
+	地上軍拠点		linebreak
+	ラディスロウ		linebreak
+	物資貯蔵庫		
+118	SELECT	6468 88	
+119	{03:0}未開の森		linebreak
+	スペランツァ		linebreak
+	レアルタ		linebreak
+	光のほこら		
+120	SELECT	6468 88	
+121	{03:0}トラッシュマウンテン		linebreak
+	カルバレイス		linebreak
+	飛行竜		linebreak
+	ヴァンジェロ		
+122	SELECT	6468 88	
+123	{03:0}アイグレッテ（未来）		linebreak
+	チェリク		linebreak
+	ヒートリバー		linebreak
+	ホープタウン		
+124	SELECT	6468 88	
+125	{03:0}オベロン社廃坑		linebreak
+	スノーフリア		linebreak
+	ハイデルベルグ新市街		linebreak
+	ハイデルベルグ城		
+126	SELECT	6468 88	
+127	{03:0}定期船		linebreak
+	リーネの村		linebreak
+	白雲の尾根山小屋		linebreak
+	ノイシュタット		
+128	SELECT	6468 88	
+129	{03:0}アイグレッテ・グランバザール		linebreak
+	ストレイライズ遺跡		linebreak
+	ストレイライズ大神殿		linebreak
+	アイグレッテ港		
+130	SELECT	6468 88	
+131	{03:0}ラグナ遺跡		linebreak
+	地下水路		linebreak
+	ダリルシェイド		linebreak
+	ハーメンツヴァレー		
+132	SELECT	6468 88	
+133	{03:0}あまったのでラスダン中層部		linebreak
+	あまりのでラスダン深層部		linebreak
+	クレスタ		linebreak
+	デュナミス孤児院		
+134	変更しませんでした		
+135	デバッグメイド		
+136	{03:0}ワールドマップ時代を変更しますか？		
+137	select		
+138	{03:0}　最終現代　		linebreak
+	　第二現代　		linebreak
+	　第二未来　		linebreak
+	　前のページ　		
+139	select	6468 137	
+140	{03:0}　現代　		linebreak
+	　未来　		linebreak
+	　改変現代　		linebreak
+	　天地戦争　		
+141	フィールドマップ関係を		linebreak
+	現代にしました		
+142	フィールドマップ関係を		linebreak
+	未来にしました		
+143	フィールドマップ関係を		linebreak
+	改変現代にしました		
+144	フィールドマップ関係を		linebreak
+	天地戦争にしました		
+145	フィールドマップ関係を		linebreak
+	最終現代にしました		
+146	フィールドマップ関係を		linebreak
+	第二現代にしました		
+147	フィールドマップ関係を		linebreak
+	第二未来にしました		
+148			
+149			
+150	倉庫番ミニゲームで遊ぶ？{03:0}		linebreak
+	・遊ぶ！		linebreak
+	・遊ばない！		linebreak
+			
+151			
+152	飛空艇ミニゲームで遊ぶ？{03:0}		linebreak
+	・遊ぶ！		linebreak
+	・遊ばない！		linebreak
+			
+153			
+154			
+155	トラップでエンカウント		
+156	まーくん		
+157	熊です。		linebreak
+	よろしく		
+158			
+159	{0B:01}{143498c0}{0B:00}ガルドになりますが		linebreak
+	お泊まりになりますか？		linebreak
+	{03:0}　はい　		linebreak
+	　いいえ　		
+160	戻すのや～めた!!		linebreak
+			
+161			
+162	３ＤＦＩＥＬＤへＧＯ？{03:0}		linebreak
+	・ＧＯ！		linebreak
+	・キャンセル		linebreak
+			
+163			
+164	エンカウント？{03:0}		linebreak
+	・エンカウント！		linebreak
+	・キャンセル		linebreak
+			
+165			
+166	結果：{143000c0}		
+167			
+168	３Ｄフィールドは		linebreak
+	夜になりました。		
+169			
+170	３Ｄフィールドは		linebreak
+	昼になりました。		
+171	special person effect		
+172	{03:0}光の玉  : SPKIND_SHINE		linebreak
+	十字    : SPKIND_CROSS		linebreak
+	円      : SPKIND_CIRCLE		linebreak
+	線      : SPKIND_GLINE		
+173	special person effect	6468 171	
+174	{03:0}雨      : SPKIND_RAIN		linebreak
+	雪      : SPKIND_RAIN		linebreak
+	火の粉  : SPKIND_RAIN		linebreak
+	霧      : SPKIND_RAIN		
+175	macro effect		
+176	{03:0}光の柱  : ef_shinepillar.sce		
+177	macro person		
+178	{03:0}はと    : ch_bird.sce		
+179	大当たり		
+180			
+181	グラデ変更？		pagebreak
+			
+182	SELECT	6468 88	
+183	{03:0}元にもどす		linebreak
+	モノクロ調		linebreak
+	セピア調		linebreak
+	ランダム		linebreak
+			
+184			
+185	女の子		
+186	あついじゃないの		linebreak
+	バカ！		
+187	SELECT	6468 88	
+188	{03:0}１ページ		linebreak
+	２ページ		linebreak
+	３ページ		linebreak
+	次ページ		linebreak
+			
+189	SELECT	6468 88	
+190	{03:0}４ページ		linebreak
+	５ページ		linebreak
+	６ページ		linebreak
+	次ページ		linebreak
+			
+191	SELECT	6468 88	
+192	{03:0}７ページ		linebreak
+	８ページ		linebreak
+	９ページ		linebreak
+	やめる		linebreak
+			
+193	SELECT	6468 88	
+194	{03:0}通常サイズ		linebreak
+	大きい		linebreak
+			
+195	１Ｐ		
+196	　，．・：？！－／”（）％０１２		linebreak
+	３４５６７８９ＡＢＣＤＥＦＧＨＩ		linebreak
+	ＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹ		linebreak
+	Ｚぁあぃいぅうぇえぉおかがきぎく		linebreak
+	ぐけげこごさざしじすずせぜそぞた		linebreak
+	だちぢっつづてでとどなにぬねのは		linebreak
+	ばぱひびぴふぶぷへべぺほぼぽまみ		linebreak
+	むめもゃやゅゆょよらりるれろ＋わ		linebreak
+	「」をんァアィイゥウェエォオカガ		linebreak
+	キギクグケゲコゴサザシジスズセゼ		linebreak
+	ソゾタダチヂッツヅテデトドナニヌ		linebreak
+	ネノハバパヒビピフブプヘベペホボ		linebreak
+	ポマミ＆ムメモャヤュユョヨラリル		linebreak
+	レロ－ワ＝☆ヲンヴ		linebreak
+	△○×＜＞♪～▽『』、。		linebreak
+			
+197	１Ｐ	6468 195	
+198	{Size:512}　，．・：？！		linebreak
+	－／（）％０１２		linebreak
+	３４５６７８９Ａ		linebreak
+	ＢＣＤＥＦＧＨＩ		linebreak
+	ＪＫＬＭＮＯＰＱ		linebreak
+	ＲＳＴＵＶＷＸＹ		linebreak
+	Ｚぁあぃいぅうぇ		linebreak
+	えぉおかがきぎく		linebreak
+	ぐけげこごさざし		linebreak
+	じすずせぜそぞた		linebreak
+	だちぢっつづてで		linebreak
+	とどなにぬねのは		linebreak
+	ばぱひびぴふぶぷ		linebreak
+	へべぺほぼぽまみ		linebreak
+	むめもゃやゅゆょ		linebreak
+	よらりるれろ＋わ		linebreak
+	「」をんァアィイ		linebreak
+	ゥウェエォオカガ		linebreak
+	キギクグケゲコゴ		linebreak
+	サザシジスズセゼ		linebreak
+	ソゾタダチヂッツ		linebreak
+	ヅテデトドナニヌ		linebreak
+	ネノハバパヒビピ		linebreak
+	フブプヘベペホボ		linebreak
+	ポマミ＆ムメモャ		linebreak
+	ヤュユョヨラリル		linebreak
+	レロ－ワ＝☆ヲン		linebreak
+	ヴ		linebreak
+			
+199	２Ｐ		
+200	一二十千万地水火風光闇南西北赤白		linebreak
+	黒年月日時戦闘攻撃防御回避術技道		linebreak
+	具合成神座都市格先行世楽園案外所		linebreak
+	知大昔人間自分生毎祈決上降今度来		linebreak
+	待乗空何手入以持武器屋教会食材宿		linebreak
+	客室階廊下変第章代更広場旧街前悪		linebreak
+	夢帰王開放土新活気住恩最近国団進		linebreak
+	出信助話顔心底城音聞急身賊込狙率		linebreak
+	精鋭保証襲負傷奪言英雄男見目朝早		linebreak
+	女子止殿向雪書界中思泣馬足恋盗現		linebreak
+	歌隠事情色感動運命明寒暖房図書本		linebreak
+	読番単文化民与建歴史的美私語禁公		linebreak
+	静落方爆発起直後戻好乱終平和若旅		linebreak
+	諸温育机学葉庶政治必要我視察笑遠		linebreak
+	存在危険彼野望積到着遅誘導家小社		linebreak
+	廃坑宝部悔特別暗号者繁栄願記貧富		linebreak
+			
+201	２Ｐ	6468 199	
+202	{Size:512}一二十千万地水火		linebreak
+	風光闇南西北赤白		linebreak
+	黒年月日時戦闘攻		linebreak
+	撃防御回避術技道		linebreak
+	具合成神座都市格		linebreak
+	先行世楽園案外所		linebreak
+	知大昔人間自分生		linebreak
+	毎祈決上降今度来		linebreak
+	待乗空何手入以持		linebreak
+	武器屋教会食材宿		linebreak
+	客室階廊下変第章		linebreak
+	代更広場旧街前悪		linebreak
+	夢帰王開放土新活		linebreak
+	気住恩最近国団進		linebreak
+	出信助話顔心底城		linebreak
+	音聞急身賊込狙率		linebreak
+	精鋭保証襲負傷奪		linebreak
+	言英雄男見目朝早		linebreak
+	女子止殿向雪書界		linebreak
+	中思泣馬足恋盗現		linebreak
+	歌隠事情色感動運		linebreak
+	命明寒暖房図書本		linebreak
+	読番単文化民与建		linebreak
+	歴史的美私語禁公		linebreak
+	静落方爆発起直後		linebreak
+	戻好乱終平和若旅		linebreak
+	諸温育机学葉庶政		linebreak
+	治必要我視察笑遠		linebreak
+	存在危険彼野望積		linebreak
+	到着遅誘導家小社		linebreak
+	廃坑宝部悔特別暗		linebreak
+	号者繁栄願記貧富		linebreak
+			
+203	３Ｐ		
+204	差別制弱救済予算確安守警組織支援		linebreak
+	意識改革愛条想素敵当考誤理実即効		linebreak
+	性求劇薬選約束届型引力作内設備数		linebreak
+	枚句仕幸奥採掘探掛未稼略切替電源		linebreak
+	右段突壁調港船定期長修菜商品台不		linebreak
+	故側責任処欲海路他法退屈失礼腕立		linebreak
+	芸受参然勇折越印陸暮準飛振応使僕		linebreak
+	頼企業滅金庫収霧眠依申遺産状貴様		linebreak
+	偶主取跡敷買途死被害売配晴装飾名		linebreak
+	工嬢石箱渡結局比山疲端位置町俺仮		linebreak
+	面臣逃秘密多仲経追相返父少関係形		linebreak
+	歩論夜休指覚君体全包浮無郷同普通		linebreak
+	元寝付絶対勝利詳忘兄婚田舎村親声		linebreak
+	叫打兵士機派晩泊似母連用達息尊敬		linebreak
+	遊観強倉怪物倒沈問題脱員程犠牲割		linebreak
+	操舵激初航続補寸際照完舞等由難認		linebreak
+			
+205	３Ｐ	6468 203	
+206	{Size:512}差別制弱救済予算		linebreak
+	確安守警組織支援		linebreak
+	意識改革愛条想素		linebreak
+	敵当考誤理実即効		linebreak
+	性求劇薬選約束届		linebreak
+	型引力作内設備数		linebreak
+	枚句仕幸奥採掘探		linebreak
+	掛未稼略切替電源		linebreak
+	右段突壁調港船定		linebreak
+	期長修菜商品台不		linebreak
+	故側責任処欲海路		linebreak
+	他法退屈失礼腕立		linebreak
+	芸受参然勇折越印		linebreak
+	陸暮準飛振応使僕		linebreak
+	頼企業滅金庫収霧		linebreak
+	眠依申遺産状貴様		linebreak
+	偶主取跡敷買途死		linebreak
+	被害売配晴装飾名		linebreak
+	工嬢石箱渡結局比		linebreak
+	山疲端位置町俺仮		linebreak
+	面臣逃秘密多仲経		linebreak
+	追相返父少関係形		linebreak
+	歩論夜休指覚君体		linebreak
+	全包浮無郷同普通		linebreak
+	元寝付絶対勝利詳		linebreak
+	忘兄婚田舎村親声		linebreak
+	叫打兵士機派晩泊		linebreak
+	似母連用達息尊敬		linebreak
+	遊観強倉怪物倒沈		linebreak
+	問題脱員程犠牲割		linebreak
+	操舵激初航続補寸		linebreak
+	際照完舞等由難認		linebreak
+			
+207	４Ｐ		
+208	得件審次幹崩壊共歳原因真協説唯預		linebreak
+	没態談羽潮香議軽伝絡張増損呼油断		linebreak
+	穴鼻興味便拝堂線簡供騎属敗走集背		linebreak
+	景果停煮炒米緒役熱鮮料揚口卵焼抜		linebreak
+	肉統加減賞太刺烈夏浴波漂幻酔瞬魚		linebreak
+	重深冷宇宙星輝豪快麻婆豆腐辛妙極		linebreak
+	違異魔養豊盛絵画描構甘巻染高互称		linebreak
+	誰幼頃演汁介類腹式吸酸清奇贈飲熟		linebreak
+	須交響曲奏速半拡縮了径冒賛離迷惑		linebreak
+	孤児院孝逆転塔報査隊護衛価値紙苦		linebreak
+	慣血流労惜捨質胸整店踏巨破衣犯捕		linebreak
+	牢始嫌過去功績両貸耳趣剣幕誓歯眼		linebreak
+	悟吹昨玉送字暴里恐謝聖総適順納捧		linebreak
+	偉祝福痛友髪短残念抱悩砕威勢僧正		linebreak
+	解虫仇討払黙示従忙謁週毒頭驚有荒		linebreak
+	復境遇健康病影硬慮雲訳許換拒災拠		linebreak
+			
+209	４Ｐ	6468 207	
+210	{Size:512}得件審次幹崩壊共		linebreak
+	歳原因真協説唯預		linebreak
+	没態談羽潮香議軽		linebreak
+	伝絡張増損呼油断		linebreak
+	穴鼻興味便拝堂線		linebreak
+	簡供騎属敗走集背		linebreak
+	景果停煮炒米緒役		linebreak
+	熱鮮料揚口卵焼抜		linebreak
+	肉統加減賞太刺烈		linebreak
+	夏浴波漂幻酔瞬魚		linebreak
+	重深冷宇宙星輝豪		linebreak
+	快麻婆豆腐辛妙極		linebreak
+	違異魔養豊盛絵画		linebreak
+	描構甘巻染高互称		linebreak
+	誰幼頃演汁介類腹		linebreak
+	式吸酸清奇贈飲熟		linebreak
+	須交響曲奏速半拡		linebreak
+	縮了径冒賛離迷惑		linebreak
+	孤児院孝逆転塔報		linebreak
+	査隊護衛価値紙苦		linebreak
+	慣血流労惜捨質胸		linebreak
+	整店踏巨破衣犯捕		linebreak
+	牢始嫌過去功績両		linebreak
+	貸耳趣剣幕誓歯眼		linebreak
+	悟吹昨玉送字暴里		linebreak
+	恐謝聖総適順納捧		linebreak
+	偉祝福痛友髪短残		linebreak
+	念抱悩砕威勢僧正		linebreak
+	解虫仇討払黙示従		linebreak
+	忙謁週毒頭驚有荒		linebreak
+	復境遇健康病影硬		linebreak
+	慮雲訳許換拒災拠		linebreak
+			
+211	５Ｐ		
+212	肩可能偽善鳥巣憧資誇管量縁愚邪容		linebreak
+	赦像仰困択夕扱啓汚罰胆猫棒細点製		linebreak
+	矢居肝答義務留障訓弟妹首迎姉姿将		linebreak
+	散練猟働例志判冗官臨刻潜服余計争		linebreak
+	悲閉永耐移候習罪独昼反氷妻注表究		linebreak
+	徳刃倍洗缶押登提常刀怒才木彫夫婦		linebreak
+	花鳴祭騒況嫉妬借寄茶酒燃投希費並		linebreak
+	喜辺仔徴坊飼肖博天軍祖棚講呪医勉		linebreak
+	布訪混侵疑儀努益門試厳裏腰帥封柱		linebreak
+	繋丘畑忍厄嫁展汗車接絹肌魂票橋娘		linebreak
+	根怖幅衝射罠床丈区随枝古頂横拾良		linebreak
+	穫承森雑貨族省掃除粧恥濯帯策裕施		linebreak
+	営優骨埋躍冬遙圧迫獄再亡雨枯噴久		linebreak
+	衰鈍凍昇低砂含晶溜珠黄霊召喚蒼紅		linebreak
+	翠草種瓶鱗珍獣蓋鑑欠各煙筒造炭炉		linebreak
+	槽苗植周囲鍵級干匂涙球漬瓜臭毛芳		linebreak
+			
+213	５Ｐ	6468 211	
+214	{Size:512}肩可能偽善鳥巣憧		linebreak
+	資誇管量縁愚邪容		linebreak
+	赦像仰困択夕扱啓		linebreak
+	汚罰胆猫棒細点製		linebreak
+	矢居肝答義務留障		linebreak
+	訓弟妹首迎姉姿将		linebreak
+	散練猟働例志判冗		linebreak
+	官臨刻潜服余計争		linebreak
+	悲閉永耐移候習罪		linebreak
+	独昼反氷妻注表究		linebreak
+	徳刃倍洗缶押登提		linebreak
+	常刀怒才木彫夫婦		linebreak
+	花鳴祭騒況嫉妬借		linebreak
+	寄茶酒燃投希費並		linebreak
+	喜辺仔徴坊飼肖博		linebreak
+	天軍祖棚講呪医勉		linebreak
+	布訪混侵疑儀努益		linebreak
+	門試厳裏腰帥封柱		linebreak
+	繋丘畑忍厄嫁展汗		linebreak
+	車接絹肌魂票橋娘		linebreak
+	根怖幅衝射罠床丈		linebreak
+	区随枝古頂横拾良		linebreak
+	穫承森雑貨族省掃		linebreak
+	除粧恥濯帯策裕施		linebreak
+	営優骨埋躍冬遙圧		linebreak
+	迫獄再亡雨枯噴久		linebreak
+	衰鈍凍昇低砂含晶		linebreak
+	溜珠黄霊召喚蒼紅		linebreak
+	翠草種瓶鱗珍獣蓋		linebreak
+	鑑欠各煙筒造炭炉		linebreak
+	槽苗植周囲鍵級干		linebreak
+	匂涙球漬瓜臭毛芳		linebreak
+			
+215	６Ｐ		
+216	皮丸牛乳酵胃腸炊穀農八孫柔麦粉般		linebreak
+	脂肪塊塗雅斬基偃厚雰典湾鎌殺尾冠		linebreak
+	匠鍛旋誉炎竜爪隼紋創牙岩剛柩副葬		linebreak
+	鋼易裂妖稲慈忠円卓帝嵐乙杖職殴権		linebreak
+	標笏狂節孔雀如角青紡慟哭銀左東蛮		linebreak
+	錫匹蛇祓詠唱柄斧槍槌叉矛鉄陣賜堅		linebreak
+	固杭灰冶科駆逐逸骸緑薙傑狩弓弾扉		linebreak
+	貫鎧七軌吐尽浄環縫板糸甲殊継塞赴		linebreak
+	網編洋島巫兜頬築頑漢帽薄濃愉輪及		linebreak
+	喰鮫致鉈駄篭授袋瑠璃佐賢癒偏疾巧		linebreak
+	伴徐縞瑪瑙験華姫象靴膝蹴枠謎隣徒		linebreak
+	携塵繰翔閃渦纏垂屠龍叩片跳招規模		linebreak
+	雷鐘震撼範複弧距鉱棺焉裁漆淵系列		linebreak
+	限控満隔嘘漏披露令抵抗痺僅延秒縛		linebreak
+	遭促械瀕微熊洞窟消三々★ｚ…壷鎚		linebreak
+	亜翼殻棲爬閲覧個削辞揺魅哀検還艇		linebreak
+			
+217	６Ｐ	6468 215	
+218	{Size:512}皮丸牛乳酵胃腸炊		linebreak
+	穀農八孫柔麦粉般		linebreak
+	脂肪塊塗雅斬基偃		linebreak
+	厚雰典湾鎌殺尾冠		linebreak
+	匠鍛旋誉炎竜爪隼		linebreak
+	紋創牙岩剛柩副葬		linebreak
+	鋼易裂妖稲慈忠円		linebreak
+	卓帝嵐乙杖職殴権		linebreak
+	標笏狂節孔雀如角		linebreak
+	青紡慟哭銀左東蛮		linebreak
+	錫匹蛇祓詠唱柄斧		linebreak
+	槍槌叉矛鉄陣賜堅		linebreak
+	固杭灰冶科駆逐逸		linebreak
+	骸緑薙傑狩弓弾扉		linebreak
+	貫鎧七軌吐尽浄環		linebreak
+	縫板糸甲殊継塞赴		linebreak
+	網編洋島巫兜頬築		linebreak
+	頑漢帽薄濃愉輪及		linebreak
+	喰鮫致鉈駄篭授袋		linebreak
+	瑠璃佐賢癒偏疾巧		linebreak
+	伴徐縞瑪瑙験華姫		linebreak
+	象靴膝蹴枠謎隣徒		linebreak
+	携塵繰翔閃渦纏垂		linebreak
+	屠龍叩片跳招規模		linebreak
+	雷鐘震撼範複弧距		linebreak
+	鉱棺焉裁漆淵系列		linebreak
+	限控満隔嘘漏披露		linebreak
+	令抵抗痺僅延秒縛		linebreak
+	遭促械瀕微熊洞窟		linebreak
+	消三々★ｚ…壷鎚		linebreak
+	亜翼殻棲爬閲覧個		linebreak
+	削辞揺魅哀検還艇		linebreak
+			
+219	７Ｐ		
+220	獲憎恵稽磨銘侍緊壷鎚亜翼殻棲爬閲		linebreak
+	覧個削瞳墜燐砲双拳覆推測貼触憶讃		linebreak
+	非握映写渉軸述粋妨吉鍋銅柳丁凶陽		linebreak
+	河脈超領域飯寿餓司荷担臓ヶ告析透		linebreak
+	筋励看皿誌碑焚萌吼齢陛姑歓挨拶繊		linebreak
+	粛専己紹粗往郎懸逢瀬杯岸泳詰耗酬		linebreak
+	噛虚蓮踊拓崇伸芝脚四墓駒卑劣末克		linebreak
+	否旗秩序絆酷層研媒閣巡駐屯挑慎臆		linebreak
+	怯揮謹誕班攪戒老排伏刑乾陥乞至聴		linebreak
+	符宣脳凌駕歪ｍｋｇ把漠隆録徹氏撹		linebreak
+	阻渇讐恨却顛岐哲凝彗膨陰謀川沿泉		linebreak
+	犬璧傲慢鹿委憩扇給冑宮紫燭灯憐舗		linebreak
+	菌課庭衆厨遥仙央湯呂浸寺挿昏為刷		linebreak
+	暑季償奴捜財奉師購療池羅憂評噌轟		linebreak
+	五縦輩勅請棄惧監滝銭奮純塹壕郭貯		linebreak
+	蔵斉維校錬挺猟尉佳慌遂凄炸昌耕批		linebreak
+			
+221	７Ｐ	6468 219	
+222	{Size:512}獲憎恵稽磨銘侍緊		linebreak
+	壷鎚亜翼殻棲爬閲		linebreak
+	覧個削瞳墜燐砲双		linebreak
+	拳覆推測貼触憶讃		linebreak
+	非握映写渉軸述粋		linebreak
+	妨吉鍋銅柳丁凶陽		linebreak
+	河脈超領域飯寿餓		linebreak
+	司荷担臓ヶ告析透		linebreak
+	筋励看皿誌碑焚萌		linebreak
+	吼齢陛姑歓挨拶繊		linebreak
+	粛専己紹粗往郎懸		linebreak
+	逢瀬杯岸泳詰耗酬		linebreak
+	噛虚蓮踊拓崇伸芝		linebreak
+	脚四墓駒卑劣末克		linebreak
+	否旗秩序絆酷層研		linebreak
+	媒閣巡駐屯挑慎臆		linebreak
+	怯揮謹誕班攪戒老		linebreak
+	排伏刑乾陥乞至聴		linebreak
+	符宣脳凌駕歪ｍｋ		linebreak
+	ｇ把漠隆録徹氏撹		linebreak
+	阻渇讐恨却顛岐哲		linebreak
+	凝彗膨陰謀川沿泉		linebreak
+	犬璧傲慢鹿委憩扇		linebreak
+	給冑宮紫燭灯憐舗		linebreak
+	菌課庭衆厨遥仙央		linebreak
+	湯呂浸寺挿昏為刷		linebreak
+	暑季償奴捜財奉師		linebreak
+	購療池羅憂評噌轟		linebreak
+	五縦輩勅請棄惧監		linebreak
+	滝銭奮純塹壕郭貯		linebreak
+	蔵斉維校錬挺猟尉		linebreak
+	佳慌遂凄炸昌耕批		linebreak
+			
+223	８Ｐ		
+224	宗爺礎糧蓄輸艦搭載勧卒噂湖宅勤猛		linebreak
+	皆潔鏡麗曹玄寂壇堕架擬銃貢献砦隅		linebreak
+	詩吟著膠占百傘敢惨索樹林遮涼粒拍		linebreak
+	楼鎮牧朴盾核皇律倶幽某淑六冥井戸		linebreak
+	懐充軟冊僚弁詞督滞慕嘆溶卸兼晰煥		linebreak
+	凡釣秋洒羊呑禄狭童贅沢需滑額袖販		linebreak
+	帳簿掠陶偵患症咲煎俊版又逝鎖猿窓		linebreak
+	慨俗睨競紳浪癖掴惚執彷徨楚尋釈札		linebreak
+	秀肥雌飢繕姓墨慰飽概免疫泥尻脇蒸		linebreak
+	湿澄征締春曇捉剖謙群暇焦妥俄逮拘		linebreak
+	脅潤譲肺涯摘芽九撤勘融賭傾匿誠‥		linebreak
+	叔浜席彩頻壮液墟谷膳仁盆栽培欄鬼		linebreak
+	縄梯籠京凛刊漫琢刊漫摩煉刹伯蚊脆		linebreak
+	餌桃廷掲疎沌菓翌愕釜茹針沼紀礁菓		linebreak
+	寧聡舌菓畳懲契肢藤αβ禍壷馴樺貰		linebreak
+	馳掟懇嬉挫松鼓較亀貿綿邸雇烏唄剃		linebreak
+			
+225	８Ｐ	6468 223	
+226	{Size:512}宗爺礎糧蓄輸艦搭		linebreak
+	載勧卒噂湖宅勤猛		linebreak
+	皆潔鏡麗曹玄寂壇		linebreak
+	堕架擬銃貢献砦隅		linebreak
+	詩吟著膠占百傘敢		linebreak
+	惨索樹林遮涼粒拍		linebreak
+	楼鎮牧朴盾核皇律		linebreak
+	倶幽某淑六冥井戸		linebreak
+	懐充軟冊僚弁詞督		linebreak
+	滞慕嘆溶卸兼晰煥		linebreak
+	凡釣秋洒羊呑禄狭		linebreak
+	童贅沢需滑額袖販		linebreak
+	帳簿掠陶偵患症咲		linebreak
+	煎俊版又逝鎖猿窓		linebreak
+	慨俗睨競紳浪癖掴		linebreak
+	惚執彷徨楚尋釈札		linebreak
+	秀肥雌飢繕姓墨慰		linebreak
+	飽概免疫泥尻脇蒸		linebreak
+	湿澄征締春曇捉剖		linebreak
+	謙群暇焦妥俄逮拘		linebreak
+	脅潤譲肺涯摘芽九		linebreak
+	撤勘融賭傾匿誠‥		linebreak
+	叔浜席彩頻壮液墟		linebreak
+	谷膳仁盆栽培欄鬼		linebreak
+	縄梯籠京凛刊漫琢		linebreak
+	刊漫摩煉刹伯蚊脆		linebreak
+	餌桃廷掲疎沌菓翌		linebreak
+	愕釜茹針沼紀礁菓		linebreak
+	寧聡舌菓畳懲契肢		linebreak
+	藤αβ禍壷馴樺貰		linebreak
+	馳掟懇嬉挫松鼓較		linebreak
+	亀貿綿邸雇烏唄剃		linebreak
+			
+227	９Ｐ		
+228	稿椅旺託盟虐覗戯撮ヱ泡隕磁洩窃滴		linebreak
+	虎怨凱旦那崖ｅｙｔｏｙｈｅａｒｔ		linebreak
+	妄鼬也貌髭紛盤苛碧桜丼迅州燥軒		linebreak
+			
+229	９Ｐ	6468 227	
+230	{Size:512}稿椅旺託盟虐覗戯		linebreak
+	撮ヱ泡隕磁洩窃滴		linebreak
+	虎怨凱旦那崖ｅｙ		linebreak
+	ｔｏｙｈｅａｒｔ		linebreak
+	妄鼬也貌髭紛盤苛		linebreak
+	碧桜丼迅州燥軒		linebreak
+			
+231	おんなのこ０		
+232	ーーーーーわたしです		
+233	おんなのこ１		
+234	＋＋＋＋＋わたしです		
+235	ソーサラースコープなのか		
+236	最新屋		
+237	毒{Btn:86}		linebreak
+	麻痺{Btn:95}		linebreak
+	衰弱{Btn:90}		linebreak
+			
+238	最新屋	6468 236	
+239	新規アイテム		
+240	本屋		
+241	本・・・・・		
+242	突っ込み多い男		
+243	俺様と本気でやるには		linebreak
+	ＭＡＮＩＡ以上が楽しいぜ････		
+244	sx = %d		
+245	sy = %d		
+246	xl = %d		
+247	yl = %d		
+248	いってらっしゃいませ		
+249	{0B:01}{143408c0}{0B:00}ガルドになりますが		linebreak
+	お泊まりになりますか？		
+250	お泊まりになりますか？		
+251	select	6468 137	
+252	{03:0}　はい　		linebreak
+	　いいえ　		
+253	ごゆっくりお休みください		
+254	おはようございます		
+255	お金が足りません		
+256	またのおこしをお待ちしております		
+257	set_parameter( myself, C_PARTY, 0 );		
+258	wait_map_scroll();		
+259	exit-party_togather( short spd )		
+260	次のイベントは宿屋で発生します		linebreak
+	宿屋への誘導メッセージ		
+261	次のイベントも宿屋で発生します		linebreak
+	宿屋への誘導メッセージ		
+262	次のイベントは神殿の門で発生します		linebreak
+	神殿への誘導メッセージ		
+263	次のイベントは遺跡の入口で発生します		linebreak
+	遺跡への誘導メッセージ		
+264	次のイベントは村の中で発生します		linebreak
+	村の中への誘導メッセージ		
+265	次のイベントは池付近で発生します		linebreak
+	池への誘導メッセージ		
+266	次のイベントはスタンの家で発生します		linebreak
+	スタンの家への誘導メッセージ		
+267	次のイベントはハイデルベルグ広間で発生します		linebreak
+	ハイデルベルグ城広間への誘導メッセージ		
+268	次のイベントは公園付近で発生します		linebreak
+	公園付近への誘導メッセージ		
+269	次のイベントは記念公園で発生します		linebreak
+	記念公園への誘導メッセージ		
+270	次のイベントはハイデルベルグ城謁見の間で発生します		linebreak
+	ハイデルベルグ城謁見の間への誘導メッセージ		
+271	次のイベントは城の客室で発生します		linebreak
+	客室への誘導メッセージ		
+272	次のイベントは噴水広場で発生します		linebreak
+	噴水広場への誘導メッセージ		
+273	次のイベントは世界地図部屋で発生します		linebreak
+	世界地図部屋への誘導メッセージ		
+274	次のイベントはレアルタ資料室で発生します		linebreak
+	レアルタ資料室への誘導メッセージ		
+275	次のイベントは作戦室で発生します		linebreak
+	作戦室への誘導メッセージ		
+276			
+277	debug		
+278	debug	6468 277	
+279	時系列に対応するメッセージはありません		
+280	debug	6468 277	
+281	この時系列のシナリオは、十年後のストレイライズ大神殿町キャラシナリオテキスト		linebreak
+	「1500X_??.STX」に記載しています		
+282	debug	6468 277	
+283	この時系列では参拝客は神殿内に配置しないので		linebreak
+	話しかけることはできない		
+284	debug	6468 277	
+285	この時系列のシナリオは、十年後のストレイライズ大神殿町キャラシナリオテキスト	6468 281	linebreak
+	「1500X_??.STX」に記載しています		
+286	notice		
+287	{1627b6c0}を手に入れました		
+288	notice	6468 286	
+289	{Item:4294967295}を手に入れました		
+290	notice	6468 286	
+291	{1627bec0}がありましたが		linebreak
+	いっぱいで持てませんでした		
+292	notice	6468 286	
+293	{1627c2c0}を受け取りましたが		linebreak
+	いっぱいで持てませんでした		
+294	notice	6468 286	
+295	何もありません		
