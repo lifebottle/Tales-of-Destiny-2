@@ -20,19 +20,20 @@ Offset   | Description | Notes
 ---------|-------------|----------------------
 00000000 | ELF Start   | Beginning of file
 
-## FILE.FPB
+## FILE.FPB (PSP)
 
 ### Hints
-1. FILE.FPB does not include information to unpack the files inside
-2. Check ELF (SLPS_251.72?) for pointer table that specifies all file offsets in FILE.FBP along with some flags
-3. Each entry of the table consist of (A) a 21-bit offset -> the file offset inside FILE.FBP and (B) 11-bits for flags -> Compression, file type, etc...
-4. In order to extract the big file, one would calculate each file size based on the next file's offset. 
-5. That is enough to extract the whole FBP. Reversing the process, it would be easy to repack it.
-6. The pointer table starts at the `0x44`, which references the very first file in the package (the font).
-7. 21-bits are enough to reference any file in the package. That's because they represent not a byte offset, but a sector in the disc. 
-8. The ISO9660 standard uses `0x0800` bytes sectors. The way to work with them actually depends of the way you think it though:
-9. If you shift 11-bits from data, you'll get the file sector, so you can get the byte offset multiplying that value by `0x0800`.
-10. Since these 21-bits take the most significant part of the data, you can apply a `0xFFFFF800` mask to it, to directly get the byte offset to the file
+1. Following instructions are for PSP, scripts doesn't work with PS2 so far
+2. FILE.FPB does not include information to unpack the files inside
+3. Check ELF (SLPS_251.72?) for pointer table that specifies all file offsets in FILE.FBP along with some flags
+4. Each entry of the table consist of (A) a 21-bit offset -> the file offset inside FILE.FBP and (B) 11-bits for flags -> Compression, file type, etc...
+5. In order to extract the big file, one would calculate each file size based on the next file's offset. 
+6. That is enough to extract the whole FBP. Reversing the process, it would be easy to repack it.
+7. The pointer table starts at the `0x44`, which references the very first file in the package (the font).
+8. 21-bits are enough to reference any file in the package. That's because they represent not a byte offset, but a sector in the disc. 
+9. The ISO9660 standard uses `0x0800` bytes sectors. The way to work with them actually depends of the way you think it though:
+10. If you shift 11-bits from data, you'll get the file sector, so you can get the byte offset multiplying that value by `0x0800`.
+11. Since these 21-bits take the most significant part of the data, you can apply a `0xFFFFF800` mask to it, to directly get the byte offset to the file
 
 ### Implementation
 ```

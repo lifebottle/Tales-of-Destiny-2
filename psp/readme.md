@@ -15,11 +15,22 @@ This script has only been tested with the PSP version of Tales of Destiny 2
 6. Drag and drop `TOD2.ISO` into the `_setup.bat` to start extracting `file.fpb` and extract text
 7. Alternatively, open a command prompt and enter `python setup.py`
 
+## PAK0 FIles
+1. 0213.bin - 1457.bin
+2. 6333.bin - 6467.bin
+3. 7310.bin
+4. 8333.bin - 9565.bin
+
 ## PAK1 Files
 1. Get `pakcomposer` and `comptoe` and extract `.bin` files from:
 2. 0213.bin to 1457.bin (skits?)
 3. 8331.bin to 9224.bin (enemies?)
 
+## PAK3 Files
+1. 0002.bin
+2. 8331.bin - 9354.bin (enemies?)
+
 ## Help Wanted
 1. Need script to reinsert `.tsv` file into `.SCED`
 2. Need script to repack archive back into file.fpb
+3. Need to confirm 8331.bin and up to see if it should be pak0, pak1, or pak3
