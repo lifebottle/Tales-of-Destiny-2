@@ -25,7 +25,7 @@ Offset   | Description | Notes
 ### Hints
 1. Following instructions are for PSP, scripts doesn't work with PS2 so far
 2. FILE.FPB does not include information to unpack the files inside
-3. Check ELF (SLPS_251.72?) for pointer table that specifies all file offsets in FILE.FBP along with some flags
+3. the pointer table seems to be in the slps file, address DD320 - it uses 26 bits instead of 21 from the psp
 4. Each entry of the table consist of (A) a 21-bit offset -> the file offset inside FILE.FBP and (B) 11-bits for flags -> Compression, file type, etc...
 5. In order to extract the big file, one would calculate each file size based on the next file's offset. 
 6. That is enough to extract the whole FBP. Reversing the process, it would be easy to repack it.
