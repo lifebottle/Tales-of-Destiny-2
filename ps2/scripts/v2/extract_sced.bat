@@ -1,1 +1,1 @@
-python tod2.py 6
+python tod2_ps2.py 6
