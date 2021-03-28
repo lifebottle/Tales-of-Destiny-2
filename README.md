@@ -27,6 +27,16 @@ Join on Discord: https://discord.gg/HZ2NFjpedn
 Offset   | Description | Notes
 ---------|-------------|----------------------
 00000000 | ELF Start   | Beginning of file
+000CA328 | Font (.tm2) | Extract and use comptoe.exe
+000C9D41 | Font Map    | Map lowercase to font
+
+### Mapping Lowercase Letters
+1. Edit `.tm2` from `0x0CA328` and replace some Hiragana
+2. Go to `0x0C9D41` in the SLPS_251.72 file
+3. It should have a `0x17`
+4. That's the glyph index for lowercase "a"
+5. Replace that with `0x31` which is "ぁ"
+6. And just follow the sequence up until `0x4B`
 
 ## FILE.FPB (PSP) INFO
 1. FILE.FPB has information to unpack the files inside `EBOOT.BIN`
