@@ -1,0 +1,7036 @@
+//GAME NAME:		Tales of destiny 2
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("G:\TalesHacking\TOD2\GitProject\Tales-of-Destiny-2\ps2\scripts\abcde_v0_0_9\tod2_utf8.tbl", Table_0)
+
+
+
+
+
+//Text $10B228
+#WRITE(ptr,$C0228)
+アイテムの説明[END]
+// current address: $10B237
+
+//Text $10B218
+#WRITE(ptr,$C022C)
+アップルグミ[END]
+// current address: $10B225
+
+
+
+
+
+//Text $10B1F0
+#WRITE(ptr,$C0244)
+ゼリー状薬台[LINE]
+最大ＨＰの３０％回復[END]
+// current address: $10B212
+
+//Text $10B1E0
+#WRITE(ptr,$C0248)
+オレンジグミ[END]
+// current address: $10B1ED
+
+
+
+
+
+//Text $10B1B8
+#WRITE(ptr,$C0260)
+ゼリー状薬台[LINE]
+最大ＴＰの３０％回復[END]
+// current address: $10B1DA
+
+//Text $10B1A8
+#WRITE(ptr,$C0264)
+ミックスグミ[END]
+// current address: $10B1B5
+
+
+
+
+
+//Text $10B178
+#WRITE(ptr,$C027C)
+ゼリー状薬台[LINE]
+ＨＰとＴＰが最大値の３０％回復[END]
+// current address: $10B1A4
+
+//Text $10B168
+#WRITE(ptr,$C0280)
+レモングミ[END]
+// current address: $10B173
+
+
+
+
+
+//Text $10B140
+#WRITE(ptr,$C0298)
+ゼリー状薬台[LINE]
+最大ＨＰの６０％回復[END]
+// current address: $10B162
+
+//Text $10B130
+#WRITE(ptr,$C029C)
+パイングミ[END]
+// current address: $10B13B
+
+
+
+
+
+//Text $10B108
+#WRITE(ptr,$C02B4)
+ゼリー状薬台[LINE]
+最大ＴＰの６０％回復[END]
+// current address: $10B12A
+
+//Text $10B0F8
+#WRITE(ptr,$C02B8)
+ミラクルグミ[END]
+// current address: $10B105
+
+
+
+
+
+//Text $10B0C8
+#WRITE(ptr,$C02D0)
+ゼリー状薬台[LINE]
+ＨＰとＴＰが最大値の６０％回復[END]
+// current address: $10B0F4
+
+//Text $10B0B8
+#WRITE(ptr,$C02D4)
+ライフボトル[END]
+// current address: $10B0C5
+
+
+
+
+
+//Text $10B0A0
+#WRITE(ptr,$C02EC)
+生命の水[LINE]
+戦闘不能を回復[END]
+// current address: $10B0B8
+
+//Text $10B088
+#WRITE(ptr,$C02F0)
+パナシーアボトル[END]
+// current address: $10B099
+
+
+
+
+
+//Text $10B048
+#WRITE(ptr,$C0308)
+万能薬。毒、衰弱、麻痺、鈍足、凍結の[LINE]
+ステータス異常を回復[END]
+// current address: $10B082
+
+//Text $10B038
+#WRITE(ptr,$C030C)
+エリクシール[END]
+// current address: $10B045
+
+
+
+
+
+//Text $10B008
+#WRITE(ptr,$C0324)
+奇跡の水薬[LINE]
+ＨＰとＴＰが全快、戦闘不能も回復する[END]
+// current address: $10B038
+
+//Text $10AFF8
+#WRITE(ptr,$C0328)
+マグログミ[END]
+// current address: $10B003
+
+
+
+
+
+//Text $10AFB0
+#WRITE(ptr,$C0340)
+マグロの煮汁から作るおいしいグミ[LINE]
+戦闘中は後味が効いて徐々にＨＰ回復[END]
+// current address: $10AFF4
+
+//Text $10AFA0
+#WRITE(ptr,$C0344)
+フレアボトル[END]
+// current address: $10AFAD
+
+
+
+
+
+//Text $10AF68
+#WRITE(ptr,$C035C)
+戦闘中一定時間攻撃力が上昇し、[LINE]
+ＳＰ回復力が低下する薬[END]
+// current address: $10AF9E
+
+//Text $10AF50
+#WRITE(ptr,$C0360)
+リキュールボトル[END]
+// current address: $10AF61
+
+
+
+
+
+//Text $10AF10
+#WRITE(ptr,$C0378)
+毒、衰弱、麻痺、鈍足、凍結を防止する[LINE]
+効果中は攻撃力と知性が低下[END]
+// current address: $10AF50
+
+//Text $10AF00
+#WRITE(ptr,$C037C)
+スペクタクルズ[END]
+// current address: $10AF0F
+
+
+
+
+
+//Text $10AEC8
+#WRITE(ptr,$C0394)
+不思議なレンズ[LINE]
+敵のＨＰ、弱点属性等を知ることができる[END]
+// current address: $10AEFE
+
+//Text $10AEB8
+#WRITE(ptr,$C0398)
+アワーグラス[END]
+// current address: $10AEC5
+
+
+
+
+
+//Text $10AE80
+#WRITE(ptr,$C03B0)
+不思議な砂時計[LINE]
+戦闘中一定時間、敵の動きを停止させる[END]
+// current address: $10AEB4
+
+//Text $10AE68
+#WRITE(ptr,$C03B4)
+オールディバイド[END]
+// current address: $10AE79
+
+
+
+
+
+//Text $10AE20
+#WRITE(ptr,$C03CC)
+戦闘中、敵味方を含めた全てのダメージが[LINE]
+半分になる。使いどころが肝要[END]
+// current address: $10AE64
+
+//Text $10AE10
+#WRITE(ptr,$C03D0)
+チャームボトル[END]
+// current address: $10AE1F
+
+
+
+
+
+//Text $10ADD8
+#WRITE(ptr,$C03E8)
+ステキ度が上がる不思議な薬[LINE]
+お店で台物が三割引になる[END]
+// current address: $10AE0C
+
+//Text $10ADC0
+#WRITE(ptr,$C03EC)
+ミラクルチャーム[END]
+// current address: $10ADD1
+
+
+
+
+
+//Text $10AD88
+#WRITE(ptr,$C0404)
+ステキ度ＭＡＸになる不思議な薬[LINE]
+お店で台物が半額になる[END]
+// current address: $10ADBE
+
+//Text $10AD78
+#WRITE(ptr,$C0408)
+ルーンボトル[END]
+// current address: $10AD85
+
+
+
+
+
+//Text $10AD48
+#WRITE(ptr,$C0420)
+あやしげな薬台[LINE]
+アイテムを変化させる効果がある[END]
+// current address: $10AD76
+
+//Text $10AD38
+#WRITE(ptr,$C0424)
+セボリー[END]
+// current address: $10AD41
+
+
+
+
+
+//Text $10AD18
+#WRITE(ptr,$C043C)
+薬草の一種[LINE]
+ＴＰ回復力が２上昇[END]
+// current address: $10AD36
+
+//Text $10AD10
+#WRITE(ptr,$C0440)
+セージ[END]
+// current address: $10AD17
+
+
+
+
+
+//Text $10ACF0
+#WRITE(ptr,$C0458)
+薬草の一種[LINE]
+最大ＨＰが３％上昇[END]
+// current address: $10AD0E
+
+//Text $10ACE0
+#WRITE(ptr,$C045C)
+ラベンダー[END]
+// current address: $10ACEB
+
+
+
+
+
+//Text $10ACC0
+#WRITE(ptr,$C0474)
+薬草の一種[LINE]
+攻撃力が１上昇[END]
+// current address: $10ACDA
+
+//Text $10ACB0
+#WRITE(ptr,$C0478)
+ベルベーヌ[END]
+// current address: $10ACBB
+
+
+
+
+
+//Text $10AC90
+#WRITE(ptr,$C0490)
+薬草の一種[LINE]
+防御力が１上昇[END]
+// current address: $10ACAA
+
+//Text $10AC80
+#WRITE(ptr,$C0494)
+カモミール[END]
+// current address: $10AC8B
+
+
+
+
+
+//Text $10AC60
+#WRITE(ptr,$C04AC)
+薬草の一種[LINE]
+ＴＰ軽減力が２上昇[END]
+// current address: $10AC7E
+
+//Text $10AC50
+#WRITE(ptr,$C04B0)
+ローズマリー[END]
+// current address: $10AC5D
+
+
+
+
+
+//Text $10AC30
+#WRITE(ptr,$C04C8)
+薬草の一種[LINE]
+命中率が１上昇[END]
+// current address: $10AC4A
+
+//Text $10AC20
+#WRITE(ptr,$C04CC)
+サフラン[END]
+// current address: $10AC29
+
+
+
+
+
+//Text $10AC00
+#WRITE(ptr,$C04E4)
+薬草の一種[LINE]
+回避率が１上昇[END]
+// current address: $10AC1A
+
+//Text $10ABF0
+#WRITE(ptr,$C04E8)
+レッドセボリー[END]
+// current address: $10ABFF
+
+
+
+
+
+//Text $10ABD0
+#WRITE(ptr,$C0500)
+薬草の一種[LINE]
+ＴＰ回復力が３上昇[END]
+// current address: $10ABEE
+
+//Text $10ABC0
+#WRITE(ptr,$C0504)
+レッドセージ[END]
+// current address: $10ABCD
+
+
+
+
+
+//Text $10ABA0
+#WRITE(ptr,$C051C)
+薬草の一種[LINE]
+最大ＨＰが６％上昇[END]
+// current address: $10ABBE
+
+//Text $10AB88
+#WRITE(ptr,$C0520)
+レッドラベンダー[END]
+// current address: $10AB99
+
+
+
+
+
+//Text $10AB68
+#WRITE(ptr,$C0538)
+薬草の一種[LINE]
+攻撃力が２上昇[END]
+// current address: $10AB82
+
+//Text $10AB50
+#WRITE(ptr,$C053C)
+レッドベルベーヌ[END]
+// current address: $10AB61
+
+
+
+
+
+//Text $10AB30
+#WRITE(ptr,$C0554)
+薬草の一種[LINE]
+防御力が２上昇[END]
+// current address: $10AB4A
+
+//Text $10AB18
+#WRITE(ptr,$C0558)
+レッドカモミール[END]
+// current address: $10AB29
+
+
+
+
+
+//Text $10AAF8
+#WRITE(ptr,$C0570)
+薬草の一種[LINE]
+ＴＰ軽減力が３上昇[END]
+// current address: $10AB16
+
+//Text $10AAE0
+#WRITE(ptr,$C0574)
+レッドローズマリー[END]
+// current address: $10AAF3
+
+
+
+
+
+//Text $10AAC0
+#WRITE(ptr,$C058C)
+薬草の一種[LINE]
+命中率が２上昇[END]
+// current address: $10AADA
+
+//Text $10AAB0
+#WRITE(ptr,$C0590)
+レッドサフラン[END]
+// current address: $10AABF
+
+
+
+
+
+//Text $10AA90
+#WRITE(ptr,$C05A8)
+薬草の一種[LINE]
+回避率が２上昇[END]
+// current address: $10AAAA
+
+//Text $10AA80
+#WRITE(ptr,$C05AC)
+ホーリィボトル[END]
+// current address: $10AA8F
+
+
+
+
+
+//Text $10AA58
+#WRITE(ptr,$C05C4)
+聖気封入の瓶[LINE]
+エンカウント率を下げる[END]
+// current address: $10AA7C
+
+//Text $10AA48
+#WRITE(ptr,$C05C8)
+ダークボトル[END]
+// current address: $10AA55
+
+
+
+
+
+//Text $10AA20
+#WRITE(ptr,$C05E0)
+邪気封入の瓶[LINE]
+エンカウント率を上げる[END]
+// current address: $10AA44
+
+//Text $10AA10
+#WRITE(ptr,$C05E4)
+バジリスクの鱗[END]
+// current address: $10AA1F
+
+
+
+
+
+//Text $10A9C0
+#WRITE(ptr,$C05FC)
+珍獣バジリスクの鱗。戦闘不能を除いた[LINE]
+全てのステータス異常とＨＰ、ＴＰ完全回復[END]
+// current address: $10AA0E
+
+//Text $10A9B0
+#WRITE(ptr,$C0600)
+スカウトオーブ[END]
+// current address: $10A9BF
+
+
+
+
+
+//Text $10A988
+#WRITE(ptr,$C0618)
+エンカウント率を調整できる[LINE]
+魔法の宝珠[END]
+// current address: $10A9AE
+
+//Text $10A978
+#WRITE(ptr,$C061C)
+マジカルポット[END]
+// current address: $10A987
+
+
+
+
+
+//Text $10A940
+#WRITE(ptr,$C0634)
+蓋を開けると何が飛び出すか[LINE]
+わからない博打アイテム[END]
+// current address: $10A972
+
+//Text $10A928
+#WRITE(ptr,$C0638)
+マジカルルージュ[END]
+// current address: $10A939
+
+
+
+
+
+//Text $10A8F0
+#WRITE(ptr,$C0650)
+何度でも使える不思議な口紅[LINE]
+お店で台物が？割引になる[END]
+// current address: $10A924
+
+//Text $10A8E0
+#WRITE(ptr,$C0654)
+モンスター図鑑[END]
+// current address: $10A8EF
+
+
+
+
+
+//Text $10A8A8
+#WRITE(ptr,$C066C)
+敵の姿やデータを見ることができる図鑑[LINE]
+完成を目指そう！[END]
+// current address: $10A8DE
+
+//Text $10A898
+#WRITE(ptr,$C0670)
+コレクター図鑑[END]
+// current address: $10A8A7
+
+
+
+
+
+//Text $10A858
+#WRITE(ptr,$C0688)
+アイテム霧集家には欠かせないカタログ[LINE]
+取り忘れはないかな？[END]
+// current address: $10A892
+
+//Text $10A848
+#WRITE(ptr,$C068C)
+ワールドマップ[END]
+// current address: $10A857
+
+
+
+
+
+//Text $10A810
+#WRITE(ptr,$C06A4)
+不思議な世界地図[LINE]
+世界各地の情報を知ることができる[END]
+// current address: $10A842
+
+//Text $10A800
+#WRITE(ptr,$C06A8)
+クイズ本[END]
+// current address: $10A809
+
+
+
+
+
+//Text $10A7C8
+#WRITE(ptr,$C06C0)
+クイズ愛好家には欠かせない本[LINE]
+すべて答えられるかな？[END]
+// current address: $10A7FC
+
+//Text $10A7B0
+#WRITE(ptr,$C06C4)
+ソーサラーリング[END]
+// current address: $10A7C1
+
+
+
+
+
+//Text $10A768
+#WRITE(ptr,$C06DC)
+<$05><$40>[LINE]
+[END]
+// current address: $10A76C
+
+//Text $10A758
+#WRITE(ptr,$C06E0)
+スタンプカード[END]
+// current address: $10A767
+
+
+
+
+
+//Text $10A720
+#WRITE(ptr,$C06F8)
+各航路でスタンプを集めよう[LINE]
+全部そろえると賞台がもらえる[END]
+// current address: $10A758
+
+//Text $10A718
+#WRITE(ptr,$C06FC)
+ロープ[END]
+// current address: $10A71F
+
+
+
+
+
+//Text $10A6E8
+#WRITE(ptr,$C0714)
+千年前の古びたロープ[LINE]
+切れそうで、ちょっと怖い[END]
+// current address: $10A716
+
+//Text $10A6E0
+#WRITE(ptr,$C0718)
+かけら[END]
+// current address: $10A6E7
+
+
+
+
+
+//Text $10A6C0
+#WRITE(ptr,$C0730)
+五つに分かたれた紋章のかけら[LINE]
+[END]
+// current address: $10A6DE
+
+//Text $10A6B8
+#WRITE(ptr,$C0734)
+炭[END]
+// current address: $10A6BB
+
+
+
+
+
+//Text $10A690
+#WRITE(ptr,$C074C)
+暖炉にくべて火をともす事ができる[LINE]
+[END]
+// current address: $10A6B2
+
+//Text $10A680
+#WRITE(ptr,$C0750)
+まねきネコ[END]
+// current address: $10A68B
+
+
+
+
+
+//Text $10A658
+#WRITE(ptr,$C0768)
+別名ラッキーキャット[LINE]
+福を招くと言われる[END]
+// current address: $10A680
+
+//Text $10A650
+#WRITE(ptr,$C076C)
+苗木[END]
+// current address: $10A655
+
+
+
+
+
+//Text $10A638
+#WRITE(ptr,$C0784)
+土に植えれば育ちそうだ[LINE]
+[END]
+// current address: $10A650
+
+//Text $10A620
+#WRITE(ptr,$C0788)
+ソーサラースコープ[END]
+// current address: $10A633
+
+
+
+
+
+//Text $10A5E8
+#WRITE(ptr,$C07A0)
+周囲をスキャニングする[LINE]
+使うたびにレンズを三枚消費する[END]
+// current address: $10A61E
+
+//Text $10A5D8
+#WRITE(ptr,$C07A4)
+バイオキー[END]
+// current address: $10A5E3
+
+
+
+
+
+//Text $10A5A8
+#WRITE(ptr,$C07BC)
+セルキーと対の鍵[LINE]
+急激な温度変化で崩壊する[END]
+// current address: $10A5D2
+
+//Text $10A598
+#WRITE(ptr,$C07C0)
+セルキー[END]
+// current address: $10A5A1
+
+
+
+
+
+//Text $10A568
+#WRITE(ptr,$C07D8)
+バイオキーと対の鍵[LINE]
+急激な温度変化で崩壊する[END]
+// current address: $10A594
+
+//Text $10A558
+#WRITE(ptr,$C07DC)
+マスターキー[END]
+// current address: $10A565
+
+
+
+
+
+//Text $10A530
+#WRITE(ptr,$C07F4)
+物資保管所の鍵[LINE]
+様々なロックを解除できる[END]
+// current address: $10A558
+
+//Text $10A520
+#WRITE(ptr,$C07F8)
+バイオチップ[END]
+// current address: $10A52D
+
+
+
+
+
+//Text $10A4D8
+#WRITE(ptr,$C0810)
+コンテナを開けるための暗証装置[LINE]
+三種のチップを集めなければならない[END]
+// current address: $10A51A
+
+//Text $10A4C8
+#WRITE(ptr,$C0814)
+セルチップ[END]
+// current address: $10A4D3
+
+
+
+
+
+//Text $10A4D8
+#WRITE(ptr,$C082C)
+コンテナを開けるための暗証装置[LINE]
+三種のチップを集めなければならない[END]
+// current address: $10A51A
+
+//Text $10A4B8
+#WRITE(ptr,$C0830)
+ジーンチップ[END]
+// current address: $10A4C5
+
+
+
+
+
+//Text $10A4D8
+#WRITE(ptr,$C0848)
+コンテナを開けるための暗証装置[LINE]
+三種のチップを集めなければならない[END]
+// current address: $10A51A
+
+//Text $10A4A8
+#WRITE(ptr,$C084C)
+スコップ[END]
+// current address: $10A4B1
+
+
+
+
+
+//Text $10A490
+#WRITE(ptr,$C0864)
+雪かきのための道具[LINE]
+[END]
+// current address: $10A4A4
+
+//Text $10A480
+#WRITE(ptr,$C0868)
+ツルハシ[END]
+// current address: $10A489
+
+
+
+
+
+//Text $10A468
+#WRITE(ptr,$C0880)
+井戸を掘るための道具[LINE]
+[END]
+// current address: $10A47E
+
+//Text $10A458
+#WRITE(ptr,$C0884)
+トンカチ[END]
+// current address: $10A461
+
+
+
+
+
+//Text $10A428
+#WRITE(ptr,$C089C)
+大工道具の一つ[LINE]
+クギを打つのに欠かせません[END]
+// current address: $10A452
+
+//Text $10A418
+#WRITE(ptr,$C08A0)
+ノコギリ[END]
+// current address: $10A421
+
+
+
+
+
+//Text $10A3E8
+#WRITE(ptr,$C08B8)
+大工道具の一つ[LINE]
+材木を切るのに欠かせません[END]
+// current address: $10A412
+
+//Text $10A3E0
+#WRITE(ptr,$C08BC)
+カンナ[END]
+// current address: $10A3E7
+
+
+
+
+
+//Text $10A3B0
+#WRITE(ptr,$C08D4)
+大工道具の一つ[LINE]
+材木を削るのに欠かせません[END]
+// current address: $10A3DA
+
+//Text $10A3A0
+#WRITE(ptr,$C08D8)
+ブラックダイア[END]
+// current address: $10A3AF
+
+
+
+
+
+//Text $10A368
+#WRITE(ptr,$C08F0)
+不幸を呼ぶとされる不吉な宝石[LINE]
+ある場所で使うと<$A5><$A5><$A5><$A5>？[END]
+// current address: $10A39C
+
+//Text $10A358
+#WRITE(ptr,$C08F4)
+ブラックパール[END]
+// current address: $10A367
+
+
+
+
+
+//Text $10A368
+#WRITE(ptr,$C090C)
+不幸を呼ぶとされる不吉な宝石[LINE]
+ある場所で使うと<$A5><$A5><$A5><$A5>？[END]
+// current address: $10A39C
+
+//Text $10A340
+#WRITE(ptr,$C0910)
+ブラックコーラル[END]
+// current address: $10A351
+
+
+
+
+
+//Text $10A368
+#WRITE(ptr,$C0928)
+不幸を呼ぶとされる不吉な宝石[LINE]
+ある場所で使うと<$A5><$A5><$A5><$A5>？[END]
+// current address: $10A39C
+
+//Text $10A330
+#WRITE(ptr,$C092C)
+ベルセリウム[END]
+// current address: $10A33D
+
+
+
+
+
+//Text $10A2F0
+#WRITE(ptr,$C0944)
+強力な力を秘めた未知の鉱石[LINE]
+武具の材料となるが、扱いが難しい[END]
+// current address: $10A32C
+
+//Text $10A2E0
+#WRITE(ptr,$C0948)
+ポムポムの種[END]
+// current address: $10A2ED
+
+
+
+
+
+//Text $10A2B8
+#WRITE(ptr,$C0960)
+一般的な作物の種[LINE]
+広く栽培されている[END]
+// current address: $10A2DC
+
+//Text $10A2A8
+#WRITE(ptr,$C0964)
+エステマの種[END]
+// current address: $10A2B5
+
+
+
+
+
+//Text $10A268
+#WRITE(ptr,$C097C)
+台種改良で作られた種[LINE]
+更に台種改良するとラナケアルの種になる[END]
+// current address: $10A2A4
+
+//Text $10A258
+#WRITE(ptr,$C0980)
+ラナケアルの種[END]
+// current address: $10A267
+
+
+
+
+
+//Text $10A218
+#WRITE(ptr,$C0998)
+台種改良で作られた種[LINE]
+更に台種改良するとドルゲニアの種になる[END]
+// current address: $10A254
+
+//Text $10A208
+#WRITE(ptr,$C099C)
+ドルゲニアの種[END]
+// current address: $10A217
+
+
+
+
+
+//Text $10A1C8
+#WRITE(ptr,$C09B4)
+台種改良で作られた種[LINE]
+更に台種改良するとペンペンの種になる[END]
+// current address: $10A202
+
+//Text $10A1B8
+#WRITE(ptr,$C09B8)
+ペンペンの種[END]
+// current address: $10A1C5
+
+
+
+
+
+//Text $10A178
+#WRITE(ptr,$C09D0)
+台種改良で作られた種[LINE]
+更に台種改良するとオリオラの種になる[END]
+// current address: $10A1B2
+
+//Text $10A168
+#WRITE(ptr,$C09D4)
+オリオラの種[END]
+// current address: $10A175
+
+
+
+
+
+//Text $10A128
+#WRITE(ptr,$C09EC)
+台種改良で作られた種[LINE]
+更に台種改良するとチャラックの種になる[END]
+// current address: $10A164
+
+//Text $10A118
+#WRITE(ptr,$C09F0)
+チャラックの種[END]
+// current address: $10A127
+
+
+
+
+
+//Text $10A0E8
+#WRITE(ptr,$C0A08)
+台種改良で作られた種[LINE]
+更に台種改良すると<$A5><$A5><$A5><$A5>[END]
+// current address: $10A114
+
+//Text $10A0D8
+#WRITE(ptr,$C0A0C)
+黄庫の種[END]
+// current address: $10A0E1
+
+
+
+
+
+//Text $10A0A0
+#WRITE(ptr,$C0A24)
+これが黄庫の種だ！[LINE]
+一滴の水で育ち、百人の腹を満たす[END]
+// current address: $10A0D4
+
+//Text $10A090
+#WRITE(ptr,$C0A28)
+ジョニーの楽器[END]
+// current address: $10A09F
+
+
+
+
+
+//Text $10A080
+#WRITE(ptr,$C0A40)
+ジョニーの楽器[LINE]
+[END]
+// current address: $10A090
+
+//Text $10A078
+#WRITE(ptr,$C0A44)
+トレカ[END]
+// current address: $10A07F
+
+
+
+
+
+//Text $10A040
+#WRITE(ptr,$C0A5C)
+トレーディングカード[LINE]
+どこかでスロットアイテムと交換[END]
+// current address: $10A074
+
+//Text $10A030
+#WRITE(ptr,$C0A60)
+すじにく[END]
+// current address: $10A039
+
+
+
+
+
+//Text $10A010
+#WRITE(ptr,$C0A78)
+安い肉[LINE]
+まずいというワケではない[END]
+// current address: $10A030
+
+//Text $10A000
+#WRITE(ptr,$C0A7C)
+しもふり[END]
+// current address: $10A009
+
+
+
+
+
+//Text $109FE0
+#WRITE(ptr,$C0A94)
+しもふり[LINE]
+最高級のしもふり肉[END]
+// current address: $109FFC
+
+//Text $109FD8
+#WRITE(ptr,$C0A98)
+イカ[END]
+// current address: $109FDD
+
+
+
+
+
+//Text $109FA8
+#WRITE(ptr,$C0AB0)
+十本足の海の生物[LINE]
+干してスルメにしたりする[END]
+// current address: $109FD2
+
+//Text $109FA0
+#WRITE(ptr,$C0AB4)
+タコ[END]
+// current address: $109FA5
+
+
+
+
+
+//Text $109F70
+#WRITE(ptr,$C0ACC)
+八本足の海の生物だが[LINE]
+まれに井戸の底で人を襲う[END]
+// current address: $109F9E
+
+//Text $109F68
+#WRITE(ptr,$C0AD0)
+エビ[END]
+// current address: $109F6D
+
+
+
+
+
+//Text $109F30
+#WRITE(ptr,$C0AE8)
+フライにして食べたりする海産物[LINE]
+タイを釣ったりもする？[END]
+// current address: $109F66
+
+//Text $109F28
+#WRITE(ptr,$C0AEC)
+イワシ[END]
+// current address: $109F2F
+
+
+
+
+
+//Text $109F00
+#WRITE(ptr,$C0B04)
+安価な食用魚[LINE]
+干してメザシにしたりする[END]
+// current address: $109F26
+
+//Text $109EF8
+#WRITE(ptr,$C0B08)
+シャケ[END]
+// current address: $109EFF
+
+
+
+
+
+//Text $109EC0
+#WRITE(ptr,$C0B20)
+秋に海から<$E2><$5A>へ帰ってくる不思議な魚[LINE]
+クマの大好物らしい[END]
+// current address: $109EF6
+
+//Text $109EB8
+#WRITE(ptr,$C0B24)
+タイ[END]
+// current address: $109EBD
+
+
+
+
+
+//Text $109E88
+#WRITE(ptr,$C0B3C)
+おめでたい時に食べる赤い魚[LINE]
+洒落にあらず！[END]
+// current address: $109EB2
+
+//Text $109E80
+#WRITE(ptr,$C0B40)
+マグロ[END]
+// current address: $109E87
+
+
+
+
+
+//Text $109E60
+#WRITE(ptr,$C0B58)
+とてもおいしい高級魚[LINE]
+グミになる[END]
+// current address: $109E80
+
+//Text $109E50
+#WRITE(ptr,$C0B5C)
+ジャガイモ[END]
+// current address: $109E5B
+
+
+
+
+
+//Text $109E18
+#WRITE(ptr,$C0B74)
+煮たり焼いたり揚げたりして食べる[LINE]
+デンプン質が豊富[END]
+// current address: $109E4A
+
+//Text $109E08
+#WRITE(ptr,$C0B78)
+ニンジン[END]
+// current address: $109E11
+
+
+
+
+
+//Text $109DC8
+#WRITE(ptr,$C0B90)
+カロチンが豊富でウサギの好物[LINE]
+異国の言葉で言うとキャロット[END]
+// current address: $109E02
+
+//Text $109DB8
+#WRITE(ptr,$C0B94)
+タマネギ[END]
+// current address: $109DC1
+
+
+
+
+
+//Text $109D88
+#WRITE(ptr,$C0BAC)
+独特の匂いがたまらない[LINE]
+切ると思わず涙が<$A5><$A5><$A5><$A5>[END]
+// current address: $109DB4
+
+//Text $109D78
+#WRITE(ptr,$C0BB0)
+キャベツ[END]
+// current address: $109D81
+
+
+
+
+
+//Text $109D40
+#WRITE(ptr,$C0BC8)
+葉が球形に巻く不思議な野菜[LINE]
+千切りにして生でどうぞ[END]
+// current address: $109D72
+
+//Text $109D30
+#WRITE(ptr,$C0BCC)
+ダイコン[END]
+// current address: $109D39
+
+
+
+
+
+//Text $109D00
+#WRITE(ptr,$C0BE4)
+白くて長くて太い根菜[LINE]
+煮込んで食べると美味[END]
+// current address: $109D2A
+
+//Text $109CF8
+#WRITE(ptr,$C0BE8)
+トマト[END]
+// current address: $109CFF
+
+
+
+
+
+//Text $109CC8
+#WRITE(ptr,$C0C00)
+生で食べたりジュースにしたりする[LINE]
+リコピンが豊富[END]
+// current address: $109CF8
+
+//Text $109CC0
+#WRITE(ptr,$C0C04)
+レタス[END]
+// current address: $109CC7
+
+
+
+
+
+//Text $109C90
+#WRITE(ptr,$C0C1C)
+サラダの王道[LINE]
+シャキシャキした食感が心地良い[END]
+// current address: $109CBC
+
+//Text $109C80
+#WRITE(ptr,$C0C20)
+キュウリ[END]
+// current address: $109C89
+
+
+
+
+
+//Text $109C40
+#WRITE(ptr,$C0C38)
+生で食べたり漬物にしたりする[LINE]
+瓜臭いのでキライな人も多い？[END]
+// current address: $109C7A
+
+//Text $109C38
+#WRITE(ptr,$C0C3C)
+キウイ[END]
+// current address: $109C3F
+
+
+
+
+
+//Text $109BF8
+#WRITE(ptr,$C0C54)
+茶色で毛が生えている不思議な果実[LINE]
+鳥の名前が元と言われている[END]
+// current address: $109C34
+
+//Text $109BF0
+#WRITE(ptr,$C0C58)
+イチゴ[END]
+// current address: $109BF7
+
+
+
+
+
+//Text $109BB8
+#WRITE(ptr,$C0C70)
+小さな実が赤く熟したら食べ頃[LINE]
+煮込んでジャムにしても美味[END]
+// current address: $109BF0
+
+//Text $109BB0
+#WRITE(ptr,$C0C74)
+レモン[END]
+// current address: $109BB7
+
+
+
+
+
+//Text $109B78
+#WRITE(ptr,$C0C8C)
+酸味、芳香が豊かな黄色い果実[LINE]
+ビタミンＣがいっぱい[END]
+// current address: $109BAA
+
+//Text $109B70
+#WRITE(ptr,$C0C90)
+バナナ[END]
+// current address: $109B77
+
+
+
+
+
+//Text $109B40
+#WRITE(ptr,$C0CA8)
+長くて太くて曲っている[LINE]
+黄色い皮をむいて食べる[END]
+// current address: $109B6E
+
+//Text $109B38
+#WRITE(ptr,$C0CAC)
+リンゴ[END]
+// current address: $109B3F
+
+
+
+
+
+//Text $109B00
+#WRITE(ptr,$C0CC4)
+赤くて丸くて甘酸っぱい果実[LINE]
+アップルパイにしたり？[END]
+// current address: $109B32
+
+//Text $109AF8
+#WRITE(ptr,$C0CC8)
+チーズ[END]
+// current address: $109AFF
+
+
+
+
+
+//Text $109AC8
+#WRITE(ptr,$C0CE0)
+牛乳を熟成させた食台[LINE]
+栄養価が高くて健康的です[END]
+// current address: $109AF6
+
+//Text $109AB8
+#WRITE(ptr,$C0CE4)
+ヨーグルト[END]
+// current address: $109AC3
+
+
+
+
+
+//Text $109A88
+#WRITE(ptr,$C0CFC)
+牛乳を発酵させた食台[LINE]
+胃腸をきれいにします[END]
+// current address: $109AB2
+
+//Text $109A80
+#WRITE(ptr,$C0D00)
+ミルク[END]
+// current address: $109A87
+
+
+
+
+
+//Text $109A58
+#WRITE(ptr,$C0D18)
+牛のお乳[LINE]
+白くて栄養価の高い飲み物[END]
+// current address: $109A7A
+
+//Text $109A50
+#WRITE(ptr,$C0D1C)
+ライス[END]
+// current address: $109A57
+
+
+
+
+
+//Text $109A18
+#WRITE(ptr,$C0D34)
+炊いて食べる穀物[LINE]
+農家の八十八の苦労がしのばれます[END]
+// current address: $109A4A
+
+//Text $109A10
+#WRITE(ptr,$C0D38)
+タマゴ[END]
+// current address: $109A17
+
+
+
+
+
+//Text $1099E0
+#WRITE(ptr,$C0D50)
+様々な料理に使われる高たん白食台[LINE]
+ニワトリの子孫[END]
+// current address: $109A10
+
+//Text $1099D8
+#WRITE(ptr,$C0D54)
+とうふ[END]
+// current address: $1099DF
+
+
+
+
+
+//Text $1099A8
+#WRITE(ptr,$C0D6C)
+白くて柔かい大豆から作る食べ物[LINE]
+腐った豆と記す[END]
+// current address: $1099D6
+
+//Text $1099A0
+#WRITE(ptr,$C0D70)
+パスタ[END]
+// current address: $1099A7
+
+
+
+
+
+//Text $109970
+#WRITE(ptr,$C0D88)
+小麦粉を水や卵で練った食台[LINE]
+様々な形がある[END]
+// current address: $10999A
+
+//Text $109960
+#WRITE(ptr,$C0D8C)
+ブレッド[END]
+// current address: $109969
+
+
+
+
+
+//Text $109928
+#WRITE(ptr,$C0DA4)
+小麦粉をこねて焼き上げた食台[LINE]
+なぜかいつでも焼きたて[END]
+// current address: $10995C
+
+//Text $109920
+#WRITE(ptr,$C0DA8)
+ミソ[END]
+// current address: $109925
+
+
+
+
+
+//Text $1098F0
+#WRITE(ptr,$C0DC0)
+大豆から作る保存食台[LINE]
+スープにして食すのが一般的[END]
+// current address: $109920
+
+//Text $1098E8
+#WRITE(ptr,$C0DC4)
+バター[END]
+// current address: $1098EF
+
+
+
+
+
+//Text $1098B8
+#WRITE(ptr,$C0DDC)
+乳脂肪の塊[LINE]
+ブレッドに塗りたくって食べます[END]
+// current address: $1098E2
+
+//Text $1098A8
+#WRITE(ptr,$C0DE0)
+ホーロー鍋[END]
+// current address: $1098B3
+
+
+
+
+
+//Text $109878
+#WRITE(ptr,$C0DF8)
+保温力が高く安価なお鍋[LINE]
+使用時のみ総合熟練度ゎ１[END]
+// current address: $1098A8
+
+//Text $109870
+#WRITE(ptr,$C0DFC)
+鉄鍋[END]
+// current address: $109875
+
+
+
+
+
+//Text $109840
+#WRITE(ptr,$C0E14)
+丈夫で保温力のあるお鍋[LINE]
+使用時のみ総合熟練度ゎ３[END]
+// current address: $109870
+
+//Text $109838
+#WRITE(ptr,$C0E18)
+土鍋[END]
+// current address: $10983D
+
+
+
+
+
+//Text $109800
+#WRITE(ptr,$C0E30)
+鍋料理には欠かせないお鍋[LINE]
+使用時のみ総合熟練度ゎ４[END]
+// current address: $109832
+
+//Text $1097F8
+#WRITE(ptr,$C0E34)
+銅鍋[END]
+// current address: $1097FD
+
+
+
+
+
+//Text $1097C8
+#WRITE(ptr,$C0E4C)
+熱伝導の高いお鍋[LINE]
+使用時のみ総合熟練度ゎ７[END]
+// current address: $1097F2
+
+//Text $1097B8
+#WRITE(ptr,$C0E50)
+鉄のフライパン[END]
+// current address: $1097C7
+
+
+
+
+
+//Text $109780
+#WRITE(ptr,$C0E68)
+丈夫で保温力のあるフライパン[LINE]
+使用時のみ総合熟練度ゎ３[END]
+// current address: $1097B6
+
+//Text $109768
+#WRITE(ptr,$C0E6C)
+ステンレスのフライパン[END]
+// current address: $10977F
+
+
+
+
+
+//Text $109730
+#WRITE(ptr,$C0E84)
+熱まわりにムラのあるフライパン[LINE]
+使用時のみ総合熟練度ゎ１[END]
+// current address: $109768
+
+//Text $109718
+#WRITE(ptr,$C0E88)
+チタンのフライパン[END]
+// current address: $10972B
+
+
+
+
+
+//Text $1096E0
+#WRITE(ptr,$C0EA0)
+熱伝導に優れた高価なフライパン[LINE]
+使用時のみ総合熟練度ゎ４[END]
+// current address: $109718
+
+//Text $1096D0
+#WRITE(ptr,$C0EA4)
+銅のフライパン[END]
+// current address: $1096DF
+
+
+
+
+
+//Text $1096A0
+#WRITE(ptr,$C0EBC)
+熱伝導の高いフライパン[LINE]
+使用時のみ総合熟練度ゎ７[END]
+// current address: $1096D0
+
+//Text $109690
+#WRITE(ptr,$C0EC0)
+柳刃包丁[END]
+// current address: $109699
+
+
+
+
+
+//Text $109658
+#WRITE(ptr,$C0ED8)
+魚系食材を扱うのに適した包丁[LINE]
+使用時のみ総合熟練度ゎ５[END]
+// current address: $10968E
+
+//Text $109648
+#WRITE(ptr,$C0EDC)
+三徳包丁[END]
+// current address: $109651
+
+
+
+
+
+//Text $109610
+#WRITE(ptr,$C0EF4)
+全ての食材を扱うのに適した包丁[LINE]
+使用時のみ総合熟練度ゎ７[END]
+// current address: $109648
+
+//Text $109600
+#WRITE(ptr,$C0EF8)
+菜切り包丁[END]
+// current address: $10960B
+
+
+
+
+
+//Text $1095C8
+#WRITE(ptr,$C0F10)
+野菜系食材を扱うのに適した包丁[LINE]
+使用時のみ総合熟練度ゎ５[END]
+// current address: $109600
+
+//Text $1095B8
+#WRITE(ptr,$C0F14)
+牛刀包丁[END]
+// current address: $1095C1
+
+
+
+
+
+//Text $109580
+#WRITE(ptr,$C0F2C)
+肉系食材を扱うのに適した包丁[LINE]
+使用時のみ総合熟練度ゎ５[END]
+// current address: $1095B6
+
+//Text $109570
+#WRITE(ptr,$C0F30)
+ロングソード[END]
+// current address: $10957D
+
+
+
+
+
+//Text $109540
+#WRITE(ptr,$C0F48)
+長くて威力のある剣[LINE]
+自在に使えれば一人前です[END]
+// current address: $10956C
+
+//Text $109530
+#WRITE(ptr,$C0F4C)
+レイピア[END]
+// current address: $109539
+
+
+
+
+
+//Text $109508
+#WRITE(ptr,$C0F64)
+細身の長剣[LINE]
+外見は優雅だが扱いは難しい[END]
+// current address: $10952E
+
+//Text $1094F8
+#WRITE(ptr,$C0F68)
+グラディウス[END]
+// current address: $109505
+
+
+
+
+
+//Text $1094C0
+#WRITE(ptr,$C0F80)
+集団戦闘に用いられる剣[LINE]
+改良が重ねられ洗練されている[END]
+// current address: $1094F4
+
+//Text $1094B0
+#WRITE(ptr,$C0F84)
+ブレード[END]
+// current address: $1094B9
+
+
+
+
+
+//Text $109490
+#WRITE(ptr,$C0F9C)
+切れ味鋭い長剣[LINE]
+バランスが良い[END]
+// current address: $1094AE
+
+//Text $109480
+#WRITE(ptr,$C0FA0)
+ブロードソード[END]
+// current address: $10948F
+
+
+
+
+
+//Text $109458
+#WRITE(ptr,$C0FB8)
+軍事用に造られた幅広の長剣[LINE]
+攻撃力が高い[END]
+// current address: $109480
+
+//Text $109448
+#WRITE(ptr,$C0FBC)
+サーベル[END]
+// current address: $109451
+
+
+
+
+
+//Text $109418
+#WRITE(ptr,$C0FD4)
+斬撃に適した直刀[LINE]
+騎兵隊の基本武器として知られる[END]
+// current address: $109448
+
+//Text $109408
+#WRITE(ptr,$C0FD8)
+カトラス[END]
+// current address: $109411
+
+
+
+
+
+//Text $1093E8
+#WRITE(ptr,$C0FF0)
+反り身の長剣[LINE]
+船乗り達に好まれる[END]
+// current address: $109408
+
+//Text $1093D8
+#WRITE(ptr,$C0FF4)
+シミター[END]
+// current address: $1093E1
+
+
+
+
+
+//Text $1093A8
+#WRITE(ptr,$C100C)
+三日月刀として有名な曲刀[LINE]
+異国情緒を味わえる[END]
+// current address: $1093D4
+
+//Text $109398
+#WRITE(ptr,$C1010)
+バゼラード[END]
+// current address: $1093A3
+
+
+
+
+
+//Text $109368
+#WRITE(ptr,$C1028)
+突撃剣として優れる[LINE]
+見た目は小さいが威力は高い[END]
+// current address: $109396
+
+//Text $109358
+#WRITE(ptr,$C102C)
+ファルシオン[END]
+// current address: $109365
+
+
+
+
+
+//Text $109318
+#WRITE(ptr,$C1044)
+偃月刀と呼ばれ肉厚の刃を持つ[LINE]
+どことなくエスニックな雰囲気[END]
+// current address: $109352
+
+//Text $109308
+#WRITE(ptr,$C1048)
+ゴシックソード[END]
+// current address: $109317
+
+
+
+
+
+//Text $1092D8
+#WRITE(ptr,$C1060)
+簡素で典雅な造りの長剣[LINE]
+美術的な価値も高い[END]
+// current address: $109302
+
+//Text $1092C8
+#WRITE(ptr,$C1064)
+ファルクス[END]
+// current address: $1092D3
+
+
+
+
+
+//Text $109290
+#WRITE(ptr,$C107C)
+湾曲した鎌のような刃を持つ剣[LINE]
+きわめて高い殺傷力を持つ[END]
+// current address: $1092C6
+
+//Text $109280
+#WRITE(ptr,$C1080)
+シンクレア[END]
+// current address: $10928B
+
+
+
+
+
+//Text $109248
+#WRITE(ptr,$C1098)
+威力を強化したサーベル[LINE]
+考案した者の名が与えられた[END]
+// current address: $10927A
+
+//Text $109238
+#WRITE(ptr,$C109C)
+シャムシール[END]
+// current address: $109245
+
+
+
+
+
+//Text $109208
+#WRITE(ptr,$C10B4)
+反り身の大剣[LINE]
+ライオンの尾という意味を持つ[END]
+// current address: $109232
+
+//Text $1091F8
+#WRITE(ptr,$C10B8)
+クレイモア[END]
+// current address: $109203
+
+
+
+
+
+//Text $1091C8
+#WRITE(ptr,$C10D0)
+重厚な刀身を持つ直刀[LINE]
+高地民族の間で使われている[END]
+// current address: $1091F8
+
+//Text $1091B8
+#WRITE(ptr,$C10D4)
+グリムソード[END]
+// current address: $1091C5
+
+
+
+
+
+//Text $109170
+#WRITE(ptr,$C10EC)
+伝説に登場する幻想の力を秘めた長剣[LINE]
+口伝を書物にまとめた兄弟の名を冠する[END]
+// current address: $1091B8
+
+//Text $109158
+#WRITE(ptr,$C10F0)
+グランドファーザー[END]
+// current address: $10916B
+
+
+
+
+
+//Text $109130
+#WRITE(ptr,$C1108)
+偉大な創始者の意[LINE]
+高名な剣匠が鍛えた剣[END]
+// current address: $109156
+
+//Text $109120
+#WRITE(ptr,$C110C)
+ウインドシア[END]
+// current address: $10912D
+
+
+
+
+
+//Text $1090F8
+#WRITE(ptr,$C1124)
+風斬りの刃[LINE]
+その斬撃は旋風を巻き起こす[END]
+// current address: $10911E
+
+//Text $1090E0
+#WRITE(ptr,$C1128)
+フェイムフェイス[END]
+// current address: $1090F1
+
+
+
+
+
+//Text $1090B0
+#WRITE(ptr,$C1140)
+かつてパラディンにのみ[LINE]
+許されたという名誉の剣[END]
+// current address: $1090DE
+
+//Text $1090A0
+#WRITE(ptr,$C1144)
+フラムベルク[END]
+// current address: $1090AD
+
+
+
+
+
+//Text $109080
+#WRITE(ptr,$C115C)
+波打つ刃を持つ長剣[LINE]
+火炎の魔剣[END]
+// current address: $10909E
+
+//Text $109070
+#WRITE(ptr,$C1160)
+ファフニール[END]
+// current address: $10907D
+
+
+
+
+
+//Text $109040
+#WRITE(ptr,$C1178)
+古代伝承で勇者が倒した[LINE]
+竜の爪から切り出された剣[END]
+// current address: $109070
+
+//Text $109030
+#WRITE(ptr,$C117C)
+ゼピュロス[END]
+// current address: $10903B
+
+
+
+
+
+//Text $109000
+#WRITE(ptr,$C1194)
+西風の名を冠する名剣[LINE]
+隼の紋章が刻まれている[END]
+// current address: $10902C
+
+//Text $108FE8
+#WRITE(ptr,$C1198)
+ヴォーパルウェポン[END]
+// current address: $108FFB
+
+
+
+
+
+//Text $108FC8
+#WRITE(ptr,$C11B0)
+凍結する刃を持つ直刀[LINE]
+氷雪の魔剣[END]
+// current address: $108FE8
+
+//Text $108FB8
+#WRITE(ptr,$C11B4)
+エスペランサー[END]
+// current address: $108FC7
+
+
+
+
+
+//Text $108F90
+#WRITE(ptr,$C11CC)
+古い西方の王国の言葉で[LINE]
+希望を意味する剣[END]
+// current address: $108FB8
+
+//Text $108F80
+#WRITE(ptr,$C11D0)
+アースリンク[END]
+// current address: $108F8D
+
+
+
+
+
+//Text $108F40
+#WRITE(ptr,$C11E8)
+天地創造の時代に鍛えられた伝説の剣[LINE]
+大地の力が付与されている[END]
+// current address: $108F7C
+
+//Text $108F30
+#WRITE(ptr,$C11EC)
+クードグレイス[END]
+// current address: $108F3F
+
+
+
+
+
+//Text $108EF8
+#WRITE(ptr,$C1204)
+最後の一撃を放つ長剣[LINE]
+ベムブルのオーガーを退治した[END]
+// current address: $108F2A
+
+//Text $108EE0
+#WRITE(ptr,$C1208)
+ドラゴントゥース[END]
+// current address: $108EF1
+
+
+
+
+
+//Text $108EA8
+#WRITE(ptr,$C1220)
+竜の牙から生まれた鋭い剣[LINE]
+いかなる鎧も貫くと言われる[END]
+// current address: $108EDC
+
+//Text $108E98
+#WRITE(ptr,$C1224)
+オートクレール[END]
+// current address: $108EA7
+
+
+
+
+
+//Text $108E60
+#WRITE(ptr,$C123C)
+岩をも両断する力を秘めた剣[LINE]
+刀身は水晶から切出された[END]
+// current address: $108E94
+
+//Text $108E48
+#WRITE(ptr,$C1240)
+ダイヤモンドエッジ[END]
+// current address: $108E5B
+
+
+
+
+
+//Text $108E10
+#WRITE(ptr,$C1258)
+庫剛石から切出された剣[LINE]
+門を守る神が宿っているらしい[END]
+// current address: $108E44
+
+//Text $108E00
+#WRITE(ptr,$C125C)
+アイスコフィン[END]
+// current address: $108E0F
+
+
+
+
+
+//Text $108DD8
+#WRITE(ptr,$C1274)
+氷の柩に副葬されていた剣[LINE]
+永久氷塊の刃[END]
+// current address: $108DFE
+
+//Text $108DC8
+#WRITE(ptr,$C1278)
+デストロイヤー[END]
+// current address: $108DD7
+
+
+
+
+
+//Text $108D98
+#WRITE(ptr,$C1290)
+天地戦争時代の科学力で作られた[LINE]
+破壊の魔剣[LINE]
+[END]
+// current address: $108DC3
+
+//Text $108D88
+#WRITE(ptr,$C1294)
+ルーンブレイド[END]
+// current address: $108D97
+
+
+
+
+
+//Text $108D68
+#WRITE(ptr,$C12AC)
+勝利のルーンが刀身に刻まれた剣[LINE]
+[END]
+// current address: $108D88
+
+//Text $108D50
+#WRITE(ptr,$C12B0)
+シャドウファング[END]
+// current address: $108D61
+
+
+
+
+
+//Text $108D20
+#WRITE(ptr,$C12C8)
+闇の牙と恐れられた忍の刃[LINE]
+音も無く敵を倒す[END]
+// current address: $108D4A
+
+//Text $108D10
+#WRITE(ptr,$C12CC)
+バルムンク[END]
+// current address: $108D1B
+
+
+
+
+
+//Text $108CC8
+#WRITE(ptr,$C12E4)
+勇者が邪竜を退治した時に用いた剣[LINE]
+鋼よりも硬い竜の鱗を易々と切裂く[END]
+// current address: $108D0A
+
+//Text $108CB8
+#WRITE(ptr,$C12E8)
+カラドボルグ[END]
+// current address: $108CC5
+
+
+
+
+
+//Text $108C80
+#WRITE(ptr,$C1300)
+妖精の手によって鍛えられた魔剣[LINE]
+剣が操者を選ぶと言われる[END]
+// current address: $108CB8
+
+//Text $108C70
+#WRITE(ptr,$C1304)
+イセベルグ[END]
+// current address: $108C7B
+
+
+
+
+
+//Text $108C38
+#WRITE(ptr,$C131C)
+巨大氷山両断伝説と共に伝わる[LINE]
+北方の英雄が愛用した名剣[LINE]
+[END]
+// current address: $108C6F
+
+//Text $108C30
+#WRITE(ptr,$C1320)
+紫電[END]
+// current address: $108C35
+
+
+
+
+
+//Text $108C00
+#WRITE(ptr,$C1338)
+稲妻のような残光を放つ[LINE]
+日出国で鍛えられた銘刀[END]
+// current address: $108C2E
+
+//Text $108BF0
+#WRITE(ptr,$C133C)
+デュランダル[END]
+// current address: $108BFD
+
+
+
+
+
+//Text $108BC0
+#WRITE(ptr,$C1354)
+慈悲の名を冠する名剣[LINE]
+天使の紋章が刻まれている[END]
+// current address: $108BEE
+
+//Text $108BB0
+#WRITE(ptr,$C1358)
+アロンダイト[END]
+// current address: $108BBD
+
+
+
+
+
+//Text $108B88
+#WRITE(ptr,$C1370)
+英雄王に仕えた騎士が[LINE]
+愛用した忠義の聖剣[END]
+// current address: $108BB0
+
+//Text $108B78
+#WRITE(ptr,$C1374)
+ガラティン[END]
+// current address: $108B83
+
+
+
+
+
+//Text $108B50
+#WRITE(ptr,$C138C)
+円卓の騎士が帯びた[LINE]
+と言われる名剣[END]
+// current address: $108B72
+
+//Text $108B38
+#WRITE(ptr,$C1390)
+ラストフェンサー[END]
+// current address: $108B49
+
+
+
+
+
+//Text $108B10
+#WRITE(ptr,$C13A8)
+剣の道を極めた果てに[LINE]
+得られるモノとは？[END]
+// current address: $108B38
+
+//Text $108B00
+#WRITE(ptr,$C13AC)
+エクスカリバー[END]
+// current address: $108B0F
+
+
+
+
+
+//Text $108AD0
+#WRITE(ptr,$C13C4)
+湖の妖精に認められた英雄に[LINE]
+与えられる王者の剣[END]
+// current address: $108AFE
+
+//Text $108AC0
+#WRITE(ptr,$C13C8)
+アマノムラクモ[END]
+// current address: $108ACF
+
+
+
+
+
+//Text $108A98
+#WRITE(ptr,$C13E0)
+<$E0><$5D>王の証といわれる剣[LINE]
+三種の神器のひとつ[END]
+// current address: $108AC0
+
+//Text $108A80
+#WRITE(ptr,$C13E4)
+ストームブリンガー[END]
+// current address: $108A93
+
+
+
+
+
+//Text $108A58
+#WRITE(ptr,$C13FC)
+嵐を呼ぶ力を秘めた魔剣[LINE]
+選ばれた英雄の剣[END]
+// current address: $108A80
+
+//Text $108A40
+#WRITE(ptr,$C1400)
+レーヴァンテイン[END]
+// current address: $108A51
+
+
+
+
+
+//Text $108A00
+#WRITE(ptr,$C1418)
+世界を破金させるといわれる剣[LINE]
+神々の戦いで失われたと伝わるが<$A5><$A5><$A5><$A5>[END]
+// current address: $108A40
+
+//Text $1089F0
+#WRITE(ptr,$C141C)
+ピュアブライト[END]
+// current address: $1089FF
+
+
+
+
+
+//Text $1089C0
+#WRITE(ptr,$C1434)
+けがれなき光を放つ長剣[LINE]
+乙女の紋章が刻まれている[END]
+// current address: $1089F0
+
+//Text $1089B8
+#WRITE(ptr,$C1438)
+ロッド[END]
+// current address: $1089BF
+
+
+
+
+
+//Text $108978
+#WRITE(ptr,$C1450)
+単なる普通のどこにでもある杖[LINE]
+でもチョットだけ魔法使い気分です[END]
+// current address: $1089B6
+
+//Text $108970
+#WRITE(ptr,$C1454)
+メイス[END]
+// current address: $108977
+
+
+
+
+
+//Text $108950
+#WRITE(ptr,$C146C)
+職杖[LINE]
+殴られるとけっこう痛い[END]
+// current address: $10896C
+
+//Text $108940
+#WRITE(ptr,$C1470)
+スタッフ[END]
+// current address: $108949
+
+
+
+
+
+//Text $108920
+#WRITE(ptr,$C1488)
+長い杖[LINE]
+長旅のお供にいかが？[END]
+// current address: $10893C
+
+//Text $108918
+#WRITE(ptr,$C148C)
+ワンド[END]
+// current address: $10891F
+
+
+
+
+
+//Text $1088F0
+#WRITE(ptr,$C14A4)
+権標[LINE]
+集中力が高まるような気が<$A5><$A5><$A5><$A5>[END]
+// current address: $108912
+
+//Text $1088E0
+#WRITE(ptr,$C14A8)
+セプター[END]
+// current address: $1088E9
+
+
+
+
+
+//Text $1088B8
+#WRITE(ptr,$C14C0)
+王笏[LINE]
+典礼用の装飾が施されています[END]
+// current address: $1088DA
+
+//Text $1088A0
+#WRITE(ptr,$C14C4)
+フレンジーロッド[END]
+// current address: $1088B1
+
+
+
+
+
+//Text $108880
+#WRITE(ptr,$C14DC)
+熱狂の杖[LINE]
+振ると士気が高揚する[END]
+// current address: $10889E
+
+//Text $108870
+#WRITE(ptr,$C14E0)
+ゴシックメイス[END]
+// current address: $10887F
+
+
+
+
+
+//Text $108840
+#WRITE(ptr,$C14F8)
+簡素で典雅な造りの職杖[LINE]
+殴られるとかなり痛い[END]
+// current address: $10886C
+
+//Text $108828
+#WRITE(ptr,$C14FC)
+ナールドスタッフ[END]
+// current address: $108839
+
+
+
+
+
+//Text $108800
+#WRITE(ptr,$C1514)
+節くれの長い杖[LINE]
+羊飼い気分になれます[END]
+// current address: $108824
+
+//Text $1087E8
+#WRITE(ptr,$C1518)
+ドミネイトワンド[END]
+// current address: $1087F9
+
+
+
+
+
+//Text $1087D8
+#WRITE(ptr,$C1530)
+支配者の権標[LINE]
+[END]
+// current address: $1087E6
+
+//Text $1087C0
+#WRITE(ptr,$C1534)
+グランドセプター[END]
+// current address: $1087D1
+
+
+
+
+
+//Text $108798
+#WRITE(ptr,$C154C)
+威厳の王笏[LINE]
+四英雄の一人も使ってた？[END]
+// current address: $1087BC
+
+//Text $108780
+#WRITE(ptr,$C1550)
+ディヴァインロッド[END]
+// current address: $108793
+
+
+
+
+
+//Text $108758
+#WRITE(ptr,$C1568)
+祝福を受けた杖[LINE]
+神聖な力が秘められている[END]
+// current address: $108780
+
+//Text $108740
+#WRITE(ptr,$C156C)
+マラカイトメイス[END]
+// current address: $108751
+
+
+
+
+
+//Text $108710
+#WRITE(ptr,$C1584)
+孔雀石製の職杖[LINE]
+不思議な力が秘められている[END]
+// current address: $10873A
+
+//Text $1086F8
+#WRITE(ptr,$C1588)
+シーダースタッフ[END]
+// current address: $108709
+
+
+
+
+
+//Text $1086C0
+#WRITE(ptr,$C15A0)
+香木から切出した癒し系の杖[LINE]
+良い香りが心を安らかにします[END]
+// current address: $1086F8
+
+//Text $1086B0
+#WRITE(ptr,$C15A4)
+グリムワンド[END]
+// current address: $1086BD
+
+
+
+
+
+//Text $108668
+#WRITE(ptr,$C15BC)
+伝説に登場する幻想の力を秘めた権標[LINE]
+口伝を書物にまとめた兄弟の名を冠する[END]
+// current address: $1086B0
+
+//Text $108650
+#WRITE(ptr,$C15C0)
+リリックセプター[END]
+// current address: $108661
+
+
+
+
+
+//Text $108618
+#WRITE(ptr,$C15D8)
+豊かな心を養う効果がある王笏[LINE]
+妖精の力が宿っている[END]
+// current address: $10864A
+
+//Text $108608
+#WRITE(ptr,$C15DC)
+ロリポップ[END]
+// current address: $108613
+
+
+
+
+
+//Text $1085D8
+#WRITE(ptr,$C15F4)
+要するにペロペロキャンディ[LINE]
+とっても甘〜い♪[END]
+// current address: $108604
+
+//Text $1085C8
+#WRITE(ptr,$C15F8)
+銀のおたま[END]
+// current address: $1085D3
+
+
+
+
+
+//Text $108598
+#WRITE(ptr,$C1610)
+料理名人の左手[LINE]
+シチューなどをかきまぜます[END]
+// current address: $1085C2
+
+//Text $108588
+#WRITE(ptr,$C1614)
+ケセラセラ[END]
+// current address: $108593
+
+
+
+
+
+//Text $108558
+#WRITE(ptr,$C162C)
+御気楽極楽美少女ステッキ[LINE]
+なんとかなるでしょ♪[END]
+// current address: $108586
+
+//Text $108540
+#WRITE(ptr,$C1630)
+トワリングスティック[END]
+// current address: $108555
+
+
+
+
+
+//Text $108518
+#WRITE(ptr,$C1648)
+チアガールのバトン[LINE]
+クルクルクル〜♪[END]
+// current address: $10853C
+
+//Text $108500
+#WRITE(ptr,$C164C)
+ドリームフランジ[END]
+// current address: $108511
+
+
+
+
+
+//Text $1084E0
+#WRITE(ptr,$C1664)
+夢紡ぎの王笏[LINE]
+殴るとピヨリます♪[END]
+// current address: $108500
+
+//Text $1084D0
+#WRITE(ptr,$C1668)
+チーフテン[END]
+// current address: $1084DB
+
+
+
+
+
+//Text $1084A0
+#WRITE(ptr,$C1680)
+蛮族の長が持つ錫杖[LINE]
+殴られるとメチャクチャ痛い[END]
+// current address: $1084CE
+
+//Text $108490
+#WRITE(ptr,$C1684)
+庫のフライパン[END]
+// current address: $10849F
+
+
+
+
+
+//Text $108468
+#WRITE(ptr,$C169C)
+料理名人の右手[LINE]
+ハンバーグとかを焼きます[END]
+// current address: $108490
+
+//Text $108458
+#WRITE(ptr,$C16A0)
+マインドクライ[END]
+// current address: $108467
+
+
+
+
+
+//Text $108430
+#WRITE(ptr,$C16B8)
+慟哭の権標[LINE]
+なんだか悲しくなってきます[END]
+// current address: $108456
+
+//Text $108420
+#WRITE(ptr,$C16BC)
+メルクマール[END]
+// current address: $10842D
+
+
+
+
+
+//Text $1083F0
+#WRITE(ptr,$C16D4)
+大審院の最高判事が持つ権標[LINE]
+敵に引導を渡します[END]
+// current address: $10841E
+
+//Text $1083E0
+#WRITE(ptr,$C16D8)
+オーバーロード[END]
+// current address: $1083EF
+
+
+
+
+
+//Text $1083B8
+#WRITE(ptr,$C16F0)
+大君主の職杖[LINE]
+殴られるとすごく痛い[END]
+// current address: $1083DA
+
+//Text $1083A0
+#WRITE(ptr,$C16F4)
+ソウルクラッシュワンド[END]
+// current address: $1083B7
+
+
+
+
+
+//Text $108358
+#WRITE(ptr,$C170C)
+さる匠の手による迷作　凶悪な破壊力を[LINE]
+持つが、命中率がすこぶる悪い[END]
+// current address: $10839A
+
+//Text $108340
+#WRITE(ptr,$C1710)
+ユニコーンホーン[END]
+// current address: $108351
+
+
+
+
+
+//Text $108320
+#WRITE(ptr,$C1728)
+聖獣の角[LINE]
+ＨＰ回復効果があります[END]
+// current address: $108340
+
+//Text $108310
+#WRITE(ptr,$C172C)
+ダークロアー[END]
+// current address: $10831D
+
+
+
+
+
+//Text $1082D8
+#WRITE(ptr,$C1744)
+操者に闇の伝承の知識を与える[LINE]
+ダークエルフ族の遺産[END]
+// current address: $10830A
+
+//Text $1082C8
+#WRITE(ptr,$C1748)
+エウロス[END]
+// current address: $1082D1
+
+
+
+
+
+//Text $108298
+#WRITE(ptr,$C1760)
+東風の名を冠する王笏[LINE]
+国を守りし神風伝説は有名[END]
+// current address: $1082C6
+
+//Text $108288
+#WRITE(ptr,$C1764)
+カドゥケウス[END]
+// current address: $108295
+
+
+
+
+
+//Text $108258
+#WRITE(ptr,$C177C)
+二匹の蛇が巻きついている杖[LINE]
+毒効果有ります[END]
+// current address: $108282
+
+//Text $108248
+#WRITE(ptr,$C1780)
+天才<$07><$06>[END]
+// current address: $10824F
+
+
+
+
+
+//Text $108228
+#WRITE(ptr,$C1798)
+天才のみが使える杖よん[LINE]
+<$07><$06>[END]
+// current address: $108242
+
+//Text $108218
+#WRITE(ptr,$C179C)
+ウロボロス[END]
+// current address: $108223
+
+
+
+
+
+//Text $1081E0
+#WRITE(ptr,$C17B4)
+自らを呑み込む大蛇の杖[LINE]
+<$9D><$41><$9D><$42>の代償に得られる力とは？[END]
+// current address: $108214
+
+//Text $1081C8
+#WRITE(ptr,$C17B8)
+ブルークリスタルロッド[END]
+// current address: $1081DF
+
+
+
+
+
+//Text $1081A8
+#WRITE(ptr,$C17D0)
+青水晶の杖[LINE]
+ドルアーガ伝説の遺台[END]
+// current address: $1081C8
+
+//Text $108190
+#WRITE(ptr,$C17D4)
+ハヌマンシャフト[END]
+// current address: $1081A1
+
+
+
+
+
+//Text $108158
+#WRITE(ptr,$C17EC)
+如意棒とも呼ばれる[LINE]
+使用者の意志で自在に操ることが可能[END]
+// current address: $10818E
+
+//Text $108148
+#WRITE(ptr,$C17F0)
+ポールアクス[END]
+// current address: $108155
+
+
+
+
+
+//Text $108130
+#WRITE(ptr,$C1808)
+長柄の斧[LINE]
+名は体を表わす[END]
+// current address: $108148
+
+//Text $108120
+#WRITE(ptr,$C180C)
+ギサルメ[END]
+// current address: $108129
+
+
+
+
+
+//Text $108108
+#WRITE(ptr,$C1824)
+斧の特徴をあわせ持つ槍[LINE]
+[END]
+// current address: $108120
+
+//Text $1080F8
+#WRITE(ptr,$C1828)
+チャクマク[END]
+// current address: $108103
+
+
+
+
+
+//Text $1080E0
+#WRITE(ptr,$C1840)
+軽量で扱いやすい戦斧[LINE]
+[END]
+// current address: $1080F6
+
+//Text $1080D0
+#WRITE(ptr,$C1844)
+ブローバー[END]
+// current address: $1080DB
+
+
+
+
+
+//Text $1080B8
+#WRITE(ptr,$C185C)
+幅広い斧頭が特徴的な斧[LINE]
+[END]
+// current address: $1080D0
+
+//Text $1080A8
+#WRITE(ptr,$C1860)
+コルセスカ[END]
+// current address: $1080B3
+
+
+
+
+
+//Text $108080
+#WRITE(ptr,$C1878)
+ウイング付き長槍[LINE]
+普及台だが台質は良い[END]
+// current address: $1080A6
+
+//Text $108070
+#WRITE(ptr,$C187C)
+バトルアクス[END]
+// current address: $10807D
+
+
+
+
+
+//Text $108058
+#WRITE(ptr,$C1894)
+戦斧[LINE]
+そのまんまですね[END]
+// current address: $10806E
+
+//Text $108048
+#WRITE(ptr,$C1898)
+ウォーハンマー[END]
+// current address: $108057
+
+
+
+
+
+//Text $108030
+#WRITE(ptr,$C18B0)
+攻城戦用の巨大な庫槌[LINE]
+[END]
+// current address: $108046
+
+//Text $108020
+#WRITE(ptr,$C18B4)
+ハルバード[END]
+// current address: $10802B
+
+
+
+
+
+//Text $107FE8
+#WRITE(ptr,$C18CC)
+槍と戦斧の機能を合わせ持つ万能武器[LINE]
+近衛騎士の主武装[END]
+// current address: $10801C
+
+//Text $107FD8
+#WRITE(ptr,$C18D0)
+トライデント[END]
+// current address: $107FE5
+
+
+
+
+
+//Text $107FB8
+#WRITE(ptr,$C18E8)
+三叉矛[LINE]
+海神が持つことで有名[END]
+// current address: $107FD4
+
+//Text $107FA8
+#WRITE(ptr,$C18EC)
+バッシャー[END]
+// current address: $107FB3
+
+
+
+
+
+//Text $107F70
+#WRITE(ptr,$C1904)
+ウェイトを増量して威力を増した鉄槌[LINE]
+殴られると激しく痛い[END]
+// current address: $107FA8
+
+//Text $107F60
+#WRITE(ptr,$C1908)
+ゴシックアクス[END]
+// current address: $107F6F
+
+
+
+
+
+//Text $107F28
+#WRITE(ptr,$C1920)
+簡素で典雅な造りの戦斧[LINE]
+厚い装甲でも斬り裂きそうです[END]
+// current address: $107F5C
+
+//Text $107F18
+#WRITE(ptr,$C1924)
+タバール[END]
+// current address: $107F21
+
+
+
+
+
+//Text $107EF8
+#WRITE(ptr,$C193C)
+半月形状の斧頭が付いた戦斧[LINE]
+[END]
+// current address: $107F14
+
+//Text $107EE8
+#WRITE(ptr,$C1940)
+クレセント[END]
+// current address: $107EF3
+
+
+
+
+
+//Text $107EC8
+#WRITE(ptr,$C1958)
+巨大な半月の刃を持つ戦斧[LINE]
+[END]
+// current address: $107EE2
+
+//Text $107EB8
+#WRITE(ptr,$C195C)
+クリーヴァ[END]
+// current address: $107EC3
+
+
+
+
+
+//Text $107E90
+#WRITE(ptr,$C1974)
+巨大な刃の戦斧[LINE]
+肉切りの大包丁が由来[END]
+// current address: $107EB4
+
+//Text $107E80
+#WRITE(ptr,$C1978)
+エクスプレス[END]
+// current address: $107E8D
+
+
+
+
+
+//Text $107E40
+#WRITE(ptr,$C1990)
+エクストラプレッシャーの略[LINE]
+すでに人のあつかえる重さでは<$A5><$A5><$A5><$A5>[END]
+// current address: $107E7C
+
+//Text $107E30
+#WRITE(ptr,$C1994)
+グリムアクス[END]
+// current address: $107E3D
+
+
+
+
+
+//Text $107DE8
+#WRITE(ptr,$C19AC)
+伝説に登場する幻想の力を秘めた戦斧[LINE]
+口伝を書物にまとめた兄弟の名を冠する[END]
+// current address: $107E30
+
+//Text $107DD8
+#WRITE(ptr,$C19B0)
+デッキブラシ[END]
+// current address: $107DE5
+
+
+
+
+
+//Text $107DA0
+#WRITE(ptr,$C19C8)
+ゴシゴシこするとキレイになる[LINE]
+かつての英雄も使ったとか[END]
+// current address: $107DD6
+
+//Text $107D90
+#WRITE(ptr,$C19CC)
+トマホーク[END]
+// current address: $107D9B
+
+
+
+
+
+//Text $107D68
+#WRITE(ptr,$C19E4)
+目標を精密に捕える戦斧[LINE]
+敵を爆砕する[END]
+// current address: $107D8C
+
+//Text $107D58
+#WRITE(ptr,$C19E8)
+ダブルブレード[END]
+// current address: $107D67
+
+
+
+
+
+//Text $107D38
+#WRITE(ptr,$C1A00)
+刃の交換が可能な両刃の戦斧[LINE]
+[END]
+// current address: $107D54
+
+//Text $107D20
+#WRITE(ptr,$C1A04)
+パイルドライバー[END]
+// current address: $107D31
+
+
+
+
+
+//Text $107CF8
+#WRITE(ptr,$C1A1C)
+杭打ちハンマー[LINE]
+殴られたら<$A5><$A5><$A5><$A5>死ねるわ！[END]
+// current address: $107D20
+
+//Text $107CE8
+#WRITE(ptr,$C1A20)
+ミノタウロス[END]
+// current address: $107CF5
+
+
+
+
+
+//Text $107CA8
+#WRITE(ptr,$C1A38)
+半牛半人の怪物が使用した巨大な戦斧[LINE]
+その大きさは見る者を圧倒する[END]
+// current address: $107CE8
+
+//Text $107C98
+#WRITE(ptr,$C1A3C)
+グリズリー[END]
+// current address: $107CA3
+
+
+
+
+
+//Text $107C68
+#WRITE(ptr,$C1A54)
+神話に登場する狂暴な[LINE]
+灰色熊の名を冠する戦斧[END]
+// current address: $107C94
+
+//Text $107C58
+#WRITE(ptr,$C1A58)
+アークウインド[END]
+// current address: $107C67
+
+
+
+
+
+//Text $107C38
+#WRITE(ptr,$C1A70)
+風神の矛槍[LINE]
+神速の突きを誇る[END]
+// current address: $107C54
+
+//Text $107C28
+#WRITE(ptr,$C1A74)
+イゾルデ[END]
+// current address: $107C31
+
+
+
+
+
+//Text $107BE8
+#WRITE(ptr,$C1A8C)
+悲しみという名の騎士が愛用した斧槍[LINE]
+ある婦人の名を冠している[END]
+// current address: $107C24
+
+//Text $107BD0
+#WRITE(ptr,$C1A90)
+メッサーシュミット[END]
+// current address: $107BE3
+
+
+
+
+
+//Text $107B98
+#WRITE(ptr,$C1AA8)
+第三<$E0><$5D>国の鍛冶工房で鍛えられた戦斧[LINE]
+科学力は世界一！[END]
+// current address: $107BCC
+
+//Text $107B80
+#WRITE(ptr,$C1AAC)
+ドライビンアクス[END]
+// current address: $107B91
+
+
+
+
+
+//Text $107B50
+#WRITE(ptr,$C1AC4)
+駆逐者の戦斧[LINE]
+かつて蛮族の進撃を撃退した時の逸台[END]
+// current address: $107B80
+
+//Text $107B40
+#WRITE(ptr,$C1AC8)
+イグニス[END]
+// current address: $107B49
+
+
+
+
+
+//Text $107B08
+#WRITE(ptr,$C1AE0)
+火山のマグマから生まれた炎の長槍[LINE]
+熱く燃ゆる矛先を持つ[END]
+// current address: $107B3E
+
+//Text $107AF0
+#WRITE(ptr,$C1AE4)
+バハムートティア[END]
+// current address: $107B01
+
+
+
+
+
+//Text $107AD0
+#WRITE(ptr,$C1AFC)
+巨大な戦斧[LINE]
+古代竜の涙といわれる[END]
+// current address: $107AF0
+
+//Text $107AB8
+#WRITE(ptr,$C1B00)
+ディアボリックファング[END]
+// current address: $107ACF
+
+
+
+
+
+//Text $107A78
+#WRITE(ptr,$C1B18)
+悪魔の牙と恐れられる長柄武器[LINE]
+神の敵対者のみ保持を許される[END]
+// current address: $107AB2
+
+//Text $107A68
+#WRITE(ptr,$C1B1C)
+ロンギヌス[END]
+// current address: $107A73
+
+
+
+
+
+//Text $107A40
+#WRITE(ptr,$C1B34)
+災いの一撃を放つと伝わる伝説の槍[LINE]
+[END]
+// current address: $107A62
+
+//Text $107A30
+#WRITE(ptr,$C1B38)
+ゲイボルグ[END]
+// current address: $107A3B
+
+
+
+
+
+//Text $1079F8
+#WRITE(ptr,$C1B50)
+海の獣の死骸から魔女が作った[LINE]
+不思議な力を帯びる魔槍[END]
+// current address: $107A2C
+
+//Text $1079F0
+#WRITE(ptr,$C1B54)
+ノトス[END]
+// current address: $1079F7
+
+
+
+
+
+//Text $1079D8
+#WRITE(ptr,$C1B6C)
+南風の名を冠する戦斧[LINE]
+[END]
+// current address: $1079EE
+
+//Text $1079C8
+#WRITE(ptr,$C1B70)
+サンドラの槍[END]
+// current address: $1079D5
+
+
+
+
+
+//Text $1079A0
+#WRITE(ptr,$C1B88)
+緑の怪しいヤツ[LINE]
+かなり怪しいヤツです[END]
+// current address: $1079C4
+
+//Text $107990
+#WRITE(ptr,$C1B8C)
+グーングニル[END]
+// current address: $10799D
+
+
+
+
+
+//Text $107960
+#WRITE(ptr,$C1BA4)
+北方神話に登場する主神の槍[LINE]
+とても有名だが<$A5><$A5><$A5><$A5>[END]
+// current address: $10798E
+
+//Text $107950
+#WRITE(ptr,$C1BA8)
+ミョルニル[END]
+// current address: $10795B
+
+
+
+
+
+//Text $107928
+#WRITE(ptr,$C1BC0)
+トールの鉄槌[LINE]
+必ず命中すると言われる[END]
+// current address: $10794C
+
+//Text $107918
+#WRITE(ptr,$C1BC4)
+ハンターボウ[END]
+// current address: $107925
+
+
+
+
+
+//Text $1078F0
+#WRITE(ptr,$C1BDC)
+狩猟用の弓[LINE]
+安価の割にそこそこ強い[END]
+// current address: $107912
+
+//Text $1078D8
+#WRITE(ptr,$C1BE0)
+コンポジットボウ[END]
+// current address: $1078E9
+
+
+
+
+
+//Text $1078B0
+#WRITE(ptr,$C1BF8)
+弾性を強化した弓[LINE]
+飛距離が伸びている[END]
+// current address: $1078D4
+
+//Text $1078A0
+#WRITE(ptr,$C1BFC)
+ブリット[END]
+// current address: $1078A9
+
+
+
+
+
+//Text $107868
+#WRITE(ptr,$C1C14)
+高質量の矢を発射するための合成弓[LINE]
+鎧の分厚い装甲をも貫く[END]
+// current address: $1078A0
+
+//Text $107858
+#WRITE(ptr,$C1C18)
+バトルボウ[END]
+// current address: $107863
+
+
+
+
+
+//Text $107820
+#WRITE(ptr,$C1C30)
+使い勝手が良い戦闘用の短弓[LINE]
+遊撃隊の一般的な装備台[END]
+// current address: $107852
+
+//Text $107810
+#WRITE(ptr,$C1C34)
+ライフル[END]
+// current address: $107819
+
+
+
+
+
+//Text $1077E8
+#WRITE(ptr,$C1C4C)
+スコープ付きの長弓[LINE]
+精密な射的が可能[END]
+// current address: $10780C
+
+//Text $1077D8
+#WRITE(ptr,$C1C50)
+ウォーボウ[END]
+// current address: $1077E3
+
+
+
+
+
+//Text $1077A0
+#WRITE(ptr,$C1C68)
+戦のために作られた強弓[LINE]
+主として王城の守備兵が使っている[END]
+// current address: $1077D8
+
+//Text $107790
+#WRITE(ptr,$C1C6C)
+グレネード[END]
+// current address: $10779B
+
+
+
+
+
+//Text $107748
+#WRITE(ptr,$C1C84)
+ファンダリア王国近衛連隊の標準装備[LINE]
+使用者をグレネーダーと呼称する[END]
+// current address: $10778A
+
+//Text $107738
+#WRITE(ptr,$C1C88)
+シージボウ[END]
+// current address: $107743
+
+
+
+
+
+//Text $107710
+#WRITE(ptr,$C1CA0)
+戦用の攻城弓[LINE]
+城門の厚い扉をも貫通する[END]
+// current address: $107736
+
+//Text $107700
+#WRITE(ptr,$C1CA4)
+ラピッドボウ[END]
+// current address: $10770D
+
+
+
+
+
+//Text $1076D8
+#WRITE(ptr,$C1CBC)
+速射に優れる短弓[LINE]
+早撃ちにはコレ！[END]
+// current address: $1076FA
+
+//Text $1076C8
+#WRITE(ptr,$C1CC0)
+スプレッド[END]
+// current address: $1076D3
+
+
+
+
+
+//Text $1076A0
+#WRITE(ptr,$C1CD8)
+フルオート連射の短弓[LINE]
+矢の消費が<$A5><$A5><$A5><$A5>[END]
+// current address: $1076C4
+
+//Text $107690
+#WRITE(ptr,$C1CDC)
+ゴシックボウ[END]
+// current address: $10769D
+
+
+
+
+
+//Text $107660
+#WRITE(ptr,$C1CF4)
+簡素で典雅な造りの長弓[LINE]
+実戦で洗練された美しい弓[END]
+// current address: $107690
+
+//Text $107650
+#WRITE(ptr,$C1CF8)
+トーピード[END]
+// current address: $10765B
+
+
+
+
+
+//Text $107628
+#WRITE(ptr,$C1D10)
+鎧通しの長弓[LINE]
+戦船も沈めそうな破壊力[END]
+// current address: $10764C
+
+//Text $107618
+#WRITE(ptr,$C1D14)
+グリムボウ[END]
+// current address: $107623
+
+
+
+
+
+//Text $1075D0
+#WRITE(ptr,$C1D2C)
+伝説に登場する幻想の力を秘めた弓[LINE]
+口伝を書物にまとめた兄弟の名を冠する[END]
+// current address: $107616
+
+//Text $1075C0
+#WRITE(ptr,$C1D30)
+ヘルファイア[END]
+// current address: $1075CD
+
+
+
+
+
+//Text $107590
+#WRITE(ptr,$C1D48)
+地獄の滅火を放つ魔弓[LINE]
+鋼の鎧が簡単にとけます[END]
+// current address: $1075BC
+
+//Text $107580
+#WRITE(ptr,$C1D4C)
+フォッケウルフ[END]
+// current address: $10758F
+
+
+
+
+
+//Text $107540
+#WRITE(ptr,$C1D64)
+Ｈ・フォッケ作の名弓で[LINE]
+名手Ｇ・ウルフが愛用したといわれる[END]
+// current address: $10757A
+
+//Text $107528
+#WRITE(ptr,$C1D68)
+スカーレットニードル[END]
+// current address: $10753D
+
+
+
+
+
+//Text $1074F0
+#WRITE(ptr,$C1D80)
+毒矢で敵を絶命させる弓[LINE]
+即死した戦士が大勢いるらしい[END]
+// current address: $107524
+
+//Text $1074E0
+#WRITE(ptr,$C1D84)
+レインボウ[END]
+// current address: $1074EB
+
+
+
+
+
+//Text $1074A0
+#WRITE(ptr,$C1D9C)
+放たれた矢は七色の軌跡で飛ぶ[LINE]
+雨上がりにしか使えないわけではない[END]
+// current address: $1074E0
+
+//Text $107488
+#WRITE(ptr,$C1DA0)
+ショックウェイブ[END]
+// current address: $107499
+
+
+
+
+
+//Text $107460
+#WRITE(ptr,$C1DB8)
+衝撃波の異名を持ち、[LINE]
+超音速の矢を放つ[END]
+// current address: $107486
+
+//Text $107448
+#WRITE(ptr,$C1DBC)
+ストライクイーグル[END]
+// current address: $10745B
+
+
+
+
+
+//Text $107410
+#WRITE(ptr,$C1DD4)
+伝説の大ワシの名を冠する長弓[LINE]
+きわめて高い攻撃力を誇る[END]
+// current address: $107446
+
+//Text $107400
+#WRITE(ptr,$C1DD8)
+ボレアス[END]
+// current address: $107409
+
+
+
+
+
+//Text $1073D8
+#WRITE(ptr,$C1DF0)
+北風の名を冠する強弓[LINE]
+神速の矢を放つ[END]
+// current address: $1073FC
+
+//Text $1073C0
+#WRITE(ptr,$C1DF4)
+ウインドフォース[END]
+// current address: $1073D1
+
+
+
+
+
+//Text $107390
+#WRITE(ptr,$C1E0C)
+神風の異名を持つ伝説の弓[LINE]
+天地戦争時代の逸台[END]
+// current address: $1073BC
+
+//Text $107378
+#WRITE(ptr,$C1E10)
+グリフィンズタロン[END]
+// current address: $10738B
+
+
+
+
+
+//Text $107340
+#WRITE(ptr,$C1E28)
+空飛ぶ聖獣の爪から作られた聖弓[LINE]
+誘導する不思議な矢を放つ[END]
+// current address: $107378
+
+//Text $107328
+#WRITE(ptr,$C1E2C)
+サラマンダーブレス[END]
+// current address: $10733B
+
+
+
+
+
+//Text $1072F8
+#WRITE(ptr,$C1E44)
+その破壊力は火竜の吐息の[LINE]
+ようにすさまじい[END]
+// current address: $107322
+
+//Text $1072E8
+#WRITE(ptr,$C1E48)
+破魔の弓[END]
+// current address: $1072F1
+
+
+
+
+
+//Text $1072B8
+#WRITE(ptr,$C1E60)
+東方の英雄が魔獣退治に[LINE]
+使ったとされる退魔の弓[END]
+// current address: $1072E6
+
+//Text $1072A0
+#WRITE(ptr,$C1E64)
+グリークファイア[END]
+// current address: $1072B1
+
+
+
+
+
+//Text $107270
+#WRITE(ptr,$C1E7C)
+この弓が火を噴けば大地は[LINE]
+焼尽の荒野と化す[END]
+// current address: $10729A
+
+//Text $107258
+#WRITE(ptr,$C1E80)
+ソウルスティール[END]
+// current address: $107269
+
+
+
+
+
+//Text $107230
+#WRITE(ptr,$C1E98)
+暗黒の力を秘めた魔弓[LINE]
+敵からＴＰを奪う[END]
+// current address: $107256
+
+//Text $107218
+#WRITE(ptr,$C1E9C)
+セレスティアルスター[END]
+// current address: $10722D
+
+
+
+
+
+//Text $1071D0
+#WRITE(ptr,$C1EB4)
+人の一生は星のきらめきのようなもの[LINE]
+つーか、のようなものにしちゃう弓[END]
+// current address: $107214
+
+//Text $1071B8
+#WRITE(ptr,$C1EB8)
+エデンズファイア[END]
+// current address: $1071C9
+
+
+
+
+
+//Text $107190
+#WRITE(ptr,$C1ED0)
+浄火の矢を放つ聖弓[LINE]
+速射性に優れる[END]
+// current address: $1071B2
+
+//Text $107180
+#WRITE(ptr,$C1ED4)
+レザーアーマー[END]
+// current address: $10718F
+
+
+
+
+
+//Text $107160
+#WRITE(ptr,$C1EEC)
+革の鎧[LINE]
+初級冒険者のたしなみ？[END]
+// current address: $10717E
+
+//Text $107150
+#WRITE(ptr,$C1EF0)
+リングメイル[END]
+// current address: $10715D
+
+
+
+
+
+//Text $107118
+#WRITE(ptr,$C1F08)
+庫属の環を縫い合わせた鎧[LINE]
+コストパフォーマンスが良い[END]
+// current address: $10714C
+
+//Text $107108
+#WRITE(ptr,$C1F0C)
+スケイルメイル[END]
+// current address: $107117
+
+
+
+
+
+//Text $1070C8
+#WRITE(ptr,$C1F24)
+鱗のような鋼板を縫い合わせた鎧[LINE]
+戦闘するならこれくらいは欲しい[END]
+// current address: $107106
+
+//Text $1070B8
+#WRITE(ptr,$C1F28)
+ラメラー[END]
+// current address: $1070C1
+
+
+
+
+
+//Text $107090
+#WRITE(ptr,$C1F40)
+鋼板で強化した革の鎧[LINE]
+割と本格的な鎧です[END]
+// current address: $1070B8
+
+//Text $107080
+#WRITE(ptr,$C1F44)
+チェインメイル[END]
+// current address: $10708F
+
+
+
+
+
+//Text $107050
+#WRITE(ptr,$C1F5C)
+鋼糸で縫製された鎧[LINE]
+多くの戦士に愛用される[END]
+// current address: $10707A
+
+//Text $107040
+#WRITE(ptr,$C1F60)
+ブリガンディ[END]
+// current address: $10704D
+
+
+
+
+
+//Text $107000
+#WRITE(ptr,$C1F78)
+鋼板を増して防御力を高めたラメラー[LINE]
+かなりの防御力があります[END]
+// current address: $10703C
+
+//Text $106FE8
+#WRITE(ptr,$C1F7C)
+スプリントメイル[END]
+// current address: $106FF9
+
+
+
+
+
+//Text $106FA8
+#WRITE(ptr,$C1F94)
+チェインメイルを鋼板で強化した鎧[LINE]
+軽鎧の中では最高級台です[END]
+// current address: $106FE2
+
+//Text $106F90
+#WRITE(ptr,$C1F98)
+ブレストプレート[END]
+// current address: $106FA1
+
+
+
+
+
+//Text $106F58
+#WRITE(ptr,$C1FB0)
+上半身を鋼板で装甲した鎧[LINE]
+プレートの中では安価な方です[END]
+// current address: $106F8E
+
+//Text $106F40
+#WRITE(ptr,$C1FB4)
+フィールドプレート[END]
+// current address: $106F53
+
+
+
+
+
+//Text $106F10
+#WRITE(ptr,$C1FCC)
+鋼板であつらえた鎧[LINE]
+プレートの中では軽い方です[END]
+// current address: $106F3E
+
+//Text $106F00
+#WRITE(ptr,$C1FD0)
+プレートメイル[END]
+// current address: $106F0F
+
+
+
+
+
+//Text $106ED0
+#WRITE(ptr,$C1FE8)
+全身を鋼板で保護する鎧[LINE]
+一般的に鎧と言えばコレ！[END]
+// current address: $106F00
+
+//Text $106EB8
+#WRITE(ptr,$C1FEC)
+グランドプレート[END]
+// current address: $106EC9
+
+
+
+
+
+//Text $106E90
+#WRITE(ptr,$C2004)
+威厳の鎧[LINE]
+英雄王に似合いそうですね[END]
+// current address: $106EB2
+
+//Text $106E80
+#WRITE(ptr,$C2008)
+ホーバーク[END]
+// current address: $106E8B
+
+
+
+
+
+//Text $106E38
+#WRITE(ptr,$C2020)
+特殊な庫属糸であつらえたチェインメイル[LINE]
+某ホビットも愛用してたそうな[END]
+// current address: $106E7C
+
+//Text $106E20
+#WRITE(ptr,$C2024)
+ゴシックプレート[END]
+// current address: $106E31
+
+
+
+
+
+//Text $106DF0
+#WRITE(ptr,$C203C)
+簡素で典雅な造りの鎧[LINE]
+重厚な守りって感じです[END]
+// current address: $106E1C
+
+//Text $106DE0
+#WRITE(ptr,$C2040)
+フルプレート[END]
+// current address: $106DED
+
+
+
+
+
+//Text $106DA0
+#WRITE(ptr,$C2058)
+鋼板の継目も保護されている鎧[LINE]
+硬いです、頑丈です、重いけど<$A5><$A5><$A5><$A5>[END]
+// current address: $106DDE
+
+//Text $106D90
+#WRITE(ptr,$C205C)
+フォートレス[END]
+// current address: $106D9D
+
+
+
+
+
+//Text $106D58
+#WRITE(ptr,$C2074)
+要塞と呼ばれる堅固な鎧[LINE]
+まさに鉄壁の守りって感じです[END]
+// current address: $106D8C
+
+//Text $106D48
+#WRITE(ptr,$C2078)
+グリムプレート[END]
+// current address: $106D57
+
+
+
+
+
+//Text $106D00
+#WRITE(ptr,$C2090)
+伝説に登場する幻想の力を秘めた鎧[LINE]
+口伝を書物にまとめた兄弟の名を冠する[END]
+// current address: $106D46
+
+//Text $106CF0
+#WRITE(ptr,$C2094)
+マスターピース[END]
+// current address: $106CFF
+
+
+
+
+
+//Text $106CB0
+#WRITE(ptr,$C20AC)
+名も無き鍛冶屋の無二の傑作[LINE]
+ドワーフ族の手による作台とも言われる[END]
+// current address: $106CF0
+
+//Text $106C98
+#WRITE(ptr,$C20B0)
+シュラハトフェルト[END]
+// current address: $106CAB
+
+
+
+
+
+//Text $106C58
+#WRITE(ptr,$C20C8)
+戦場を駆ける兵士達の守護神の名を持つ[LINE]
+必ず生還する鎧と賞賛される[END]
+// current address: $106C98
+
+//Text $106C48
+#WRITE(ptr,$C20CC)
+バトルスーツ[END]
+// current address: $106C55
+
+
+
+
+
+//Text $106C18
+#WRITE(ptr,$C20E4)
+強固な装甲を持つ戦闘服[LINE]
+実は誰かさんの試作台？[END]
+// current address: $106C46
+
+//Text $106C08
+#WRITE(ptr,$C20E8)
+リフレックス[END]
+// current address: $106C15
+
+
+
+
+
+//Text $106BD8
+#WRITE(ptr,$C2100)
+攻撃を反射する鎧[LINE]
+天地戦争時代の科学力の賜物[END]
+// current address: $106C04
+
+//Text $106BC8
+#WRITE(ptr,$C2104)
+メギンギョルズ[END]
+// current address: $106BD7
+
+
+
+
+
+//Text $106B90
+#WRITE(ptr,$C211C)
+力が倍増する魔力を秘めている帯[LINE]
+雷神の持ち物とされる[END]
+// current address: $106BC4
+
+//Text $106B80
+#WRITE(ptr,$C2120)
+マム・ベイン[END]
+// current address: $106B8D
+
+
+
+
+
+//Text $106B40
+#WRITE(ptr,$C2138)
+大地母神マーテルの守護を授かった鎧[LINE]
+聖なるオーラに包まれる[END]
+// current address: $106B7A
+
+//Text $106B28
+#WRITE(ptr,$C213C)
+アマテラスの御霊[END]
+// current address: $106B39
+
+
+
+
+
+//Text $106AF0
+#WRITE(ptr,$C2154)
+異国の神の魂が込められている鎧[LINE]
+無意識に攻撃を回避する[END]
+// current address: $106B26
+
+//Text $106AD8
+#WRITE(ptr,$C2158)
+ゴールドアーマー[END]
+// current address: $106AE9
+
+
+
+
+
+//Text $106AA8
+#WRITE(ptr,$C2170)
+イシュタル伝説に名を残す[LINE]
+勇者ギルガメスの所持台[END]
+// current address: $106AD8
+
+//Text $106A90
+#WRITE(ptr,$C2174)
+ラストクルセイダー[END]
+// current address: $106AA3
+
+
+
+
+
+//Text $106A50
+#WRITE(ptr,$C218C)
+聖戦に赴く騎士が愛用したといわれる鎧[LINE]
+信仰の力で守護される[END]
+// current address: $106A8A
+
+//Text $106A40
+#WRITE(ptr,$C2190)
+クローク[END]
+// current address: $106A49
+
+
+
+
+
+//Text $106A00
+#WRITE(ptr,$C21A8)
+一般に広く普及している衣類です[LINE]
+残念ながら戦闘向きではありません[END]
+// current address: $106A40
+
+//Text $1069F8
+#WRITE(ptr,$C21AC)
+ローブ[END]
+// current address: $1069FF
+
+
+
+
+
+//Text $1069C0
+#WRITE(ptr,$C21C4)
+聖職にある者が身につける法衣[LINE]
+気持ちが大事なんですよ[END]
+// current address: $1069F4
+
+//Text $1069B0
+#WRITE(ptr,$C21C8)
+エプロンドレス[END]
+// current address: $1069BF
+
+
+
+
+
+//Text $106978
+#WRITE(ptr,$C21E0)
+要するにメイド服[LINE]
+見た目より動きやすく作られています[END]
+// current address: $1069AC
+
+//Text $106968
+#WRITE(ptr,$C21E4)
+チュニック[END]
+// current address: $106973
+
+
+
+
+
+//Text $106938
+#WRITE(ptr,$C21FC)
+上質な生地でしつらえた衣服[LINE]
+高い耐久性を持つ[END]
+// current address: $106964
+
+//Text $106928
+#WRITE(ptr,$C2200)
+キルトアーマー[END]
+// current address: $106937
+
+
+
+
+
+//Text $1068F8
+#WRITE(ptr,$C2218)
+刺子の防護服[LINE]
+戦闘にも耐える作りになっています[END]
+// current address: $106926
+
+//Text $1068E0
+#WRITE(ptr,$C221C)
+ファンシードレス[END]
+// current address: $1068F1
+
+
+
+
+
+//Text $1068B8
+#WRITE(ptr,$C2234)
+装飾された礼装です[LINE]
+見た目重視ですね！[END]
+// current address: $1068DE
+
+//Text $1068A8
+#WRITE(ptr,$C2238)
+キュロット[END]
+// current address: $1068B3
+
+
+
+
+
+//Text $106878
+#WRITE(ptr,$C2250)
+ズボン式の婦人用スカート[LINE]
+動きやすさ重視です！[END]
+// current address: $1068A6
+
+//Text $106860
+#WRITE(ptr,$C2254)
+メッシュアーマー[END]
+// current address: $106871
+
+
+
+
+
+//Text $106830
+#WRITE(ptr,$C226C)
+網目の防護服[LINE]
+戦う女性を強力にサポートします！[END]
+// current address: $10685E
+
+//Text $106820
+#WRITE(ptr,$C2270)
+シースドレス[END]
+// current address: $10682D
+
+
+
+
+
+//Text $1067F0
+#WRITE(ptr,$C2288)
+ほっそりした礼装[LINE]
+信じられないけど戦闘用です[END]
+// current address: $10681C
+
+//Text $1067E0
+#WRITE(ptr,$C228C)
+ニットウェア[END]
+// current address: $1067ED
+
+
+
+
+
+//Text $1067A8
+#WRITE(ptr,$C22A4)
+特殊な毛糸を編んでつくった服[LINE]
+ほんわかして暖かいです[END]
+// current address: $1067DC
+
+//Text $1067A0
+#WRITE(ptr,$C22A8)
+パレオ[END]
+// current address: $1067A7
+
+
+
+
+
+//Text $106760
+#WRITE(ptr,$C22C0)
+腰や体に巻き付けてスカート状にして着る[LINE]
+南洋諸島の民族衣装[END]
+// current address: $10679A
+
+//Text $106750
+#WRITE(ptr,$C22C4)
+カクテルドレス[END]
+// current address: $10675F
+
+
+
+
+
+//Text $106728
+#WRITE(ptr,$C22DC)
+夜会用の礼装[LINE]
+淑女気分にひたれます[END]
+// current address: $10674A
+
+//Text $106718
+#WRITE(ptr,$C22E0)
+ボディスーツ[END]
+// current address: $106725
+
+
+
+
+
+//Text $1066D0
+#WRITE(ptr,$C22F8)
+上下ひと続きの肌に密着したファッション[LINE]
+女性の美しさを引き立てます[END]
+// current address: $106712
+
+//Text $1066C8
+#WRITE(ptr,$C22FC)
+サラサ[END]
+// current address: $1066CF
+
+
+
+
+
+//Text $1066A0
+#WRITE(ptr,$C2314)
+花布の防護服[LINE]
+異国情緒にひたれます[END]
+// current address: $1066C2
+
+//Text $106690
+#WRITE(ptr,$C2318)
+ウィッチドレス[END]
+// current address: $10669F
+
+
+
+
+
+//Text $106670
+#WRITE(ptr,$C2330)
+黒い服[LINE]
+魔法使い気分にひたれます[END]
+// current address: $106690
+
+//Text $106658
+#WRITE(ptr,$C2334)
+ウェディングドレス[END]
+// current address: $10666B
+
+
+
+
+
+//Text $106638
+#WRITE(ptr,$C234C)
+白が基本？[LINE]
+花嫁気分にひたれます[END]
+// current address: $106658
+
+//Text $106628
+#WRITE(ptr,$C2350)
+チャイナドレス[END]
+// current address: $106637
+
+
+
+
+
+//Text $106600
+#WRITE(ptr,$C2368)
+赤が基本？[LINE]
+四千年の歴史にひたれます[END]
+// current address: $106624
+
+//Text $1065F0
+#WRITE(ptr,$C236C)
+ミディブラウス[END]
+// current address: $1065FF
+
+
+
+
+
+//Text $1065B8
+#WRITE(ptr,$C2384)
+元は船乗りの服だったらしいです[LINE]
+要するにセーラー服です[END]
+// current address: $1065EE
+
+//Text $1065A8
+#WRITE(ptr,$C2388)
+フレアスカート[END]
+// current address: $1065B7
+
+
+
+
+
+//Text $106570
+#WRITE(ptr,$C23A0)
+燃え上がる炎をデザインしたスカート[LINE]
+炎耐性があります[END]
+// current address: $1065A4
+
+//Text $106558
+#WRITE(ptr,$C23A4)
+ウインドブレーカー[END]
+// current address: $10656B
+
+
+
+
+
+//Text $106528
+#WRITE(ptr,$C23BC)
+防風、防寒のためのジャケット[LINE]
+風耐性があります[END]
+// current address: $106556
+
+//Text $106518
+#WRITE(ptr,$C23C0)
+ウェットスーツ[END]
+// current address: $106527
+
+
+
+
+
+//Text $1064E0
+#WRITE(ptr,$C23D8)
+水をかぶっても保温力が落ちません[LINE]
+水耐性があります[END]
+// current address: $106512
+
+//Text $1064C8
+#WRITE(ptr,$C23DC)
+カントリーウェア[END]
+// current address: $1064D9
+
+
+
+
+
+//Text $1064A0
+#WRITE(ptr,$C23F4)
+農作滅などに着用する軽装[LINE]
+地耐性がある[END]
+// current address: $1064C6
+
+//Text $106490
+#WRITE(ptr,$C23F8)
+カンナギの装束[END]
+// current address: $10649F
+
+
+
+
+
+//Text $106458
+#WRITE(ptr,$C2410)
+東の国の女性神官の服らしいです[LINE]
+要するに巫女服です[END]
+// current address: $10648A
+
+//Text $106440
+#WRITE(ptr,$C2414)
+ヘヴンリーガーブ[END]
+// current address: $106451
+
+
+
+
+
+//Text $106408
+#WRITE(ptr,$C242C)
+天国の名を冠する神秘の衣[LINE]
+縫い目が無いってホントなの？[END]
+// current address: $10643E
+
+//Text $1063F0
+#WRITE(ptr,$C2430)
+ワルキューレの鎧[END]
+// current address: $106401
+
+
+
+
+
+//Text $1063B8
+#WRITE(ptr,$C2448)
+戦乙女に祝福された草色の軽鎧[LINE]
+冒険と伝説もよろしくね[END]
+// current address: $1063EC
+
+//Text $1063A8
+#WRITE(ptr,$C244C)
+レザーヘルム[END]
+// current address: $1063B5
+
+
+
+
+
+//Text $106380
+#WRITE(ptr,$C2464)
+革で作った軽い兜[LINE]
+とっても安上りです[END]
+// current address: $1063A4
+
+//Text $106378
+#WRITE(ptr,$C2468)
+カスク[END]
+// current address: $10637F
+
+
+
+
+
+//Text $106350
+#WRITE(ptr,$C2480)
+頭部全体を保護する[LINE]
+少し頭が固くなります[END]
+// current address: $106378
+
+//Text $106340
+#WRITE(ptr,$C2484)
+サレット[END]
+// current address: $106349
+
+
+
+
+
+//Text $106320
+#WRITE(ptr,$C249C)
+鋼の兜[LINE]
+戦う冒険者にぜひ！[END]
+// current address: $10633A
+
+//Text $106310
+#WRITE(ptr,$C24A0)
+バシネット[END]
+// current address: $10631B
+
+
+
+
+
+//Text $1062E0
+#WRITE(ptr,$C24B8)
+アイシェード付きなので[LINE]
+まぶしくても平気です[END]
+// current address: $10630C
+
+//Text $1062D0
+#WRITE(ptr,$C24BC)
+アーメット[END]
+// current address: $1062DB
+
+
+
+
+
+//Text $1062A8
+#WRITE(ptr,$C24D4)
+面頬で顔を保護する[LINE]
+顔を隠したい人向け？[END]
+// current address: $1062D0
+
+//Text $106298
+#WRITE(ptr,$C24D8)
+クロスヘルム[END]
+// current address: $1062A5
+
+
+
+
+
+//Text $106268
+#WRITE(ptr,$C24F0)
+頭部を完全に保護する[LINE]
+いっぱしの戦士のための一台[END]
+// current address: $106298
+
+//Text $106250
+#WRITE(ptr,$C24F4)
+メレーバシネット[END]
+// current address: $106261
+
+
+
+
+
+//Text $106218
+#WRITE(ptr,$C250C)
+乱戦時のために視界の悪さが改善された[LINE]
+メレーとは乱戦の意[END]
+// current address: $106250
+
+//Text $106208
+#WRITE(ptr,$C2510)
+グレートヘルム[END]
+// current address: $106217
+
+
+
+
+
+//Text $1061D8
+#WRITE(ptr,$C2528)
+その名の通りグレートな兜[LINE]
+角付きでカッコイイです[END]
+// current address: $106208
+
+//Text $1061C0
+#WRITE(ptr,$C252C)
+フレンジーカスク[END]
+// current address: $1061D1
+
+
+
+
+
+//Text $106198
+#WRITE(ptr,$C2544)
+熱狂のカスク[LINE]
+かぶると士気が高揚する？[END]
+// current address: $1061BE
+
+//Text $106180
+#WRITE(ptr,$C2548)
+ノーブルサレット[END]
+// current address: $106191
+
+
+
+
+
+//Text $106150
+#WRITE(ptr,$C2560)
+高貴なるサレット[LINE]
+騎士道を志すあなたに捧ぐ[END]
+// current address: $10617A
+
+//Text $106140
+#WRITE(ptr,$C2564)
+グランドヘルム[END]
+// current address: $10614F
+
+
+
+
+
+//Text $106118
+#WRITE(ptr,$C257C)
+威厳の兜[LINE]
+古の老将軍が愛用したそうな[END]
+// current address: $10613C
+
+//Text $106100
+#WRITE(ptr,$C2580)
+ブレスドアーメット[END]
+// current address: $106113
+
+
+
+
+
+//Text $1060C0
+#WRITE(ptr,$C2598)
+祝福儀礼が施してあるアーメットヘルム[LINE]
+邪悪を祓う効用があるらしい[END]
+// current address: $106100
+
+//Text $1060A8
+#WRITE(ptr,$C259C)
+ドミネイトカスク[END]
+// current address: $1060B9
+
+
+
+
+
+//Text $106080
+#WRITE(ptr,$C25B4)
+支配者のカスク[LINE]
+王者の貫禄で圧倒されます[END]
+// current address: $1060A8
+
+//Text $106070
+#WRITE(ptr,$C25B8)
+ゴシックヘルム[END]
+// current address: $10607F
+
+
+
+
+
+//Text $106048
+#WRITE(ptr,$C25D0)
+簡素で典雅な造りの兜[LINE]
+工芸台の極み[END]
+// current address: $10606A
+
+//Text $106030
+#WRITE(ptr,$C25D4)
+マラカイトサレット[END]
+// current address: $106043
+
+
+
+
+
+//Text $106000
+#WRITE(ptr,$C25EC)
+孔雀石製のサレット[LINE]
+不思議な力が秘められている[END]
+// current address: $10602E
+
+//Text $105FF0
+#WRITE(ptr,$C25F0)
+グリムヘルム[END]
+// current address: $105FFD
+
+
+
+
+
+//Text $105FA8
+#WRITE(ptr,$C2608)
+伝説に登場する幻想の力を秘めた兜[LINE]
+口伝を書物にまとめた兄弟の名を冠する[END]
+// current address: $105FEE
+
+//Text $105F98
+#WRITE(ptr,$C260C)
+バルビュータ[END]
+// current address: $105FA5
+
+
+
+
+
+//Text $105F80
+#WRITE(ptr,$C2624)
+赤ひげ王の名を冠する兜[LINE]
+[END]
+// current address: $105F98
+
+//Text $105F70
+#WRITE(ptr,$C2628)
+ブリッジヘッド[END]
+// current address: $105F7F
+
+
+
+
+
+//Text $105F40
+#WRITE(ptr,$C2640)
+敵地に陣地を築く特殊部隊で[LINE]
+使用される頑強な兜[END]
+// current address: $105F6E
+
+//Text $105F30
+#WRITE(ptr,$C2644)
+マクシミリアン[END]
+// current address: $105F3F
+
+
+
+
+
+//Text $105F18
+#WRITE(ptr,$C265C)
+儀式用甲冑の頭部[LINE]
+[END]
+// current address: $105F2A
+
+//Text $105F08
+#WRITE(ptr,$C2660)
+ローレル[END]
+// current address: $105F11
+
+
+
+
+
+//Text $105EC8
+#WRITE(ptr,$C2678)
+古代国家で勇者に与えられたといわれる冠[LINE]
+誉れ高い戦士の証！[END]
+// current address: $105F02
+
+//Text $105EB8
+#WRITE(ptr,$C267C)
+エンヴィセイジ[END]
+// current address: $105EC7
+
+
+
+
+
+//Text $105E80
+#WRITE(ptr,$C2694)
+野心ある勇将の用いた兜[LINE]
+敵を圧倒する威圧感があります[END]
+// current address: $105EB4
+
+//Text $105E70
+#WRITE(ptr,$C2698)
+スサノオの兜[END]
+// current address: $105E7D
+
+
+
+
+
+//Text $105E38
+#WRITE(ptr,$C26B0)
+八首の大蛇を退治した東国の[LINE]
+荒ぶる漢の名を冠する兜[END]
+// current address: $105E6A
+
+//Text $105E20
+#WRITE(ptr,$C26B4)
+ゴールデンヘルム[END]
+// current address: $105E31
+
+
+
+
+
+//Text $106AA8
+#WRITE(ptr,$C26CC)
+イシュタル伝説に名を残す[LINE]
+勇者ギルガメスの所持台[END]
+// current address: $106AD8
+
+//Text $105E10
+#WRITE(ptr,$C26D0)
+デスペラード[END]
+// current address: $105E1D
+
+
+
+
+
+//Text $105DE0
+#WRITE(ptr,$C26E8)
+暗黒騎士の兜[LINE]
+暗い奴だと思われちゃうかも？[END]
+// current address: $105E0A
+
+//Text $105DD8
+#WRITE(ptr,$C26EC)
+リボン[END]
+// current address: $105DDF
+
+
+
+
+
+//Text $105DB0
+#WRITE(ptr,$C2704)
+赤いリボン[LINE]
+黒髪には赤が映えますね[END]
+// current address: $105DD2
+
+//Text $105DA0
+#WRITE(ptr,$C2708)
+ベレット[END]
+// current address: $105DA9
+
+
+
+
+
+//Text $105D80
+#WRITE(ptr,$C2720)
+緑の帽子[LINE]
+絵描き気分にひたれます[END]
+// current address: $105DA0
+
+//Text $105D70
+#WRITE(ptr,$C2724)
+クレスト[END]
+// current address: $105D79
+
+
+
+
+
+//Text $105D40
+#WRITE(ptr,$C273C)
+純白の羽毛で作った羽飾り[LINE]
+美しさ重視です！[END]
+// current address: $105D6A
+
+//Text $105D30
+#WRITE(ptr,$C2740)
+ヴェール[END]
+// current address: $105D39
+
+
+
+
+
+//Text $105D18
+#WRITE(ptr,$C2758)
+顔を保護する薄い絹布[LINE]
+[END]
+// current address: $105D2E
+
+//Text $105D08
+#WRITE(ptr,$C275C)
+サークレット[END]
+// current address: $105D15
+
+
+
+
+
+//Text $105CD8
+#WRITE(ptr,$C2774)
+円形の頭飾り[LINE]
+集中力が高まるような気が<$A5><$A5><$A5><$A5>[END]
+// current address: $105D02
+
+//Text $105CC8
+#WRITE(ptr,$C2778)
+クラウン[END]
+// current address: $105CD1
+
+
+
+
+
+//Text $105CA0
+#WRITE(ptr,$C2790)
+一国の主がかぶる王冠[LINE]
+高貴な者の証です[END]
+// current address: $105CC6
+
+//Text $105C90
+#WRITE(ptr,$C2794)
+ティアラ[END]
+// current address: $105C99
+
+
+
+
+
+//Text $105C68
+#WRITE(ptr,$C27AC)
+宝冠[LINE]
+典礼用の装飾が施されています[END]
+// current address: $105C8A
+
+//Text $105C50
+#WRITE(ptr,$C27B0)
+ノーブルヴェール[END]
+// current address: $105C61
+
+
+
+
+
+//Text $105C20
+#WRITE(ptr,$C27C8)
+高貴なるヴェール[LINE]
+異国の貴婦人気分にひたれます[END]
+// current address: $105C4E
+
+//Text $105C10
+#WRITE(ptr,$C27CC)
+ブレスドリボン[END]
+// current address: $105C1F
+
+
+
+
+
+//Text $105BE0
+#WRITE(ptr,$C27E4)
+祝福儀礼が施してあるリボン[LINE]
+闇を照らし、魔を祓う[END]
+// current address: $105C10
+
+//Text $105BC8
+#WRITE(ptr,$C27E8)
+ゴシックサークレット[END]
+// current address: $105BDD
+
+
+
+
+
+//Text $105B88
+#WRITE(ptr,$C2800)
+簡素で典雅な造りのサークレット[LINE]
+かつて赤毛の女戦士も愛用しました[END]
+// current address: $105BC8
+
+//Text $105B70
+#WRITE(ptr,$C2804)
+グランドクラウン[END]
+// current address: $105B81
+
+
+
+
+
+//Text $105B40
+#WRITE(ptr,$C281C)
+威厳の王冠[LINE]
+タカビー女王さま気分にひたれます[END]
+// current address: $105B6C
+
+//Text $105B28
+#WRITE(ptr,$C2820)
+ドミネイトティアラ[END]
+// current address: $105B3B
+
+
+
+
+
+//Text $105AF0
+#WRITE(ptr,$C2838)
+支配者のティアラ[LINE]
+わがまま王女さま気分にひたれます[END]
+// current address: $105B22
+
+//Text $105AD8
+#WRITE(ptr,$C283C)
+ディヴァインクレスト[END]
+// current address: $105AED
+
+
+
+
+
+//Text $105AA8
+#WRITE(ptr,$C2854)
+祝福を受けた羽飾り[LINE]
+神聖な力が秘められている[END]
+// current address: $105AD4
+
+//Text $105A90
+#WRITE(ptr,$C2858)
+マラカイトクラウン[END]
+// current address: $105AA3
+
+
+
+
+
+//Text $105A60
+#WRITE(ptr,$C2870)
+孔雀石製の王冠[LINE]
+不思議な力が秘められている[END]
+// current address: $105A8A
+
+//Text $105A48
+#WRITE(ptr,$C2874)
+リリックベレット[END]
+// current address: $105A59
+
+
+
+
+
+//Text $105A10
+#WRITE(ptr,$C288C)
+豊かな心を養う効果がある帽子[LINE]
+妖精の力が宿っている[END]
+// current address: $105A42
+
+//Text $105A00
+#WRITE(ptr,$C2890)
+グリムクレスト[END]
+// current address: $105A0F
+
+
+
+
+
+//Text $1059B0
+#WRITE(ptr,$C28A8)
+伝説に登場する幻想の力を秘めた羽飾り[LINE]
+口伝を書物にまとめた兄弟の名を冠する[END]
+// current address: $1059FA
+
+//Text $1059A0
+#WRITE(ptr,$C28AC)
+ガーランド[END]
+// current address: $1059AB
+
+
+
+
+
+//Text $105970
+#WRITE(ptr,$C28C4)
+きれいなお花の冠です[LINE]
+ピュアな心になります[END]
+// current address: $10599A
+
+//Text $105968
+#WRITE(ptr,$C28C8)
+コマチ[END]
+// current address: $10596F
+
+
+
+
+
+//Text $105938
+#WRITE(ptr,$C28E0)
+東国の女性が身に着ける髪飾り[LINE]
+要するにかんざし[END]
+// current address: $105966
+
+//Text $105928
+#WRITE(ptr,$C28E4)
+ディープミスト[END]
+// current address: $105937
+
+
+
+
+
+//Text $1058F8
+#WRITE(ptr,$C28FC)
+濃眠のヴェール[LINE]
+視界が狭くなるのが難点かな？[END]
+// current address: $105924
+
+//Text $1058E0
+#WRITE(ptr,$C2900)
+ユーモラスフェイス[END]
+// current address: $1058F3
+
+
+
+
+
+//Text $1058B8
+#WRITE(ptr,$C2918)
+愉快な仮面[LINE]
+いつも笑顔をたやさずに[END]
+// current address: $1058DA
+
+//Text $1058A8
+#WRITE(ptr,$C291C)
+パイレックス[END]
+// current address: $1058B5
+
+
+
+
+
+//Text $105878
+#WRITE(ptr,$C2934)
+耐熱ガラスの頭飾り[LINE]
+地獄の滅火でもとけません[END]
+// current address: $1058A4
+
+//Text $105868
+#WRITE(ptr,$C2938)
+メイデンヘアー[END]
+// current address: $105877
+
+
+
+
+
+//Text $105840
+#WRITE(ptr,$C2950)
+乙女の髪飾り[LINE]
+童心に返ることができます[END]
+// current address: $105866
+
+//Text $105828
+#WRITE(ptr,$C2954)
+エンジェルリング[END]
+// current address: $105839
+
+
+
+
+
+//Text $1057F8
+#WRITE(ptr,$C296C)
+天使の輪[LINE]
+ヘヴンリーガーブとセットでどうぞ[END]
+// current address: $105822
+
+//Text $1057E0
+#WRITE(ptr,$C2970)
+スターダストストリーム[END]
+// current address: $1057F7
+
+
+
+
+
+//Text $1057A8
+#WRITE(ptr,$C2988)
+星々のきらめきに祝福されたリボン[LINE]
+キラキラしてます！[END]
+// current address: $1057DC
+
+//Text $105798
+#WRITE(ptr,$C298C)
+スクラマサクス[END]
+// current address: $1057A7
+
+
+
+
+
+//Text $105768
+#WRITE(ptr,$C29A4)
+傷を意味する短剣[LINE]
+短剣は主に防御用として使用[END]
+// current address: $105794
+
+//Text $105758
+#WRITE(ptr,$C29A8)
+ボウイナイフ[END]
+// current address: $105765
+
+
+
+
+
+//Text $105738
+#WRITE(ptr,$C29C0)
+ハンティングナイフの一種[LINE]
+[END]
+// current address: $105752
+
+//Text $105728
+#WRITE(ptr,$C29C4)
+スティレット[END]
+// current address: $105735
+
+
+
+
+
+//Text $105718
+#WRITE(ptr,$C29DC)
+細身の鋭い短剣[LINE]
+[END]
+// current address: $105728
+
+//Text $105708
+#WRITE(ptr,$C29E0)
+マンゴーシュ[END]
+// current address: $105715
+
+
+
+
+
+//Text $1056F8
+#WRITE(ptr,$C29F8)
+左手用短剣[LINE]
+[END]
+// current address: $105704
+
+//Text $1056E8
+#WRITE(ptr,$C29FC)
+ミセリコルデ[END]
+// current address: $1056F5
+
+
+
+
+
+//Text $1056D8
+#WRITE(ptr,$C2A14)
+慈悲の短剣[LINE]
+[END]
+// current address: $1056E4
+
+//Text $1056C0
+#WRITE(ptr,$C2A18)
+パリーイングダガー[END]
+// current address: $1056D3
+
+
+
+
+
+//Text $1056B0
+#WRITE(ptr,$C2A30)
+受流し用の短剣[LINE]
+[END]
+// current address: $1056C0
+
+//Text $105698
+#WRITE(ptr,$C2A34)
+ソードブレイカー[END]
+// current address: $1056A9
+
+
+
+
+
+//Text $105670
+#WRITE(ptr,$C2A4C)
+相手の武器を破砕するのが目的の短剣[LINE]
+[END]
+// current address: $105694
+
+//Text $105660
+#WRITE(ptr,$C2A50)
+チンクエディア[END]
+// current address: $10566F
+
+
+
+
+
+//Text $105640
+#WRITE(ptr,$C2A68)
+鮮やかな装飾が施された短剣[LINE]
+[END]
+// current address: $10565C
+
+//Text $105628
+#WRITE(ptr,$C2A6C)
+メイルブレイカー[END]
+// current address: $105639
+
+
+
+
+
+//Text $105610
+#WRITE(ptr,$C2A84)
+鋼板を貫通する短剣[LINE]
+[END]
+// current address: $105624
+
+//Text $1055F8
+#WRITE(ptr,$C2A88)
+シャークトゥース[END]
+// current address: $105609
+
+
+
+
+
+//Text $1055D8
+#WRITE(ptr,$C2AA0)
+人喰い鮫の牙のように鋭い短剣[LINE]
+[END]
+// current address: $1055F6
+
+//Text $1055C8
+#WRITE(ptr,$C2AA4)
+カタール[END]
+// current address: $1055D1
+
+
+
+
+
+//Text $1055B0
+#WRITE(ptr,$C2ABC)
+特殊鋼を鍛えた短剣[LINE]
+[END]
+// current address: $1055C4
+
+//Text $1055A8
+#WRITE(ptr,$C2AC0)
+ククリ[END]
+// current address: $1055AF
+
+
+
+
+
+//Text $105588
+#WRITE(ptr,$C2AD8)
+鉈のような厚い刃を持つ短剣[LINE]
+[END]
+// current address: $1055A4
+
+//Text $105580
+#WRITE(ptr,$C2ADC)
+カルラ[END]
+// current address: $105587
+
+
+
+
+
+//Text $105548
+#WRITE(ptr,$C2AF4)
+柄の両端に刃のついた短剣[LINE]
+扱いには高い熟練度を要する[END]
+// current address: $10557C
+
+//Text $105538
+#WRITE(ptr,$C2AF8)
+オリハルコン[END]
+// current address: $105545
+
+
+
+
+
+//Text $105510
+#WRITE(ptr,$C2B10)
+神秘的な庫属を鍛えて作られた短剣[LINE]
+[END]
+// current address: $105532
+
+//Text $105500
+#WRITE(ptr,$C2B14)
+デスストローク[END]
+// current address: $10550F
+
+
+
+
+
+//Text $1054E8
+#WRITE(ptr,$C2B2C)
+致命の一撃を放つ短剣[LINE]
+[END]
+// current address: $1054FE
+
+//Text $1054D8
+#WRITE(ptr,$C2B30)
+コンゴウラカン[END]
+// current address: $1054E7
+
+
+
+
+
+//Text $1054A0
+#WRITE(ptr,$C2B48)
+無骨な外見の短剣[LINE]
+一切の無駄がなく機能的ゐ質実剛健ゑ[END]
+// current address: $1054D4
+
+//Text $105490
+#WRITE(ptr,$C2B4C)
+グローブ[END]
+// current address: $105499
+
+
+
+
+
+//Text $105460
+#WRITE(ptr,$C2B64)
+手首を少々保護する[LINE]
+素手でチャンバラはキケンです[END]
+// current address: $105490
+
+//Text $105450
+#WRITE(ptr,$C2B68)
+レザーグローブ[END]
+// current address: $10545F
+
+
+
+
+
+//Text $105430
+#WRITE(ptr,$C2B80)
+なめし革で強化された篭手[LINE]
+[END]
+// current address: $10544A
+
+//Text $105418
+#WRITE(ptr,$C2B84)
+ファブリックグローブ[END]
+// current address: $10542D
+
+
+
+
+
+//Text $1053E0
+#WRITE(ptr,$C2B9C)
+手首を柔かい布で保護します[LINE]
+軽くてすべりにくい作りです[END]
+// current address: $105416
+
+//Text $1053C8
+#WRITE(ptr,$C2BA0)
+アイアングローブ[END]
+// current address: $1053D9
+
+
+
+
+
+//Text $1053A8
+#WRITE(ptr,$C2BB8)
+鋼の篭手[LINE]
+けどチョト重いかも<$A5><$A5><$A5><$A5>[END]
+// current address: $1053C8
+
+//Text $105398
+#WRITE(ptr,$C2BBC)
+ガントレット[END]
+// current address: $1053A5
+
+
+
+
+
+//Text $105370
+#WRITE(ptr,$C2BD4)
+戦闘用の篭手[LINE]
+剣術専用に作られました[END]
+// current address: $105394
+
+//Text $105358
+#WRITE(ptr,$C2BD8)
+ミスリルグローブ[END]
+// current address: $105369
+
+
+
+
+
+//Text $105320
+#WRITE(ptr,$C2BF0)
+鋼よりも固く軽いミスリル銀の篭手[LINE]
+ドワーフ族の芸術台[END]
+// current address: $105354
+
+//Text $105308
+#WRITE(ptr,$C2BF4)
+ゴシックガントレット[END]
+// current address: $10531D
+
+
+
+
+
+//Text $1052D8
+#WRITE(ptr,$C2C0C)
+簡素で典雅な造りの篭手[LINE]
+歴史ある鍛冶屋の滅物です[END]
+// current address: $105308
+
+//Text $1052C8
+#WRITE(ptr,$C2C10)
+スターグローブ[END]
+// current address: $1052D7
+
+
+
+
+
+//Text $105290
+#WRITE(ptr,$C2C28)
+星々のきらめきに祝福された篭手[LINE]
+闇夜を照らす灯となれ[END]
+// current address: $1052C4
+
+//Text $105278
+#WRITE(ptr,$C2C2C)
+レアガントレット[END]
+// current address: $105289
+
+
+
+
+
+//Text $105238
+#WRITE(ptr,$C2C44)
+名工ギースの魂のこもった無二の傑作[LINE]
+きわめて希少価値が高い[END]
+// current address: $105272
+
+//Text $105228
+#WRITE(ptr,$C2C48)
+グリムグローブ[END]
+// current address: $105237
+
+
+
+
+
+//Text $1051E0
+#WRITE(ptr,$C2C60)
+伝説に登場する幻想の力を秘めた篭手[LINE]
+口伝を書物にまとめた兄弟の名を冠する[END]
+// current address: $105228
+
+//Text $1051D0
+#WRITE(ptr,$C2C64)
+ヴァンブレイス[END]
+// current address: $1051DF
+
+
+
+
+
+//Text $1051B8
+#WRITE(ptr,$C2C7C)
+上腕まで保護する篭手[LINE]
+[END]
+// current address: $1051CE
+
+//Text $1051A0
+#WRITE(ptr,$C2C80)
+ジャックフロスト[END]
+// current address: $1051B1
+
+
+
+
+
+//Text $105170
+#WRITE(ptr,$C2C98)
+炎耐性を持つ篭手[LINE]
+けどチョト冷たいかも<$A5><$A5><$A5><$A5>[END]
+// current address: $10519A
+
+//Text $105160
+#WRITE(ptr,$C2C9C)
+タマグシの篭手[END]
+// current address: $10516F
+
+
+
+
+
+//Text $105130
+#WRITE(ptr,$C2CB4)
+東方の異国から伝わった篭手[LINE]
+神木の加護がある[END]
+// current address: $10515C
+
+//Text $105118
+#WRITE(ptr,$C2CB8)
+ハイパーガントレット[END]
+// current address: $10512D
+
+
+
+
+
+//Text $1050D0
+#WRITE(ptr,$C2CD0)
+命中率が上昇するといわれる篭手[LINE]
+イシュタル伝説の勇者ギルガメスの所持台[END]
+// current address: $105116
+
+//Text $1050B8
+#WRITE(ptr,$C2CD4)
+ハンドトゥハンド[END]
+// current address: $1050C9
+
+
+
+
+
+//Text $105088
+#WRITE(ptr,$C2CEC)
+戦神から授けられた篭手[LINE]
+接近戦用に特化している[END]
+// current address: $1050B6
+
+//Text $105078
+#WRITE(ptr,$C2CF0)
+キッチンミトン[END]
+// current address: $105087
+
+
+
+
+
+//Text $105058
+#WRITE(ptr,$C2D08)
+<$9C><$5E>所用手袋[LINE]
+熱いナベでも平気です[END]
+// current address: $105078
+
+//Text $105040
+#WRITE(ptr,$C2D0C)
+ゴールドブレスレット[END]
+// current address: $105055
+
+
+
+
+
+//Text $105010
+#WRITE(ptr,$C2D24)
+黄庫の腕飾り[LINE]
+ゴージャスマントとセットでどうぞ[END]
+// current address: $10503E
+
+//Text $105000
+#WRITE(ptr,$C2D28)
+プリティミトン[END]
+// current address: $10500F
+
+
+
+
+
+//Text $104FF0
+#WRITE(ptr,$C2D40)
+きれいな手袋[LINE]
+[END]
+// current address: $104FFE
+
+//Text $104FD0
+#WRITE(ptr,$C2D44)
+ラピスラズリブレスレット[END]
+// current address: $104FE9
+
+
+
+
+
+//Text $104FA0
+#WRITE(ptr,$C2D5C)
+瑠璃の腕飾り[LINE]
+悪い事件を事前に知らせると言われる[END]
+// current address: $104FD0
+
+//Text $104F90
+#WRITE(ptr,$C2D60)
+ラブリィミトン[END]
+// current address: $104F9F
+
+
+
+
+
+//Text $104F80
+#WRITE(ptr,$C2D78)
+愛らしい手袋[LINE]
+[END]
+// current address: $104F8E
+
+//Text $104F60
+#WRITE(ptr,$C2D7C)
+ダイヤモンドブレスレット[END]
+// current address: $104F79
+
+
+
+
+
+//Text $104F28
+#WRITE(ptr,$C2D94)
+ダイヤモンドの腕飾り[LINE]
+ちょっとゼイタクな高級台です。[END]
+// current address: $104F5C
+
+//Text $104F10
+#WRITE(ptr,$C2D98)
+キューティミトン[END]
+// current address: $104F21
+
+
+
+
+
+//Text $104F00
+#WRITE(ptr,$C2DB0)
+かわいい手袋[LINE]
+[END]
+// current address: $104F0E
+
+//Text $104EE8
+#WRITE(ptr,$C2DB4)
+ミスリルブレスレット[END]
+// current address: $104EFD
+
+
+
+
+
+//Text $104EB0
+#WRITE(ptr,$C2DCC)
+鋼よりも固く軽いミスリル銀の腕飾り[LINE]
+ドワーフ族の芸術台[END]
+// current address: $104EE6
+
+//Text $104E98
+#WRITE(ptr,$C2DD0)
+ホワイトグローブ[END]
+// current address: $104EA9
+
+
+
+
+
+//Text $104E68
+#WRITE(ptr,$C2DE8)
+清き乙女の証[LINE]
+ウェディングドレスとセットでどうぞ[END]
+// current address: $104E98
+
+//Text $104E50
+#WRITE(ptr,$C2DEC)
+スターブレスレット[END]
+// current address: $104E63
+
+
+
+
+
+//Text $104E18
+#WRITE(ptr,$C2E04)
+星々のきらめきに祝福された腕飾り[LINE]
+闇夜を照らす灯となれ[END]
+// current address: $104E4E
+
+//Text $104E00
+#WRITE(ptr,$C2E08)
+エンジェルブレスレット[END]
+// current address: $104E17
+
+
+
+
+
+//Text $104DC8
+#WRITE(ptr,$C2E20)
+天使の祝福を受けた腕飾り[LINE]
+み〜んな幸せにするッス！[END]
+// current address: $104DFA
+
+//Text $104DB0
+#WRITE(ptr,$C2E24)
+メイジフィンガー[END]
+// current address: $104DC1
+
+
+
+
+
+//Text $104D80
+#WRITE(ptr,$C2E3C)
+英雄王を補佐した賢者の手袋[LINE]
+魔導の指先と呼ばれる[END]
+// current address: $104DB0
+
+//Text $104D68
+#WRITE(ptr,$C2E40)
+ハートトゥハート[END]
+// current address: $104D79
+
+
+
+
+
+//Text $104D38
+#WRITE(ptr,$C2E58)
+神々の信企を得た証の手袋[LINE]
+心がつながります！[END]
+// current address: $104D64
+
+//Text $104D28
+#WRITE(ptr,$C2E5C)
+ヤタノカガミ[END]
+// current address: $104D35
+
+
+
+
+
+//Text $104D00
+#WRITE(ptr,$C2E74)
+<$E0><$5D>王の証といわれる[LINE]
+三種の神器のひとつ[END]
+// current address: $104D26
+
+//Text $104CE0
+#WRITE(ptr,$C2E78)
+フォーチュンブレスレット[END]
+// current address: $104CF9
+
+
+
+
+
+//Text $104CC0
+#WRITE(ptr,$C2E90)
+希望の腕飾り[LINE]
+いつも心に太陽を！[END]
+// current address: $104CE0
+
+//Text $104CB0
+#WRITE(ptr,$C2E94)
+ヒールバングル[END]
+// current address: $104CBF
+
+
+
+
+
+//Text $104C90
+#WRITE(ptr,$C2EAC)
+治癒の腕輪[LINE]
+敵を倒すとＨＰが回復[END]
+// current address: $104CB0
+
+//Text $104C78
+#WRITE(ptr,$C2EB0)
+メンタルバングル[END]
+// current address: $104C89
+
+
+
+
+
+//Text $104C58
+#WRITE(ptr,$C2EC8)
+精神の腕輪[LINE]
+敵を倒すとＴＰが回復[END]
+// current address: $104C78
+
+//Text $104C40
+#WRITE(ptr,$C2ECC)
+エメラルドリング[END]
+// current address: $104C51
+
+
+
+
+
+//Text $104C20
+#WRITE(ptr,$C2EE4)
+翠<$9E><$5D>の指輪[LINE]
+ＴＰ軽減力が上昇する[END]
+// current address: $104C40
+
+//Text $104C08
+#WRITE(ptr,$C2EE8)
+フェアリィリング[END]
+// current address: $104C19
+
+
+
+
+
+//Text $104BD0
+#WRITE(ptr,$C2F00)
+妖精の手によって作られた指輪[LINE]
+ＴＰ軽減力が上昇する[END]
+// current address: $104C02
+
+//Text $104BC0
+#WRITE(ptr,$C2F04)
+メンタルリング[END]
+// current address: $104BCF
+
+
+
+
+
+//Text $104B90
+#WRITE(ptr,$C2F1C)
+心を静め、精神を安定させる指輪[LINE]
+ＴＰ回復力が増加[END]
+// current address: $104BC0
+
+//Text $104B80
+#WRITE(ptr,$C2F20)
+フォースリング[END]
+// current address: $104B8F
+
+
+
+
+
+//Text $104B60
+#WRITE(ptr,$C2F38)
+理力の指輪[LINE]
+ガード時にＳＰが回復[END]
+// current address: $104B80
+
+//Text $104B50
+#WRITE(ptr,$C2F3C)
+レジストリング[END]
+// current address: $104B5F
+
+
+
+
+
+//Text $104B28
+#WRITE(ptr,$C2F54)
+耐性の指輪[LINE]
+全ダメージを少し軽減する[END]
+// current address: $104B4C
+
+//Text $104B10
+#WRITE(ptr,$C2F58)
+リフレクトリング[END]
+// current address: $104B21
+
+
+
+
+
+//Text $104AE0
+#WRITE(ptr,$C2F70)
+反射の指輪[LINE]
+受けたダメージを反射することがある[END]
+// current address: $104B0E
+
+//Text $104AC8
+#WRITE(ptr,$C2F74)
+プロテクトリング[END]
+// current address: $104AD9
+
+
+
+
+
+//Text $104AA0
+#WRITE(ptr,$C2F8C)
+保護の指輪[LINE]
+のけぞり時間を軽減する[END]
+// current address: $104AC2
+
+//Text $104A90
+#WRITE(ptr,$C2F90)
+トリックスター[END]
+// current address: $104A9F
+
+
+
+
+
+//Text $104A60
+#WRITE(ptr,$C2FA8)
+奇抜な動きで敵を撹乱する指輪[LINE]
+命中率が上がる[END]
+// current address: $104A8C
+
+//Text $104A48
+#WRITE(ptr,$C2FAC)
+テクニカルリング[END]
+// current address: $104A59
+
+
+
+
+
+//Text $104A18
+#WRITE(ptr,$C2FC4)
+技巧の指輪[LINE]
+アイテム入手確率を上げる効果がある[END]
+// current address: $104A46
+
+//Text $104A00
+#WRITE(ptr,$C2FC8)
+ポイズンチェック[END]
+// current address: $104A11
+
+
+
+
+
+//Text $1049C0
+#WRITE(ptr,$C2FE0)
+毒効果を防止・軽減するお守り[LINE]
+ガード時に敵に毒を与えることも[END]
+// current address: $1049FC
+
+//Text $1049A8
+#WRITE(ptr,$C2FE4)
+パラライズチェック[END]
+// current address: $1049BB
+
+
+
+
+
+//Text $104968
+#WRITE(ptr,$C2FFC)
+麻痺を防止・軽減するお守り[LINE]
+ガード時に敵に麻痺を与えることも[END]
+// current address: $1049A4
+
+//Text $104950
+#WRITE(ptr,$C3000)
+ドレインチェック[END]
+// current address: $104961
+
+
+
+
+
+//Text $104908
+#WRITE(ptr,$C3018)
+移動速度減少状態を軽減・防止するお守り[LINE]
+ガード時にその効果を与えることも[END]
+// current address: $104950
+
+//Text $1048F0
+#WRITE(ptr,$C301C)
+フリーズチェック[END]
+// current address: $104901
+
+
+
+
+
+//Text $1048B0
+#WRITE(ptr,$C3034)
+凍結を軽減・防止するお守り[LINE]
+ガード時に敵を凍結させることも[END]
+// current address: $1048EA
+
+//Text $104898
+#WRITE(ptr,$C3038)
+ホーリィシンボル[END]
+// current address: $1048A9
+
+
+
+
+
+//Text $104878
+#WRITE(ptr,$C3050)
+聖なる紋章[LINE]
+徐々にＨＰが回復[END]
+// current address: $104894
+
+//Text $104860
+#WRITE(ptr,$C3054)
+フィートシンボル[END]
+// current address: $104871
+
+
+
+
+
+//Text $104848
+#WRITE(ptr,$C306C)
+戦士の紋章[LINE]
+力が上昇する[END]
+// current address: $104860
+
+//Text $104830
+#WRITE(ptr,$C3070)
+ミスティシンボル[END]
+// current address: $104841
+
+
+
+
+
+//Text $104810
+#WRITE(ptr,$C3088)
+神秘的な紋章[LINE]
+詠唱時間を短縮する[END]
+// current address: $104830
+
+//Text $1047F8
+#WRITE(ptr,$C308C)
+ラビットシンボル[END]
+// current address: $104809
+
+
+
+
+
+//Text $1047D8
+#WRITE(ptr,$C30A4)
+ウサギの足[LINE]
+幸運が上昇する[END]
+// current address: $1047F2
+
+//Text $1047C8
+#WRITE(ptr,$C30A8)
+タスクフォース[END]
+// current address: $1047D7
+
+
+
+
+
+//Text $1047A8
+#WRITE(ptr,$C30C0)
+戦神の紋章[LINE]
+ＳＰ回復力が上昇する[END]
+// current address: $1047C8
+
+//Text $104798
+#WRITE(ptr,$C30C4)
+タリスマン[END]
+// current address: $1047A3
+
+
+
+
+
+//Text $104778
+#WRITE(ptr,$C30DC)
+一般的なお守り[LINE]
+防御力が上昇する[END]
+// current address: $104798
+
+//Text $104768
+#WRITE(ptr,$C30E0)
+セフィラ[END]
+// current address: $104771
+
+
+
+
+
+//Text $104748
+#WRITE(ptr,$C30F8)
+女神の彫像[LINE]
+取得ガルドが増える[END]
+// current address: $104766
+
+//Text $104730
+#WRITE(ptr,$C30FC)
+ブラックオニキス[END]
+// current address: $104741
+
+
+
+
+
+//Text $104708
+#WRITE(ptr,$C3114)
+黒縞瑪瑙のお守り[LINE]
+ＨＰの最大値が上昇する[END]
+// current address: $104730
+
+//Text $1046F0
+#WRITE(ptr,$C3118)
+ムーンセレクター[END]
+// current address: $104701
+
+
+
+
+
+//Text $1046A0
+#WRITE(ptr,$C3130)
+ＳＥＬＥＣＴボタンで操作キャラを即座に[LINE]
+変更できるようになる上級者向け装備台[END]
+// current address: $1046EC
+
+//Text $104690
+#WRITE(ptr,$C3134)
+デモンズシール[END]
+// current address: $10469F
+
+
+
+
+
+//Text $104668
+#WRITE(ptr,$C314C)
+悪魔を封印したお守り[LINE]
+取得経験値が増える[END]
+// current address: $104690
+
+//Text $104658
+#WRITE(ptr,$C3150)
+リバースドール[END]
+// current address: $104667
+
+
+
+
+
+//Text $104610
+#WRITE(ptr,$C3168)
+身代りの彫像。事前に装備しておくと[LINE]
+戦闘不能時に砕け散り、体力が回復[END]
+// current address: $104654
+
+//Text $104600
+#WRITE(ptr,$C316C)
+コンボコマンド[END]
+// current address: $10460F
+
+
+
+
+
+//Text $1045B8
+#WRITE(ptr,$C3184)
+特技をコマンド入力で発動できる。[LINE]
+装備欄を一<$E1><$60><$9D><$41><$9D><$42>にする価値はあると主張[END]
+// current address: $104600
+
+//Text $1045A8
+#WRITE(ptr,$C3188)
+ピヨハン[END]
+// current address: $1045B1
+
+
+
+
+
+//Text $104580
+#WRITE(ptr,$C31A0)
+ヒヨコのお守り[LINE]
+気絶やダウンを軽減する[END]
+// current address: $1045A6
+
+//Text $104568
+#WRITE(ptr,$C31A4)
+ウィークチェック[END]
+// current address: $104579
+
+
+
+
+
+//Text $104528
+#WRITE(ptr,$C31BC)
+衰弱を軽減・防止するお守り[LINE]
+ガード時に敵に衰弱を与えることも[END]
+// current address: $104564
+
+//Text $104510
+#WRITE(ptr,$C31C0)
+ヤサカニノマガタマ[END]
+// current address: $104523
+
+
+
+
+
+//Text $1044E0
+#WRITE(ptr,$C31D8)
+<$E0><$5D>王の証といわれる装身具[LINE]
+三種の神器のひとつ[END]
+// current address: $10450C
+
+//Text $1044D0
+#WRITE(ptr,$C31DC)
+レザーマント[END]
+// current address: $1044DD
+
+
+
+
+
+//Text $1044B0
+#WRITE(ptr,$C31F4)
+革製のマント[LINE]
+雨の日も安心[END]
+// current address: $1044CA
+
+//Text $1044A0
+#WRITE(ptr,$C31F8)
+シーブズマント[END]
+// current address: $1044AF
+
+
+
+
+
+//Text $104478
+#WRITE(ptr,$C3210)
+暗い色で目立ちません[LINE]
+身を隠すのに便利[END]
+// current address: $10449E
+
+//Text $104460
+#WRITE(ptr,$C3214)
+ハンターズマント[END]
+// current address: $104471
+
+
+
+
+
+//Text $104428
+#WRITE(ptr,$C322C)
+狩人が好んで使うマント[LINE]
+野宿する時に毛布の代わりになる[END]
+// current address: $10445E
+
+//Text $104418
+#WRITE(ptr,$C3230)
+フレアマント[END]
+// current address: $104425
+
+
+
+
+
+//Text $1043E8
+#WRITE(ptr,$C3248)
+炎の紋章をあしらえたマント[LINE]
+炎耐性が上昇する[END]
+// current address: $104414
+
+//Text $1043D8
+#WRITE(ptr,$C324C)
+アクアマント[END]
+// current address: $1043E5
+
+
+
+
+
+//Text $1043A8
+#WRITE(ptr,$C3264)
+水の紋章をあしらえたマント[LINE]
+水耐性が上昇する[END]
+// current address: $1043D4
+
+//Text $104398
+#WRITE(ptr,$C3268)
+シルフィマント[END]
+// current address: $1043A7
+
+
+
+
+
+//Text $104368
+#WRITE(ptr,$C3280)
+風の紋章をあしらえたマント[LINE]
+風耐性が上昇する[END]
+// current address: $104394
+
+//Text $104358
+#WRITE(ptr,$C3284)
+ジアースマント[END]
+// current address: $104367
+
+
+
+
+
+//Text $104328
+#WRITE(ptr,$C329C)
+地の紋章をあしらえたマント[LINE]
+地耐性が上昇する[END]
+// current address: $104354
+
+//Text $104318
+#WRITE(ptr,$C32A0)
+ゴシックマント[END]
+// current address: $104327
+
+
+
+
+
+//Text $1042F0
+#WRITE(ptr,$C32B8)
+簡素で典雅な造りのマント[LINE]
+シブイッス！！[END]
+// current address: $104318
+
+//Text $1042E0
+#WRITE(ptr,$C32BC)
+エルヴンマント[END]
+// current address: $1042EF
+
+
+
+
+
+//Text $1042A8
+#WRITE(ptr,$C32D4)
+エルフ族が使う軽快な若草色のマント[LINE]
+森の散策時にどーぞ[END]
+// current address: $1042DE
+
+//Text $104298
+#WRITE(ptr,$C32D8)
+毛皮のマント[END]
+// current address: $1042A5
+
+
+
+
+
+//Text $104260
+#WRITE(ptr,$C32F0)
+毛皮で作った高級なマント[LINE]
+雪国で外出する時の必携です[END]
+// current address: $104294
+
+//Text $104248
+#WRITE(ptr,$C32F4)
+ゴージャスマント[END]
+// current address: $104259
+
+
+
+
+
+//Text $104210
+#WRITE(ptr,$C330C)
+高貴な者が用いる豪華なマント[LINE]
+アナタは注目の的ですね！[END]
+// current address: $104246
+
+//Text $1041F8
+#WRITE(ptr,$C3310)
+ミラージュマント[END]
+// current address: $104209
+
+
+
+
+
+//Text $1041C8
+#WRITE(ptr,$C3328)
+幻を作り出すマント[LINE]
+攻撃が当りにくくなります[END]
+// current address: $1041F4
+
+//Text $1041B0
+#WRITE(ptr,$C332C)
+セレスティアルマント[END]
+// current address: $1041C5
+
+
+
+
+
+//Text $104188
+#WRITE(ptr,$C3344)
+天空のマント[LINE]
+魔法耐性が高まります[END]
+// current address: $1041AA
+
+//Text $104170
+#WRITE(ptr,$C3348)
+プリンセスケープ[END]
+// current address: $104181
+
+
+
+
+
+//Text $104128
+#WRITE(ptr,$C3360)
+王女がお忍びで外出する時に使ったそうな[LINE]
+姫様のお転婆にも困ったものです[END]
+// current address: $10416E
+
+//Text $104118
+#WRITE(ptr,$C3364)
+シルバーケープ[END]
+// current address: $104127
+
+
+
+
+
+//Text $1040E0
+#WRITE(ptr,$C337C)
+銀糸を編みこんだケープ[LINE]
+銀には魔を退ける力があるそうです[END]
+// current address: $104118
+
+//Text $1040D8
+#WRITE(ptr,$C3380)
+陣羽織[END]
+// current address: $1040DF
+
+
+
+
+
+//Text $1040A0
+#WRITE(ptr,$C3398)
+東国の将軍が戦場で愛用した羽織[LINE]
+偉くなった気分になれます[END]
+// current address: $1040D8
+
+//Text $104090
+#WRITE(ptr,$C339C)
+レザーブーツ[END]
+// current address: $10409D
+
+
+
+
+
+//Text $104068
+#WRITE(ptr,$C33B4)
+革のブーツ[LINE]
+小石を踏んでも平気です[END]
+// current address: $10408A
+
+//Text $104058
+#WRITE(ptr,$C33B8)
+チェインブーツ[END]
+// current address: $104067
+
+
+
+
+
+//Text $104020
+#WRITE(ptr,$C33D0)
+鋼糸で縫製されたブーツ[LINE]
+チェインメイルとセットでどうぞ[END]
+// current address: $104056
+
+//Text $104010
+#WRITE(ptr,$C33D4)
+プレートブーツ[END]
+// current address: $10401F
+
+
+
+
+
+//Text $103FE8
+#WRITE(ptr,$C33EC)
+鋼板製のブーツ[LINE]
+象に踏まれても平気です[END]
+// current address: $10400E
+
+//Text $103FD8
+#WRITE(ptr,$C33F0)
+メッシュブーツ[END]
+// current address: $103FE7
+
+
+
+
+
+//Text $103FB8
+#WRITE(ptr,$C3408)
+網目のブーツ[LINE]
+軽快でステキ[END]
+// current address: $103FD2
+
+//Text $103FA8
+#WRITE(ptr,$C340C)
+ヘヴィブーツ[END]
+// current address: $103FB5
+
+
+
+
+
+//Text $103F70
+#WRITE(ptr,$C3424)
+文字通りメチャクチャ重いブーツ[LINE]
+移動に苦労しそうです[END]
+// current address: $103FA4
+
+//Text $103F60
+#WRITE(ptr,$C3428)
+バトルブーツ[END]
+// current address: $103F6D
+
+
+
+
+
+//Text $103F30
+#WRITE(ptr,$C3440)
+いわゆる軍靴ってやつですな[LINE]
+実用性第一主義です[END]
+// current address: $103F5E
+
+//Text $103F20
+#WRITE(ptr,$C3444)
+グリーヴ[END]
+// current address: $103F29
+
+
+
+
+
+//Text $103EF0
+#WRITE(ptr,$C345C)
+膝まで保護するブーツ[LINE]
+スネを蹴られても平気です[END]
+// current address: $103F1E
+
+//Text $103ED8
+#WRITE(ptr,$C3460)
+コンバットブーツ[END]
+// current address: $103EE9
+
+
+
+
+
+//Text $103EA8
+#WRITE(ptr,$C3478)
+接近戦に優れた堅いブーツ[LINE]
+耐久性に優れます[END]
+// current address: $103ED2
+
+//Text $103E98
+#WRITE(ptr,$C347C)
+ゴシックブーツ[END]
+// current address: $103EA7
+
+
+
+
+
+//Text $103E68
+#WRITE(ptr,$C3494)
+簡素で典雅な造りのブーツ[LINE]
+カッコイイー！！[END]
+// current address: $103E92
+
+//Text $103E50
+#WRITE(ptr,$C3498)
+ウイングドブーツ[END]
+// current address: $103E61
+
+
+
+
+
+//Text $103E28
+#WRITE(ptr,$C34B0)
+羽根がついてるブーツ[LINE]
+心もウキウキ[END]
+// current address: $103E4A
+
+//Text $103E18
+#WRITE(ptr,$C34B4)
+ジェットブーツ[END]
+// current address: $103E27
+
+
+
+
+
+//Text $103DE8
+#WRITE(ptr,$C34CC)
+すごい加速です[LINE]
+仲間がついて来れないかも？[END]
+// current address: $103E12
+
+//Text $103DD8
+#WRITE(ptr,$C34D0)
+エルヴンブーツ[END]
+// current address: $103DE7
+
+
+
+
+
+//Text $103D98
+#WRITE(ptr,$C34E8)
+エルフ族が使う軽快な若草色のブーツ[LINE]
+森の中でも転ばずに走れます[END]
+// current address: $103DD6
+
+//Text $103D88
+#WRITE(ptr,$C34EC)
+グリムブーツ[END]
+// current address: $103D95
+
+
+
+
+
+//Text $103D38
+#WRITE(ptr,$C3504)
+伝説に登場する幻想の力を秘めたブーツ[LINE]
+口伝を書物にまとめた兄弟の名を冠する[END]
+// current address: $103D82
+
+//Text $103D20
+#WRITE(ptr,$C3508)
+ナイトメアブーツ[END]
+// current address: $103D31
+
+
+
+
+
+//Text $103CE8
+#WRITE(ptr,$C3520)
+夢魔の飾りを施したブーツ[LINE]
+すべるような移動が可能に！[END]
+// current address: $103D1C
+
+//Text $103CD8
+#WRITE(ptr,$C3524)
+ペルシアブーツ[END]
+// current address: $103CE7
+
+
+
+
+
+//Text $103C98
+#WRITE(ptr,$C353C)
+肉球がキュートな猫足型のブーツ[LINE]
+衝撃の大部分を吸霧してくれます[END]
+// current address: $103CD6
+
+//Text $103C88
+#WRITE(ptr,$C3540)
+ミカグラの足袋[END]
+// current address: $103C97
+
+
+
+
+
+//Text $103C58
+#WRITE(ptr,$C3558)
+音もなく歩けます[LINE]
+カンナギの装束とセットでどうぞ[END]
+// current address: $103C88

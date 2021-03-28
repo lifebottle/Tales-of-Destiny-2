@@ -2,7 +2,7 @@
 
 // Define required TABLE variables and load the corresponding tables
 #VAR(Table_0, TABLE)
-#ADDTBL("C:\Users\pvnn\Desktop\Tales-of-Destiny-2\ps2\scripts\abcde_v0_0_9\tod2_utf8.tbl", Table_0)
+#ADDTBL("G:\TalesHacking\TOD2\GitProject\Tales-of-Destiny-2\ps2\scripts\abcde_v0_0_9\tod2_utf8.tbl", Table_0)
 
 //BLOCK #000 NAME:		Title_Block
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
@@ -54,7 +54,8 @@
 
 //POINTER #6 @ $C0244 - STRING #6 @ $10B1F0
 #W32($C0244)
-//ゼリー状薬台[LINE]\r最大ＨＰの３０％回復[END]
+//ゼリー状薬台[LINE]
+//最大ＨＰの３０％回復[END]
 //
 //
 // current address: $10B212
