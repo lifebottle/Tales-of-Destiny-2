@@ -7,7 +7,9 @@ After starting and handing off an open-source project for [Tales of Destiny Dire
 
 This repository aims to collect all known information about this game in order to create a patch.  
 
-Join on Discord: https://discord.gg/HZ2NFjpedn
+Join on Discord: https://discord.gg/HZ2NFjpedn  
+
+Spreadsheet with Info: https://docs.google.com/spreadsheets/d/1UVaEjK0o-V1-3atPHfRRw2q9QQcCzPCpr4GXJ2MLvvg
 
 ## Wanted Items
 
