@@ -1,0 +1,60 @@
+//GAME NAME:		Tales of Destiny 2
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("C:\Users\pvnn\Desktop\Tales-of-Destiny-2\ps2\scripts\abcde_v0_0_9\tod2_utf8.tbl", Table_0)
+
+//BLOCK #000 NAME:		Title_Block
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($1FFFFFFFFFF01019, $10B224) // Jump to insertion point
+#HDR($-FF000) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $C022C - STRING #0 @ $10B218
+#W32($C022C)
+//アップルグミ[END]
+//
+//
+// current address: $10B225
+
+//POINTER #1 @ $C0230 - STRING #1 @ $FFFFFFFFFFF01019
+#W32($C0230)
+//[END]
+//
+//
+// current address: $1FFFFFFFFFF0101A
+
+//POINTER #2 @ $C0234 - STRING #2 @ $FFFFFFFFFFF01340
+#W32($C0234)
+//<$40><$81><$10>[END]
+//
+//
+// current address: $1FFFFFFFFFF01344
+
+//POINTER #3 @ $C0238 - STRING #3 @ $FFFFFFFFFFF01805
+#W32($C0238)
+//[END]
+//
+//
+// current address: $1FFFFFFFFFF01806
+
+//POINTER #4 @ $C023C - STRING #4 @ $FFFFFFFFFFF0101E
+#W32($C023C)
+//<$54><$AC><$03>[END]
+//
+//
+// current address: $1FFFFFFFFFF01022
+
+//POINTER #5 @ $C0240 - STRING #5 @ $FFFFFFFFFFF21000
+#W32($C0240)
+//<$21>[END]
+//
+//
+// current address: $1FFFFFFFFFF21002
+
+//POINTER #6 @ $C0244 - STRING #6 @ $10B1F0
+#W32($C0244)
+//ゼリー状薬台[LINE]\r最大ＨＰの３０％回復[END]
+//
+//
+// current address: $10B212

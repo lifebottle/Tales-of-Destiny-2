@@ -1,0 +1,15 @@
+#GAME NAME:			Tales of Destiny 2
+
+#BLOCK NAME:			Title_Block
+#TYPE:				NORMAL
+#METHOD:			POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:		$C022C
+#POINTER TABLE STOP:		$C0247
+#POINTER SIZE:			$04
+#POINTER SPACE:			$00
+#ATLAS PTRS:			Yes
+#BASE POINTER:			-$FF000		//add $FF000 to each pointer to get
+#TABLE:				tod2_utf8.tbl	//the string address
+#COMMENTS:			Yes
+#END BLOCK
