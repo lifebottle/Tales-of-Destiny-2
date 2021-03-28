@@ -119,7 +119,7 @@ def clean(dumpFile):
     f.close()
     destFile.close()
     removeBlankPointerData(dumpFile.replace(".txt","")+"_cleaned.txt")
-    os.remove( os.path.join(pathFile, dumpFile))
+    #os.remove( os.path.join(pathFile, dumpFile))
     
 if __name__ == "__main__":
     

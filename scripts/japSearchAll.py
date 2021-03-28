@@ -99,5 +99,5 @@ for myDir in allDir:
     for file in os.listdir(myDir):
         lookForHex(listValues,myDir+"/"+file)
         
-hexVal = "99 C7 99 C9 99 EB 9A 49 99 A0 9D 62 9B 74"
+hexVal = "99 C7 99 E8 99 FC 9A 54 99 D5 9A 47"
 hexToJpn(pathTables,hexVal)
