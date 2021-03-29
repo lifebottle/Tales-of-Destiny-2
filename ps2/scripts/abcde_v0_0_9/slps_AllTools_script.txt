@@ -1,4 +1,4 @@
-#GAME NAME:			Tales of destiny 2
+#GAME NAME:			Tales of Destiny 2
 #BLOCK NAME:	Items_1
 #TYPE:		NORMAL
 #METHOD:		          POINTER_RELATIVE
