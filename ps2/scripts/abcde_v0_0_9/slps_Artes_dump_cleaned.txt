@@ -1,3 +1,13 @@
+//GAME NAME:		Tales of destiny 2
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("G:\TalesHacking\TOD2\GitProject\Tales-of-Destiny-2\ps2\scripts\abcde_v0_0_9\tod2_utf8.tbl", Table_0)
+
+
+
+
+
 //Text $FFE78
 #WRITE(ptr,$B75AC)
 蒼破刃[END]
@@ -11,7 +21,7 @@
 //Text $FFE18
 #WRITE(ptr,$B75B4)
 斬撃と、生じる真空波による飛び道具を放つ[LINE]
-特技。ゐ特技ゑは通常技から連携可能[END]
+特技。「特技」は通常技から連携可能[END]
 // current address: $FFE64
 
 
@@ -30,7 +40,7 @@
 
 //Text $FFDD0
 #WRITE(ptr,$B75D0)
-舞う木の葉を切り刻む<$9D><$40>の高速の剣を繰り出す[LINE]
+舞う木の葉を切り刻む程の高速の剣を繰り出す[LINE]
 特技[END]
 // current address: $FFE00
 
@@ -110,7 +120,7 @@
 //Text $FFC50
 #WRITE(ptr,$B7640)
 気を纏った連続攻撃から真空波を放つ奥義。[LINE]
-ゐ奥義ゑは通常技と特技から連携可能[END]
+「奥義」は通常技と特技から連携可能[END]
 // current address: $FFC9C
 
 
@@ -178,7 +188,7 @@
 
 //Text $FFB20
 #WRITE(ptr,$B76A8)
-岩斬金砕陣[END]
+岩斬滅砕陣[END]
 // current address: $FFB2B
 
 //Text $FFB08
@@ -333,7 +343,7 @@
 
 //Text $FF8B8
 #WRITE(ptr,$B7788)
-眠氷翔[END]
+霧氷翔[END]
 // current address: $FF8BF
 
 //Text $FF8A8
@@ -589,7 +599,7 @@
 
 //Text $FF468
 #WRITE(ptr,$B78F4)
-魔人金殺闇[END]
+魔人滅殺闇[END]
 // current address: $FF473
 
 //Text $FF450
@@ -599,7 +609,7 @@
 
 //Text $FF420
 #WRITE(ptr,$B78FC)
-抗う敵を捕らえ、ゐ金殺する闇ゑを開く[LINE]
+抗う敵を捕らえ、「滅殺する闇」を開く[LINE]
 暗黒奥義[END]
 // current address: $FF44E
 
@@ -792,7 +802,7 @@
 
 //Text $FF1A0
 #WRITE(ptr,$B7A14)
-魂に通ずるというゐ影ゑを貫く特技[END]
+魂に通ずるという「影」を貫く特技[END]
 // current address: $FF1C1
 
 
@@ -1008,7 +1018,7 @@
 
 //Text $FEDA8
 #WRITE(ptr,$B7BB8)
-三連の光弾から金殺の稲妻を放つ下級昇華晶術[END]
+三連の光弾から滅殺の稲妻を放つ下級昇華晶術[END]
 // current address: $FEDD3
 
 
@@ -1226,7 +1236,7 @@
 
 //Text $FE988
 #WRITE(ptr,$B7D5C)
-氷の棺に敵を閉じ込め、ゐ終焉ゑを与える[LINE]
+氷の棺に敵を閉じ込め、「終焉」を与える[LINE]
 上級晶術[END]
 // current address: $FE9B8
 
@@ -1256,7 +1266,7 @@
 
 //Text $FE900
 #WRITE(ptr,$B7D94)
-壊金的な威力の嵐を巻き起こす[LINE]
+壊滅的な威力の嵐を巻き起こす[LINE]
 上級晶術[END]
 // current address: $FE926
 
@@ -1274,267 +1284,3 @@
 神聖なる裁きの雷を撃ち放つ[LINE]
 上級晶術[END]
 // current address: $FE8E4
-
-
-
-
-
-//Text $FE8A8
-#WRITE(ptr,$B7DC4)
-エクセキューション[END]
-// current address: $FE8BB
-
-//Text $FE880
-#WRITE(ptr,$B7DCC)
-漆黒の闇の淵へ引きずり込む[LINE]
-上級晶術[END]
-// current address: $FE8A4
-
-
-
-
-
-//Text $FE870
-#WRITE(ptr,$B7DE0)
-アーステッパー[END]
-// current address: $FE87F
-
-//Text $FE868
-#WRITE(ptr,$B7DE4)
-[END]
-// current address: $FE869
-
-//Text $FE858
-#WRITE(ptr,$B7DE8)
-地系召喚[END]
-// current address: $FE861
-
-
-
-
-
-//Text $FE848
-#WRITE(ptr,$B7DFC)
-アクアリムス[END]
-// current address: $FE855
-
-//Text $FE868
-#WRITE(ptr,$B7E00)
-[END]
-// current address: $FE869
-
-//Text $FE838
-#WRITE(ptr,$B7E04)
-水系召喚[END]
-// current address: $FE841
-
-
-
-
-
-//Text $FE828
-#WRITE(ptr,$B7E18)
-フランブレイブ[END]
-// current address: $FE837
-
-//Text $FE868
-#WRITE(ptr,$B7E1C)
-[END]
-// current address: $FE869
-
-//Text $FE818
-#WRITE(ptr,$B7E20)
-炎系召喚[END]
-// current address: $FE821
-
-
-
-
-
-//Text $FE800
-#WRITE(ptr,$B7E34)
-シルフィスティア[END]
-// current address: $FE811
-
-//Text $FE868
-#WRITE(ptr,$B7E38)
-[END]
-// current address: $FE869
-
-//Text $FE7F0
-#WRITE(ptr,$B7E3C)
-風系召喚[END]
-// current address: $FE7F9
-
-
-
-
-
-//Text $FE7E0
-#WRITE(ptr,$B7E50)
-ソルブライト[END]
-// current address: $FE7ED
-
-//Text $FE868
-#WRITE(ptr,$B7E54)
-[END]
-// current address: $FE869
-
-//Text $FE7D0
-#WRITE(ptr,$B7E58)
-光系召喚[END]
-// current address: $FE7D9
-
-
-
-
-
-//Text $FE7C0
-#WRITE(ptr,$B7E6C)
-ルナシェイド[END]
-// current address: $FE7CD
-
-//Text $FE868
-#WRITE(ptr,$B7E70)
-[END]
-// current address: $FE869
-
-//Text $FE7B0
-#WRITE(ptr,$B7E74)
-闇系召喚[END]
-// current address: $FE7B9
-
-
-
-
-
-//Text $FE788
-#WRITE(ptr,$B7E88)
-インディグネイト・ジャッジメント[END]
-// current address: $FE7A9
-
-//Text $FE868
-#WRITE(ptr,$B7E8C)
-[END]
-// current address: $FE869
-
-//Text $FE868
-#WRITE(ptr,$B7E90)
-[END]
-// current address: $FE869
-
-
-
-
-
-//Text $FE770
-#WRITE(ptr,$B7EA4)
-ラスト・ヴァニッシャー[END]
-// current address: $FE787
-
-//Text $FE868
-#WRITE(ptr,$B7EA8)
-[END]
-// current address: $FE869
-
-//Text $FE868
-#WRITE(ptr,$B7EAC)
-[END]
-// current address: $FE869
-
-
-
-
-
-//Text $FE758
-#WRITE(ptr,$B7EC0)
-クレイジーコメット[END]
-// current address: $FE76B
-
-//Text $FE868
-#WRITE(ptr,$B7EC4)
-[END]
-// current address: $FE869
-
-//Text $FE708
-#WRITE(ptr,$B7EC8)
-異空間から荒れ狂う彗星を召喚する禁講晶術。[LINE]
-消費<$54><$50>と詠唱時間は尋常ではない[END]
-// current address: $FE752
-
-
-
-
-
-//Text $FE6F0
-#WRITE(ptr,$B7EDC)
-トゥインクル・スター[END]
-// current address: $FE705
-
-//Text $FE868
-#WRITE(ptr,$B7EE0)
-[END]
-// current address: $FE869
-
-//Text $FE6E8
-#WRITE(ptr,$B7EE4)
-<$3F>[END]
-// current address: $FE6EA
-
-
-
-
-
-//Text $FE6C8
-#WRITE(ptr,$B7EF8)
-プリンセス・オブ・マーメイド[END]
-// current address: $FE6E5
-
-//Text $FE868
-#WRITE(ptr,$B7EFC)
-[END]
-// current address: $FE869
-
-//Text $FE6E8
-#WRITE(ptr,$B7F00)
-<$3F>[END]
-// current address: $FE6EA
-
-
-
-
-
-//Text $FE6B0
-#WRITE(ptr,$B7F14)
-ミックス・マスター[END]
-// current address: $FE6C3
-
-//Text $FE868
-#WRITE(ptr,$B7F18)
-[END]
-// current address: $FE869
-
-//Text $FE6E8
-#WRITE(ptr,$B7F1C)
-<$3F>[END]
-// current address: $FE6EA
-
-
-
-
-
-
-
-
-
-//Text $100198
-#WRITE(ptr,$B7F50)
-お前にまかせる[END]
-// current address: $1001A7
-
-//Text $100160
-#WRITE(ptr,$B7F54)
-キャラ特性に応じた隊列位置で、[LINE]
-固有の思考で敵を狙います[END]
-// current address: $100198
-
