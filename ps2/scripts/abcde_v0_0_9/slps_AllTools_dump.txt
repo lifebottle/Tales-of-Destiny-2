@@ -181,8 +181,8 @@
 
 //POINTER #0 @ $C0340 - STRING #0 @ $10AFB0
 #W32($C0340)
-マグロの煮<$9D><$CA>から作るおいしいグミ[LINE]
-戦闘中は後味が効いて<$E0><$C6>々にＨＰ回復[END]
+マグロの煮汁から作るおいしいグミ[LINE]
+戦闘中は後味が効いて徐々にＨＰ回復[END]
 // current address: $10AFF4
 
 //POINTER #1 @ $C0344 - STRING #1 @ $10AFA0
@@ -624,7 +624,7 @@
 //POINTER #0 @ $C0618 - STRING #0 @ $10A988
 #W32($C0618)
 エンカウント率を調整できる[LINE]
-魔法の宝<$9F><$B9>[END]
+魔法の宝珠[END]
 // current address: $10A9AE
 
 //POINTER #1 @ $C061C - STRING #1 @ $10A978
@@ -640,7 +640,7 @@
 
 //POINTER #0 @ $C0634 - STRING #0 @ $10A940
 #W32($C0634)
-<$9F><$C7>を開けると何が飛び出すか[LINE]
+蓋を開けると何が飛び出すか[LINE]
 わからない博打アイテム[END]
 // current address: $10A972
 
@@ -663,7 +663,7 @@
 
 //POINTER #1 @ $C0654 - STRING #1 @ $10A8E0
 #W32($C0654)
-モンスター図<$9F><$C8>[END]
+モンスター図鑑[END]
 // current address: $10A8EF
 
 //BLOCK #039 NAME:		Items_40
@@ -674,13 +674,13 @@
 
 //POINTER #0 @ $C066C - STRING #0 @ $10A8A8
 #W32($C066C)
-敵の姿やデータを見ることができる図<$9F><$C8>[LINE]
+敵の姿やデータを見ることができる図鑑[LINE]
 完成を目指そう！[END]
 // current address: $10A8DE
 
 //POINTER #1 @ $C0670 - STRING #1 @ $10A898
 #W32($C0670)
-コレクター図<$9F><$C8>[END]
+コレクター図鑑[END]
 // current address: $10A8A7
 
 //BLOCK #040 NAME:		Items_41
@@ -737,14 +737,14 @@
 //BLOCK #043 NAME:		Items_44
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
-#JMP($10A758, $10A76B) // Jump to insertion point
+#JMP($10A758, $10A7AE) // Jump to insertion point
 #HDR($-FF000) // Difference between ROM and RAM addresses for pointer value calculations
 
 //POINTER #0 @ $C06DC - STRING #0 @ $10A768
 #W32($C06DC)
-<$05><$40>[LINE]
-[END]
-// current address: $10A76C
+[BIG2_txt][button_R2][NORMAL_txt] [BIG1_txt]ボタンで熱線を発射[LINE]
+使うたびにレンズを一枚消費する[END]
+// current address: $10A7AF
 
 //POINTER #1 @ $C06E0 - STRING #1 @ $10A758
 #W32($C06E0)
@@ -1066,7 +1066,7 @@
 //POINTER #0 @ $C08F0 - STRING #0 @ $10A368
 #W32($C08F0)
 不幸を呼ぶとされる不吉な宝石[LINE]
-ある場所で使うと<$A5><$A5><$A5><$A5>？[END]
+ある場所で使うと････？[END]
 // current address: $10A39C
 
 //POINTER #1 @ $C08F4 - STRING #1 @ $10A358
@@ -1083,7 +1083,7 @@
 //POINTER #0 @ $C090C - STRING #0 @ $10A368
 #W32($C090C)
 不幸を呼ぶとされる不吉な宝石[LINE]
-ある場所で使うと<$A5><$A5><$A5><$A5>？[END]
+ある場所で使うと････？[END]
 // current address: $10A39C
 
 //POINTER #1 @ $C0910 - STRING #1 @ $10A340
@@ -1100,7 +1100,7 @@
 //POINTER #0 @ $C0928 - STRING #0 @ $10A368
 #W32($C0928)
 不幸を呼ぶとされる不吉な宝石[LINE]
-ある場所で使うと<$A5><$A5><$A5><$A5>？[END]
+ある場所で使うと････？[END]
 // current address: $10A39C
 
 //POINTER #1 @ $C092C - STRING #1 @ $10A330
@@ -1236,7 +1236,7 @@
 //POINTER #0 @ $C0A08 - STRING #0 @ $10A0E8
 #W32($C0A08)
 品種改良で作られた種[LINE]
-更に品種改良すると<$A5><$A5><$A5><$A5>[END]
+更に品種改良すると････[END]
 // current address: $10A114
 
 //POINTER #1 @ $C0A0C - STRING #1 @ $10A0D8
@@ -1253,7 +1253,7 @@
 //POINTER #0 @ $C0A24 - STRING #0 @ $10A0A0
 #W32($C0A24)
 これが黄金の種だ！[LINE]
-一<$E4><$46>の水で育ち、百人の腹を満たす[END]
+一滴の水で育ち、百人の腹を満たす[END]
 // current address: $10A0D4
 
 //POINTER #1 @ $C0A28 - STRING #1 @ $10A090
@@ -1372,7 +1372,7 @@
 //POINTER #0 @ $C0AE8 - STRING #0 @ $109F30
 #W32($C0AE8)
 フライにして食べたりする海産物[LINE]
-タイを<$E3><$43>ったりもする？[END]
+タイを釣ったりもする？[END]
 // current address: $109F66
 
 //POINTER #1 @ $C0AEC - STRING #1 @ $109F28
@@ -1405,7 +1405,7 @@
 
 //POINTER #0 @ $C0B20 - STRING #0 @ $109EC0
 #W32($C0B20)
-<$E3><$44>に海から川へ帰ってくる不思議な魚[LINE]
+秋に海から川へ帰ってくる不思議な魚[LINE]
 クマの大好物らしい[END]
 // current address: $109EF6
 
@@ -1423,7 +1423,7 @@
 //POINTER #0 @ $C0B3C - STRING #0 @ $109E88
 #W32($C0B3C)
 おめでたい時に食べる赤い魚[LINE]
-<$E3><$45>落にあらず！[END]
+洒落にあらず！[END]
 // current address: $109EB2
 
 //POINTER #1 @ $C0B40 - STRING #1 @ $109E80
@@ -1491,7 +1491,7 @@
 //POINTER #0 @ $C0BAC - STRING #0 @ $109D88
 #W32($C0BAC)
 独特の匂いがたまらない[LINE]
-切ると思わず涙が<$A5><$A5><$A5><$A5>[END]
+切ると思わず涙が････[END]
 // current address: $109DB4
 
 //POINTER #1 @ $C0BB0 - STRING #1 @ $109D78
@@ -1576,7 +1576,7 @@
 //POINTER #0 @ $C0C38 - STRING #0 @ $109C40
 #W32($C0C38)
 生で食べたり漬物にしたりする[LINE]
-<$9F><$DC>臭いのでキライな人も多い？[END]
+瓜臭いのでキライな人も多い？[END]
 // current address: $109C7A
 
 //POINTER #1 @ $C0C3C - STRING #1 @ $109C38
@@ -1609,7 +1609,7 @@
 
 //POINTER #0 @ $C0C70 - STRING #0 @ $109BB8
 #W32($C0C70)
-小さな実が赤く<$9D><$D5>したら食べ頃[LINE]
+小さな実が赤く熟したら食べ頃[LINE]
 煮込んでジャムにしても美味[END]
 // current address: $109BF0
 
@@ -1626,7 +1626,7 @@
 
 //POINTER #0 @ $C0C8C - STRING #0 @ $109B78
 #W32($C0C8C)
-<$9D><$D0>味、<$9F><$DF>香が豊かな黄色い果実[LINE]
+酸味、芳香が豊かな黄色い果実[LINE]
 ビタミンＣがいっぱい[END]
 // current address: $109BAA
 
@@ -1660,7 +1660,7 @@
 
 //POINTER #0 @ $C0CC4 - STRING #0 @ $109B00
 #W32($C0CC4)
-赤くて丸くて甘<$9D><$D0>っぱい果実[LINE]
+赤くて丸くて甘酸っぱい果実[LINE]
 アップルパイにしたり？[END]
 // current address: $109B32
 
@@ -1677,8 +1677,8 @@
 
 //POINTER #0 @ $C0CE0 - STRING #0 @ $109AC8
 #W32($C0CE0)
-<$9F>蔵<$E3>を<$9D><$D5>成させた食品[LINE]
-栄養価が高くて健<$9E><$8F>的です[END]
+牛乳を熟成させた食品[LINE]
+栄養価が高くて健康的です[END]
 // current address: $109AF6
 
 //POINTER #1 @ $C0CE4 - STRING #1 @ $109AB8
@@ -1694,8 +1694,8 @@
 
 //POINTER #0 @ $C0CFC - STRING #0 @ $109A88
 #W32($C0CFC)
-<$9F>蔵<$E3>を発<$9F><$E4>させた食品[LINE]
-胃<$9F><$E6>をきれいにします[END]
+牛乳を発酵させた食品[LINE]
+胃腸をきれいにします[END]
 // current address: $109AB2
 
 //POINTER #1 @ $C0D00 - STRING #1 @ $109A80
@@ -1711,7 +1711,7 @@
 
 //POINTER #0 @ $C0D18 - STRING #0 @ $109A58
 #W32($C0D18)
-<$9F>奮<$A0>お<$9F><$E3>[LINE]
+牛のお乳[LINE]
 白くて栄養価の高い飲み物[END]
 // current address: $109A7A
 
@@ -1728,7 +1728,7 @@
 
 //POINTER #0 @ $C0D34 - STRING #0 @ $109A18
 #W32($C0D34)
-<$9F><$E7>いて食べる<$9F><$E8>物[LINE]
+炊いて食べる穀物[LINE]
 農家の八十八の苦労がしのばれます[END]
 // current address: $109A4A
 
@@ -1762,8 +1762,8 @@
 
 //POINTER #0 @ $C0D6C - STRING #0 @ $1099A8
 #W32($C0D6C)
-白くて柔かい大<$9D><$B1>から作る食べ物[LINE]
-腐った<$9D><$B1>と記す[END]
+白くて柔かい大豆から作る食べ物[LINE]
+腐った豆と記す[END]
 // current address: $1099D6
 
 //POINTER #1 @ $C0D70 - STRING #1 @ $1099A0
@@ -1813,7 +1813,7 @@
 
 //POINTER #0 @ $C0DC0 - STRING #0 @ $1098F0
 #W32($C0DC0)
-大<$9D><$B1>から作る保存食品[LINE]
+大豆から作る保存食品[LINE]
 スープにして食すのが一般的[END]
 // current address: $109920
 
@@ -1830,13 +1830,13 @@
 
 //POINTER #0 @ $C0DDC - STRING #0 @ $1098B8
 #W32($C0DDC)
-<$9F>賭<$F0><$9F><$F1>の<$9F><$F2>[LINE]
-ブレッドに<$9F><$F3>りたくって食べます[END]
+乳脂肪の塊[LINE]
+ブレッドに塗りたくって食べます[END]
 // current address: $1098E2
 
 //POINTER #1 @ $C0DE0 - STRING #1 @ $1098A8
 #W32($C0DE0)
-ホーロー<$E1><$94>[END]
+ホーロー鍋[END]
 // current address: $1098B3
 
 //BLOCK #108 NAME:		Items_109
@@ -1847,13 +1847,13 @@
 
 //POINTER #0 @ $C0DF8 - STRING #0 @ $109878
 #W32($C0DF8)
-保温力が高く安価なお<$E1><$94>[LINE]
-使用時のみ総合<$9D><$D5>練度＋１[END]
+保温力が高く安価なお鍋[LINE]
+使用時のみ総合熟練度＋１[END]
 // current address: $1098A8
 
 //POINTER #1 @ $C0DFC - STRING #1 @ $109870
 #W32($C0DFC)
-鉄<$E1><$94>[END]
+鉄鍋[END]
 // current address: $109875
 
 //BLOCK #109 NAME:		Items_110
@@ -1864,13 +1864,13 @@
 
 //POINTER #0 @ $C0E14 - STRING #0 @ $109840
 #W32($C0E14)
-丈夫で保温力のあるお<$E1><$94>[LINE]
-使用時のみ総合<$9D><$D5>練度＋３[END]
+丈夫で保温力のあるお鍋[LINE]
+使用時のみ総合熟練度＋３[END]
 // current address: $109870
 
 //POINTER #1 @ $C0E18 - STRING #1 @ $109838
 #W32($C0E18)
-土<$E1><$94>[END]
+土鍋[END]
 // current address: $10983D
 
 //BLOCK #110 NAME:		Items_111
@@ -1881,13 +1881,13 @@
 
 //POINTER #0 @ $C0E30 - STRING #0 @ $109800
 #W32($C0E30)
-<$E1><$94>料理には欠かせないお<$E1><$94>[LINE]
-使用時のみ総合<$9D><$D5>練度＋４[END]
+鍋料理には欠かせないお鍋[LINE]
+使用時のみ総合熟練度＋４[END]
 // current address: $109832
 
 //POINTER #1 @ $C0E34 - STRING #1 @ $1097F8
 #W32($C0E34)
-<$E1><$95><$E1><$94>[END]
+銅鍋[END]
 // current address: $1097FD
 
 //BLOCK #111 NAME:		Items_112
@@ -1898,8 +1898,8 @@
 
 //POINTER #0 @ $C0E4C - STRING #0 @ $1097C8
 #W32($C0E4C)
-熱伝導の高いお<$E1><$94>[LINE]
-使用時のみ総合<$9D><$D5>練度＋７[END]
+熱伝導の高いお鍋[LINE]
+使用時のみ総合熟練度＋７[END]
 // current address: $1097F2
 
 //POINTER #1 @ $C0E50 - STRING #1 @ $1097B8
@@ -1916,7 +1916,7 @@
 //POINTER #0 @ $C0E68 - STRING #0 @ $109780
 #W32($C0E68)
 丈夫で保温力のあるフライパン[LINE]
-使用時のみ総合<$9D><$D5>練度＋３[END]
+使用時のみ総合熟練度＋３[END]
 // current address: $1097B6
 
 //POINTER #1 @ $C0E6C - STRING #1 @ $109768
@@ -1933,7 +1933,7 @@
 //POINTER #0 @ $C0E84 - STRING #0 @ $109730
 #W32($C0E84)
 熱まわりにムラのあるフライパン[LINE]
-使用時のみ総合<$9D><$D5>練度＋１[END]
+使用時のみ総合熟練度＋１[END]
 // current address: $109768
 
 //POINTER #1 @ $C0E88 - STRING #1 @ $109718
@@ -1950,12 +1950,12 @@
 //POINTER #0 @ $C0EA0 - STRING #0 @ $1096E0
 #W32($C0EA0)
 熱伝導に優れた高価なフライパン[LINE]
-使用時のみ総合<$9D><$D5>練度＋４[END]
+使用時のみ総合熟練度＋４[END]
 // current address: $109718
 
 //POINTER #1 @ $C0EA4 - STRING #1 @ $1096D0
 #W32($C0EA4)
-<$E1><$95>のフライパン[END]
+銅のフライパン[END]
 // current address: $1096DF
 
 //BLOCK #115 NAME:		Items_116
@@ -1967,12 +1967,12 @@
 //POINTER #0 @ $C0EBC - STRING #0 @ $1096A0
 #W32($C0EBC)
 熱伝導の高いフライパン[LINE]
-使用時のみ総合<$9D><$D5>練度＋７[END]
+使用時のみ総合熟練度＋７[END]
 // current address: $1096D0
 
 //POINTER #1 @ $C0EC0 - STRING #1 @ $109690
 #W32($C0EC0)
-<$E1><$96>刃包丁[END]
+柳刃包丁[END]
 // current address: $109699
 
 //BLOCK #116 NAME:		Items_117
@@ -1984,7 +1984,7 @@
 //POINTER #0 @ $C0ED8 - STRING #0 @ $109658
 #W32($C0ED8)
 魚系食材を扱うのに適した包丁[LINE]
-使用時のみ総合<$9D><$D5>練度＋５[END]
+使用時のみ総合熟練度＋５[END]
 // current address: $10968E
 
 //POINTER #1 @ $C0EDC - STRING #1 @ $109648
@@ -2001,7 +2001,7 @@
 //POINTER #0 @ $C0EF4 - STRING #0 @ $109610
 #W32($C0EF4)
 全ての食材を扱うのに適した包丁[LINE]
-使用時のみ総合<$9D><$D5>練度＋７[END]
+使用時のみ総合熟練度＋７[END]
 // current address: $109648
 
 //POINTER #1 @ $C0EF8 - STRING #1 @ $109600
@@ -2018,12 +2018,12 @@
 //POINTER #0 @ $C0F10 - STRING #0 @ $1095C8
 #W32($C0F10)
 野菜系食材を扱うのに適した包丁[LINE]
-使用時のみ総合<$9D><$D5>練度＋５[END]
+使用時のみ総合熟練度＋５[END]
 // current address: $109600
 
 //POINTER #1 @ $C0F14 - STRING #1 @ $1095B8
 #W32($C0F14)
-<$9F>貯<$F4>包丁[END]
+牛刀包丁[END]
 // current address: $1095C1
 
 //BLOCK #119 NAME:		Items_120
@@ -2035,7 +2035,7 @@
 //POINTER #0 @ $C0F2C - STRING #0 @ $109580
 #W32($C0F2C)
 肉系食材を扱うのに適した包丁[LINE]
-使用時のみ総合<$9D><$D5>練度＋５[END]
+使用時のみ総合熟練度＋５[END]
 // current address: $1095B6
 
 //POINTER #1 @ $C0F30 - STRING #1 @ $109570
@@ -2069,7 +2069,7 @@
 //POINTER #0 @ $C0F64 - STRING #0 @ $109508
 #W32($C0F64)
 細身の長剣[LINE]
-外見は優<$9F><$F4>だが扱いは難しい[END]
+外見は優雅だが扱いは難しい[END]
 // current address: $10952E
 
 //POINTER #1 @ $C0F68 - STRING #1 @ $1094F8
@@ -2204,7 +2204,7 @@
 
 //POINTER #0 @ $C1044 - STRING #0 @ $109318
 #W32($C1044)
-<$9F><$F7>月刀と呼ばれ肉厚の刃を持つ[LINE]
+偃月刀と呼ばれ肉厚の刃を持つ[LINE]
 どことなくエスニックな雰囲気[END]
 // current address: $109352
 
@@ -2221,7 +2221,7 @@
 
 //POINTER #0 @ $C1060 - STRING #0 @ $1092D8
 #W32($C1060)
-簡素で<$9F><$FA><$9F><$F4>な造りの長剣[LINE]
+簡素で典雅な造りの長剣[LINE]
 美術的な価値も高い[END]
 // current address: $109302
 
@@ -2238,7 +2238,7 @@
 
 //POINTER #0 @ $C107C - STRING #0 @ $109290
 #W32($C107C)
-<$9F><$FB>曲した<$9F><$FC>のような刃を持つ剣[LINE]
+湾曲した鎌のような刃を持つ剣[LINE]
 きわめて高い殺傷力を持つ[END]
 // current address: $1092C6
 
@@ -2341,7 +2341,7 @@
 //POINTER #0 @ $C1124 - STRING #0 @ $1090F8
 #W32($C1124)
 風斬りの刃[LINE]
-その斬撃は<$E0><$45>風を巻き起こす[END]
+その斬撃は旋風を巻き起こす[END]
 // current address: $10911E
 
 //POINTER #1 @ $C1128 - STRING #1 @ $1090E0
@@ -2392,7 +2392,7 @@
 //POINTER #0 @ $C1178 - STRING #0 @ $109040
 #W32($C1178)
 古代伝承で勇者が倒した[LINE]
-竜の<$E0><$49>から切り出された剣[END]
+竜の爪から切り出された剣[END]
 // current address: $109070
 
 //POINTER #1 @ $C117C - STRING #1 @ $109030
@@ -2409,7 +2409,7 @@
 //POINTER #0 @ $C1194 - STRING #0 @ $109000
 #W32($C1194)
 西風の名を冠する名剣[LINE]
-<$E0><$4A>の紋章が刻まれている[END]
+隼の紋章が刻まれている[END]
 // current address: $10902C
 
 //POINTER #1 @ $C1198 - STRING #1 @ $108FE8
@@ -2527,7 +2527,7 @@
 
 //POINTER #0 @ $C1258 - STRING #0 @ $108E10
 #W32($C1258)
-金<$E0><$4F>石から切出された剣[LINE]
+金剛石から切出された剣[LINE]
 門を守る神が宿っているらしい[END]
 // current address: $108E44
 
@@ -2544,8 +2544,8 @@
 
 //POINTER #0 @ $C1274 - STRING #0 @ $108DD8
 #W32($C1274)
-氷の<$E0><$50>に副葬されていた剣[LINE]
-永久氷<$9F><$F2>の刃[END]
+氷の柩に副葬されていた剣[LINE]
+永久氷塊の刃[END]
 // current address: $108DFE
 
 //POINTER #1 @ $C1278 - STRING #1 @ $108DC8
@@ -2630,7 +2630,7 @@
 
 //POINTER #0 @ $C1300 - STRING #0 @ $108C80
 #W32($C1300)
-<$E0><$56>精の手によって鍛えられた魔剣[LINE]
+妖精の手によって鍛えられた魔剣[LINE]
 剣が操者を選ぶと言われる[END]
 // current address: $108CB8
 
@@ -2665,7 +2665,7 @@
 
 //POINTER #0 @ $C1338 - STRING #0 @ $108C00
 #W32($C1338)
-<$E0><$57>妻のような残光を放つ[LINE]
+稲妻のような残光を放つ[LINE]
 日出国で鍛えられた銘刀[END]
 // current address: $108C2E
 
@@ -2716,7 +2716,7 @@
 
 //POINTER #0 @ $C138C - STRING #0 @ $108B50
 #W32($C138C)
-円<$E0><$5B>の騎士が帯びた[LINE]
+円卓の騎士が帯びた[LINE]
 と言われる名剣[END]
 // current address: $108B72
 
@@ -2750,7 +2750,7 @@
 
 //POINTER #0 @ $C13C4 - STRING #0 @ $108AD0
 #W32($C13C4)
-湖の<$E0><$56>精に認められた英雄に[LINE]
+湖の妖精に認められた英雄に[LINE]
 与えられる王者の剣[END]
 // current address: $108AFE
 
@@ -2767,7 +2767,7 @@
 
 //POINTER #0 @ $C13E0 - STRING #0 @ $108A98
 #W32($C13E0)
-<$E0><$5D>王の証といわれる剣[LINE]
+濔王の証といわれる剣[LINE]
 三種の神器のひとつ[END]
 // current address: $108AC0
 
@@ -2802,7 +2802,7 @@
 //POINTER #0 @ $C1418 - STRING #0 @ $108A00
 #W32($C1418)
 世界を破滅させるといわれる剣[LINE]
-神々の戦いで失われたと伝わるが<$A5><$A5><$A5><$A5>[END]
+神々の戦いで失われたと伝わるが････[END]
 // current address: $108A40
 
 //POINTER #1 @ $C141C - STRING #1 @ $1089F0
@@ -2887,7 +2887,7 @@
 //POINTER #0 @ $C14A4 - STRING #0 @ $1088F0
 #W32($C14A4)
 権標[LINE]
-集中力が高まるような気が<$A5><$A5><$A5><$A5>[END]
+集中力が高まるような気が････[END]
 // current address: $108912
 
 //POINTER #1 @ $C14A8 - STRING #1 @ $1088E0
@@ -2903,8 +2903,8 @@
 
 //POINTER #0 @ $C14C0 - STRING #0 @ $1088B8
 #W32($C14C0)
-王<$E0><$65>[LINE]
-<$9F><$FA>礼用の装飾が施されています[END]
+王笏[LINE]
+典礼用の装飾が施されています[END]
 // current address: $1088DA
 
 //POINTER #1 @ $C14C4 - STRING #1 @ $1088A0
@@ -2937,7 +2937,7 @@
 
 //POINTER #0 @ $C14F8 - STRING #0 @ $108840
 #W32($C14F8)
-簡素で<$9F><$FA><$9F><$F4>な造りの職杖[LINE]
+簡素で典雅な造りの職杖[LINE]
 殴られるとかなり痛い[END]
 // current address: $10886C
 
@@ -2955,7 +2955,7 @@
 //POINTER #0 @ $C1514 - STRING #0 @ $108800
 #W32($C1514)
 節くれの長い杖[LINE]
-<$E3><$46>飼い気分になれます[END]
+羊飼い気分になれます[END]
 // current address: $108824
 
 //POINTER #1 @ $C1518 - STRING #1 @ $1087E8
@@ -2988,7 +2988,7 @@
 
 //POINTER #0 @ $C154C - STRING #0 @ $108798
 #W32($C154C)
-威厳の王<$E0><$65>[LINE]
+威厳の王笏[LINE]
 四英雄の一人も使ってた？[END]
 // current address: $1087BC
 
@@ -3022,7 +3022,7 @@
 
 //POINTER #0 @ $C1584 - STRING #0 @ $108710
 #W32($C1584)
-<$E0><$68><$E0><$69>石製の職杖[LINE]
+孔雀石製の職杖[LINE]
 不思議な力が秘められている[END]
 // current address: $10873A
 
@@ -3073,8 +3073,8 @@
 
 //POINTER #0 @ $C15D8 - STRING #0 @ $108618
 #W32($C15D8)
-豊かな心を養う効果がある王<$E0><$65>[LINE]
-<$E0><$56>精の力が宿っている[END]
+豊かな心を養う効果がある王笏[LINE]
+妖精の力が宿っている[END]
 // current address: $10864A
 
 //POINTER #1 @ $C15DC - STRING #1 @ $108608
@@ -3158,7 +3158,7 @@
 
 //POINTER #0 @ $C1664 - STRING #0 @ $1084E0
 #W32($C1664)
-夢<$E0><$6D>ぎの王<$E0><$65>[LINE]
+夢紡ぎの王笏[LINE]
 殴るとピヨリます♪[END]
 // current address: $108500
 
@@ -3175,7 +3175,7 @@
 
 //POINTER #0 @ $C1680 - STRING #0 @ $1084A0
 #W32($C1680)
-<$E0><$73>族の長が持つ<$E0><$74>杖[LINE]
+蛮族の長が持つ錫杖[LINE]
 殴られるとメチャクチャ痛い[END]
 // current address: $1084CE
 
@@ -3209,7 +3209,7 @@
 
 //POINTER #0 @ $C16B8 - STRING #0 @ $108430
 #W32($C16B8)
-<$E0><$6E><$E0><$6F>の権標[LINE]
+慟哭の権標[LINE]
 なんだか悲しくなってきます[END]
 // current address: $108456
 
@@ -3311,7 +3311,7 @@
 
 //POINTER #0 @ $C1760 - STRING #0 @ $108298
 #W32($C1760)
-東風の名を冠する王<$E0><$65>[LINE]
+東風の名を冠する王笏[LINE]
 国を守りし神風伝説は有名[END]
 // current address: $1082C6
 
@@ -3328,7 +3328,7 @@
 
 //POINTER #0 @ $C177C - STRING #0 @ $108258
 #W32($C177C)
-二匹の<$E0><$76>が巻きついている杖[LINE]
+二匹の蛇が巻きついている杖[LINE]
 毒効果有ります[END]
 // current address: $108282
 
@@ -3362,7 +3362,7 @@
 
 //POINTER #0 @ $C17B4 - STRING #0 @ $1081E0
 #W32($C17B4)
-自らを<$E3><$47>み込む大<$E0><$76>の杖[LINE]
+自らを呑み込む大蛇の杖[LINE]
 犠牲の代償に得られる力とは？[END]
 // current address: $108214
 
@@ -3515,7 +3515,7 @@
 
 //POINTER #0 @ $C18B0 - STRING #0 @ $108030
 #W32($C18B0)
-攻城戦用の巨大な金<$E0><$7D>[LINE]
+攻城戦用の巨大な金槌[LINE]
 [END]
 // current address: $108046
 
@@ -3549,7 +3549,7 @@
 
 //POINTER #0 @ $C18E8 - STRING #0 @ $107FB8
 #W32($C18E8)
-三<$E0><$7E>矛[LINE]
+三叉矛[LINE]
 海神が持つことで有名[END]
 // current address: $107FD4
 
@@ -3566,7 +3566,7 @@
 
 //POINTER #0 @ $C1904 - STRING #0 @ $107F70
 #W32($C1904)
-ウェイトを増量して威力を増した鉄<$E0><$7D>[LINE]
+ウェイトを増量して威力を増した鉄槌[LINE]
 殴られると激しく痛い[END]
 // current address: $107FA8
 
@@ -3583,7 +3583,7 @@
 
 //POINTER #0 @ $C1920 - STRING #0 @ $107F28
 #W32($C1920)
-簡素で<$9F><$FA><$9F><$F4>な造りの戦斧[LINE]
+簡素で典雅な造りの戦斧[LINE]
 厚い装甲でも斬り裂きそうです[END]
 // current address: $107F5C
 
@@ -3652,7 +3652,7 @@
 //POINTER #0 @ $C1990 - STRING #0 @ $107E40
 #W32($C1990)
 エクストラプレッシャーの略[LINE]
-すでに人のあつかえる重さでは<$A5><$A5><$A5><$A5>[END]
+すでに人のあつかえる重さでは････[END]
 // current address: $107E7C
 
 //POINTER #1 @ $C1994 - STRING #1 @ $107E30
@@ -3736,8 +3736,8 @@
 
 //POINTER #0 @ $C1A1C - STRING #0 @ $107CF8
 #W32($C1A1C)
-<$E0><$86>打ちハンマー[LINE]
-殴られたら<$A5><$A5><$A5><$A5>死ねるわ！[END]
+杭打ちハンマー[LINE]
+殴られたら････死ねるわ！[END]
 // current address: $107D20
 
 //POINTER #1 @ $C1A20 - STRING #1 @ $107CE8
@@ -3753,7 +3753,7 @@
 
 //POINTER #0 @ $C1A38 - STRING #0 @ $107CA8
 #W32($C1A38)
-半<$9F><$E2>半人の怪物が使用した巨大な戦斧[LINE]
+半牛半人の怪物が使用した巨大な戦斧[LINE]
 その大きさは見る者を圧倒する[END]
 // current address: $107CE8
 
@@ -3821,7 +3821,7 @@
 
 //POINTER #0 @ $C1AA8 - STRING #0 @ $107B98
 #W32($C1AA8)
-第三<$E0><$5D>国の鍛冶工房で鍛えられた戦斧[LINE]
+第三濔国の鍛冶工房で鍛えられた戦斧[LINE]
 科学力は世界一！[END]
 // current address: $107BCC
 
@@ -3838,8 +3838,8 @@
 
 //POINTER #0 @ $C1AC4 - STRING #0 @ $107B50
 #W32($C1AC4)
-駆<$E0><$8B>者の戦斧[LINE]
-かつて<$E0><$73>族の進撃を撃退した時の<$E0><$8C>品[END]
+駆逐者の戦斧[LINE]
+かつて蛮族の進撃を撃退した時の逸品[END]
 // current address: $107B80
 
 //POINTER #1 @ $C1AC8 - STRING #1 @ $107B40
@@ -3975,7 +3975,7 @@
 //POINTER #0 @ $C1BA4 - STRING #0 @ $107960
 #W32($C1BA4)
 北方神話に登場する主神の槍[LINE]
-とても有名だが<$A5><$A5><$A5><$A5>[END]
+とても有名だが････[END]
 // current address: $10798E
 
 //POINTER #1 @ $C1BA8 - STRING #1 @ $107950
@@ -3991,7 +3991,7 @@
 
 //POINTER #0 @ $C1BC0 - STRING #0 @ $107928
 #W32($C1BC0)
-トールの鉄<$E0><$7D>[LINE]
+トールの鉄槌[LINE]
 必ず命中すると言われる[END]
 // current address: $10794C
 
@@ -4008,7 +4008,7 @@
 
 //POINTER #0 @ $C1BDC - STRING #0 @ $1078F0
 #W32($C1BDC)
-狩<$9E><$CD>用の弓[LINE]
+狩猟用の弓[LINE]
 安価の割にそこそこ強い[END]
 // current address: $107912
 
@@ -4026,7 +4026,7 @@
 //POINTER #0 @ $C1BF8 - STRING #0 @ $1078B0
 #W32($C1BF8)
 弾性を強化した弓[LINE]
-飛<$E0><$EC>離が伸びている[END]
+飛距離が伸びている[END]
 // current address: $1078D4
 
 //POINTER #1 @ $C1BFC - STRING #1 @ $1078A0
@@ -4162,7 +4162,7 @@
 //POINTER #0 @ $C1CD8 - STRING #0 @ $1076A0
 #W32($C1CD8)
 フルオート連射の短弓[LINE]
-矢の消費が<$A5><$A5><$A5><$A5>[END]
+矢の消費が････[END]
 // current address: $1076C4
 
 //POINTER #1 @ $C1CDC - STRING #1 @ $107690
@@ -4178,7 +4178,7 @@
 
 //POINTER #0 @ $C1CF4 - STRING #0 @ $107660
 #W32($C1CF4)
-簡素で<$9F><$FA><$9F><$F4>な造りの長弓[LINE]
+簡素で典雅な造りの長弓[LINE]
 実戦で洗練された美しい弓[END]
 // current address: $107690
 
@@ -4349,7 +4349,7 @@
 //POINTER #0 @ $C1E0C - STRING #0 @ $107390
 #W32($C1E0C)
 神風の異名を持つ伝説の弓[LINE]
-天地戦争時代の<$E0><$8C>品[END]
+天地戦争時代の逸品[END]
 // current address: $1073BC
 
 //POINTER #1 @ $C1E10 - STRING #1 @ $107378
@@ -4365,7 +4365,7 @@
 
 //POINTER #0 @ $C1E28 - STRING #0 @ $107340
 #W32($C1E28)
-空飛ぶ聖獣の<$E0><$49>から作られた聖弓[LINE]
+空飛ぶ聖獣の爪から作られた聖弓[LINE]
 誘導する不思議な矢を放つ[END]
 // current address: $107378
 
@@ -4382,7 +4382,7 @@
 
 //POINTER #0 @ $C1E44 - STRING #0 @ $1072F8
 #W32($C1E44)
-その破壊力は火竜の<$E0>な<$EE>の[LINE]
+その破壊力は火竜の吐息の[LINE]
 ようにすさまじい[END]
 // current address: $107322
 
@@ -4467,7 +4467,7 @@
 
 //POINTER #0 @ $C1ED0 - STRING #0 @ $107190
 #W32($C1ED0)
-<$E0>若<$8E>の矢を放つ聖弓[LINE]
+浄火の矢を放つ聖弓[LINE]
 速射性に優れる[END]
 // current address: $1071B2
 
@@ -4484,7 +4484,7 @@
 
 //POINTER #0 @ $C1EEC - STRING #0 @ $107160
 #W32($C1EEC)
-<$9B><$DF>の鎧[LINE]
+革の鎧[LINE]
 初級冒険者のたしなみ？[END]
 // current address: $10717E
 
@@ -4501,7 +4501,7 @@
 
 //POINTER #0 @ $C1F08 - STRING #0 @ $107118
 #W32($C1F08)
-金属の環を<$E0>減<$75>合わせた鎧[LINE]
+金属の環を縫い合わせた鎧[LINE]
 コストパフォーマンスが良い[END]
 // current address: $10714C
 
@@ -4518,7 +4518,7 @@
 
 //POINTER #0 @ $C1F24 - STRING #0 @ $1070C8
 #W32($C1F24)
-鱗のような鋼板を<$E0>減<$75>合わせた鎧[LINE]
+鱗のような鋼板を縫い合わせた鎧[LINE]
 戦闘するならこれくらいは欲しい[END]
 // current address: $107106
 
@@ -4535,7 +4535,7 @@
 
 //POINTER #0 @ $C1F40 - STRING #0 @ $107090
 #W32($C1F40)
-鋼板で強化した<$9B><$DF>の鎧[LINE]
+鋼板で強化した革の鎧[LINE]
 割と本格的な鎧です[END]
 // current address: $1070B8
 
@@ -4552,7 +4552,7 @@
 
 //POINTER #0 @ $C1F5C - STRING #0 @ $107050
 #W32($C1F5C)
-鋼<$E0>粧セ<$9D>製された鎧[LINE]
+鋼糸で縫製された鎧[LINE]
 多くの戦士に愛用される[END]
 // current address: $10707A
 
@@ -4671,8 +4671,8 @@
 
 //POINTER #0 @ $C2020 - STRING #0 @ $106E38
 #W32($C2020)
-特殊な金属<$E0>粧で<$73>つらえたチェインメイル[LINE]
-<$E2><$E9>ホビットも愛用してたそうな[END]
+特殊な金属糸であつらえたチェインメイル[LINE]
+某ホビットも愛用してたそうな[END]
 // current address: $106E7C
 
 //POINTER #1 @ $C2024 - STRING #1 @ $106E20
@@ -4688,7 +4688,7 @@
 
 //POINTER #0 @ $C203C - STRING #0 @ $106DF0
 #W32($C203C)
-簡素で<$9F><$FA><$9F><$F4>な造りの鎧[LINE]
+簡素で典雅な造りの鎧[LINE]
 重厚な守りって感じです[END]
 // current address: $106E1C
 
@@ -4706,7 +4706,7 @@
 //POINTER #0 @ $C2058 - STRING #0 @ $106DA0
 #W32($C2058)
 鋼板の継目も保護されている鎧[LINE]
-硬いです、頑丈です、重いけど<$A5><$A5><$A5><$A5>[END]
+硬いです、頑丈です、重いけど････[END]
 // current address: $106DDE
 
 //POINTER #1 @ $C205C - STRING #1 @ $106D90
@@ -4722,7 +4722,7 @@
 
 //POINTER #0 @ $C2074 - STRING #0 @ $106D58
 #W32($C2074)
-要塞と呼ばれる<$E0><$84>固な鎧[LINE]
+要塞と呼ばれる堅固な鎧[LINE]
 まさに鉄壁の守りって感じです[END]
 // current address: $106D8C
 
@@ -4756,7 +4756,7 @@
 
 //POINTER #0 @ $C20AC - STRING #0 @ $106CB0
 #W32($C20AC)
-名も無き鍛冶屋の無二の<$E0><$90>作[LINE]
+名も無き鍛冶屋の無二の傑作[LINE]
 ドワーフ族の手による作品とも言われる[END]
 // current address: $106CF0
 
@@ -4808,7 +4808,7 @@
 //POINTER #0 @ $C2100 - STRING #0 @ $106BD8
 #W32($C2100)
 攻撃を反射する鎧[LINE]
-天地戦争時代の科学力の<$E0><$83>物[END]
+天地戦争時代の科学力の賜物[END]
 // current address: $106C04
 
 //POINTER #1 @ $C2104 - STRING #1 @ $106BC8
@@ -4892,7 +4892,7 @@
 
 //POINTER #0 @ $C218C - STRING #0 @ $106A50
 #W32($C218C)
-聖戦に<$E0><$A4>く騎士が愛用したといわれる鎧[LINE]
+聖戦に赴く騎士が愛用したといわれる鎧[LINE]
 信仰の力で守護される[END]
 // current address: $106A8A
 
@@ -5062,7 +5062,7 @@
 
 //POINTER #0 @ $C22A4 - STRING #0 @ $1067A8
 #W32($C22A4)
-特殊な毛<$E0>粧<$C4>編んでつくった服[LINE]
+特殊な毛糸を編んでつくった服[LINE]
 ほんわかして暖かいです[END]
 // current address: $1067DC
 
@@ -5097,7 +5097,7 @@
 //POINTER #0 @ $C22DC - STRING #0 @ $106728
 #W32($C22DC)
 夜会用の礼装[LINE]
-<$E2><$EA>女気分にひたれます[END]
+淑女気分にひたれます[END]
 // current address: $10674A
 
 //POINTER #1 @ $C22E0 - STRING #1 @ $106718
@@ -5284,7 +5284,7 @@
 //POINTER #0 @ $C2410 - STRING #0 @ $106458
 #W32($C2410)
 東の国の女性神官の服らしいです[LINE]
-要するに<$E0><$A9>女服です[END]
+要するに巫女服です[END]
 // current address: $10648A
 
 //POINTER #1 @ $C2414 - STRING #1 @ $106440
@@ -5301,7 +5301,7 @@
 //POINTER #0 @ $C242C - STRING #0 @ $106408
 #W32($C242C)
 天国の名を冠する神秘の衣[LINE]
-<$E0>減<$75>目が無いってホントなの？[END]
+縫い目が無いってホントなの？[END]
 // current address: $10643E
 
 //POINTER #1 @ $C2430 - STRING #1 @ $1063F0
@@ -5334,7 +5334,7 @@
 
 //POINTER #0 @ $C2464 - STRING #0 @ $106380
 #W32($C2464)
-<$9B><$DF>で作った軽い兜[LINE]
+革で作った軽い兜[LINE]
 とっても安上りです[END]
 // current address: $1063A4
 
@@ -5402,7 +5402,7 @@
 
 //POINTER #0 @ $C24D4 - STRING #0 @ $1062A8
 #W32($C24D4)
-面<$E0><$AB>で顔を保護する[LINE]
+面頬で顔を保護する[LINE]
 顔を隠したい人向け？[END]
 // current address: $1062D0
 
@@ -5522,7 +5522,7 @@
 //POINTER #0 @ $C2598 - STRING #0 @ $1060C0
 #W32($C2598)
 祝福儀礼が施してあるアーメットヘルム[LINE]
-邪悪を<$E0><$77>う効用があるらしい[END]
+邪悪を祓う効用があるらしい[END]
 // current address: $106100
 
 //POINTER #1 @ $C259C - STRING #1 @ $1060A8
@@ -5539,7 +5539,7 @@
 //POINTER #0 @ $C25B4 - STRING #0 @ $106080
 #W32($C25B4)
 支配者のカスク[LINE]
-王者の貫<$E3><$48>で圧倒されます[END]
+王者の貫禄で圧倒されます[END]
 // current address: $1060A8
 
 //POINTER #1 @ $C25B8 - STRING #1 @ $106070
@@ -5555,7 +5555,7 @@
 
 //POINTER #0 @ $C25D0 - STRING #0 @ $106048
 #W32($C25D0)
-簡素で<$9F><$FA><$9F><$F4>な造りの兜[LINE]
+簡素で典雅な造りの兜[LINE]
 工芸品の極み[END]
 // current address: $10606A
 
@@ -5572,7 +5572,7 @@
 
 //POINTER #0 @ $C25EC - STRING #0 @ $106000
 #W32($C25EC)
-<$E0><$68><$E0><$69>石製のサレット[LINE]
+孔雀石製のサレット[LINE]
 不思議な力が秘められている[END]
 // current address: $10602E
 
@@ -5640,7 +5640,7 @@
 
 //POINTER #0 @ $C265C - STRING #0 @ $105F18
 #W32($C265C)
-儀式用甲<$E2><$67>の頭部[LINE]
+儀式用甲冑の頭部[LINE]
 [END]
 // current address: $105F2A
 
@@ -5691,7 +5691,7 @@
 
 //POINTER #0 @ $C26B0 - STRING #0 @ $105E38
 #W32($C26B0)
-八首の大<$E0><$76>を退治した東国の[LINE]
+八首の大蛇を退治した東国の[LINE]
 荒ぶる漢の名を冠する兜[END]
 // current address: $105E6A
 
@@ -5776,7 +5776,7 @@
 
 //POINTER #0 @ $C273C - STRING #0 @ $105D40
 #W32($C273C)
-純白の<$9D><$68>毛で作った<$9D><$68>飾り[LINE]
+純白の羽毛で作った羽飾り[LINE]
 美しさ重視です！[END]
 // current address: $105D6A
 
@@ -5793,7 +5793,7 @@
 
 //POINTER #0 @ $C2758 - STRING #0 @ $105D18
 #W32($C2758)
-顔を保護する薄い<$9F><$79>布[LINE]
+顔を保護する薄い絹布[LINE]
 [END]
 // current address: $105D2E
 
@@ -5811,7 +5811,7 @@
 //POINTER #0 @ $C2774 - STRING #0 @ $105CD8
 #W32($C2774)
 円形の頭飾り[LINE]
-集中力が高まるような気が<$A5><$A5><$A5><$A5>[END]
+集中力が高まるような気が････[END]
 // current address: $105D02
 
 //POINTER #1 @ $C2778 - STRING #1 @ $105CC8
@@ -5845,7 +5845,7 @@
 //POINTER #0 @ $C27AC - STRING #0 @ $105C68
 #W32($C27AC)
 宝冠[LINE]
-<$9F><$FA>礼用の装飾が施されています[END]
+典礼用の装飾が施されています[END]
 // current address: $105C8A
 
 //POINTER #1 @ $C27B0 - STRING #1 @ $105C50
@@ -5879,7 +5879,7 @@
 //POINTER #0 @ $C27E4 - STRING #0 @ $105BE0
 #W32($C27E4)
 祝福儀礼が施してあるリボン[LINE]
-闇を照らし、魔を<$E0><$77>う[END]
+闇を照らし、魔を祓う[END]
 // current address: $105C10
 
 //POINTER #1 @ $C27E8 - STRING #1 @ $105BC8
@@ -5895,7 +5895,7 @@
 
 //POINTER #0 @ $C2800 - STRING #0 @ $105B88
 #W32($C2800)
-簡素で<$9F><$FA><$9F><$F4>な造りのサークレット[LINE]
+簡素で典雅な造りのサークレット[LINE]
 かつて赤毛の女戦士も愛用しました[END]
 // current address: $105BC8
 
@@ -5946,7 +5946,7 @@
 
 //POINTER #0 @ $C2854 - STRING #0 @ $105AA8
 #W32($C2854)
-祝福を受けた<$9D><$68>飾り[LINE]
+祝福を受けた羽飾り[LINE]
 神聖な力が秘められている[END]
 // current address: $105AD4
 
@@ -5963,7 +5963,7 @@
 
 //POINTER #0 @ $C2870 - STRING #0 @ $105A60
 #W32($C2870)
-<$E0><$68><$E0><$69>石製の王冠[LINE]
+孔雀石製の王冠[LINE]
 不思議な力が秘められている[END]
 // current address: $105A8A
 
@@ -5981,7 +5981,7 @@
 //POINTER #0 @ $C288C - STRING #0 @ $105A10
 #W32($C288C)
 豊かな心を養う効果がある帽子[LINE]
-<$E0><$56>精の力が宿っている[END]
+妖精の力が宿っている[END]
 // current address: $105A42
 
 //POINTER #1 @ $C2890 - STRING #1 @ $105A00
@@ -5997,7 +5997,7 @@
 
 //POINTER #0 @ $C28A8 - STRING #0 @ $1059B0
 #W32($C28A8)
-伝説に登場する幻想の力を秘めた<$9D><$68>飾り[LINE]
+伝説に登場する幻想の力を秘めた羽飾り[LINE]
 口伝を書物にまとめた兄弟の名を冠する[END]
 // current address: $1059FA
 
@@ -6065,7 +6065,7 @@
 
 //POINTER #0 @ $C2918 - STRING #0 @ $1058B8
 #W32($C2918)
-<$E0><$B2>快な仮面[LINE]
+愉快な仮面[LINE]
 いつも笑顔をたやさずに[END]
 // current address: $1058DA
 
@@ -6100,7 +6100,7 @@
 //POINTER #0 @ $C2950 - STRING #0 @ $105840
 #W32($C2950)
 乙女の髪飾り[LINE]
-<$E3><$4A>心に返ることができます[END]
+童心に返ることができます[END]
 // current address: $105866
 
 //POINTER #1 @ $C2954 - STRING #1 @ $105828
@@ -6303,7 +6303,7 @@
 
 //POINTER #0 @ $C2AA0 - STRING #0 @ $1055D8
 #W32($C2AA0)
-人喰い<$E0><$B6>の牙のように鋭い短剣[LINE]
+人喰い鮫の牙のように鋭い短剣[LINE]
 [END]
 // current address: $1055F6
 
@@ -6337,7 +6337,7 @@
 
 //POINTER #0 @ $C2AD8 - STRING #0 @ $105588
 #W32($C2AD8)
-<$E0><$B8>のような厚い刃を持つ短剣[LINE]
+鉈のような厚い刃を持つ短剣[LINE]
 [END]
 // current address: $1055A4
 
@@ -6355,7 +6355,7 @@
 //POINTER #0 @ $C2AF4 - STRING #0 @ $105548
 #W32($C2AF4)
 柄の両端に刃のついた短剣[LINE]
-扱いには高い<$9D><$D5>練度を要する[END]
+扱いには高い熟練度を要する[END]
 // current address: $10557C
 
 //POINTER #1 @ $C2AF8 - STRING #1 @ $105538
@@ -6388,7 +6388,7 @@
 
 //POINTER #0 @ $C2B2C - STRING #0 @ $1054E8
 #W32($C2B2C)
-<$E0><$B7>命の一撃を放つ短剣[LINE]
+致命の一撃を放つ短剣[LINE]
 [END]
 // current address: $1054FE
 
@@ -6406,7 +6406,7 @@
 //POINTER #0 @ $C2B48 - STRING #0 @ $1054A0
 #W32($C2B48)
 無骨な外見の短剣[LINE]
-一切の無駄がなく機能的「質実<$E0><$4F>健」[END]
+一切の無駄がなく機能的「質実剛健」[END]
 // current address: $1054D4
 
 //POINTER #1 @ $C2B4C - STRING #1 @ $105490
@@ -6439,7 +6439,7 @@
 
 //POINTER #0 @ $C2B80 - STRING #0 @ $105430
 #W32($C2B80)
-なめし<$9B><$DF>で強化された篭手[LINE]
+なめし革で強化された篭手[LINE]
 [END]
 // current address: $10544A
 
@@ -6474,7 +6474,7 @@
 //POINTER #0 @ $C2BB8 - STRING #0 @ $1053A8
 #W32($C2BB8)
 鋼の篭手[LINE]
-けどチョト重いかも<$A5><$A5><$A5><$A5>[END]
+けどチョト重いかも････[END]
 // current address: $1053C8
 
 //POINTER #1 @ $C2BBC - STRING #1 @ $105398
@@ -6524,7 +6524,7 @@
 
 //POINTER #0 @ $C2C0C - STRING #0 @ $1052D8
 #W32($C2C0C)
-簡素で<$9F><$FA><$9F><$F4>な造りの篭手[LINE]
+簡素で典雅な造りの篭手[LINE]
 歴史ある鍛冶屋の業物です[END]
 // current address: $105308
 
@@ -6558,7 +6558,7 @@
 
 //POINTER #0 @ $C2C44 - STRING #0 @ $105238
 #W32($C2C44)
-名工ギースの魂のこもった無二の<$E0><$90>作[LINE]
+名工ギースの魂のこもった無二の傑作[LINE]
 きわめて希少価値が高い[END]
 // current address: $105272
 
@@ -6610,7 +6610,7 @@
 //POINTER #0 @ $C2C98 - STRING #0 @ $105170
 #W32($C2C98)
 炎耐性を持つ篭手[LINE]
-けどチョト冷たいかも<$A5><$A5><$A5><$A5>[END]
+けどチョト冷たいかも････[END]
 // current address: $10519A
 
 //POINTER #1 @ $C2C9C - STRING #1 @ $105160
@@ -6728,7 +6728,7 @@
 
 //POINTER #0 @ $C2D5C - STRING #0 @ $104FA0
 #W32($C2D5C)
-<$E0><$BD><$E0><$BE>の腕飾り[LINE]
+瑠璃の腕飾り[LINE]
 悪い事件を事前に知らせると言われる[END]
 // current address: $104FD0
 
@@ -6898,7 +6898,7 @@
 
 //POINTER #0 @ $C2E74 - STRING #0 @ $104D00
 #W32($C2E74)
-<$E0><$5D>王の証といわれる[LINE]
+濔王の証といわれる[LINE]
 三種の神器のひとつ[END]
 // current address: $104D26
 
@@ -6966,7 +6966,7 @@
 
 //POINTER #0 @ $C2EE4 - STRING #0 @ $104C20
 #W32($C2EE4)
-<$9F><$C0>玉の指輪[LINE]
+翠玉の指輪[LINE]
 ＴＰ軽減力が上昇する[END]
 // current address: $104C40
 
@@ -6983,7 +6983,7 @@
 
 //POINTER #0 @ $C2F00 - STRING #0 @ $104BD0
 #W32($C2F00)
-<$E0><$56>精の手によって作られた指輪[LINE]
+妖精の手によって作られた指輪[LINE]
 ＴＰ軽減力が上昇する[END]
 // current address: $104C02
 
@@ -7188,7 +7188,7 @@
 //POINTER #0 @ $C3050 - STRING #0 @ $104878
 #W32($C3050)
 聖なる紋章[LINE]
-<$E0><$C6>々にＨＰが回復[END]
+徐々にＨＰが回復[END]
 // current address: $104894
 
 //POINTER #1 @ $C3054 - STRING #1 @ $104860
@@ -7306,7 +7306,7 @@
 
 //POINTER #0 @ $C3114 - STRING #0 @ $104708
 #W32($C3114)
-黒<$E0><$C7><$E0><$C8><$E0><$C9>のお守り[LINE]
+黒縞瑪瑙のお守り[LINE]
 ＨＰの最大値が上昇する[END]
 // current address: $104730
 
@@ -7375,7 +7375,7 @@
 //POINTER #0 @ $C3184 - STRING #0 @ $1045B8
 #W32($C3184)
 特技をコマンド入力で発動できる。[LINE]
-装備<$E3><$B2>を一個犠牲にする価値はあると主張[END]
+装備欄を一個犠牲にする価値はあると主張[END]
 // current address: $104600
 
 //POINTER #1 @ $C3188 - STRING #1 @ $1045A8
@@ -7425,7 +7425,7 @@
 
 //POINTER #0 @ $C31D8 - STRING #0 @ $1044E0
 #W32($C31D8)
-<$E0><$5D>王の証といわれる装身具[LINE]
+濔王の証といわれる装身具[LINE]
 三種の神器のひとつ[END]
 // current address: $10450C
 
@@ -7442,7 +7442,7 @@
 
 //POINTER #0 @ $C31F4 - STRING #0 @ $1044B0
 #W32($C31F4)
-<$9B><$DF>製のマント[LINE]
+革製のマント[LINE]
 雨の日も安心[END]
 // current address: $1044CA
 
@@ -7561,7 +7561,7 @@
 
 //POINTER #0 @ $C32B8 - STRING #0 @ $1042F0
 #W32($C32B8)
-簡素で<$9F><$FA><$9F><$F4>な造りのマント[LINE]
+簡素で典雅な造りのマント[LINE]
 シブイッス！！[END]
 // current address: $104318
 
@@ -7664,7 +7664,7 @@
 //POINTER #0 @ $C3360 - STRING #0 @ $104128
 #W32($C3360)
 王女がお忍びで外出する時に使ったそうな[LINE]
-<$E0><$CC>様のお転<$9D><$B0>にも困ったものです[END]
+姫様のお転婆にも困ったものです[END]
 // current address: $10416E
 
 //POINTER #1 @ $C3364 - STRING #1 @ $104118
@@ -7680,13 +7680,13 @@
 
 //POINTER #0 @ $C337C - STRING #0 @ $1040E0
 #W32($C337C)
-銀<$E0>粧<$C4>編みこんだケープ[LINE]
+銀糸を編みこんだケープ[LINE]
 銀には魔を退ける力があるそうです[END]
 // current address: $104118
 
 //POINTER #1 @ $C3380 - STRING #1 @ $1040D8
 #W32($C3380)
-陣<$9D><$68>織[END]
+陣羽織[END]
 // current address: $1040DF
 
 //BLOCK #452 NAME:		Items_453
@@ -7697,7 +7697,7 @@
 
 //POINTER #0 @ $C3398 - STRING #0 @ $1040A0
 #W32($C3398)
-東国の将軍が戦場で愛用した<$9D><$68>織[LINE]
+東国の将軍が戦場で愛用した羽織[LINE]
 偉くなった気分になれます[END]
 // current address: $1040D8
 
@@ -7714,7 +7714,7 @@
 
 //POINTER #0 @ $C33B4 - STRING #0 @ $104068
 #W32($C33B4)
-<$9B><$DF>のブーツ[LINE]
+革のブーツ[LINE]
 小石を踏んでも平気です[END]
 // current address: $10408A
 
@@ -7731,7 +7731,7 @@
 
 //POINTER #0 @ $C33D0 - STRING #0 @ $104020
 #W32($C33D0)
-鋼<$E0>粧セ<$9D>製されたブーツ[LINE]
+鋼糸で縫製されたブーツ[LINE]
 チェインメイルとセットでどうぞ[END]
 // current address: $104056
 
@@ -7816,7 +7816,7 @@
 
 //POINTER #0 @ $C345C - STRING #0 @ $103EF0
 #W32($C345C)
-<$E0><$CF>まで保護するブーツ[LINE]
+膝まで保護するブーツ[LINE]
 スネを蹴られても平気です[END]
 // current address: $103F1E
 
@@ -7833,7 +7833,7 @@
 
 //POINTER #0 @ $C3478 - STRING #0 @ $103EA8
 #W32($C3478)
-接近戦に優れた<$E0><$84>いブーツ[LINE]
+接近戦に優れた堅いブーツ[LINE]
 耐久性に優れます[END]
 // current address: $103ED2
 
@@ -7850,7 +7850,7 @@
 
 //POINTER #0 @ $C3494 - STRING #0 @ $103E68
 #W32($C3494)
-簡素で<$9F><$FA><$9F><$F4>な造りのブーツ[LINE]
+簡素で典雅な造りのブーツ[LINE]
 カッコイイー！！[END]
 // current address: $103E92
 
@@ -7867,7 +7867,7 @@
 
 //POINTER #0 @ $C34B0 - STRING #0 @ $103E28
 #W32($C34B0)
-<$9D><$68>根がついてるブーツ[LINE]
+羽根がついてるブーツ[LINE]
 心もウキウキ[END]
 // current address: $103E4A
 
@@ -8663,7 +8663,7 @@
 
 //POINTER #1 @ $C3A10 - STRING #1 @ $FFFFFFFFFFF21029
 #W32($C3A10)
-<$6A><$04><$0C><$2D><$20>[END]
+<$6A><$04><$0C><$2D> [END]
 // current address: $1FFFFFFFFFF2102F
 
 //BLOCK #512 NAME:		Items_513
@@ -9914,7 +9914,7 @@
 
 //POINTER #0 @ $C4294 - STRING #0 @ $FFFFFFFFFFF21022
 #W32($C4294)
-<$10><$3C><$F8><$54><$10><$26><$E8><$6A><$04><$0C><$2D><$20>[END]
+<$10><$3C><$F8><$54><$10><$26><$E8><$6A><$04><$0C><$2D> [END]
 // current address: $1FFFFFFFFFF2102F
 
 //POINTER #1 @ $C4298 - STRING #1 @ $FFFFFFFFFFF01002
