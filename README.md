@@ -77,6 +77,7 @@ Offset   | Description | Notes
 
 ## Resources
 
+- https://gamefaqs.gamespot.com/ps2/561922-tales-of-destiny-2/faqs/58741
 - https://gbatemp.net/threads/romhacking-in-tales-of-destiny-2.373960/
 - https://gbatemp.net/threads/romhacking-in-tales-of-destiny-2.373960/page-3
 - https://pastebin.com/fCVPLUP4
@@ -129,7 +130,8 @@ To extract font image from `0018.bin` (PS2) and `0000.bin` (PSP):
 ![SLPS_251.72](https://raw.githubusercontent.com/pnvnd/Tales-of-Destiny-2/main/tod2_slps_base.png)
 
 ## Credits
+- Thanks to Lanyn for allowing use of Tales of Destiny 2 English translation script, check out https://www.youtube.com/user/lanyn/videos
 - Thanks to the Temple of Tales Translations team (http://temple-tales.ru/translations.html) for providing tools to extract the skits and scenarios
-- Thanks to @alizor for creating the Python scripts to extract and repack both PS2 and PSP versions of the game
+- Thanks to alizor for creating the Python scripts to extract and repack both PS2 and PSP versions of the game
 - Thanks to SkyBladeCloud from GBATemp for tips on how the game / file works
 - Thanks to flamethrower / flame1234 from GBATemp for having Python scripts available to extract the PSP version of the game
