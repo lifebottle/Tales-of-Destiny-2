@@ -4,78 +4,107 @@
 -----------------------
 <char:00000001>
 -----------------------
-ん････
-うぅ、こ、ここは････？
+#ん････
+#うぅ、こ、ここは････？
+Nn...ugh,
+w, where are we...?
 -----------------------
 <char:00000003>
 -----------------------
-気がついたか、<char:00000001>？
-安心しろ、もうクレスタに着いた
-ガキどもは、先に帰しておいたよ
+#気がついたか、<char:00000001>？
+#安心しろ、もうクレスタに着いた
+#ガキどもは、先に帰しておいたよ
+You awake, <char:00000001>? We've already arrived in Cresta,
+so no need to worry. I went ahead and sent the kids on home.
 -----------------------
 <char:00000003>
 -----------------------
-あぁ、それと
-さっきのことは口止めしておいた
-ルーティさんに知れたら、大変だからな
+#あぁ、それと
+#さっきのことは口止めしておいた
+#ルーティさんに知れたら、大変だからな
+Oh yeah, and I told them to keep what happened earlier under wraps too.
+We'd be in some serious hot water if Ms. Rutee ever found out.
 -----------------------
 <char:00000001>
 -----------------------
-････ごめんね、<char:00000003>
-ひさしぶりに会ったっていうのに
-迷惑ばっかりかけちゃって････
+#････ごめんね、<char:00000003>
+#ひさしぶりに会ったっていうのに
+#迷惑ばっかりかけちゃって････
+...Man, I'm sorry, <char:00000003>. I ended up causing
+nothing but trouble for youveven though we
+haven't seen each other in ages...
 -----------------------
 <char:00000003>
 -----------------------
-迷惑ぅ？　ははっ！
-水くさいぜ、<char:00000001>
-俺とおまえの仲じゃねえか
+#迷惑ぅ？　ははっ！
+#水くさいぜ、<char:00000001>
+#俺とおまえの仲じゃねえか
+Trouble? Ha ha! Don't be such a stranger,
+<char:00000001>. You 'n' me are pals, aren't we?
 -----------------------
 <char:00000003>
 -----------------------
-それに、俺がアタモニ神団に入ってから
-孤児院のことは、まかせっきりだったしな
+#それに、俺がアタモニ神団に入ってから
+#孤児院のことは、まかせっきりだったしな
+And besides, I pretty much dumped the orphanage
+on you and all after I joined the Church of Atamoni.
 -----------------------
 <char:00000003>
 -----------------------
-罪滅ぼしじゃねえが
-これぐらいは、当然のことさ
-気にすんな
+#罪滅ぼしじゃねえが
+#これぐらいは、当然のことさ
+#気にすんな
+It ain't much in terms of atonement,
+but something like this is nothing.
+Don't sweat it.
 -----------------------
 <char:00000001>
 -----------------------
-<char:00000003>････
+#<char:00000003>････
+#<char:00000003>...
 -----------------------
 <char:00000003>
 -----------------------
-どうだ、孤児院へ帰る前に
-街の中をぶらついてみないか？
-ひさしぶりに、みんなに会いたいしな
+#どうだ、孤児院へ帰る前に
+#街の中をぶらついてみないか？
+#ひさしぶりに、みんなに会いたいしな
+Why don't we try to take a stroll through town before
+returning to the orphanage? It's been a minute, so
+I want to see everyone.
 -----------------------
 <char:00000001>
 -----------------------
-じゃ、そうしようか
-････って<char:00000003>
-そろそろ降ろしてくんない？
+#じゃ、そうしようか
+#････って<char:00000003>
+#そろそろ降ろしてくんない？
+Let's do that then....or rather, <char:00000003>,
+isn't it about time that you put me down?
 -----------------------
 <char:00000003>
 -----------------------
-ん～？　別に、このままでもいいぜ？
-なんかよ、おまえの重さがなつかしくってな
+#ん～？　別に、このままでもいいぜ？
+#なんかよ、おまえの重さがなつかしくってな
+Hm? It doesn't really matter if we stay like this, does it?
+Your weight brings back memories for some reason.
 -----------------------
 <char:00000001>
 -----------------------
-バ、バカッ！
-子供あつかいすんなよ！
+#バ、バカッ！
+#子供あつかいすんなよ！
+D, don't be stupid! 
+Quit treating me like a child!
 -----------------------
 <char:00000003>
 -----------------------
-はははっ！
-わかった、わかった
+#はははっ！
+#わかった、わかった
+Ha ha ha!
+I gotcha, I gotcha.
 -----------------------
 <char:00000003>
 -----------------------
-んじゃ行くか、<char:00000001>
+#んじゃ行くか、<char:00000001>
+Well, you comin', <char:00000001>?
 -----------------------
 いってらっしゃいませ
 -----------------------

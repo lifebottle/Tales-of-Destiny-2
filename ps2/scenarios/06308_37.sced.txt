@@ -12,25 +12,33 @@
 い「攻撃のひと種類」は
 ＣＨＡＩＮとして加算される
 -----------------------
-<char:00000003>は
-称号「<item:0000080B>」を得ました
+#<char:00000003>は
+#称号「<item:0000080B>」を得ました
+<char:00000003> acquired the title 'Good Bro'.
 -----------------------
 notice
 -----------------------
-マップ画面でSELECTボタンを押すことによって
-「スクリーンチャット」が起動します
+#マップ画面でSELECTボタンを押すことによって
+#「スクリーンチャット」が起動します
+You can activate Screen Chats by pressing
+the SELECT button on the map screen.
 -----------------------
 notice
 -----------------------
-「スクリーンチャット」では
-これから目指すべき場所などのヒントや
-キャラクター同士の楽しいおしゃべりなど
-様々な会話が行なわれます
+#「スクリーンチャット」では
+#これから目指すべき場所などのヒントや
+#キャラクター同士の楽しいおしゃべりなど
+#様々な会話が行なわれます
+Hints indicating where you should go next,
+amusing conversations between your characters,
+and other various dialogues take place during the Screen Chats.
 -----------------------
 notice
 -----------------------
-いろいろな場面で
-SELECTボタンを押してみましょう
+#いろいろな場面で
+#SELECTボタンを押してみましょう
+Try pushing the SELECT button
+in different settings.
 -----------------------
 <char:00000002>
 -----------------------
