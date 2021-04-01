@@ -78,8 +78,9 @@ Basil
 #で、でも
 #街の外にはモンスターがいるんだぞぉ!?
 #ボクたちだけじゃ、あぶないよぉ････
-B, but there are monsters outside of the town, you know!?
-It'll be dangerous if we're by ourselves...
+B, but there are monsters outside of
+the town, you know!? It'll be dangerous
+if we're by ourselves...
 -----------------------
 #シナモン
 Cinnamon
@@ -115,7 +116,8 @@ the world's next great hero,
 #みんな、オレから離れるんじゃないぞ！
 #いいなッ！
 Alright then, we're leaving town to go on an adventure!
-Everyone, don't leave my side for even a second! Is that clear!
+Everyone, don't leave my side for even a second!
+Is that clear!
 -----------------------
 <char:00000001>
 -----------------------
