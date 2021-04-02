@@ -1,0 +1,548 @@
+//Text $116B08
+#WRITE(ptr,$F6D7C)
+最大ＨＰ[END]
+// current address: $116B11
+
+
+
+
+
+//Text $116B00
+#WRITE(ptr,$F6D84)
+攻撃[END]
+// current address: $116B05
+
+
+
+
+
+//Text $116AF8
+#WRITE(ptr,$F6D8C)
+防御[END]
+// current address: $116AFD
+
+
+
+
+
+//Text $116910
+#WRITE(ptr,$F6D94)
+知性[END]
+// current address: $116915
+
+
+
+
+
+//Text $116958
+#WRITE(ptr,$F6D9C)
+命中[END]
+// current address: $11695D
+
+
+
+
+
+//Text $116928
+#WRITE(ptr,$F6DA4)
+回避[END]
+// current address: $11692D
+
+
+
+
+
+//Text $116AF0
+#WRITE(ptr,$F6DAC)
+幸運[END]
+// current address: $116AF5
+
+
+
+
+
+//Text $1168C0
+#WRITE(ptr,$F6DB4)
+ＳＰ回復[END]
+// current address: $1168C9
+
+
+
+
+
+//Text $116AE0
+#WRITE(ptr,$F6DBC)
+ＳＰ軽減[END]
+// current address: $116AE9
+
+
+
+
+
+//Text $116918
+#WRITE(ptr,$F6DC4)
+ＴＰ回復[END]
+// current address: $116921
+
+
+
+
+
+//Text $116900
+#WRITE(ptr,$F6DCC)
+ＴＰ軽減[END]
+// current address: $116909
+
+
+
+
+
+//Text $116938
+#WRITE(ptr,$F6DD4)
+詠唱速度[END]
+// current address: $116941
+
+
+
+
+
+//Text $116948
+#WRITE(ptr,$F6DDC)
+クリティカル[END]
+// current address: $116955
+
+
+
+
+
+//Text $116AD8
+#WRITE(ptr,$F6DE4)
+地属性[END]
+// current address: $116ADF
+
+
+
+
+
+//Text $116AD0
+#WRITE(ptr,$F6DEC)
+水属性[END]
+// current address: $116AD7
+
+
+
+
+
+//Text $116AC8
+#WRITE(ptr,$F6DF4)
+火属性[END]
+// current address: $116ACF
+
+
+
+
+
+//Text $116AC0
+#WRITE(ptr,$F6DFC)
+風属性[END]
+// current address: $116AC7
+
+
+
+
+
+//Text $116AB8
+#WRITE(ptr,$F6E04)
+光属性[END]
+// current address: $116ABF
+
+
+
+
+
+//Text $116AB0
+#WRITE(ptr,$F6E0C)
+闇属性[END]
+// current address: $116AB7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Text $116AA0
+#WRITE(ptr,$F6E7C)
+武器[END]
+// current address: $116AA5
+
+
+
+
+
+//Text $116A90
+#WRITE(ptr,$F6E84)
+頭[END]
+// current address: $116A93
+
+
+
+
+
+//Text $116A80
+#WRITE(ptr,$F6E8C)
+外装[END]
+// current address: $116A85
+
+
+
+
+
+//Text $116A70
+#WRITE(ptr,$F6E94)
+装飾品[END]
+// current address: $116A77
+
+
+
+
+
+//Text $116A68
+#WRITE(ptr,$F6E9C)
+貴重品[END]
+// current address: $116A6F
+
+
+
+
+
+//Text $116A58
+#WRITE(ptr,$F6EA4)
+食材[END]
+// current address: $116A5D
+
+
+
+
+
+//Text $116A48
+#WRITE(ptr,$F6EAC)
+薬[END]
+// current address: $116A4B
+
+
+
+
+
+//Text $116A30
+#WRITE(ptr,$F6EB4)
+調理器具[END]
+// current address: $116A39
+
+
+
+
+
+//Text $116A20
+#WRITE(ptr,$F6EBC)
+刀[END]
+// current address: $116A23
+
+
+
+
+
+//Text $116A28
+#WRITE(ptr,$F6EC4)
+剣[END]
+// current address: $116A2B
+
+
+
+
+
+//Text $116A10
+#WRITE(ptr,$F6ECC)
+斧[END]
+// current address: $116A13
+
+
+
+
+
+//Text $116A00
+#WRITE(ptr,$F6ED4)
+鎚矛[END]
+// current address: $116A05
+
+
+
+
+
+//Text $1169F0
+#WRITE(ptr,$F6EDC)
+杖[END]
+// current address: $1169F3
+
+
+
+
+
+//Text $1169F0
+#WRITE(ptr,$F6EE4)
+杖[END]
+// current address: $1169F3
+
+
+
+
+
+//Text $1169E0
+#WRITE(ptr,$F6EEC)
+服[END]
+// current address: $1169E3
+
+
+
+
+
+//Text $1169D0
+#WRITE(ptr,$F6EF4)
+帽子[END]
+// current address: $1169D5
+
+
+
+
+
+//Text $1169C0
+#WRITE(ptr,$F6EFC)
+短剣[END]
+// current address: $1169C5
+
+
+
+
+
+//Text $1169B0
+#WRITE(ptr,$F6F04)
+手袋[END]
+// current address: $1169B5
+
+
+
+
+
+//Text $1169A0
+#WRITE(ptr,$F6F0C)
+マント[END]
+// current address: $1169A7
+
+
+
+
+
+//Text $116990
+#WRITE(ptr,$F6F14)
+ブーツ[END]
+// current address: $116997
+
+
+
+
+
+//Text $116980
+#WRITE(ptr,$F6F1C)
+指輪[END]
+// current address: $116985
+
+
+
+
+
+//Text $116970
+#WRITE(ptr,$F6F24)
+人形[END]
+// current address: $116975
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Text $116C08
+#WRITE(ptr,$F6F5C)
+ACTION[END]
+// current address: $116C0F
+
+
+
+
+
+//Text $116BF0
+#WRITE(ptr,$F6F64)
+アタック[END]
+// current address: $116BF9
+
+
+
+
+
+//Text $116BD8
+#WRITE(ptr,$F6F6C)
+マジック[END]
+// current address: $116BE1
+
+
+
+
+
+//Text $116BC0
+#WRITE(ptr,$F6F74)
+A[END]
+// current address: $116BC2
+
+
+
+
+
+//Text $116BB0
+#WRITE(ptr,$F6F7C)
+M[END]
+// current address: $116BB2
+
+
+
+
+
+//Text $116B90
+#WRITE(ptr,$F6F84)
+通常攻撃を行うと上昇[END]
+// current address: $116BA5
+
+
+
+
+
+//Text $116B60
+#WRITE(ptr,$F6F8C)
+晶術を使うと上昇[END]
+// current address: $116B71
+
+
+
+
+
+//Text $116AA8
+#WRITE(ptr,$F6F94)
+[END]
+// current address: $116AA9
+
+
+
+
+
+//Text $116B38
+#WRITE(ptr,$F6F9C)
+水[END]
+// current address: $116B3B
+
+
+
+
+
+//Text $116B28
+#WRITE(ptr,$F6FA4)
+風[END]
+// current address: $116B2B
+
+
+
+
+
+//Text $116B18
+#WRITE(ptr,$F6FAC)
+闇[END]
+// current address: $116B1B
+
+
+
+
+
+
+
+
+

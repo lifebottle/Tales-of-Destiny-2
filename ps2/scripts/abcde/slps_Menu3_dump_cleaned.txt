@@ -1,0 +1,109 @@
+//Text $116C10
+#WRITE(ptr,$F6F58)
+ARMD[END]
+// current address: $116C15
+
+//Text $116C08
+#WRITE(ptr,$F6F5C)
+ACTION[END]
+// current address: $116C0F
+
+//Text $116C00
+#WRITE(ptr,$F6F60)
+COUNT[END]
+// current address: $116C06
+
+//Text $116BF0
+#WRITE(ptr,$F6F64)
+アタック[END]
+// current address: $116BF9
+
+//Text $116BE8
+#WRITE(ptr,$F6F68)
+スキル[END]
+// current address: $116BEF
+
+//Text $116BD8
+#WRITE(ptr,$F6F6C)
+マジック[END]
+// current address: $116BE1
+
+//Text $116BC8
+#WRITE(ptr,$F6F70)
+チェイン[END]
+// current address: $116BD1
+
+//Text $116BC0
+#WRITE(ptr,$F6F74)
+A[END]
+// current address: $116BC2
+
+//Text $116BB8
+#WRITE(ptr,$F6F78)
+S[END]
+// current address: $116BBA
+
+//Text $116BB0
+#WRITE(ptr,$F6F7C)
+M[END]
+// current address: $116BB2
+
+//Text $116BA8
+#WRITE(ptr,$F6F80)
+C[END]
+// current address: $116BAA
+
+//Text $116B90
+#WRITE(ptr,$F6F84)
+通常攻撃を行うと上昇[END]
+// current address: $116BA5
+
+//Text $116B78
+#WRITE(ptr,$F6F88)
+特技・奥義を使うと上昇[END]
+// current address: $116B8F
+
+//Text $116B60
+#WRITE(ptr,$F6F8C)
+晶術を使うと上昇[END]
+// current address: $116B71
+
+//Text $116B48
+#WRITE(ptr,$F6F90)
+連携行動を行うと上昇[END]
+// current address: $116B5D
+
+//Text $116AA8
+#WRITE(ptr,$F6F94)
+[END]
+// current address: $116AA9
+
+//Text $116B40
+#WRITE(ptr,$F6F98)
+地[END]
+// current address: $116B43
+
+//Text $116B38
+#WRITE(ptr,$F6F9C)
+水[END]
+// current address: $116B3B
+
+//Text $116B30
+#WRITE(ptr,$F6FA0)
+火[END]
+// current address: $116B33
+
+//Text $116B28
+#WRITE(ptr,$F6FA4)
+風[END]
+// current address: $116B2B
+
+//Text $116B20
+#WRITE(ptr,$F6FA8)
+光[END]
+// current address: $116B23
+
+//Text $116B18
+#WRITE(ptr,$F6FAC)
+闇[END]
+// current address: $116B1B

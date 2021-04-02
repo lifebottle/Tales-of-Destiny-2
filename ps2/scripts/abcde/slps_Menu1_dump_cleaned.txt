@@ -1,0 +1,29 @@
+//Text $1329E0
+#WRITE(ptr,$F8964)
+ガルド[END]
+// current address: $1329E7
+
+//Text $1329D8
+#WRITE(ptr,$F8968)
+レンズ[END]
+// current address: $1329DF
+
+//Text $1329C8
+#WRITE(ptr,$F896C)
+エンカウント[END]
+// current address: $1329D5
+
+//Text $1329B8
+#WRITE(ptr,$F8970)
+最大ヒット[END]
+// current address: $1329C3
+
+//Text $1329A8
+#WRITE(ptr,$F8974)
+戦闘ランク[END]
+// current address: $1329B3
+
+//Text $132998
+#WRITE(ptr,$F8978)
+プレイタイム[END]
+// current address: $1329A5
