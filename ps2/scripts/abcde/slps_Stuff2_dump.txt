@@ -1,0 +1,657 @@
+//GAME NAME:		Tales of destiny 2
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("G:\TalesHacking\TOD2\GitProject\Tales-of-Destiny-2\ps2\scripts\abcde\tod2_utf8.tbl", Table_0)
+
+//BLOCK #000 NAME:		Stuff
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($FE868, $10185C) // Jump to insertion point
+#HDR($-FF000) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $B8820 - STRING #0 @ $101850
+#W32($B8820)
+命中率アップ[END]
+// current address: $10185D
+
+//POINTER #1 @ $B8824 - STRING #1 @ $101838
+#W32($B8824)
+特技の命中率を増やす[END]
+// current address: $10184D
+
+//POINTER #2 @ $B8828 - STRING #2 @ $101828
+#W32($B8828)
+攻撃力アップ[END]
+// current address: $101835
+
+//POINTER #3 @ $B882C - STRING #3 @ $101810
+#W32($B882C)
+特技のダメージを増やす[END]
+// current address: $101827
+
+//POINTER #4 @ $B8830 - STRING #4 @ $101800
+#W32($B8830)
+SP減少軽減[END]
+// current address: $10180B
+
+//POINTER #5 @ $B8834 - STRING #5 @ $1017E0
+#W32($B8834)
+特技中のSP消費を軽減する[END]
+// current address: $1017F9
+
+//POINTER #6 @ $B8838 - STRING #6 @ $1017D0
+#W32($B8838)
+クリティカル[END]
+// current address: $1017DD
+
+//POINTER #7 @ $B883C - STRING #7 @ $1017B0
+#W32($B883C)
+特技のクリティカル率を増やす[END]
+// current address: $1017CD
+
+//POINTER #8 @ $B8840 - STRING #8 @ $1017A0
+#W32($B8840)
+詠唱速度－[END]
+// current address: $1017AB
+
+//POINTER #9 @ $B8844 - STRING #9 @ $101760
+#W32($B8844)
+＜確率・継続効果＞ヒット時に敵の詠唱時間を[LINE]
+一定時間減少させる[END]
+// current address: $10179E
+
+//POINTER #10 @ $B8848 - STRING #10 @ $101758
+#W32($B8848)
+知性－[END]
+// current address: $10175F
+
+//POINTER #11 @ $B884C - STRING #11 @ $101718
+#W32($B884C)
+＜確率・継続効果＞ヒット時に敵の知性能力を[LINE]
+一定時間減少させる[END]
+// current address: $101756
+
+//POINTER #12 @ $B8850 - STRING #12 @ $101708
+#W32($B8850)
+地耐性－[END]
+// current address: $101711
+
+//POINTER #13 @ $B8854 - STRING #13 @ $1016C8
+#W32($B8854)
+＜確率・継続効果＞ヒット時に敵の地耐性を[LINE]
+一定時間減少させる[END]
+// current address: $101704
+
+//POINTER #14 @ $B8858 - STRING #14 @ $1016B8
+#W32($B8858)
+水耐性－[END]
+// current address: $1016C1
+
+//POINTER #15 @ $B885C - STRING #15 @ $101678
+#W32($B885C)
+＜確率・継続効果＞ヒット時に敵の水耐性を[LINE]
+一定時間減少させる[END]
+// current address: $1016B4
+
+//POINTER #16 @ $B8860 - STRING #16 @ $101668
+#W32($B8860)
+火耐性－[END]
+// current address: $101671
+
+//POINTER #17 @ $B8864 - STRING #17 @ $101628
+#W32($B8864)
+＜確率・継続効果＞ヒット時に敵の火耐性を[LINE]
+一定時間減少させる[END]
+// current address: $101664
+
+//POINTER #18 @ $B8868 - STRING #18 @ $101618
+#W32($B8868)
+風耐性－[END]
+// current address: $101621
+
+//POINTER #19 @ $B886C - STRING #19 @ $1015D8
+#W32($B886C)
+＜確率・継続効果＞ヒット時に敵の風耐性を[LINE]
+一定時間減少させる[END]
+// current address: $101614
+
+//POINTER #20 @ $B8870 - STRING #20 @ $1015C8
+#W32($B8870)
+光耐性－[END]
+// current address: $1015D1
+
+//POINTER #21 @ $B8874 - STRING #21 @ $101588
+#W32($B8874)
+＜確率・継続効果＞ヒット時に敵の光耐性を[LINE]
+一定時間減少させる[END]
+// current address: $1015C4
+
+//POINTER #22 @ $B8878 - STRING #22 @ $101578
+#W32($B8878)
+闇耐性－[END]
+// current address: $101581
+
+//POINTER #23 @ $B887C - STRING #23 @ $101538
+#W32($B887C)
+＜確率・継続効果＞ヒット時に敵の闇耐性を[LINE]
+一定時間減少させる[END]
+// current address: $101574
+
+//POINTER #24 @ $B8880 - STRING #24 @ $101528
+#W32($B8880)
+属性攻撃貫通[END]
+// current address: $101535
+
+//POINTER #25 @ $B8884 - STRING #25 @ $1014E0
+#W32($B8884)
+自分の最も耐性のある属性のみ、特技中[LINE]
+レベル数だけ属性攻撃に耐えられる[END]
+// current address: $101526
+
+//POINTER #26 @ $B8888 - STRING #26 @ $1014D0
+#W32($B8888)
+属性晶術貫通[END]
+// current address: $1014DD
+
+//POINTER #27 @ $B888C - STRING #27 @ $101488
+#W32($B888C)
+自分の最も耐性のある属性のみ、特技中[LINE]
+レベル数だけ属性晶術に耐えられる[END]
+// current address: $1014CE
+
+//POINTER #28 @ $B8890 - STRING #28 @ $101478
+#W32($B8890)
+ブラスター[END]
+// current address: $101483
+
+//POINTER #29 @ $B8894 - STRING #29 @ $101438
+#W32($B8894)
+スピリッツブラスター状態になるための[LINE]
+カウントが加算される[END]
+// current address: $101472
+
+//POINTER #30 @ $B8898 - STRING #30 @ $101428
+#W32($B8898)
+詠唱速度上昇[END]
+// current address: $101435
+
+//POINTER #31 @ $B889C - STRING #31 @ $101400
+#W32($B889C)
+＜継続効果＞詠唱速度が一定時間上昇する[END]
+// current address: $101427
+
+//POINTER #32 @ $B88A0 - STRING #32 @ $1013F0
+#W32($B88A0)
+アイテム強奪[END]
+// current address: $1013FD
+
+//POINTER #33 @ $B88A4 - STRING #33 @ $1013B8
+#W32($B88A4)
+＜確率効果＞ヒット時にアイテムを盗むことが[LINE]
+できる[END]
+// current address: $1013EA
+
+//POINTER #34 @ $B88A8 - STRING #34 @ $1013A8
+#W32($B88A8)
+瞬間完全回避[END]
+// current address: $1013B5
+
+//POINTER #35 @ $B88AC - STRING #35 @ $101370
+#W32($B88AC)
+特技発動開始のごく僅かな時間[LINE]
+全ての攻撃を回避する[END]
+// current address: $1013A2
+
+//POINTER #36 @ $B88B0 - STRING #36 @ $101360
+#W32($B88B0)
+追加特技[END]
+// current address: $101369
+
+//POINTER #37 @ $B88B4 - STRING #37 @ $101328
+#W32($B88B4)
+敵ヒット時「<$09><$3D>[END]
+// current address: $101337
+
+//POINTER #38 @ $B88B8 - STRING #38 @ $101320
+#W32($B88B8)
+秘奥義[END]
+// current address: $101327
+
+//POINTER #39 @ $B88BC - STRING #39 @ $1012E8
+#W32($B88BC)
+敵のけぞり中「<$09><$3D>[END]
+// current address: $1012F9
+
+//POINTER #40 @ $B88C0 - STRING #40 @ $1012D8
+#W32($B88C0)
+反撃発動[END]
+// current address: $1012E1
+
+//POINTER #41 @ $B88C4 - STRING #41 @ $101298
+#W32($B88C4)
+地上でダメージを受けた瞬間に「特技入力」で[LINE]
+特技を発動できる。[END]
+// current address: $1012D6
+
+//POINTER #42 @ $B88C8 - STRING #42 @ $101288
+#W32($B88C8)
+ガード発動[END]
+// current address: $101293
+
+//POINTER #43 @ $B88CC - STRING #43 @ $101248
+#W32($B88CC)
+地上で攻撃をガードした瞬間に「特技入力」で[LINE]
+特技を発動できる。[END]
+// current address: $101286
+
+//POINTER #44 @ $B88D0 - STRING #44 @ $101238
+#W32($B88D0)
+空中発動[END]
+// current address: $101241
+
+//POINTER #45 @ $B88D4 - STRING #45 @ $101208
+#W32($B88D4)
+空中にいる時に「特技入力」で特技を発動できる[LINE]
+[END]
+// current address: $101236
+
+//POINTER #46 @ $B88D8 - STRING #46 @ $1011F8
+#W32($B88D8)
+ガードブレイク[END]
+// current address: $101207
+
+//POINTER #47 @ $B88DC - STRING #47 @ $1011B8
+#W32($B88DC)
+敵ガード時に「<$09><$3D>[END]
+// current address: $1011C9
+
+//POINTER #48 @ $B88E0 - STRING #48 @ $1011A8
+#W32($B88E0)
+ふっ飛ばし[END]
+// current address: $1011B3
+
+//POINTER #49 @ $B88E4 - STRING #49 @ $101170
+#W32($B88E4)
+ヒット時に「<$09><$3D>[END]
+// current address: $10117F
+
+//POINTER #50 @ $B88E8 - STRING #50 @ $101160
+#W32($B88E8)
+通常技連携[END]
+// current address: $10116B
+
+//POINTER #51 @ $B88EC - STRING #51 @ $101120
+#W32($B88EC)
+特技から開始して「<$09><$3D>[END]
+// current address: $101135
+
+//POINTER #52 @ $B88F0 - STRING #52 @ $101110
+#W32($B88F0)
+攻撃後前進[END]
+// current address: $10111B
+
+//POINTER #53 @ $B88F4 - STRING #53 @ $1010D0
+#W32($B88F4)
+「<$09><$3D>[END]
+// current address: $1010D5
+
+//POINTER #54 @ $B88F8 - STRING #54 @ $1010C0
+#W32($B88F8)
+攻撃後後退[END]
+// current address: $1010CB
+
+//POINTER #55 @ $B88FC - STRING #55 @ $101080
+#W32($B88FC)
+「<$09><$3D>[END]
+// current address: $101085
+
+//POINTER #56 @ $B8900 - STRING #56 @ $101070
+#W32($B8900)
+背面取り[END]
+// current address: $101079
+
+//POINTER #57 @ $B8904 - STRING #57 @ $101030
+#W32($B8904)
+「<$09><$3D>[END]
+// current address: $101035
+
+//POINTER #58 @ $B8908 - STRING #58 @ $101020
+#W32($B8908)
+晶術追撃[END]
+// current address: $101029
+
+//POINTER #59 @ $B890C - STRING #59 @ $100FE8
+#W32($B890C)
+特技後「晶術入力」で下級攻撃晶術を[LINE]
+高速発動できる。[END]
+// current address: $10101C
+
+//POINTER #60 @ $B8910 - STRING #60 @ $100FD8
+#W32($B8910)
+特技連携[END]
+// current address: $100FE1
+
+//POINTER #61 @ $B8914 - STRING #61 @ $100FA0
+#W32($B8914)
+特技中に「他特技入力」で一回だけ特技[LINE]
+で連携可能。[END]
+// current address: $100FD2
+
+//POINTER #62 @ $B8918 - STRING #62 @ $100F90
+#W32($B8918)
+効果上昇[END]
+// current address: $100F99
+
+//POINTER #63 @ $B891C - STRING #63 @ $100F60
+#W32($B891C)
+攻撃晶術はダメージが、[LINE]
+回復晶術は回復量が上昇[END]
+// current address: $100F8E
+
+//POINTER #64 @ $B8920 - STRING #64 @ $100F50
+#W32($B8920)
+詠唱加速[END]
+// current address: $100F59
+
+//POINTER #65 @ $B8924 - STRING #65 @ $100F30
+#W32($B8924)
+使用晶術の詠唱速度が上昇する[END]
+// current address: $100F4D
+
+//POINTER #66 @ $B8928 - STRING #66 @ $100F20
+#W32($B8928)
+TP減少軽減[END]
+// current address: $100F2B
+
+//POINTER #67 @ $B892C - STRING #67 @ $100F00
+#W32($B892C)
+使用晶術の消費TPを軽減する[END]
+// current address: $100F1B
+
+//POINTER #68 @ $B8930 - STRING #68 @ $100EF0
+#W32($B8930)
+属性抵抗上昇[END]
+// current address: $100EFD
+
+//POINTER #69 @ $B8934 - STRING #69 @ $100EB8
+#W32($B8934)
+＜継続効果＞使用晶術の属性の耐性が一定時間[LINE]
+上昇する[END]
+// current address: $100EEC
+
+//POINTER #70 @ $B8938 - STRING #70 @ $100EA8
+#W32($B8938)
+攻撃力－[END]
+// current address: $100EB1
+
+//POINTER #71 @ $B893C - STRING #71 @ $100E70
+#W32($B893C)
+＜確率・継続効果＞敵の攻撃力を一定時間[LINE]
+減少させる[END]
+// current address: $100EA2
+
+//POINTER #72 @ $B8940 - STRING #72 @ $100E68
+#W32($B8940)
+命中－[END]
+// current address: $100E6F
+
+//POINTER #73 @ $B8944 - STRING #73 @ $100E30
+#W32($B8944)
+＜確率・継続効果＞敵の命中力を一定時間[LINE]
+減少させる[END]
+// current address: $100E62
+
+//POINTER #74 @ $B8948 - STRING #74 @ $100E20
+#W32($B8948)
+防御力－[END]
+// current address: $100E29
+
+//POINTER #75 @ $B894C - STRING #75 @ $100DE8
+#W32($B894C)
+＜確率・継続効果＞敵の防御力を一定時間[LINE]
+減少させる[END]
+// current address: $100E1A
+
+//POINTER #76 @ $B8950 - STRING #76 @ $100DD8
+#W32($B8950)
+回避力－[END]
+// current address: $100DE1
+
+//POINTER #77 @ $B8954 - STRING #77 @ $100DA0
+#W32($B8954)
+＜確率・継続効果＞敵の回避力を一定時間[LINE]
+減少させる[END]
+// current address: $100DD2
+
+//POINTER #78 @ $B8958 - STRING #78 @ $100D98
+#W32($B8958)
+SP－[END]
+// current address: $100D9D
+
+//POINTER #79 @ $B895C - STRING #79 @ $100D70
+#W32($B895C)
+＜確率効果＞敵SPにダメージを与える[END]
+// current address: $100D93
+
+//POINTER #80 @ $B8960 - STRING #80 @ $100D68
+#W32($B8960)
+TP－[END]
+// current address: $100D6D
+
+//POINTER #81 @ $B8964 - STRING #81 @ $100D40
+#W32($B8964)
+＜確率効果＞敵TPにダメージを与える[END]
+// current address: $100D63
+
+//POINTER #82 @ $B8968 - STRING #82 @ $100D38
+#W32($B8968)
+毒効果[END]
+// current address: $100D3F
+
+//POINTER #83 @ $B896C - STRING #83 @ $100D08
+#W32($B896C)
+＜確率・継続効果＞敵を一定時間毒状態にする[END]
+// current address: $100D33
+
+//POINTER #84 @ $B8970 - STRING #84 @ $100CF8
+#W32($B8970)
+凍結効果[END]
+// current address: $100D01
+
+//POINTER #85 @ $B8974 - STRING #85 @ $100CC8
+#W32($B8974)
+＜確率・継続効果＞敵を一定時間凍結状態にする[END]
+// current address: $100CF5
+
+//POINTER #86 @ $B8978 - STRING #86 @ $100CB8
+#W32($B8978)
+麻痺効果[END]
+// current address: $100CC1
+
+//POINTER #87 @ $B897C - STRING #87 @ $100C88
+#W32($B897C)
+＜確率・継続効果＞敵を一定時間麻痺状態にする[END]
+// current address: $100CB5
+
+//POINTER #88 @ $B8980 - STRING #88 @ $100C78
+#W32($B8980)
+鈍足効果[END]
+// current address: $100C81
+
+//POINTER #89 @ $B8984 - STRING #89 @ $100C48
+#W32($B8984)
+＜確率・継続効果＞敵を一定時間鈍足状態にする[END]
+// current address: $100C75
+
+//POINTER #90 @ $B8988 - STRING #90 @ $100C38
+#W32($B8988)
+硬直時間加算[END]
+// current address: $100C45
+
+//POINTER #91 @ $B898C - STRING #91 @ $100C10
+#W32($B898C)
+ヒット時の敵の硬直時間を長くする[END]
+// current address: $100C31
+
+//POINTER #92 @ $B8990 - STRING #92 @ $100C00
+#W32($B8990)
+リカバー[END]
+// current address: $100C09
+
+//POINTER #93 @ $B8994 - STRING #93 @ $100BB0
+#W32($B8994)
+<$4C><$56>に応じて<$28>毒<$2F>衰弱<$2F>麻痺<$2F>鈍足･凍結<$29>を解除する[LINE]
+非戦闘時はセットしなくても解除可能[END]
+// current address: $100C00
+
+//POINTER #94 @ $B8998 - STRING #94 @ $100BA0
+#W32($B8998)
+ゲットアイテム[END]
+// current address: $100BAF
+
+//POINTER #95 @ $B899C - STRING #95 @ $100B60
+#W32($B899C)
+＜確率効果＞この晶術で倒した時のアイテム[LINE]
+入手確率が上昇する[END]
+// current address: $100B9C
+
+//POINTER #96 @ $B89A0 - STRING #96 @ $100B50
+#W32($B89A0)
+スピリッツ[END]
+// current address: $100B5B
+
+//POINTER #97 @ $B89A4 - STRING #97 @ $100B38
+#W32($B89A4)
+回復者のSPが回復する[END]
+// current address: $100B4D
+
+//POINTER #98 @ $B89A8 - STRING #98 @ $100B28
+#W32($B89A8)
+メンタル[END]
+// current address: $100B31
+
+//POINTER #99 @ $B89AC - STRING #99 @ $100B10
+#W32($B89AC)
+回復者のTPが回復する[END]
+// current address: $100B25
+
+//POINTER #100 @ $B89B0 - STRING #100 @ $100B00
+#W32($B89B0)
+追加晶術[END]
+// current address: $100B09
+
+//POINTER #101 @ $B89B4 - STRING #101 @ $100AD0
+#W32($B89B4)
+「<$09><$3D>[END]
+// current address: $100AD5
+
+//POINTER #102 @ $B89B8 - STRING #102 @ $100AC0
+#W32($B89B8)
+具現結晶[END]
+// current address: $100AC9
+
+//POINTER #103 @ $B89BC - STRING #103 @ $100A78
+#W32($B89BC)
+「<$09><$3D>[END]
+// current address: $100A7D
+
+//POINTER #104 @ $B89C0 - STRING #104 @ $100A68
+#W32($B89C0)
+連携発動[END]
+// current address: $100A71
+
+//POINTER #105 @ $B89C4 - STRING #105 @ $100A18
+#W32($B89C4)
+晶術チャージ完了後<$09><$3D>[END]
+// current address: $100A2D
+
+//POINTER #106 @ $B89C8 - STRING #106 @ $100A08
+#W32($B89C8)
+４倍速詠唱[END]
+// current address: $100A13
+
+//POINTER #107 @ $B89CC - STRING #107 @ $1009C8
+#W32($B89CC)
+詠唱開始直後に「<$09><$3D>[END]
+// current address: $1009DB
+
+//POINTER #108 @ $B89D0 - STRING #108 @ $1009C0
+#W32($B89D0)
+HP吸収[END]
+// current address: $1009C7
+
+//POINTER #109 @ $B89D4 - STRING #109 @ $100980
+#W32($B89D4)
+「<$09><$3D>[END]
+// current address: $100985
+
+//POINTER #110 @ $B89D8 - STRING #110 @ $100978
+#W32($B89D8)
+SP転換[END]
+// current address: $10097F
+
+//POINTER #111 @ $B89DC - STRING #111 @ $100950
+#W32($B89DC)
+「<$09><$3D>[END]
+// current address: $100955
+
+//POINTER #112 @ $B89E0 - STRING #112 @ $100948
+#W32($B89E0)
+TP転換[END]
+// current address: $10094F
+
+//POINTER #113 @ $B89E4 - STRING #113 @ $100920
+#W32($B89E4)
+「<$09><$3D>[END]
+// current address: $100925
+
+//POINTER #114 @ $B89E8 - STRING #114 @ $100918
+#W32($B89E8)
+SP分与[END]
+// current address: $10091F
+
+//POINTER #115 @ $B89EC - STRING #115 @ $1008E0
+#W32($B89EC)
+「<$09><$3D>[END]
+// current address: $1008E5
+
+//POINTER #116 @ $B89F0 - STRING #116 @ $1008D0
+#W32($B89F0)
+引き寄せ[END]
+// current address: $1008D9
+
+//POINTER #117 @ $B89F4 - STRING #117 @ $FE868
+#W32($B89F4)
+[END]
+// current address: $FE869
+
+//POINTER #118 @ $B89F8 - STRING #118 @ $1008C0
+#W32($B89F8)
+一定完全回避[END]
+// current address: $1008CD
+
+//POINTER #119 @ $B89FC - STRING #119 @ $100878
+#W32($B89FC)
+「<$09><$3D>[END]
+// current address: $10087D
+
+//POINTER #120 @ $B8A00 - STRING #120 @ $100868
+#W32($B8A00)
+硬直解除[END]
+// current address: $100871
+
+//POINTER #121 @ $B8A04 - STRING #121 @ $100830
+#W32($B8A04)
+「<$09><$3D>[END]
+// current address: $100835
+
+//POINTER #122 @ $B8A08 - STRING #122 @ $100820
+#W32($B8A08)
+気絶攻撃[END]
+// current address: $100829
+
+//POINTER #123 @ $B8A0C - STRING #123 @ $1007E8
+#W32($B8A0C)
+「<$09><$3D>[END]
+// current address: $1007ED

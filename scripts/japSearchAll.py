@@ -78,7 +78,7 @@ dfAllPoss['value'] = dfAllPoss['value'].str.replace(' ', '')
 
 
 #Stuff to search
-japText = 'カイル'
+japText = '命中が上昇する'
 
 
 #List all the different possible ways of HEX for this text
@@ -88,7 +88,7 @@ for element in itertools.product(*df):
     listValues.append(('').join(element).lower())
 
 #In th slps file
-slpsFile = os.path.join(pathTables, "..", "ps2", "scripts", "abcde_v0_0_9", "SLPS_251.72")
+slpsFile = os.path.join(pathTables, "..", "ps2", "scripts", "abcde", "SLPS_251.72")
 lookForHex(listValues, slpsFile)
 
 #In the other file

@@ -1,0 +1,2651 @@
+//GAME NAME:		Tales of destiny 2
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("G:\TalesHacking\TOD2\GitProject\Tales-of-Destiny-2\ps2\scripts\abcde\tod2_utf8.tbl", Table_0)
+
+//BLOCK #000 NAME:		Stuff
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($100B28, $103B96) // Jump to insertion point
+#HDR($-FF000) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $B8A38 - STRING #0 @ $103B88
+#W32($B8A38)
+攻撃が上昇する[END]
+// current address: $103B97
+
+//POINTER #1 @ $B8A3C - STRING #1 @ $103B78
+#W32($B8A3C)
+アタック[END]
+// current address: $103B81
+
+//POINTER #2 @ $B8A40 - STRING #2 @ $103B70
+#W32($B8A40)
+パワー[END]
+// current address: $103B77
+
+//POINTER #3 @ $B8A44 - STRING #3 @ $103B60
+#W32($B8A44)
+ストレングス[END]
+// current address: $103B6D
+
+//POINTER #4 @ $B8A48 - STRING #4 @ $103B50
+#W32($B8A48)
+フォース[END]
+// current address: $103B59
+
+//POINTER #5 @ $B8A4C - STRING #5 @ $103B40
+#W32($B8A4C)
+マイティ[END]
+// current address: $103B49
+
+//POINTER #6 @ $B8A50 - STRING #6 @ $103B30
+#W32($B8A50)
+命中が上昇する[END]
+// current address: $103B3F
+
+//POINTER #7 @ $B8A54 - STRING #7 @ $103B20
+#W32($B8A54)
+フィート[END]
+// current address: $103B29
+
+//POINTER #8 @ $B8A58 - STRING #8 @ $103B10
+#W32($B8A58)
+シャープ[END]
+// current address: $103B19
+
+//POINTER #9 @ $B8A5C - STRING #9 @ $103B00
+#W32($B8A5C)
+ニンブル[END]
+// current address: $103B09
+
+//POINTER #10 @ $B8A60 - STRING #10 @ $103AF0
+#W32($B8A60)
+プリシジョン[END]
+// current address: $103AFD
+
+//POINTER #11 @ $B8A64 - STRING #11 @ $103AE0
+#W32($B8A64)
+スリヴァー[END]
+// current address: $103AEB
+
+//POINTER #12 @ $B8A68 - STRING #12 @ $103AD0
+#W32($B8A68)
+防御が上昇する[END]
+// current address: $103ADF
+
+//POINTER #13 @ $B8A6C - STRING #13 @ $103AC0
+#W32($B8A6C)
+スティール[END]
+// current address: $103ACB
+
+//POINTER #14 @ $B8A70 - STRING #14 @ $103AB0
+#W32($B8A70)
+アーマード[END]
+// current address: $103ABB
+
+//POINTER #15 @ $B8A74 - STRING #15 @ $103AA0
+#W32($B8A74)
+プロテクト[END]
+// current address: $103AAB
+
+//POINTER #16 @ $B8A78 - STRING #16 @ $103A90
+#W32($B8A78)
+ランパート[END]
+// current address: $103A9B
+
+//POINTER #17 @ $B8A7C - STRING #17 @ $103A80
+#W32($B8A7C)
+キャラペイス[END]
+// current address: $103A8D
+
+//POINTER #18 @ $B8A80 - STRING #18 @ $103A70
+#W32($B8A80)
+回避が上昇する[END]
+// current address: $103A7F
+
+//POINTER #19 @ $B8A84 - STRING #19 @ $103A60
+#W32($B8A84)
+イベイション[END]
+// current address: $103A6D
+
+//POINTER #20 @ $B8A88 - STRING #20 @ $103A50
+#W32($B8A88)
+ダンシング[END]
+// current address: $103A5B
+
+//POINTER #21 @ $B8A8C - STRING #21 @ $103A40
+#W32($B8A8C)
+フラックス[END]
+// current address: $103A4B
+
+//POINTER #22 @ $B8A90 - STRING #22 @ $103A30
+#W32($B8A90)
+インビジブル[END]
+// current address: $103A3D
+
+//POINTER #23 @ $B8A94 - STRING #23 @ $103A20
+#W32($B8A94)
+マヌーヴァー[END]
+// current address: $103A2D
+
+//POINTER #24 @ $B8A98 - STRING #24 @ $103A10
+#W32($B8A98)
+知性が上昇する[END]
+// current address: $103A1F
+
+//POINTER #25 @ $B8A9C - STRING #25 @ $103A00
+#W32($B8A9C)
+ナリッジ[END]
+// current address: $103A09
+
+//POINTER #26 @ $B8AA0 - STRING #26 @ $1039F0
+#W32($B8AA0)
+ワイズマン[END]
+// current address: $1039FB
+
+//POINTER #27 @ $B8AA4 - STRING #27 @ $1039E0
+#W32($B8AA4)
+シンキング[END]
+// current address: $1039EB
+
+//POINTER #28 @ $B8AA8 - STRING #28 @ $1039D0
+#W32($B8AA8)
+クレバー[END]
+// current address: $1039D9
+
+//POINTER #29 @ $B8AAC - STRING #29 @ $1039C0
+#W32($B8AAC)
+ウィズダム[END]
+// current address: $1039CB
+
+//POINTER #30 @ $B8AB0 - STRING #30 @ $1039B0
+#W32($B8AB0)
+運が上昇する[END]
+// current address: $1039BD
+
+//POINTER #31 @ $B8AB4 - STRING #31 @ $1039A0
+#W32($B8AB4)
+ラビット[END]
+// current address: $1039A9
+
+//POINTER #32 @ $B8AB8 - STRING #32 @ $103990
+#W32($B8AB8)
+ハッピー[END]
+// current address: $103999
+
+//POINTER #33 @ $B8ABC - STRING #33 @ $103980
+#W32($B8ABC)
+チャンス[END]
+// current address: $103989
+
+//POINTER #34 @ $B8AC0 - STRING #34 @ $103978
+#W32($B8AC0)
+ラック[END]
+// current address: $10397F
+
+//POINTER #35 @ $B8AC4 - STRING #35 @ $103968
+#W32($B8AC4)
+フォーチュン[END]
+// current address: $103975
+
+//POINTER #36 @ $B8AC8 - STRING #36 @ $103950
+#W32($B8AC8)
+最大ＨＰが上昇する[END]
+// current address: $103963
+
+//POINTER #37 @ $B8ACC - STRING #37 @ $103940
+#W32($B8ACC)
+トロール[END]
+// current address: $103949
+
+//POINTER #38 @ $B8AD0 - STRING #38 @ $103930
+#W32($B8AD0)
+ウルヴァリン[END]
+// current address: $10393D
+
+//POINTER #39 @ $B8AD4 - STRING #39 @ $103920
+#W32($B8AD4)
+ジャイアント[END]
+// current address: $10392D
+
+//POINTER #40 @ $B8AD8 - STRING #40 @ $103910
+#W32($B8AD8)
+ビヒーモス[END]
+// current address: $10391B
+
+//POINTER #41 @ $B8ADC - STRING #41 @ $103900
+#W32($B8ADC)
+コロッサス[END]
+// current address: $10390B
+
+//POINTER #42 @ $B8AE0 - STRING #42 @ $1038E8
+#W32($B8AE0)
+ＳＰ回復力が上昇する[END]
+// current address: $1038FD
+
+//POINTER #43 @ $B8AE4 - STRING #43 @ $1038E0
+#W32($B8AE4)
+ムーン[END]
+// current address: $1038E7
+
+//POINTER #44 @ $B8AE8 - STRING #44 @ $1038D8
+#W32($B8AE8)
+セレネ[END]
+// current address: $1038DF
+
+//POINTER #45 @ $B8AEC - STRING #45 @ $1038C8
+#W32($B8AEC)
+プラネット[END]
+// current address: $1038D3
+
+//POINTER #46 @ $B8AF0 - STRING #46 @ $1038B8
+#W32($B8AF0)
+アルテミス[END]
+// current address: $1038C3
+
+//POINTER #47 @ $B8AF4 - STRING #47 @ $1038A8
+#W32($B8AF4)
+ルナティック[END]
+// current address: $1038B5
+
+//POINTER #48 @ $B8AF8 - STRING #48 @ $103890
+#W32($B8AF8)
+ＴＰ回復力が上昇する[END]
+// current address: $1038A5
+
+//POINTER #49 @ $B8AFC - STRING #49 @ $103880
+#W32($B8AFC)
+マインド[END]
+// current address: $103889
+
+//POINTER #50 @ $B8B00 - STRING #50 @ $100B28
+#W32($B8B00)
+メンタル[END]
+// current address: $100B31
+
+//POINTER #51 @ $B8B04 - STRING #51 @ $103870
+#W32($B8B04)
+トランキル[END]
+// current address: $10387B
+
+//POINTER #52 @ $B8B08 - STRING #52 @ $103860
+#W32($B8B08)
+メディテイト[END]
+// current address: $10386D
+
+//POINTER #53 @ $B8B0C - STRING #53 @ $103850
+#W32($B8B0C)
+セレニティ[END]
+// current address: $10385B
+
+//POINTER #54 @ $B8B10 - STRING #54 @ $103838
+#W32($B8B10)
+ＳＰ軽減力が上昇する[END]
+// current address: $10384D
+
+//POINTER #55 @ $B8B14 - STRING #55 @ $103828
+#W32($B8B14)
+イーサー[END]
+// current address: $103831
+
+//POINTER #56 @ $B8B18 - STRING #56 @ $103818
+#W32($B8B18)
+コズミック[END]
+// current address: $103823
+
+//POINTER #57 @ $B8B1C - STRING #57 @ $103808
+#W32($B8B1C)
+ウェルキン[END]
+// current address: $103813
+
+//POINTER #58 @ $B8B20 - STRING #58 @ $1037F8
+#W32($B8B20)
+ゾディアック[END]
+// current address: $103805
+
+//POINTER #59 @ $B8B24 - STRING #59 @ $1037E8
+#W32($B8B24)
+サンクタム[END]
+// current address: $1037F3
+
+//POINTER #60 @ $B8B28 - STRING #60 @ $1037D0
+#W32($B8B28)
+ＴＰ軽減力が上昇する[END]
+// current address: $1037E5
+
+//POINTER #61 @ $B8B2C - STRING #61 @ $1037C0
+#W32($B8B2C)
+ピクシー[END]
+// current address: $1037C9
+
+//POINTER #62 @ $B8B30 - STRING #62 @ $1037B0
+#W32($B8B30)
+スプライト[END]
+// current address: $1037BB
+
+//POINTER #63 @ $B8B34 - STRING #63 @ $1037A0
+#W32($B8B34)
+ドライアド[END]
+// current address: $1037AB
+
+//POINTER #64 @ $B8B38 - STRING #64 @ $103790
+#W32($B8B38)
+レプラコーン[END]
+// current address: $10379D
+
+//POINTER #65 @ $B8B3C - STRING #65 @ $103780
+#W32($B8B3C)
+フェアリィ[END]
+// current address: $10378B
+
+//POINTER #66 @ $B8B40 - STRING #66 @ $103768
+#W32($B8B40)
+詠唱速度が上昇する[END]
+// current address: $10377B
+
+//POINTER #67 @ $B8B44 - STRING #67 @ $103760
+#W32($B8B44)
+スペル[END]
+// current address: $103767
+
+//POINTER #68 @ $B8B48 - STRING #68 @ $103750
+#W32($B8B48)
+パラダイム[END]
+// current address: $10375B
+
+//POINTER #69 @ $B8B4C - STRING #69 @ $103740
+#W32($B8B4C)
+リチュアル[END]
+// current address: $10374B
+
+//POINTER #70 @ $B8B50 - STRING #70 @ $103730
+#W32($B8B50)
+アーケイン[END]
+// current address: $10373B
+
+//POINTER #71 @ $B8B54 - STRING #71 @ $103720
+#W32($B8B54)
+ミスティ[END]
+// current address: $103729
+
+//POINTER #72 @ $B8B58 - STRING #72 @ $103708
+#W32($B8B58)
+逃走速度が上昇する[END]
+// current address: $10371B
+
+//POINTER #73 @ $B8B5C - STRING #73 @ $1036F8
+#W32($B8B5C)
+エスケープ[END]
+// current address: $103703
+
+//POINTER #74 @ $B8B60 - STRING #74 @ $1036E8
+#W32($B8B60)
+ダッシュ[END]
+// current address: $1036F1
+
+//POINTER #75 @ $B8B64 - STRING #75 @ $1036D8
+#W32($B8B64)
+ラナウェイ[END]
+// current address: $1036E3
+
+//POINTER #76 @ $B8B68 - STRING #76 @ $1036C8
+#W32($B8B68)
+スプリント[END]
+// current address: $1036D3
+
+//POINTER #77 @ $B8B6C - STRING #77 @ $1036B8
+#W32($B8B6C)
+ヴァニシング[END]
+// current address: $1036C5
+
+//POINTER #78 @ $B8B70 - STRING #78 @ $103698
+#W32($B8B70)
+一定間隔でＨＰが回復する[END]
+// current address: $1036B1
+
+//POINTER #79 @ $B8B74 - STRING #79 @ $103688
+#W32($B8B74)
+ヒーリング[END]
+// current address: $103693
+
+//POINTER #80 @ $B8B78 - STRING #80 @ $103678
+#W32($B8B78)
+メディカル[END]
+// current address: $103683
+
+//POINTER #81 @ $B8B7C - STRING #81 @ $103668
+#W32($B8B7C)
+カーミング[END]
+// current address: $103673
+
+//POINTER #82 @ $B8B80 - STRING #82 @ $103658
+#W32($B8B80)
+アンセム[END]
+// current address: $103661
+
+//POINTER #83 @ $B8B84 - STRING #83 @ $103648
+#W32($B8B84)
+ホーリィ[END]
+// current address: $103651
+
+//POINTER #84 @ $B8B88 - STRING #84 @ $103630
+#W32($B8B88)
+低確率で最大ＨＰ加算[END]
+// current address: $103645
+
+//POINTER #85 @ $B8B8C - STRING #85 @ $103620
+#W32($B8B8C)
+マーシナリー[END]
+// current address: $10362D
+
+//POINTER #86 @ $B8B90 - STRING #86 @ $103610
+#W32($B8B90)
+ウォリア[END]
+// current address: $103619
+
+//POINTER #87 @ $B8B94 - STRING #87 @ $103600
+#W32($B8B94)
+エリート[END]
+// current address: $103609
+
+//POINTER #88 @ $B8B98 - STRING #88 @ $1035F0
+#W32($B8B98)
+ジェネラル[END]
+// current address: $1035FB
+
+//POINTER #89 @ $B8B9C - STRING #89 @ $1035E0
+#W32($B8B9C)
+マーシャル[END]
+// current address: $1035EB
+
+//POINTER #90 @ $B8BA0 - STRING #90 @ $1035C0
+#W32($B8BA0)
+アイテム使用硬直時間減少[END]
+// current address: $1035D9
+
+//POINTER #91 @ $B8BA4 - STRING #91 @ $1035B0
+#W32($B8BA4)
+スライト[END]
+// current address: $1035B9
+
+//POINTER #92 @ $B8BA8 - STRING #92 @ $1035A0
+#W32($B8BA8)
+クラフトマン[END]
+// current address: $1035AD
+
+//POINTER #93 @ $B8BAC - STRING #93 @ $103590
+#W32($B8BAC)
+ベテラン[END]
+// current address: $103599
+
+//POINTER #94 @ $B8BB0 - STRING #94 @ $103580
+#W32($B8BB0)
+エキスパート[END]
+// current address: $10358D
+
+//POINTER #95 @ $B8BB4 - STRING #95 @ $103570
+#W32($B8BB4)
+アーティスト[END]
+// current address: $10357D
+
+//POINTER #96 @ $B8BB8 - STRING #96 @ $103558
+#W32($B8BB8)
+取得ガルドが増加する[END]
+// current address: $10356D
+
+//POINTER #97 @ $B8BBC - STRING #97 @ $103548
+#W32($B8BBC)
+マーチャント[END]
+// current address: $103555
+
+//POINTER #98 @ $B8BC0 - STRING #98 @ $103538
+#W32($B8BC0)
+プライズ[END]
+// current address: $103541
+
+//POINTER #99 @ $B8BC4 - STRING #99 @ $103528
+#W32($B8BC4)
+ハイリワード[END]
+// current address: $103535
+
+//POINTER #100 @ $B8BC8 - STRING #100 @ $103518
+#W32($B8BC8)
+ウェルス[END]
+// current address: $103521
+
+//POINTER #101 @ $B8BCC - STRING #101 @ $103508
+#W32($B8BCC)
+バウンティ[END]
+// current address: $103513
+
+//POINTER #102 @ $B8BD0 - STRING #102 @ $1034F0
+#W32($B8BD0)
+アイテム取得確率上昇[END]
+// current address: $103505
+
+//POINTER #103 @ $B8BD4 - STRING #103 @ $1034E0
+#W32($B8BD4)
+トレジャー[END]
+// current address: $1034EB
+
+//POINTER #104 @ $B8BD8 - STRING #104 @ $1034D0
+#W32($B8BD8)
+クァンタム[END]
+// current address: $1034DB
+
+//POINTER #105 @ $B8BDC - STRING #105 @ $1034C0
+#W32($B8BDC)
+アバウンド[END]
+// current address: $1034CB
+
+//POINTER #106 @ $B8BE0 - STRING #106 @ $1034B0
+#W32($B8BE0)
+プレントリー[END]
+// current address: $1034BD
+
+//POINTER #107 @ $B8BE4 - STRING #107 @ $1034A0
+#W32($B8BE4)
+レガシー[END]
+// current address: $1034A9
+
+//POINTER #108 @ $B8BE8 - STRING #108 @ $103488
+#W32($B8BE8)
+取得<$45><$78><$70>が増加する[END]
+// current address: $10349A
+
+//POINTER #109 @ $B8BEC - STRING #109 @ $103478
+#W32($B8BEC)
+オーサム[END]
+// current address: $103481
+
+//POINTER #110 @ $B8BF0 - STRING #110 @ $103468
+#W32($B8BF0)
+プレステージ[END]
+// current address: $103475
+
+//POINTER #111 @ $B8BF4 - STRING #111 @ $103458
+#W32($B8BF4)
+セイントリー[END]
+// current address: $103465
+
+//POINTER #112 @ $B8BF8 - STRING #112 @ $103448
+#W32($B8BF8)
+グローリアス[END]
+// current address: $103455
+
+//POINTER #113 @ $B8BFC - STRING #113 @ $103438
+#W32($B8BFC)
+セイクリッド[END]
+// current address: $103445
+
+//POINTER #114 @ $B8C00 - STRING #114 @ $103418
+#W32($B8C00)
+＜確率効果＞の発生確率上昇[END]
+// current address: $103433
+
+//POINTER #115 @ $B8C04 - STRING #115 @ $103408
+#W32($B8C04)
+デュエリスト[END]
+// current address: $103415
+
+//POINTER #116 @ $B8C08 - STRING #116 @ $1033F8
+#W32($B8C08)
+ドラグーン[END]
+// current address: $103403
+
+//POINTER #117 @ $B8C0C - STRING #117 @ $1033E8
+#W32($B8C0C)
+チャンピオン[END]
+// current address: $1033F5
+
+//POINTER #118 @ $B8C10 - STRING #118 @ $1033D8
+#W32($B8C10)
+マスター[END]
+// current address: $1033E1
+
+//POINTER #119 @ $B8C14 - STRING #119 @ $1033C8
+#W32($B8C14)
+ベルセルク[END]
+// current address: $1033D3
+
+//POINTER #120 @ $B8C18 - STRING #120 @ $1033B0
+#W32($B8C18)
+対のスロットの効果上昇[END]
+// current address: $1033C7
+
+//POINTER #121 @ $B8C1C - STRING #121 @ $1033A0
+#W32($B8C1C)
+スクワイア[END]
+// current address: $1033AB
+
+//POINTER #122 @ $B8C20 - STRING #122 @ $103398
+#W32($B8C20)
+ナイツ[END]
+// current address: $10339F
+
+//POINTER #123 @ $B8C24 - STRING #123 @ $103388
+#W32($B8C24)
+パラディン[END]
+// current address: $103393
+
+//POINTER #124 @ $B8C28 - STRING #124 @ $103378
+#W32($B8C28)
+パトリオット[END]
+// current address: $103385
+
+//POINTER #125 @ $B8C2C - STRING #125 @ $103368
+#W32($B8C2C)
+クルセイダー[END]
+// current address: $103375
+
+//POINTER #126 @ $B8C30 - STRING #126 @ $103348
+#W32($B8C30)
+対のスロットが低確率で<$4C><$56><$55>P[END]
+// current address: $103363
+
+//POINTER #127 @ $B8C34 - STRING #127 @ $103338
+#W32($B8C34)
+プラティナム[END]
+// current address: $103345
+
+//POINTER #128 @ $B8C38 - STRING #128 @ $103328
+#W32($B8C38)
+ミスリル[END]
+// current address: $103331
+
+//POINTER #129 @ $B8C3C - STRING #129 @ $103318
+#W32($B8C3C)
+スターダスト[END]
+// current address: $103325
+
+//POINTER #130 @ $B8C40 - STRING #130 @ $103308
+#W32($B8C40)
+オリハルコン[END]
+// current address: $103315
+
+//POINTER #131 @ $B8C44 - STRING #131 @ $1032F8
+#W32($B8C44)
+メテオリック[END]
+// current address: $103305
+
+//POINTER #132 @ $B8C48 - STRING #132 @ $1032E0
+#W32($B8C48)
+地属性を付加する[END]
+// current address: $1032F1
+
+//POINTER #133 @ $B8C4C - STRING #133 @ $1032D8
+#W32($B8C4C)
+ソイル[END]
+// current address: $1032DF
+
+//POINTER #134 @ $B8C50 - STRING #134 @ $1032D0
+#W32($B8C50)
+アース[END]
+// current address: $1032D7
+
+//POINTER #135 @ $B8C54 - STRING #135 @ $1032C8
+#W32($B8C54)
+ガイア[END]
+// current address: $1032CF
+
+//POINTER #136 @ $B8C58 - STRING #136 @ $1032C0
+#W32($B8C58)
+ノーム[END]
+// current address: $1032C7
+
+//POINTER #137 @ $B8C5C - STRING #137 @ $1032B0
+#W32($B8C5C)
+マーテル[END]
+// current address: $1032B9
+
+//POINTER #138 @ $B8C60 - STRING #138 @ $103298
+#W32($B8C60)
+水属性を付加する[END]
+// current address: $1032A9
+
+//POINTER #139 @ $B8C64 - STRING #139 @ $103288
+#W32($B8C64)
+ウォーター[END]
+// current address: $103293
+
+//POINTER #140 @ $B8C68 - STRING #140 @ $103278
+#W32($B8C68)
+アクエリアス[END]
+// current address: $103285
+
+//POINTER #141 @ $B8C6C - STRING #141 @ $103268
+#W32($B8C6C)
+トリトン[END]
+// current address: $103271
+
+//POINTER #142 @ $B8C70 - STRING #142 @ $103258
+#W32($B8C70)
+ウンディーネ[END]
+// current address: $103265
+
+//POINTER #143 @ $B8C74 - STRING #143 @ $103248
+#W32($B8C74)
+ポセイドン[END]
+// current address: $103253
+
+//POINTER #144 @ $B8C78 - STRING #144 @ $103230
+#W32($B8C78)
+火属性を付加する[END]
+// current address: $103241
+
+//POINTER #145 @ $B8C7C - STRING #145 @ $103220
+#W32($B8C7C)
+ファイア[END]
+// current address: $103229
+
+//POINTER #146 @ $B8C80 - STRING #146 @ $103218
+#W32($B8C80)
+フレア[END]
+// current address: $10321F
+
+//POINTER #147 @ $B8C84 - STRING #147 @ $103208
+#W32($B8C84)
+シアリング[END]
+// current address: $103213
+
+//POINTER #148 @ $B8C88 - STRING #148 @ $1031F8
+#W32($B8C88)
+サラマンダー[END]
+// current address: $103205
+
+//POINTER #149 @ $B8C8C - STRING #149 @ $1031E8
+#W32($B8C8C)
+イフリート[END]
+// current address: $1031F3
+
+//POINTER #150 @ $B8C90 - STRING #150 @ $1031D0
+#W32($B8C90)
+風属性を付加する[END]
+// current address: $1031E1
+
+//POINTER #151 @ $B8C94 - STRING #151 @ $1031C0
+#W32($B8C94)
+ウィンディ[END]
+// current address: $1031CB
+
+//POINTER #152 @ $B8C98 - STRING #152 @ $1031B8
+#W32($B8C98)
+ゲイル[END]
+// current address: $1031BF
+
+//POINTER #153 @ $B8C9C - STRING #153 @ $1031A8
+#W32($B8C9C)
+ゼファー[END]
+// current address: $1031B1
+
+//POINTER #154 @ $B8CA0 - STRING #154 @ $103198
+#W32($B8CA0)
+エアリアル[END]
+// current address: $1031A3
+
+//POINTER #155 @ $B8CA4 - STRING #155 @ $103188
+#W32($B8CA4)
+シルフィ[END]
+// current address: $103191
+
+//POINTER #156 @ $B8CA8 - STRING #156 @ $103170
+#W32($B8CA8)
+光属性を付加する[END]
+// current address: $103181
+
+//POINTER #157 @ $B8CAC - STRING #157 @ $103168
+#W32($B8CAC)
+ライト[END]
+// current address: $10316F
+
+//POINTER #158 @ $B8CB0 - STRING #158 @ $103158
+#W32($B8CB0)
+イルミネイト[END]
+// current address: $103165
+
+//POINTER #159 @ $B8CB4 - STRING #159 @ $103148
+#W32($B8CB4)
+ブリリアント[END]
+// current address: $103155
+
+//POINTER #160 @ $B8CB8 - STRING #160 @ $103138
+#W32($B8CB8)
+トゥインクル[END]
+// current address: $103145
+
+//POINTER #161 @ $B8CBC - STRING #161 @ $103128
+#W32($B8CBC)
+フォトン[END]
+// current address: $103131
+
+//POINTER #162 @ $B8CC0 - STRING #162 @ $103110
+#W32($B8CC0)
+闇属性を付加する[END]
+// current address: $103121
+
+//POINTER #163 @ $B8CC4 - STRING #163 @ $103108
+#W32($B8CC4)
+ダスク[END]
+// current address: $10310F
+
+//POINTER #164 @ $B8CC8 - STRING #164 @ $1030F8
+#W32($B8CC8)
+シルエット[END]
+// current address: $103103
+
+//POINTER #165 @ $B8CCC - STRING #165 @ $1030E8
+#W32($B8CCC)
+シェイド[END]
+// current address: $1030F1
+
+//POINTER #166 @ $B8CD0 - STRING #166 @ $1030D8
+#W32($B8CD0)
+ダークネス[END]
+// current address: $1030E3
+
+//POINTER #167 @ $B8CD4 - STRING #167 @ $1030C8
+#W32($B8CD4)
+シャドウ[END]
+// current address: $1030D1
+
+//POINTER #168 @ $B8CD8 - STRING #168 @ $1030A8
+#W32($B8CD8)
+＜確率効果＞毒を付加する[END]
+// current address: $1030C1
+
+//POINTER #169 @ $B8CDC - STRING #169 @ $103098
+#W32($B8CDC)
+ポイズン[END]
+// current address: $1030A1
+
+//POINTER #170 @ $B8CE0 - STRING #170 @ $103088
+#W32($B8CE0)
+ノキサス[END]
+// current address: $103091
+
+//POINTER #171 @ $B8CE4 - STRING #171 @ $103078
+#W32($B8CE4)
+ヴェノム[END]
+// current address: $103081
+
+//POINTER #172 @ $B8CE8 - STRING #172 @ $103068
+#W32($B8CE8)
+エピデミック[END]
+// current address: $103075
+
+//POINTER #173 @ $B8CEC - STRING #173 @ $103058
+#W32($B8CEC)
+プラギュー[END]
+// current address: $103063
+
+//POINTER #174 @ $B8CF0 - STRING #174 @ $103038
+#W32($B8CF0)
+＜確率効果＞麻痺を付加する[END]
+// current address: $103053
+
+//POINTER #175 @ $B8CF4 - STRING #175 @ $103028
+#W32($B8CF4)
+パラライズ[END]
+// current address: $103033
+
+//POINTER #176 @ $B8CF8 - STRING #176 @ $103018
+#W32($B8CF8)
+スパイダー[END]
+// current address: $103023
+
+//POINTER #177 @ $B8CFC - STRING #177 @ $103008
+#W32($B8CFC)
+コカトリス[END]
+// current address: $103013
+
+//POINTER #178 @ $B8D00 - STRING #178 @ $102FF8
+#W32($B8D00)
+バシリスク[END]
+// current address: $103003
+
+//POINTER #179 @ $B8D04 - STRING #179 @ $102FE8
+#W32($B8D04)
+メデューサ[END]
+// current address: $102FF3
+
+//POINTER #180 @ $B8D08 - STRING #180 @ $102FC8
+#W32($B8D08)
+＜確率効果＞凍結効果を付加[END]
+// current address: $102FE3
+
+//POINTER #181 @ $B8D0C - STRING #181 @ $102FB8
+#W32($B8D0C)
+コールド[END]
+// current address: $102FC1
+
+//POINTER #182 @ $B8D10 - STRING #182 @ $102FA8
+#W32($B8D10)
+フリーズ[END]
+// current address: $102FB1
+
+//POINTER #183 @ $B8D14 - STRING #183 @ $102F98
+#W32($B8D14)
+アイスバーグ[END]
+// current address: $102FA5
+
+//POINTER #184 @ $B8D18 - STRING #184 @ $102F88
+#W32($B8D18)
+グレイシャル[END]
+// current address: $102F95
+
+//POINTER #185 @ $B8D1C - STRING #185 @ $102F78
+#W32($B8D1C)
+ステイシス[END]
+// current address: $102F83
+
+//POINTER #186 @ $B8D20 - STRING #186 @ $102F58
+#W32($B8D20)
+＜確率効果＞衰弱効果を付加[END]
+// current address: $102F73
+
+//POINTER #187 @ $B8D24 - STRING #187 @ $102F48
+#W32($B8D24)
+ウィークン[END]
+// current address: $102F53
+
+//POINTER #188 @ $B8D28 - STRING #188 @ $102F38
+#W32($B8D28)
+ディジーズ[END]
+// current address: $102F43
+
+//POINTER #189 @ $B8D2C - STRING #189 @ $102F28
+#W32($B8D2C)
+ファイナー[END]
+// current address: $102F33
+
+//POINTER #190 @ $B8D30 - STRING #190 @ $102F18
+#W32($B8D30)
+ペインフル[END]
+// current address: $102F23
+
+//POINTER #191 @ $B8D34 - STRING #191 @ $102F08
+#W32($B8D34)
+ファティーグ[END]
+// current address: $102F15
+
+//POINTER #192 @ $B8D38 - STRING #192 @ $102EE8
+#W32($B8D38)
+＜確率効果＞気絶効果を付加[END]
+// current address: $102F03
+
+//POINTER #193 @ $B8D3C - STRING #193 @ $102ED8
+#W32($B8D3C)
+ハウリング[END]
+// current address: $102EE3
+
+//POINTER #194 @ $B8D40 - STRING #194 @ $102EC8
+#W32($B8D40)
+バッシング[END]
+// current address: $102ED3
+
+//POINTER #195 @ $B8D44 - STRING #195 @ $102EB8
+#W32($B8D44)
+グロッギー[END]
+// current address: $102EC3
+
+//POINTER #196 @ $B8D48 - STRING #196 @ $102EA8
+#W32($B8D48)
+ストライク[END]
+// current address: $102EB3
+
+//POINTER #197 @ $B8D4C - STRING #197 @ $102E98
+#W32($B8D4C)
+ドライビング[END]
+// current address: $102EA5
+
+//POINTER #198 @ $B8D50 - STRING #198 @ $102E78
+#W32($B8D50)
+クリティカル率が上昇する[END]
+// current address: $102E91
+
+//POINTER #199 @ $B8D54 - STRING #199 @ $1017D0
+#W32($B8D54)
+クリティカル[END]
+// current address: $1017DD
+
+//POINTER #200 @ $B8D58 - STRING #200 @ $102E68
+#W32($B8D58)
+ランページ[END]
+// current address: $102E73
+
+//POINTER #201 @ $B8D5C - STRING #201 @ $102E58
+#W32($B8D5C)
+マーシレス[END]
+// current address: $102E63
+
+//POINTER #202 @ $B8D60 - STRING #202 @ $102E48
+#W32($B8D60)
+カーネイジ[END]
+// current address: $102E53
+
+//POINTER #203 @ $B8D64 - STRING #203 @ $102E38
+#W32($B8D64)
+ジェノサイド[END]
+// current address: $102E45
+
+//POINTER #204 @ $B8D68 - STRING #204 @ $102E20
+#W32($B8D68)
+攻撃時にＨＰ吸収[END]
+// current address: $102E31
+
+//POINTER #205 @ $B8D6C - STRING #205 @ $102E10
+#W32($B8D6C)
+モスキート[END]
+// current address: $102E1B
+
+//POINTER #206 @ $B8D70 - STRING #206 @ $102E00
+#W32($B8D70)
+ブラッディ[END]
+// current address: $102E0B
+
+//POINTER #207 @ $B8D74 - STRING #207 @ $102DF0
+#W32($B8D74)
+スナッチャー[END]
+// current address: $102DFD
+
+//POINTER #208 @ $B8D78 - STRING #208 @ $102DE0
+#W32($B8D78)
+サッキュバス[END]
+// current address: $102DED
+
+//POINTER #209 @ $B8D7C - STRING #209 @ $102DD0
+#W32($B8D7C)
+ヴァンパイア[END]
+// current address: $102DDD
+
+//POINTER #210 @ $B8D80 - STRING #210 @ $102DB8
+#W32($B8D80)
+攻撃時にＴＰ吸収[END]
+// current address: $102DC9
+
+//POINTER #211 @ $B8D84 - STRING #211 @ $102DA8
+#W32($B8D84)
+ファントム[END]
+// current address: $102DB3
+
+//POINTER #212 @ $B8D88 - STRING #212 @ $102D98
+#W32($B8D88)
+スペクター[END]
+// current address: $102DA3
+
+//POINTER #213 @ $B8D8C - STRING #213 @ $102D88
+#W32($B8D8C)
+スピリット[END]
+// current address: $102D93
+
+//POINTER #214 @ $B8D90 - STRING #214 @ $102D78
+#W32($B8D90)
+ナイトメア[END]
+// current address: $102D83
+
+//POINTER #215 @ $B8D94 - STRING #215 @ $102D68
+#W32($B8D94)
+ヴァルパイン[END]
+// current address: $102D75
+
+//POINTER #216 @ $B8D98 - STRING #216 @ $102D48
+#W32($B8D98)
+敵撃破時にＨＰを回復する[END]
+// current address: $102D61
+
+//POINTER #217 @ $B8D9C - STRING #217 @ $102D38
+#W32($B8D9C)
+ハーモニー[END]
+// current address: $102D43
+
+//POINTER #218 @ $B8DA0 - STRING #218 @ $102D28
+#W32($B8DA0)
+プレジャー[END]
+// current address: $102D33
+
+//POINTER #219 @ $B8DA4 - STRING #219 @ $102D18
+#W32($B8DA4)
+リリーヴ[END]
+// current address: $102D21
+
+//POINTER #220 @ $B8DA8 - STRING #220 @ $102D08
+#W32($B8DA8)
+パスタイム[END]
+// current address: $102D13
+
+//POINTER #221 @ $B8DAC - STRING #221 @ $102CF8
+#W32($B8DAC)
+リレントリー[END]
+// current address: $102D05
+
+//POINTER #222 @ $B8DB0 - STRING #222 @ $102CD8
+#W32($B8DB0)
+撃破時のＴＰ回復量が増加[END]
+// current address: $102CF1
+
+//POINTER #223 @ $B8DB4 - STRING #223 @ $102CD0
+#W32($B8DB4)
+メイジ[END]
+// current address: $102CD7
+
+//POINTER #224 @ $B8DB8 - STRING #224 @ $102CC0
+#W32($B8DB8)
+マジカル[END]
+// current address: $102CC9
+
+//POINTER #225 @ $B8DBC - STRING #225 @ $102CB8
+#W32($B8DBC)
+ルーン[END]
+// current address: $102CBF
+
+//POINTER #226 @ $B8DC0 - STRING #226 @ $102CA8
+#W32($B8DC0)
+ワンダー[END]
+// current address: $102CB1
+
+//POINTER #227 @ $B8DC4 - STRING #227 @ $102C98
+#W32($B8DC4)
+ストレンジ[END]
+// current address: $102CA3
+
+//POINTER #228 @ $B8DC8 - STRING #228 @ $102C78
+#W32($B8DC8)
+アタックレベルの成長促進[END]
+// current address: $102C91
+
+//POINTER #229 @ $B8DCC - STRING #229 @ $102C68
+#W32($B8DCC)
+アサルト[END]
+// current address: $102C71
+
+//POINTER #230 @ $B8DD0 - STRING #230 @ $102C58
+#W32($B8DD0)
+トランプル[END]
+// current address: $102C63
+
+//POINTER #231 @ $B8DD4 - STRING #231 @ $102C48
+#W32($B8DD4)
+オンスロート[END]
+// current address: $102C55
+
+//POINTER #232 @ $B8DD8 - STRING #232 @ $102C38
+#W32($B8DD8)
+サヴェイジ[END]
+// current address: $102C43
+
+//POINTER #233 @ $B8DDC - STRING #233 @ $102C28
+#W32($B8DDC)
+デッドリー[END]
+// current address: $102C33
+
+//POINTER #234 @ $B8DE0 - STRING #234 @ $102C10
+#W32($B8DE0)
+スキルレベルの成長促進[END]
+// current address: $102C27
+
+//POINTER #235 @ $B8DE4 - STRING #235 @ $102C00
+#W32($B8DE4)
+ガンビット[END]
+// current address: $102C0B
+
+//POINTER #236 @ $B8DE8 - STRING #236 @ $102BF0
+#W32($B8DE8)
+エイミング[END]
+// current address: $102BFB
+
+//POINTER #237 @ $B8DEC - STRING #237 @ $102BE0
+#W32($B8DEC)
+ファイン[END]
+// current address: $102BE9
+
+//POINTER #238 @ $B8DF0 - STRING #238 @ $102BD0
+#W32($B8DF0)
+ガイデッド[END]
+// current address: $102BDB
+
+//POINTER #239 @ $B8DF4 - STRING #239 @ $102BC0
+#W32($B8DF4)
+アキュレイト[END]
+// current address: $102BCD
+
+//POINTER #240 @ $B8DF8 - STRING #240 @ $102BA8
+#W32($B8DF8)
+マジックレベル成長促進[END]
+// current address: $102BBF
+
+//POINTER #241 @ $B8DFC - STRING #241 @ $102CC0
+#W32($B8DFC)
+マジカル[END]
+// current address: $102CC9
+
+//POINTER #242 @ $B8E00 - STRING #242 @ $102B98
+#W32($B8E00)
+スローター[END]
+// current address: $102BA3
+
+//POINTER #243 @ $B8E04 - STRING #243 @ $102B88
+#W32($B8E04)
+カタストロフ[END]
+// current address: $102B95
+
+//POINTER #244 @ $B8E08 - STRING #244 @ $102B78
+#W32($B8E08)
+ハルマゲドン[END]
+// current address: $102B85
+
+//POINTER #245 @ $B8E0C - STRING #245 @ $102B68
+#W32($B8E0C)
+アポカリプス[END]
+// current address: $102B75
+
+//POINTER #246 @ $B8E10 - STRING #246 @ $102B48
+#W32($B8E10)
+チェインレベルの成長促進[END]
+// current address: $102B61
+
+//POINTER #247 @ $B8E14 - STRING #247 @ $102B38
+#W32($B8E14)
+ドリーム[END]
+// current address: $102B41
+
+//POINTER #248 @ $B8E18 - STRING #248 @ $102B28
+#W32($B8E18)
+ファンタジー[END]
+// current address: $102B35
+
+//POINTER #249 @ $B8E1C - STRING #249 @ $102B18
+#W32($B8E1C)
+ジェスター[END]
+// current address: $102B23
+
+//POINTER #250 @ $B8E20 - STRING #250 @ $102B08
+#W32($B8E20)
+アルルカン[END]
+// current address: $102B13
+
+//POINTER #251 @ $B8E24 - STRING #251 @ $102AF8
+#W32($B8E24)
+ハーレクイン[END]
+// current address: $102B05
+
+//POINTER #252 @ $B8E28 - STRING #252 @ $102AE0
+#W32($B8E28)
+＜継続効果＞の時間延長[END]
+// current address: $102AF7
+
+//POINTER #253 @ $B8E2C - STRING #253 @ $102AD0
+#W32($B8E2C)
+スカウト[END]
+// current address: $102AD9
+
+//POINTER #254 @ $B8E30 - STRING #254 @ $102AC0
+#W32($B8E30)
+ブルーム[END]
+// current address: $102AC9
+
+//POINTER #255 @ $B8E34 - STRING #255 @ $102AB0
+#W32($B8E34)
+ヴィジョン[END]
+// current address: $102ABB
+
+//POINTER #256 @ $B8E38 - STRING #256 @ $102AA0
+#W32($B8E38)
+ユースフル[END]
+// current address: $102AAB
+
+//POINTER #257 @ $B8E3C - STRING #257 @ $102A90
+#W32($B8E3C)
+チアリング[END]
+// current address: $102A9B
+
+//POINTER #258 @ $B8E40 - STRING #258 @ $102A78
+#W32($B8E40)
+ドラゴンに対して有効[END]
+// current address: $102A8D
+
+//POINTER #259 @ $B8E44 - STRING #259 @ $102A68
+#W32($B8E44)
+リザード[END]
+// current address: $102A71
+
+//POINTER #260 @ $B8E48 - STRING #260 @ $102A58
+#W32($B8E48)
+ドレイク[END]
+// current address: $102A61
+
+//POINTER #261 @ $B8E4C - STRING #261 @ $102A48
+#W32($B8E4C)
+ドラゴン[END]
+// current address: $102A51
+
+//POINTER #262 @ $B8E50 - STRING #262 @ $102A38
+#W32($B8E50)
+ワイアーム[END]
+// current address: $102A43
+
+//POINTER #263 @ $B8E54 - STRING #263 @ $102A28
+#W32($B8E54)
+バハムート[END]
+// current address: $102A33
+
+//POINTER #264 @ $B8E58 - STRING #264 @ $102A10
+#W32($B8E58)
+機械に対して有効[END]
+// current address: $102A21
+
+//POINTER #265 @ $B8E5C - STRING #265 @ $102A00
+#W32($B8E5C)
+ブレイク[END]
+// current address: $102A09
+
+//POINTER #266 @ $B8E60 - STRING #266 @ $1029F0
+#W32($B8E60)
+クラッシュ[END]
+// current address: $1029FB
+
+//POINTER #267 @ $B8E64 - STRING #267 @ $1029E0
+#W32($B8E64)
+デストロイ[END]
+// current address: $1029EB
+
+//POINTER #268 @ $B8E68 - STRING #268 @ $1029D0
+#W32($B8E68)
+ハングアップ[END]
+// current address: $1029DD
+
+//POINTER #269 @ $B8E6C - STRING #269 @ $1029C0
+#W32($B8E6C)
+デモリション[END]
+// current address: $1029CD
+
+//POINTER #270 @ $B8E70 - STRING #270 @ $1029B0
+#W32($B8E70)
+獣に対して有効[END]
+// current address: $1029BF
+
+//POINTER #271 @ $B8E74 - STRING #271 @ $1029A0
+#W32($B8E74)
+ハウンド[END]
+// current address: $1029A9
+
+//POINTER #272 @ $B8E78 - STRING #272 @ $102990
+#W32($B8E78)
+ビースト[END]
+// current address: $102999
+
+//POINTER #273 @ $B8E7C - STRING #273 @ $102980
+#W32($B8E7C)
+プレデター[END]
+// current address: $10298B
+
+//POINTER #274 @ $B8E80 - STRING #274 @ $102970
+#W32($B8E80)
+ベスティアル[END]
+// current address: $10297D
+
+//POINTER #275 @ $B8E84 - STRING #275 @ $102960
+#W32($B8E84)
+スレイヤー[END]
+// current address: $10296B
+
+//POINTER #276 @ $B8E88 - STRING #276 @ $102948
+#W32($B8E88)
+空の敵に対して有効[END]
+// current address: $10295B
+
+//POINTER #277 @ $B8E8C - STRING #277 @ $102938
+#W32($B8E8C)
+ラプター[END]
+// current address: $102941
+
+//POINTER #278 @ $B8E90 - STRING #278 @ $102928
+#W32($B8E90)
+ハーピー[END]
+// current address: $102931
+
+//POINTER #279 @ $B8E94 - STRING #279 @ $102918
+#W32($B8E94)
+ペガサス[END]
+// current address: $102921
+
+//POINTER #280 @ $B8E98 - STRING #280 @ $102908
+#W32($B8E98)
+グリフィン[END]
+// current address: $102913
+
+//POINTER #281 @ $B8E9C - STRING #281 @ $1028F8
+#W32($B8E9C)
+フェニックス[END]
+// current address: $102905
+
+//POINTER #282 @ $B8EA0 - STRING #282 @ $1028E0
+#W32($B8EA0)
+悪魔に対して有効[END]
+// current address: $1028F1
+
+//POINTER #283 @ $B8EA4 - STRING #283 @ $1028D0
+#W32($B8EA4)
+オーガー[END]
+// current address: $1028D9
+
+//POINTER #284 @ $B8EA8 - STRING #284 @ $1028C0
+#W32($B8EA8)
+フィーンド[END]
+// current address: $1028CB
+
+//POINTER #285 @ $B8EAC - STRING #285 @ $1028B0
+#W32($B8EAC)
+グレムリン[END]
+// current address: $1028BB
+
+//POINTER #286 @ $B8EB0 - STRING #286 @ $1028A8
+#W32($B8EB0)
+デビル[END]
+// current address: $1028AF
+
+//POINTER #287 @ $B8EB4 - STRING #287 @ $102898
+#W32($B8EB4)
+デーモン[END]
+// current address: $1028A1
+
+//POINTER #288 @ $B8EB8 - STRING #288 @ $102880
+#W32($B8EB8)
+無機物に対して有効[END]
+// current address: $102893
+
+//POINTER #289 @ $B8EBC - STRING #289 @ $102870
+#W32($B8EBC)
+パペット[END]
+// current address: $102879
+
+//POINTER #290 @ $B8EC0 - STRING #290 @ $102860
+#W32($B8EC0)
+ゴーレム[END]
+// current address: $102869
+
+//POINTER #291 @ $B8EC4 - STRING #291 @ $102850
+#W32($B8EC4)
+ガーゴイル[END]
+// current address: $10285B
+
+//POINTER #292 @ $B8EC8 - STRING #292 @ $102840
+#W32($B8EC8)
+ガーディアン[END]
+// current address: $10284D
+
+//POINTER #293 @ $B8ECC - STRING #293 @ $102830
+#W32($B8ECC)
+ヴァリアント[END]
+// current address: $10283D
+
+//POINTER #294 @ $B8ED0 - STRING #294 @ $102818
+#W32($B8ED0)
+攻撃と命中が上昇する[END]
+// current address: $10282D
+
+//POINTER #295 @ $B8ED4 - STRING #295 @ $102808
+#W32($B8ED4)
+カレージャス[END]
+// current address: $102815
+
+//POINTER #296 @ $B8ED8 - STRING #296 @ $1027F8
+#W32($B8ED8)
+マジェスティ[END]
+// current address: $102805
+
+//POINTER #297 @ $B8EDC - STRING #297 @ $1027E8
+#W32($B8EDC)
+パーフェクト[END]
+// current address: $1027F5
+
+//POINTER #298 @ $B8EE0 - STRING #298 @ $1027D8
+#W32($B8EE0)
+ハイパー[END]
+// current address: $1027E1
+
+//POINTER #299 @ $B8EE4 - STRING #299 @ $1027C8
+#W32($B8EE4)
+ファイナル[END]
+// current address: $1027D3
+
+//POINTER #300 @ $B8EE8 - STRING #300 @ $1027A8
+#W32($B8EE8)
+攻撃とクリティカルが上昇する[END]
+// current address: $1027C5
+
+//POINTER #301 @ $B8EEC - STRING #301 @ $1027A0
+#W32($B8EEC)
+ロード[END]
+// current address: $1027A7
+
+//POINTER #302 @ $B8EF0 - STRING #302 @ $102790
+#W32($B8EF0)
+エンペラー[END]
+// current address: $10279B
+
+//POINTER #303 @ $B8EF4 - STRING #303 @ $102780
+#W32($B8EF4)
+カイザー[END]
+// current address: $102789
+
+//POINTER #304 @ $B8EF8 - STRING #304 @ $102770
+#W32($B8EF8)
+タイラント[END]
+// current address: $10277B
+
+//POINTER #305 @ $B8EFC - STRING #305 @ $102760
+#W32($B8EFC)
+ディアティ[END]
+// current address: $10276B
+
+//POINTER #306 @ $B8F00 - STRING #306 @ $102740
+#W32($B8F00)
+SP軽減力とTP軽減力が上昇[END]
+// current address: $102759
+
+//POINTER #307 @ $B8F04 - STRING #307 @ $102730
+#W32($B8F04)
+ワールド[END]
+// current address: $102739
+
+//POINTER #308 @ $B8F08 - STRING #308 @ $102720
+#W32($B8F08)
+ヘヴンズ[END]
+// current address: $102729
+
+//POINTER #309 @ $B8F0C - STRING #309 @ $102710
+#W32($B8F0C)
+パラダイス[END]
+// current address: $10271B
+
+//POINTER #310 @ $B8F10 - STRING #310 @ $102700
+#W32($B8F10)
+エルドラド[END]
+// current address: $10270B
+
+//POINTER #311 @ $B8F14 - STRING #311 @ $1026F0
+#W32($B8F14)
+アルカディア[END]
+// current address: $1026FD
+
+//POINTER #312 @ $B8F18 - STRING #312 @ $1026D8
+#W32($B8F18)
+攻撃と最大HPが上昇[END]
+// current address: $1026EB
+
+//POINTER #313 @ $B8F1C - STRING #313 @ $1026C8
+#W32($B8F1C)
+バサルト[END]
+// current address: $1026D1
+
+//POINTER #314 @ $B8F20 - STRING #314 @ $1026B8
+#W32($B8F20)
+マーブル[END]
+// current address: $1026C1
+
+//POINTER #315 @ $B8F24 - STRING #315 @ $1026A8
+#W32($B8F24)
+グラニット[END]
+// current address: $1026B3
+
+//POINTER #316 @ $B8F28 - STRING #316 @ $102698
+#W32($B8F28)
+ラーヴァ[END]
+// current address: $1026A1
+
+//POINTER #317 @ $B8F2C - STRING #317 @ $102688
+#W32($B8F2C)
+レアメタル[END]
+// current address: $102693
+
+//POINTER #318 @ $B8F30 - STRING #318 @ $102668
+#W32($B8F30)
+詠唱速度とTP回復力が上昇[END]
+// current address: $102681
+
+//POINTER #319 @ $B8F34 - STRING #319 @ $102658
+#W32($B8F34)
+アーデント[END]
+// current address: $102663
+
+//POINTER #320 @ $B8F38 - STRING #320 @ $102648
+#W32($B8F38)
+ファーヴァー[END]
+// current address: $102655
+
+//POINTER #321 @ $B8F3C - STRING #321 @ $102638
+#W32($B8F3C)
+ジーラス[END]
+// current address: $102641
+
+//POINTER #322 @ $B8F40 - STRING #322 @ $102628
+#W32($B8F40)
+インプレス[END]
+// current address: $102633
+
+//POINTER #323 @ $B8F44 - STRING #323 @ $102618
+#W32($B8F44)
+アーネスト[END]
+// current address: $102623
+
+//POINTER #324 @ $B8F48 - STRING #324 @ $1025F8
+#W32($B8F48)
+持主が低レベルほど攻撃上昇[END]
+// current address: $102613
+
+//POINTER #325 @ $B8F4C - STRING #325 @ $1025E8
+#W32($B8F4C)
+ダマスカス[END]
+// current address: $1025F3
+
+//POINTER #326 @ $B8F50 - STRING #326 @ $1025D8
+#W32($B8F50)
+ペルシャ[END]
+// current address: $1025E1
+
+//POINTER #327 @ $B8F54 - STRING #327 @ $1025C8
+#W32($B8F54)
+ロイヤル[END]
+// current address: $1025D1
+
+//POINTER #328 @ $B8F58 - STRING #328 @ $1025B8
+#W32($B8F58)
+アルカイック[END]
+// current address: $1025C5
+
+//POINTER #329 @ $B8F5C - STRING #329 @ $1025A8
+#W32($B8F5C)
+エンシェント[END]
+// current address: $1025B5
+
+//POINTER #330 @ $B8F60 - STRING #330 @ $102590
+#W32($B8F60)
+毒耐性と反撃効果を得る[END]
+// current address: $1025A7
+
+//POINTER #331 @ $B8F64 - STRING #331 @ $102580
+#W32($B8F64)
+アンチドート[END]
+// current address: $10258D
+
+//POINTER #332 @ $B8F68 - STRING #332 @ $102570
+#W32($B8F68)
+レストフル[END]
+// current address: $10257B
+
+//POINTER #333 @ $B8F6C - STRING #333 @ $102560
+#W32($B8F6C)
+キュアオール[END]
+// current address: $10256D
+
+//POINTER #334 @ $B8F70 - STRING #334 @ $102550
+#W32($B8F70)
+コンフォート[END]
+// current address: $10255D
+
+//POINTER #335 @ $B8F74 - STRING #335 @ $102540
+#W32($B8F74)
+フレグランス[END]
+// current address: $10254D
+
+//POINTER #336 @ $B8F78 - STRING #336 @ $102520
+#W32($B8F78)
+鈍足耐性と反撃効果を得る[END]
+// current address: $102539
+
+//POINTER #337 @ $B8F7C - STRING #337 @ $102510
+#W32($B8F7C)
+ステップ[END]
+// current address: $102519
+
+//POINTER #338 @ $B8F80 - STRING #338 @ $102500
+#W32($B8F80)
+ヘイスト[END]
+// current address: $102509
+
+//POINTER #339 @ $B8F84 - STRING #339 @ $1024F0
+#W32($B8F84)
+アジリティ[END]
+// current address: $1024FB
+
+//POINTER #340 @ $B8F88 - STRING #340 @ $1024E0
+#W32($B8F88)
+スウィフト[END]
+// current address: $1024EB
+
+//POINTER #341 @ $B8F8C - STRING #341 @ $1024D0
+#W32($B8F8C)
+エルヴン[END]
+// current address: $1024D9
+
+//POINTER #342 @ $B8F90 - STRING #342 @ $1024B0
+#W32($B8F90)
+麻痺耐性と反撃効果を得る[END]
+// current address: $1024C9
+
+//POINTER #343 @ $B8F94 - STRING #343 @ $1024A0
+#W32($B8F94)
+ロッキング[END]
+// current address: $1024AB
+
+//POINTER #344 @ $B8F98 - STRING #344 @ $102490
+#W32($B8F98)
+イージー[END]
+// current address: $102499
+
+//POINTER #345 @ $B8F9C - STRING #345 @ $102480
+#W32($B8F9C)
+アクティブ[END]
+// current address: $10248B
+
+//POINTER #346 @ $B8FA0 - STRING #346 @ $102470
+#W32($B8FA0)
+オプティマム[END]
+// current address: $10247D
+
+//POINTER #347 @ $B8FA4 - STRING #347 @ $102460
+#W32($B8FA4)
+ファニー[END]
+// current address: $102469
+
+//POINTER #348 @ $B8FA8 - STRING #348 @ $102440
+#W32($B8FA8)
+凍結耐性と反撃効果を得る[END]
+// current address: $102459
+
+//POINTER #349 @ $B8FAC - STRING #349 @ $102430
+#W32($B8FAC)
+ウォーミング[END]
+// current address: $10243D
+
+//POINTER #350 @ $B8FB0 - STRING #350 @ $102420
+#W32($B8FB0)
+メルティング[END]
+// current address: $10242D
+
+//POINTER #351 @ $B8FB4 - STRING #351 @ $102410
+#W32($B8FB4)
+ヒーティング[END]
+// current address: $10241D
+
+//POINTER #352 @ $B8FB8 - STRING #352 @ $102400
+#W32($B8FB8)
+ソーイング[END]
+// current address: $10240B
+
+//POINTER #353 @ $B8FBC - STRING #353 @ $1023F0
+#W32($B8FBC)
+スタッフィ[END]
+// current address: $1023FB
+
+//POINTER #354 @ $B8FC0 - STRING #354 @ $1023D0
+#W32($B8FC0)
+衰弱耐性と反撃効果を得る[END]
+// current address: $1023E9
+
+//POINTER #355 @ $B8FC4 - STRING #355 @ $1023C0
+#W32($B8FC4)
+リーディング[END]
+// current address: $1023CD
+
+//POINTER #356 @ $B8FC8 - STRING #356 @ $1023B0
+#W32($B8FC8)
+モラール[END]
+// current address: $1023B9
+
+//POINTER #357 @ $B8FCC - STRING #357 @ $1023A0
+#W32($B8FCC)
+オーダー[END]
+// current address: $1023A9
+
+//POINTER #358 @ $B8FD0 - STRING #358 @ $102390
+#W32($B8FD0)
+フェイス[END]
+// current address: $102399
+
+//POINTER #359 @ $B8FD4 - STRING #359 @ $102388
+#W32($B8FD4)
+オーラ[END]
+// current address: $10238F
+
+//POINTER #360 @ $B8FD8 - STRING #360 @ $102370
+#W32($B8FD8)
+気絶時間を減らす[END]
+// current address: $102381
+
+//POINTER #361 @ $B8FDC - STRING #361 @ $102360
+#W32($B8FDC)
+ストロング[END]
+// current address: $10236B
+
+//POINTER #362 @ $B8FE0 - STRING #362 @ $102350
+#W32($B8FE0)
+レジスト[END]
+// current address: $102359
+
+//POINTER #363 @ $B8FE4 - STRING #363 @ $102340
+#W32($B8FE4)
+コンシャス[END]
+// current address: $10234B
+
+//POINTER #364 @ $B8FE8 - STRING #364 @ $102330
+#W32($B8FE8)
+エナジー[END]
+// current address: $102339
+
+//POINTER #365 @ $B8FEC - STRING #365 @ $102320
+#W32($B8FEC)
+グッドウィル[END]
+// current address: $10232D
+
+//POINTER #366 @ $B8FF0 - STRING #366 @ $102308
+#W32($B8FF0)
+瀕死時にＨＰが回復する[END]
+// current address: $10231F
+
+//POINTER #367 @ $B8FF4 - STRING #367 @ $1022F8
+#W32($B8FF4)
+サバイバル[END]
+// current address: $102303
+
+//POINTER #368 @ $B8FF8 - STRING #368 @ $1022E8
+#W32($B8FF8)
+バイタリティ[END]
+// current address: $1022F5
+
+//POINTER #369 @ $B8FFC - STRING #369 @ $1022D8
+#W32($B8FFC)
+レジューム[END]
+// current address: $1022E3
+
+//POINTER #370 @ $B9000 - STRING #370 @ $1022C8
+#W32($B9000)
+リグロース[END]
+// current address: $1022D3
+
+//POINTER #371 @ $B9004 - STRING #371 @ $1022B8
+#W32($B9004)
+リバース[END]
+// current address: $1022C1
+
+//POINTER #372 @ $B9008 - STRING #372 @ $1022A8
+#W32($B9008)
+地耐性を得る[END]
+// current address: $1022B5
+
+//POINTER #373 @ $B900C - STRING #373 @ $102298
+#W32($B900C)
+ブラウン[END]
+// current address: $1022A1
+
+//POINTER #374 @ $B9010 - STRING #374 @ $102288
+#W32($B9010)
+オーカー[END]
+// current address: $102291
+
+//POINTER #375 @ $B9014 - STRING #375 @ $102278
+#W32($B9014)
+タンジリン[END]
+// current address: $102283
+
+//POINTER #376 @ $B9018 - STRING #376 @ $102268
+#W32($B9018)
+トパーズ[END]
+// current address: $102271
+
+//POINTER #377 @ $B901C - STRING #377 @ $102258
+#W32($B901C)
+アンバー[END]
+// current address: $102261
+
+//POINTER #378 @ $B9020 - STRING #378 @ $102248
+#W32($B9020)
+水耐性を得る[END]
+// current address: $102255
+
+//POINTER #379 @ $B9024 - STRING #379 @ $102240
+#W32($B9024)
+シアン[END]
+// current address: $102247
+
+//POINTER #380 @ $B9028 - STRING #380 @ $102230
+#W32($B9028)
+ラピスラズリ[END]
+// current address: $10223D
+
+//POINTER #381 @ $B902C - STRING #381 @ $102220
+#W32($B902C)
+アクアマリン[END]
+// current address: $10222D
+
+//POINTER #382 @ $B9030 - STRING #382 @ $102210
+#W32($B9030)
+サファイア[END]
+// current address: $10221B
+
+//POINTER #383 @ $B9034 - STRING #383 @ $102200
+#W32($B9034)
+セルリアン[END]
+// current address: $10220B
+
+//POINTER #384 @ $B9038 - STRING #384 @ $1021F0
+#W32($B9038)
+火耐性を得る[END]
+// current address: $1021FD
+
+//POINTER #385 @ $B903C - STRING #385 @ $1021E0
+#W32($B903C)
+バーミリオン[END]
+// current address: $1021ED
+
+//POINTER #386 @ $B9040 - STRING #386 @ $1021D0
+#W32($B9040)
+クリムゾン[END]
+// current address: $1021DB
+
+//POINTER #387 @ $B9044 - STRING #387 @ $1021C0
+#W32($B9044)
+スカーレット[END]
+// current address: $1021CD
+
+//POINTER #388 @ $B9048 - STRING #388 @ $1021B8
+#W32($B9048)
+ルビー[END]
+// current address: $1021BF
+
+//POINTER #389 @ $B904C - STRING #389 @ $1021A8
+#W32($B904C)
+カーネリアン[END]
+// current address: $1021B5
+
+//POINTER #390 @ $B9050 - STRING #390 @ $102198
+#W32($B9050)
+風耐性を得る[END]
+// current address: $1021A5
+
+//POINTER #391 @ $B9054 - STRING #391 @ $102188
+#W32($B9054)
+ストーム[END]
+// current address: $102191
+
+//POINTER #392 @ $B9058 - STRING #392 @ $102178
+#W32($B9058)
+ハリケーン[END]
+// current address: $102183
+
+//POINTER #393 @ $B905C - STRING #393 @ $102168
+#W32($B905C)
+サイクロン[END]
+// current address: $102173
+
+//POINTER #394 @ $B9060 - STRING #394 @ $102158
+#W32($B9060)
+テンペスト[END]
+// current address: $102163
+
+//POINTER #395 @ $B9064 - STRING #395 @ $102148
+#W32($B9064)
+ディザスター[END]
+// current address: $102155
+
+//POINTER #396 @ $B9068 - STRING #396 @ $102138
+#W32($B9068)
+光耐性を得る[END]
+// current address: $102145
+
+//POINTER #397 @ $B906C - STRING #397 @ $102128
+#W32($B906C)
+コーラル[END]
+// current address: $102131
+
+//POINTER #398 @ $B9070 - STRING #398 @ $102118
+#W32($B9070)
+アイボリー[END]
+// current address: $102123
+
+//POINTER #399 @ $B9074 - STRING #399 @ $102108
+#W32($B9074)
+アラバスター[END]
+// current address: $102115
+
+//POINTER #400 @ $B9078 - STRING #400 @ $1020F8
+#W32($B9078)
+クリスタル[END]
+// current address: $102103
+
+//POINTER #401 @ $B907C - STRING #401 @ $1020E8
+#W32($B907C)
+ダイヤモンド[END]
+// current address: $1020F5
+
+//POINTER #402 @ $B9080 - STRING #402 @ $1020D8
+#W32($B9080)
+闇耐性を得る[END]
+// current address: $1020E5
+
+//POINTER #403 @ $B9084 - STRING #403 @ $1020C8
+#W32($B9084)
+チャコール[END]
+// current address: $1020D3
+
+//POINTER #404 @ $B9088 - STRING #404 @ $1020B8
+#W32($B9088)
+カーボン[END]
+// current address: $1020C1
+
+//POINTER #405 @ $B908C - STRING #405 @ $1020A8
+#W32($B908C)
+オニキス[END]
+// current address: $1020B1
+
+//POINTER #406 @ $B9090 - STRING #406 @ $102098
+#W32($B9090)
+アメジスト[END]
+// current address: $1020A3
+
+//POINTER #407 @ $B9094 - STRING #407 @ $102088
+#W32($B9094)
+エボニー[END]
+// current address: $102091
+
+//POINTER #408 @ $B9098 - STRING #408 @ $102070
+#W32($B9098)
+全ダメージを微軽減する[END]
+// current address: $102087
+
+//POINTER #409 @ $B909C - STRING #409 @ $102068
+#W32($B909C)
+ボーン[END]
+// current address: $10206F
+
+//POINTER #410 @ $B90A0 - STRING #410 @ $102060
+#W32($B90A0)
+スカル[END]
+// current address: $102067
+
+//POINTER #411 @ $B90A4 - STRING #411 @ $102050
+#W32($B90A4)
+スパイト[END]
+// current address: $102059
+
+//POINTER #412 @ $B90A8 - STRING #412 @ $102040
+#W32($B90A8)
+ドゥーム[END]
+// current address: $102049
+
+//POINTER #413 @ $B90AC - STRING #413 @ $102030
+#W32($B90AC)
+カオティック[END]
+// current address: $10203D
+
+//POINTER #414 @ $B90B0 - STRING #414 @ $102018
+#W32($B90B0)
+ガード時にＳＰが回復[END]
+// current address: $10202D
+
+//POINTER #415 @ $B90B4 - STRING #415 @ $102008
+#W32($B90B4)
+シケット[END]
+// current address: $102011
+
+//POINTER #416 @ $B90B8 - STRING #416 @ $101FF8
+#W32($B90B8)
+ティンバー[END]
+// current address: $102003
+
+//POINTER #417 @ $B90BC - STRING #417 @ $101FE8
+#W32($B90BC)
+フォレスト[END]
+// current address: $101FF3
+
+//POINTER #418 @ $B90C0 - STRING #418 @ $101FD8
+#W32($B90C0)
+シルヴァン[END]
+// current address: $101FE3
+
+//POINTER #419 @ $B90C4 - STRING #419 @ $101FC8
+#W32($B90C4)
+ティタニア[END]
+// current address: $101FD3
+
+//POINTER #420 @ $B90C8 - STRING #420 @ $101FB0
+#W32($B90C8)
+ガード時にＴＰが回復[END]
+// current address: $101FC5
+
+//POINTER #421 @ $B90CC - STRING #421 @ $101FA0
+#W32($B90CC)
+コットン[END]
+// current address: $101FA9
+
+//POINTER #422 @ $B90D0 - STRING #422 @ $101F90
+#W32($B90D0)
+ウーリー[END]
+// current address: $101F99
+
+//POINTER #423 @ $B90D4 - STRING #423 @ $101F80
+#W32($B90D4)
+フェザー[END]
+// current address: $101F89
+
+//POINTER #424 @ $B90D8 - STRING #424 @ $101F70
+#W32($B90D8)
+ベルベット[END]
+// current address: $101F7B
+
+//POINTER #425 @ $B90DC - STRING #425 @ $101F60
+#W32($B90DC)
+シルキー[END]
+// current address: $101F69
+
+//POINTER #426 @ $B90E0 - STRING #426 @ $101F48
+#W32($B90E0)
+ガード時に防御上昇[END]
+// current address: $101F5B
+
+//POINTER #427 @ $B90E4 - STRING #427 @ $101F38
+#W32($B90E4)
+リザルヴ[END]
+// current address: $101F41
+
+//POINTER #428 @ $B90E8 - STRING #428 @ $101F28
+#W32($B90E8)
+ディフェンス[END]
+// current address: $101F35
+
+//POINTER #429 @ $B90EC - STRING #429 @ $101F18
+#W32($B90EC)
+ジャスティス[END]
+// current address: $101F25
+
+//POINTER #430 @ $B90F0 - STRING #430 @ $101F08
+#W32($B90F0)
+プライム[END]
+// current address: $101F11
+
+//POINTER #431 @ $B90F4 - STRING #431 @ $101EF8
+#W32($B90F4)
+オベロン[END]
+// current address: $101F01
+
+//POINTER #432 @ $B90F8 - STRING #432 @ $101EE0
+#W32($B90F8)
+ガード時に回避上昇[END]
+// current address: $101EF3
+
+//POINTER #433 @ $B90FC - STRING #433 @ $101ED0
+#W32($B90FC)
+ガイザー[END]
+// current address: $101ED9
+
+//POINTER #434 @ $B9100 - STRING #434 @ $101EC0
+#W32($B9100)
+インサイト[END]
+// current address: $101ECB
+
+//POINTER #435 @ $B9104 - STRING #435 @ $101EB0
+#W32($B9104)
+インスペクト[END]
+// current address: $101EBD
+
+//POINTER #436 @ $B9108 - STRING #436 @ $101EA0
+#W32($B9108)
+エンライト[END]
+// current address: $101EAB
+
+//POINTER #437 @ $B910C - STRING #437 @ $101E90
+#W32($B910C)
+ミラージュ[END]
+// current address: $101E9B
+
+//POINTER #438 @ $B9110 - STRING #438 @ $101E78
+#W32($B9110)
+ガード時に詠唱速度上昇[END]
+// current address: $101E8F
+
+//POINTER #439 @ $B9114 - STRING #439 @ $101E68
+#W32($B9114)
+ソーサラー[END]
+// current address: $101E73
+
+//POINTER #440 @ $B9118 - STRING #440 @ $101E58
+#W32($B9118)
+アデプト[END]
+// current address: $101E61
+
+//POINTER #441 @ $B911C - STRING #441 @ $101E48
+#W32($B911C)
+メイガス[END]
+// current address: $101E51
+
+//POINTER #442 @ $B9120 - STRING #442 @ $101E38
+#W32($B9120)
+ウィザード[END]
+// current address: $101E43
+
+//POINTER #443 @ $B9124 - STRING #443 @ $101E28
+#W32($B9124)
+アバタール[END]
+// current address: $101E33
+
+//POINTER #444 @ $B9128 - STRING #444 @ $101E08
+#W32($B9128)
+ガード時にガルドが増える[END]
+// current address: $101E21
+
+//POINTER #445 @ $B912C - STRING #445 @ $101DF8
+#W32($B912C)
+ファミリア[END]
+// current address: $101E03
+
+//POINTER #446 @ $B9130 - STRING #446 @ $101DE8
+#W32($B9130)
+ピレッジ[END]
+// current address: $101DF1
+
+//POINTER #447 @ $B9134 - STRING #447 @ $101DD8
+#W32($B9134)
+グラスプ[END]
+// current address: $101DE1
+
+//POINTER #448 @ $B9138 - STRING #448 @ $101DC8
+#W32($B9138)
+ハミリティ[END]
+// current address: $101DD3
+
+//POINTER #449 @ $B913C - STRING #449 @ $101DB8
+#W32($B913C)
+ディヴォート[END]
+// current address: $101DC5
+
+//POINTER #450 @ $B9140 - STRING #450 @ $101DA0
+#W32($B9140)
+落下時ダウン時間を減少[END]
+// current address: $101DB7
+
+//POINTER #451 @ $B9144 - STRING #451 @ $101D90
+#W32($B9144)
+ブロッキング[END]
+// current address: $101D9D
+
+//POINTER #452 @ $B9148 - STRING #452 @ $101D80
+#W32($B9148)
+バランス[END]
+// current address: $101D89
+
+//POINTER #453 @ $B914C - STRING #453 @ $101D70
+#W32($B914C)
+デクスタラス[END]
+// current address: $101D7D
+
+//POINTER #454 @ $B9150 - STRING #454 @ $101D60
+#W32($B9150)
+タイアレス[END]
+// current address: $101D6B
+
+//POINTER #455 @ $B9154 - STRING #455 @ $101D50
+#W32($B9154)
+スタビリティ[END]
+// current address: $101D5D
+
+//POINTER #456 @ $B9158 - STRING #456 @ $101D38
+#W32($B9158)
+ダメージ硬直時間の減少[END]
+// current address: $101D4F
+
+//POINTER #457 @ $B915C - STRING #457 @ $101D28
+#W32($B915C)
+ストライプ[END]
+// current address: $101D33
+
+//POINTER #458 @ $B9160 - STRING #458 @ $101D18
+#W32($B9160)
+スウィート[END]
+// current address: $101D23
+
+//POINTER #459 @ $B9164 - STRING #459 @ $101D08
+#W32($B9164)
+プリティ[END]
+// current address: $101D11
+
+//POINTER #460 @ $B9168 - STRING #460 @ $101CF8
+#W32($B9168)
+キューティ[END]
+// current address: $101D03
+
+//POINTER #461 @ $B916C - STRING #461 @ $101CE8
+#W32($B916C)
+ラブリィ[END]
+// current address: $101CF1
+
+//POINTER #462 @ $B9170 - STRING #462 @ $101CC8
+#W32($B9170)
+受けたダメージを時間回復[END]
+// current address: $101CE1
+
+//POINTER #463 @ $B9174 - STRING #463 @ $101CB8
+#W32($B9174)
+エランド[END]
+// current address: $101CC1
+
+//POINTER #464 @ $B9178 - STRING #464 @ $101CA8
+#W32($B9178)
+エンジェル[END]
+// current address: $101CB3
+
+//POINTER #465 @ $B917C - STRING #465 @ $101C98
+#W32($B917C)
+ドミニオン[END]
+// current address: $101CA3
+
+//POINTER #466 @ $B9180 - STRING #466 @ $101C88
+#W32($B9180)
+ケルビム[END]
+// current address: $101C91
+
+//POINTER #467 @ $B9184 - STRING #467 @ $101C78
+#W32($B9184)
+セラフィック[END]
+// current address: $101C85
+
+//POINTER #468 @ $B9188 - STRING #468 @ $101C58
+#W32($B9188)
+ガードストライクしやすくなる[END]
+// current address: $101C75
+
+//POINTER #469 @ $B918C - STRING #469 @ $101C48
+#W32($B918C)
+ソーンズ[END]
+// current address: $101C51
+
+//POINTER #470 @ $B9190 - STRING #470 @ $101C38
+#W32($B9190)
+リバウンド[END]
+// current address: $101C43
+
+//POINTER #471 @ $B9194 - STRING #471 @ $101C28
+#W32($B9194)
+レパルス[END]
+// current address: $101C31
+
+//POINTER #472 @ $B9198 - STRING #472 @ $101C18
+#W32($B9198)
+リヴェンジ[END]
+// current address: $101C23
+
+//POINTER #473 @ $B919C - STRING #473 @ $101C08
+#W32($B919C)
+ウェイレイ[END]
+// current address: $101C13
+
+//POINTER #474 @ $B91A0 - STRING #474 @ $101BF0
+#W32($B91A0)
+ダメージ量でＴＰ回復[END]
+// current address: $101C05
+
+//POINTER #475 @ $B91A4 - STRING #475 @ $101BE0
+#W32($B91A4)
+フォージ[END]
+// current address: $101BE9
+
+//POINTER #476 @ $B91A8 - STRING #476 @ $101BD0
+#W32($B91A8)
+メイスン[END]
+// current address: $101BD9
+
+//POINTER #477 @ $B91AC - STRING #477 @ $101BC0
+#W32($B91AC)
+ハーベスト[END]
+// current address: $101BCB
+
+//POINTER #478 @ $B91B0 - STRING #478 @ $101BB0
+#W32($B91B0)
+ウェルフェア[END]
+// current address: $101BBD
+
+//POINTER #479 @ $B91B4 - STRING #479 @ $101BA0
+#W32($B91B4)
+ミザリー[END]
+// current address: $101BA9
+
+//POINTER #480 @ $B91B8 - STRING #480 @ $101B88
+#W32($B91B8)
+防御・回避が上昇[END]
+// current address: $101B99
+
+//POINTER #481 @ $B91BC - STRING #481 @ $101B78
+#W32($B91BC)
+スキルフル[END]
+// current address: $101B83
+
+//POINTER #482 @ $B91C0 - STRING #482 @ $101B68
+#W32($B91C0)
+ベイシス[END]
+// current address: $101B71
+
+//POINTER #483 @ $B91C4 - STRING #483 @ $101B58
+#W32($B91C4)
+オーネイト[END]
+// current address: $101B63
+
+//POINTER #484 @ $B91C8 - STRING #484 @ $101B48
+#W32($B91C8)
+ミラクル[END]
+// current address: $101B51
+
+//POINTER #485 @ $B91CC - STRING #485 @ $101B38
+#W32($B91CC)
+ドレッド[END]
+// current address: $101B41
+
+//POINTER #486 @ $B91D0 - STRING #486 @ $101B28
+#W32($B91D0)
+運・回避が上昇[END]
+// current address: $101B37
+
+//POINTER #487 @ $B91D4 - STRING #487 @ $101B18
+#W32($B91D4)
+マーシー[END]
+// current address: $101B21
+
+//POINTER #488 @ $B91D8 - STRING #488 @ $101B08
+#W32($B91D8)
+イグノランス[END]
+// current address: $101B15
+
+//POINTER #489 @ $B91DC - STRING #489 @ $101AF8
+#W32($B91DC)
+イノセンス[END]
+// current address: $101B03
+
+//POINTER #490 @ $B91E0 - STRING #490 @ $101AE8
+#W32($B91E0)
+ヴォイド[END]
+// current address: $101AF1
+
+//POINTER #491 @ $B91E4 - STRING #491 @ $101AE0
+#W32($B91E4)
+シーア[END]
+// current address: $101AE7
+
+//POINTER #492 @ $B91E8 - STRING #492 @ $101AC0
+#W32($B91E8)
+SP回復力とTP回復力が上昇[END]
+// current address: $101AD9
+
+//POINTER #493 @ $B91EC - STRING #493 @ $101AB8
+#W32($B91EC)
+スター[END]
+// current address: $101ABF
+
+//POINTER #494 @ $B91F0 - STRING #494 @ $101AA8
+#W32($B91F0)
+ホロスコープ[END]
+// current address: $101AB5
+
+//POINTER #495 @ $B91F4 - STRING #495 @ $101A98
+#W32($B91F4)
+ネビュラ[END]
+// current address: $101AA1
+
+//POINTER #496 @ $B91F8 - STRING #496 @ $101A88
+#W32($B91F8)
+ギャラクシー[END]
+// current address: $101A95
+
+//POINTER #497 @ $B91FC - STRING #497 @ $101A78
+#W32($B91FC)
+ユニヴァース[END]
+// current address: $101A85
+
+//POINTER #498 @ $B9200 - STRING #498 @ $101A60
+#W32($B9200)
+防御と最大HPが上昇[END]
+// current address: $101A73
+
+//POINTER #499 @ $B9204 - STRING #499 @ $101A58
+#W32($B9204)
+ワース[END]
+// current address: $101A5F
+
+//POINTER #500 @ $B9208 - STRING #500 @ $101A48
+#W32($B9208)
+メジャー[END]
+// current address: $101A51
+
+//POINTER #501 @ $B920C - STRING #501 @ $101A38
+#W32($B920C)
+クオリティ[END]
+// current address: $101A43
+
+//POINTER #502 @ $B9210 - STRING #502 @ $101A28
+#W32($B9210)
+ワンダフル[END]
+// current address: $101A33
+
+//POINTER #503 @ $B9214 - STRING #503 @ $101A18
+#W32($B9214)
+エクセレント[END]
+// current address: $101A25
+
+//POINTER #504 @ $B9218 - STRING #504 @ $1019F8
+#W32($B9218)
+TP軽減力とTP回復力が上昇する[END]
+// current address: $101A15
+
+//POINTER #505 @ $B921C - STRING #505 @ $1019E8
+#W32($B921C)
+フロード[END]
+// current address: $1019F1
+
+//POINTER #506 @ $B9220 - STRING #506 @ $1019D8
+#W32($B9220)
+マジシャン[END]
+// current address: $1019E3
+
+//POINTER #507 @ $B9224 - STRING #507 @ $1019C8
+#W32($B9224)
+シャーマン[END]
+// current address: $1019D3
+
+//POINTER #508 @ $B9228 - STRING #508 @ $1019B8
+#W32($B9228)
+コンジャラー[END]
+// current address: $1019C5
+
+//POINTER #509 @ $B922C - STRING #509 @ $1019A8
+#W32($B922C)
+ハーミット[END]
+// current address: $1019B3
+
+//POINTER #510 @ $B9230 - STRING #510 @ $101988
+#W32($B9230)
+知性と詠唱速度が上昇する[END]
+// current address: $1019A1
+
+//POINTER #511 @ $B9234 - STRING #511 @ $101978
+#W32($B9234)
+プリズム[END]
+// current address: $101981
+
+//POINTER #512 @ $B9238 - STRING #512 @ $101968
+#W32($B9238)
+エレメンタル[END]
+// current address: $101975
+
+//POINTER #513 @ $B923C - STRING #513 @ $101958
+#W32($B923C)
+リフレクト[END]
+// current address: $101963
+
+//POINTER #514 @ $B9240 - STRING #514 @ $101948
+#W32($B9240)
+エーテル[END]
+// current address: $101951
+
+//POINTER #515 @ $B9244 - STRING #515 @ $101938
+#W32($B9244)
+スペクトラル[END]
+// current address: $101945
+
+//POINTER #516 @ $B9248 - STRING #516 @ $101918
+#W32($B9248)
+ステータス異常を防ぐ確率上昇[END]
+// current address: $101935
+
+//POINTER #517 @ $B924C - STRING #517 @ $101908
+#W32($B924C)
+レデュース[END]
+// current address: $101913
+
+//POINTER #518 @ $B9250 - STRING #518 @ $1018F8
+#W32($B9250)
+レスポンス[END]
+// current address: $101903
+
+//POINTER #519 @ $B9254 - STRING #519 @ $1018E8
+#W32($B9254)
+アヴォイド[END]
+// current address: $1018F3
+
+//POINTER #520 @ $B9258 - STRING #520 @ $1018D8
+#W32($B9258)
+デフレクト[END]
+// current address: $1018E3
+
+//POINTER #521 @ $B925C - STRING #521 @ $1018C8
+#W32($B925C)
+インヴァリド[END]
+// current address: $1018D5
+
+//POINTER #522 @ $B9260 - STRING #522 @ $1018B0
+#W32($B9260)
+HPとTPが自動で回復する[END]
+// current address: $1018C7
+
+//POINTER #523 @ $B9264 - STRING #523 @ $1018A0
+#W32($B9264)
+アコライト[END]
+// current address: $1018AB
+
+//POINTER #524 @ $B9268 - STRING #524 @ $101890
+#W32($B9268)
+レクター[END]
+// current address: $101899
+
+//POINTER #525 @ $B926C - STRING #525 @ $101880
+#W32($B926C)
+プリースト[END]
+// current address: $10188B
+
+//POINTER #526 @ $B9270 - STRING #526 @ $101870
+#W32($B9270)
+クレリック[END]
+// current address: $10187B
+
+//POINTER #527 @ $B9274 - STRING #527 @ $101860
+#W32($B9274)
+カーディナル[END]
+// current address: $10186D
