@@ -1,0 +1,49 @@
+//Text $132990
+#WRITE(ptr,$F88E0)
+術・技[END]
+// current address: $132997
+
+//Text $132980
+#WRITE(ptr,$F88E4)
+エンチャント[END]
+// current address: $13298D
+
+//Text $132978
+#WRITE(ptr,$F88E8)
+作戦[END]
+// current address: $13297D
+
+//Text $132970
+#WRITE(ptr,$F88EC)
+料理[END]
+// current address: $132975
+
+//Text $132960
+#WRITE(ptr,$F88F0)
+カスタム[END]
+// current address: $132969
+
+//Text $132950
+#WRITE(ptr,$F88F4)
+アイテム[END]
+// current address: $132959
+
+//Text $132948
+#WRITE(ptr,$F88F8)
+装備[END]
+// current address: $13294D
+
+//Text $132938
+#WRITE(ptr,$F88FC)
+リファイン[END]
+// current address: $132943
+
+//Text $132928
+#WRITE(ptr,$F8900)
+ステータス[END]
+// current address: $132933
+
+//Text $132920
+#WRITE(ptr,$F8904)
+セーブ[END]
+// current address: $132927

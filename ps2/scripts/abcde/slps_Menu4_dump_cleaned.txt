@@ -1,13 +1,3 @@
-//GAME NAME:		Tales of destiny 2
-
-// Define required TABLE variables and load the corresponding tables
-#VAR(Table_0, TABLE)
-#ADDTBL("G:\TalesHacking\TOD2\GitProject\Tales-of-Destiny-2\ps2\scripts\abcde\tod2_utf8.tbl", Table_0)
-
-
-
-
-
 //Text $116B08
 #WRITE(ptr,$F6D7C)
 最大ＨＰ[END]

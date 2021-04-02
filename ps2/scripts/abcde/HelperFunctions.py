@@ -32,7 +32,7 @@ def clean(dumpFile):
     f.close()
     destFile.close()
     removeBlankPointerData(dumpFile.replace(".txt","")+"_cleaned.txt")
-    
+    os.remove(dumpFile)
     
 def runscript(file):
     

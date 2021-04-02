@@ -1,3 +1,12 @@
+//GAME NAME:		Tales of destiny 2
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("G:\TalesHacking\TOD2\GitProject\Tales-of-Destiny-2\ps2\scripts\abcde\tod2_utf8.tbl", Table_0)
+
+
+
+
 
 //Text $101850
 #WRITE(ptr,$B8820)
@@ -490,7 +499,7 @@ TP－[END]
 
 //Text $100BB0
 #WRITE(ptr,$B8994)
-<$4C><$56>に応じて<$28>毒<$2F>衰弱<$2F>麻痺<$2F>鈍足･凍結<$29>を解除する[LINE]
+LVに応じて(毒/衰弱/麻痺/鈍足･凍結)を解除する[LINE]
 非戦闘時はセットしなくても解除可能[END]
 // current address: $100C00
 
