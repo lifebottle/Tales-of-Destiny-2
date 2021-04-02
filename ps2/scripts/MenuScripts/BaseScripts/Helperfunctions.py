@@ -44,7 +44,7 @@ def parseText(fileName):
 
 def writeColumn(finalList, googleId):
     
-    gc = pygsheets.authorize(service_file='gsheet.json')
+    gc = pygsheets.authorize(service_file= os.path.join("MenuScripts","BaseScripts",'gsheet.json'))
     sh = gc.open_by_key(googleId)
 
     #Look for Dump sheet 
@@ -387,15 +387,15 @@ def updateBlock(blockId, SLPSName):
     reinsertText_Block(blockId, SLPSName)
 
 
-googleId = '1w1H0ELiTYgQwzOSzdUjt8YmwlB1I1_6Fyz5MxSFDVHM'
-fileName = 'TODDC_ShopName_Dump_cleaned.txt'
+googleId = '1-gFbt1nTaAvyl24yZOsdcQVd5gpI_iVAKR-YQAS9GYU'
+fileName = 'slps_Names_dump_cleaned.txt'
 finalList = parseText(fileName)
 writeColumn(finalList, googleId)
     
 #text = 'Upper body armor made of leather.[LINE]\nFavored by adventurers due to its[LINE]\nlightness and fair protection.[END]'
 #re.sub('[END]$', '[END]\n', text)
 
-listBlock = [ [ ele['BlockId'], ele['BlockDesc'], ele['Sections'][0]['TextStart'], ele['Sections'][-1]['TextEnd']] for ele in dataItems]
-dfBase = pd.DataFrame(listBlock, columns=['Id', 'BlockDesc','TextStart','TextEnd'])
+#listBlock = [ [ ele['BlockId'], ele['BlockDesc'], ele['Sections'][0]['TextStart'], ele['Sections'][-1]['TextEnd']] for ele in dataItems]
+#dfBase = pd.DataFrame(listBlock, columns=['Id', 'BlockDesc','TextStart','TextEnd'])
 
-dfBase.loc[ dfBase['Id'] == dfBase['Id'].max() and dfBase['BlockDesc'] != ""]
+#dfBase.loc[ dfBase['Id'] == dfBase['Id'].max() and dfBase['BlockDesc'] != ""]

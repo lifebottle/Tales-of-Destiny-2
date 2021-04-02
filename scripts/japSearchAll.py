@@ -78,7 +78,7 @@ dfAllPoss['value'] = dfAllPoss['value'].str.replace(' ', '')
 
 
 #Stuff to search
-japText = 'アップルグミ'
+japText = 'カイル'
 
 
 #List all the different possible ways of HEX for this text

@@ -1,0 +1,59 @@
+//Text $103C40
+#WRITE(ptr,$C0188)
+カイル[END]
+// current address: $103C47
+
+//Text $103C30
+#WRITE(ptr,$C018C)
+デュナミス[END]
+// current address: $103C3B
+
+//Text $103C28
+#WRITE(ptr,$C0190)
+リアラ[END]
+// current address: $103C2F
+
+//Text $103C20
+#WRITE(ptr,$C0194)
+[END]
+// current address: $103C21
+
+//Text $103C18
+#WRITE(ptr,$C0198)
+ロニ[END]
+// current address: $103C1D
+
+//Text $103C30
+#WRITE(ptr,$C019C)
+デュナミス[END]
+// current address: $103C3B
+
+//Text $103C08
+#WRITE(ptr,$C01A0)
+ジューダス[END]
+// current address: $103C13
+
+//Text $103C20
+#WRITE(ptr,$C01A4)
+[END]
+// current address: $103C21
+
+//Text $103BF8
+#WRITE(ptr,$C01A8)
+ナナリー[END]
+// current address: $103C01
+
+//Text $103BE8
+#WRITE(ptr,$C01AC)
+フレッチ[END]
+// current address: $103BF1
+
+//Text $103BD8
+#WRITE(ptr,$C01B0)
+ハロルド[END]
+// current address: $103BE1
+
+//Text $103BC8
+#WRITE(ptr,$C01B4)
+ベルセリオス[END]
+// current address: $103BD5

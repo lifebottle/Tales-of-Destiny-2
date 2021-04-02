@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Feb 12 21:14:08 2021
-
-@author: Steven
-"""
 import os
 import sys
 from os.path import join
@@ -16,6 +10,38 @@ from os import fdopen, remove
 import shutil
 import subprocess
 
+def clean(dumpFile):
+    
+    pathFile = os.path.abspath(os.path.dirname(__file__))
+    f = open(os.path.join(pathFile,dumpFile), mode="r", encoding="utf-8")
+    destFile = open(os.path.join(pathFile,dumpFile.replace(".txt","")+"_cleaned.txt"), mode="w", encoding="utf-8")
+    for line in f:
+        if "#JMP(" not in line:
+            line = line.replace("#HDR($-FF000) // Difference between ROM and RAM addresses for pointer value calculations","")
+            line = line.replace("#ACTIVETBL(Table_0) // Activate this block's starting TABLE","")
+            line = line.replace("#W32(","#WRITE(ptr,")
+            if "//BLOCK #" in line:
+                line = ""
+            if "//POINTER " in line:
+                line = "//Text "+line.split(" ")[-1]
+                
+            #if "<$81>@" in line:
+            #    line = line.replace("<$81>@"," ")
+            destFile.write(line)
+        
+    f.close()
+    destFile.close()
+    removeBlankPointerData(dumpFile.replace(".txt","")+"_cleaned.txt")
+    
+    
+def runscript(file):
+    
+    args = ["perl", "abcde.pl", "-m", "bin2text", "-cm", "abcde::Cartographer", "SLPS_251.72", file+"_script.txt", file+"_dump", "-s"]
+    listFile = subprocess.run(
+        args,
+        cwd= os.path.abspath(os.path.dirname(__file__)),
+        )
+    
 def replace(file_path, pattern, subst):
     #Create temp file
     fh, abs_path = mkstemp()
@@ -88,55 +114,3 @@ def createScript(fileName, n, startPoint, step, nbObject):
             end   = hex(int(startPoint,16) + 4*nbObject-1 + x*step)[2:].upper()
             f.write(blockText.format(x+1, start, end))
     
-def runscript(file):
-    
-    args = ["perl", "abcde.pl", "-m", "bin2text", "-cm", "abcde::Cartographer", "SLPS_251.72", file+"_script.txt", file+"_dump", "-s"]
-    listFile = subprocess.run(
-        args,
-        cwd= os.path.abspath(os.path.dirname(__file__)),
-        )
-
-    
-def clean(dumpFile):
-    
-    pathFile = os.path.abspath(os.path.dirname(__file__))
-    f = open(os.path.join(pathFile,dumpFile), mode="r", encoding="utf-8")
-    destFile = open(os.path.join(pathFile,dumpFile.replace(".txt","")+"_cleaned.txt"), mode="w", encoding="utf-8")
-    for line in f:
-        if "#JMP(" not in line:
-            line = line.replace("#HDR($-FF000) // Difference between ROM and RAM addresses for pointer value calculations","")
-            line = line.replace("#ACTIVETBL(Table_0) // Activate this block's starting TABLE","")
-            line = line.replace("#W32(","#WRITE(ptr,")
-            if "//BLOCK #" in line:
-                line = ""
-            if "//POINTER " in line:
-                line = "//Text "+line.split(" ")[-1]
-                
-            #if "<$81>@" in line:
-            #    line = line.replace("<$81>@"," ")
-            destFile.write(line)
-        
-    f.close()
-    destFile.close()
-    removeBlankPointerData(dumpFile.replace(".txt","")+"_cleaned.txt")
-    #os.remove( os.path.join(pathFile, dumpFile))
-    
-if __name__ == "__main__":
-    
-    #Parameters
-    fileName = sys.argv[1]
-    n = int(sys.argv[2])
-    startPoint = sys.argv[3]
-    step= int(sys.argv[4])
-    nbObject = int(sys.argv[5])
-    
-    #print("Here is an example of how to use it")
-    
-    #Create the script
-    createScript(fileName+"_script.txt", n, startPoint, step, nbObject)
-    
-    #Run the script
-    runscript(fileName)
-    
-    #Clean the dump file
-    clean(fileName+"_dump.txt")
