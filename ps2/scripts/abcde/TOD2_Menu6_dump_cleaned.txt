@@ -1,0 +1,107 @@
+
+//Text $1163F0
+#WRITE(ptr,$F68E0)
+毒[END]
+// current address: $1163F3
+
+//Text $1163E8
+#WRITE(ptr,$F68E4)
+衰弱[END]
+// current address: $1163ED
+
+//Text $1163E0
+#WRITE(ptr,$F68E8)
+麻痺[END]
+// current address: $1163E5
+
+//Text $1163D8
+#WRITE(ptr,$F68EC)
+凍結[END]
+// current address: $1163DD
+
+//Text $1163D0
+#WRITE(ptr,$F68F0)
+鈍足[END]
+// current address: $1163D5
+
+//Text $1163C0
+#WRITE(ptr,$F68F4)
+戦闘不能[END]
+// current address: $1163C9
+
+
+
+//Text $116418
+#WRITE(ptr,$F6908)
+ＨＰ継続回復[END]
+// current address: $116425
+
+//Text $116410
+#WRITE(ptr,$F690C)
+攻撃＋[END]
+// current address: $116417
+
+//Text $116408
+#WRITE(ptr,$F6910)
+防御＋[END]
+// current address: $11640F
+
+//Text $116400
+#WRITE(ptr,$F6914)
+命中＋[END]
+// current address: $116407
+
+//Text $1163F8
+#WRITE(ptr,$F6918)
+知性＋[END]
+// current address: $1163FF
+
+//Text $1164B8
+#WRITE(ptr,$F6920)
+アタックレベル[END]
+// current address: $1164C7
+
+//Text $1164A8
+#WRITE(ptr,$F6924)
+スキルレベル[END]
+// current address: $1164B5
+
+//Text $116498
+#WRITE(ptr,$F6928)
+マジックレベル[END]
+// current address: $1164A7
+
+//Text $116488
+#WRITE(ptr,$F692C)
+チェインレベル[END]
+// current address: $116497
+
+//Text $116478
+#WRITE(ptr,$F6930)
+地属性レベル[END]
+// current address: $116485
+
+//Text $116468
+#WRITE(ptr,$F6934)
+水属性レベル[END]
+// current address: $116475
+
+//Text $116458
+#WRITE(ptr,$F6938)
+火属性レベル[END]
+// current address: $116465
+
+//Text $116448
+#WRITE(ptr,$F693C)
+風属性レベル[END]
+// current address: $116455
+
+//Text $116438
+#WRITE(ptr,$F6940)
+光属性レベル[END]
+// current address: $116445
+
+//Text $116428
+#WRITE(ptr,$F6944)
+闇属性レベル[END]
+// current address: $116435

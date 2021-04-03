@@ -1,0 +1,2640 @@
+
+//Text $103B88
+#WRITE(ptr,$B8A38)
+攻撃が上昇する[END]
+// current address: $103B97
+
+//Text $103B78
+#WRITE(ptr,$B8A3C)
+アタック[END]
+// current address: $103B81
+
+//Text $103B70
+#WRITE(ptr,$B8A40)
+パワー[END]
+// current address: $103B77
+
+//Text $103B60
+#WRITE(ptr,$B8A44)
+ストレングス[END]
+// current address: $103B6D
+
+//Text $103B50
+#WRITE(ptr,$B8A48)
+フォース[END]
+// current address: $103B59
+
+//Text $103B40
+#WRITE(ptr,$B8A4C)
+マイティ[END]
+// current address: $103B49
+
+//Text $103B30
+#WRITE(ptr,$B8A50)
+命中が上昇する[END]
+// current address: $103B3F
+
+//Text $103B20
+#WRITE(ptr,$B8A54)
+フィート[END]
+// current address: $103B29
+
+//Text $103B10
+#WRITE(ptr,$B8A58)
+シャープ[END]
+// current address: $103B19
+
+//Text $103B00
+#WRITE(ptr,$B8A5C)
+ニンブル[END]
+// current address: $103B09
+
+//Text $103AF0
+#WRITE(ptr,$B8A60)
+プリシジョン[END]
+// current address: $103AFD
+
+//Text $103AE0
+#WRITE(ptr,$B8A64)
+スリヴァー[END]
+// current address: $103AEB
+
+//Text $103AD0
+#WRITE(ptr,$B8A68)
+防御が上昇する[END]
+// current address: $103ADF
+
+//Text $103AC0
+#WRITE(ptr,$B8A6C)
+スティール[END]
+// current address: $103ACB
+
+//Text $103AB0
+#WRITE(ptr,$B8A70)
+アーマード[END]
+// current address: $103ABB
+
+//Text $103AA0
+#WRITE(ptr,$B8A74)
+プロテクト[END]
+// current address: $103AAB
+
+//Text $103A90
+#WRITE(ptr,$B8A78)
+ランパート[END]
+// current address: $103A9B
+
+//Text $103A80
+#WRITE(ptr,$B8A7C)
+キャラペイス[END]
+// current address: $103A8D
+
+//Text $103A70
+#WRITE(ptr,$B8A80)
+回避が上昇する[END]
+// current address: $103A7F
+
+//Text $103A60
+#WRITE(ptr,$B8A84)
+イベイション[END]
+// current address: $103A6D
+
+//Text $103A50
+#WRITE(ptr,$B8A88)
+ダンシング[END]
+// current address: $103A5B
+
+//Text $103A40
+#WRITE(ptr,$B8A8C)
+フラックス[END]
+// current address: $103A4B
+
+//Text $103A30
+#WRITE(ptr,$B8A90)
+インビジブル[END]
+// current address: $103A3D
+
+//Text $103A20
+#WRITE(ptr,$B8A94)
+マヌーヴァー[END]
+// current address: $103A2D
+
+//Text $103A10
+#WRITE(ptr,$B8A98)
+知性が上昇する[END]
+// current address: $103A1F
+
+//Text $103A00
+#WRITE(ptr,$B8A9C)
+ナリッジ[END]
+// current address: $103A09
+
+//Text $1039F0
+#WRITE(ptr,$B8AA0)
+ワイズマン[END]
+// current address: $1039FB
+
+//Text $1039E0
+#WRITE(ptr,$B8AA4)
+シンキング[END]
+// current address: $1039EB
+
+//Text $1039D0
+#WRITE(ptr,$B8AA8)
+クレバー[END]
+// current address: $1039D9
+
+//Text $1039C0
+#WRITE(ptr,$B8AAC)
+ウィズダム[END]
+// current address: $1039CB
+
+//Text $1039B0
+#WRITE(ptr,$B8AB0)
+運が上昇する[END]
+// current address: $1039BD
+
+//Text $1039A0
+#WRITE(ptr,$B8AB4)
+ラビット[END]
+// current address: $1039A9
+
+//Text $103990
+#WRITE(ptr,$B8AB8)
+ハッピー[END]
+// current address: $103999
+
+//Text $103980
+#WRITE(ptr,$B8ABC)
+チャンス[END]
+// current address: $103989
+
+//Text $103978
+#WRITE(ptr,$B8AC0)
+ラック[END]
+// current address: $10397F
+
+//Text $103968
+#WRITE(ptr,$B8AC4)
+フォーチュン[END]
+// current address: $103975
+
+//Text $103950
+#WRITE(ptr,$B8AC8)
+最大ＨＰが上昇する[END]
+// current address: $103963
+
+//Text $103940
+#WRITE(ptr,$B8ACC)
+トロール[END]
+// current address: $103949
+
+//Text $103930
+#WRITE(ptr,$B8AD0)
+ウルヴァリン[END]
+// current address: $10393D
+
+//Text $103920
+#WRITE(ptr,$B8AD4)
+ジャイアント[END]
+// current address: $10392D
+
+//Text $103910
+#WRITE(ptr,$B8AD8)
+ビヒーモス[END]
+// current address: $10391B
+
+//Text $103900
+#WRITE(ptr,$B8ADC)
+コロッサス[END]
+// current address: $10390B
+
+//Text $1038E8
+#WRITE(ptr,$B8AE0)
+ＳＰ回復力が上昇する[END]
+// current address: $1038FD
+
+//Text $1038E0
+#WRITE(ptr,$B8AE4)
+ムーン[END]
+// current address: $1038E7
+
+//Text $1038D8
+#WRITE(ptr,$B8AE8)
+セレネ[END]
+// current address: $1038DF
+
+//Text $1038C8
+#WRITE(ptr,$B8AEC)
+プラネット[END]
+// current address: $1038D3
+
+//Text $1038B8
+#WRITE(ptr,$B8AF0)
+アルテミス[END]
+// current address: $1038C3
+
+//Text $1038A8
+#WRITE(ptr,$B8AF4)
+ルナティック[END]
+// current address: $1038B5
+
+//Text $103890
+#WRITE(ptr,$B8AF8)
+ＴＰ回復力が上昇する[END]
+// current address: $1038A5
+
+//Text $103880
+#WRITE(ptr,$B8AFC)
+マインド[END]
+// current address: $103889
+
+//Text $100B28
+#WRITE(ptr,$B8B00)
+メンタル[END]
+// current address: $100B31
+
+//Text $103870
+#WRITE(ptr,$B8B04)
+トランキル[END]
+// current address: $10387B
+
+//Text $103860
+#WRITE(ptr,$B8B08)
+メディテイト[END]
+// current address: $10386D
+
+//Text $103850
+#WRITE(ptr,$B8B0C)
+セレニティ[END]
+// current address: $10385B
+
+//Text $103838
+#WRITE(ptr,$B8B10)
+ＳＰ軽減力が上昇する[END]
+// current address: $10384D
+
+//Text $103828
+#WRITE(ptr,$B8B14)
+イーサー[END]
+// current address: $103831
+
+//Text $103818
+#WRITE(ptr,$B8B18)
+コズミック[END]
+// current address: $103823
+
+//Text $103808
+#WRITE(ptr,$B8B1C)
+ウェルキン[END]
+// current address: $103813
+
+//Text $1037F8
+#WRITE(ptr,$B8B20)
+ゾディアック[END]
+// current address: $103805
+
+//Text $1037E8
+#WRITE(ptr,$B8B24)
+サンクタム[END]
+// current address: $1037F3
+
+//Text $1037D0
+#WRITE(ptr,$B8B28)
+ＴＰ軽減力が上昇する[END]
+// current address: $1037E5
+
+//Text $1037C0
+#WRITE(ptr,$B8B2C)
+ピクシー[END]
+// current address: $1037C9
+
+//Text $1037B0
+#WRITE(ptr,$B8B30)
+スプライト[END]
+// current address: $1037BB
+
+//Text $1037A0
+#WRITE(ptr,$B8B34)
+ドライアド[END]
+// current address: $1037AB
+
+//Text $103790
+#WRITE(ptr,$B8B38)
+レプラコーン[END]
+// current address: $10379D
+
+//Text $103780
+#WRITE(ptr,$B8B3C)
+フェアリィ[END]
+// current address: $10378B
+
+//Text $103768
+#WRITE(ptr,$B8B40)
+詠唱速度が上昇する[END]
+// current address: $10377B
+
+//Text $103760
+#WRITE(ptr,$B8B44)
+スペル[END]
+// current address: $103767
+
+//Text $103750
+#WRITE(ptr,$B8B48)
+パラダイム[END]
+// current address: $10375B
+
+//Text $103740
+#WRITE(ptr,$B8B4C)
+リチュアル[END]
+// current address: $10374B
+
+//Text $103730
+#WRITE(ptr,$B8B50)
+アーケイン[END]
+// current address: $10373B
+
+//Text $103720
+#WRITE(ptr,$B8B54)
+ミスティ[END]
+// current address: $103729
+
+//Text $103708
+#WRITE(ptr,$B8B58)
+逃走速度が上昇する[END]
+// current address: $10371B
+
+//Text $1036F8
+#WRITE(ptr,$B8B5C)
+エスケープ[END]
+// current address: $103703
+
+//Text $1036E8
+#WRITE(ptr,$B8B60)
+ダッシュ[END]
+// current address: $1036F1
+
+//Text $1036D8
+#WRITE(ptr,$B8B64)
+ラナウェイ[END]
+// current address: $1036E3
+
+//Text $1036C8
+#WRITE(ptr,$B8B68)
+スプリント[END]
+// current address: $1036D3
+
+//Text $1036B8
+#WRITE(ptr,$B8B6C)
+ヴァニシング[END]
+// current address: $1036C5
+
+//Text $103698
+#WRITE(ptr,$B8B70)
+一定間隔でＨＰが回復する[END]
+// current address: $1036B1
+
+//Text $103688
+#WRITE(ptr,$B8B74)
+ヒーリング[END]
+// current address: $103693
+
+//Text $103678
+#WRITE(ptr,$B8B78)
+メディカル[END]
+// current address: $103683
+
+//Text $103668
+#WRITE(ptr,$B8B7C)
+カーミング[END]
+// current address: $103673
+
+//Text $103658
+#WRITE(ptr,$B8B80)
+アンセム[END]
+// current address: $103661
+
+//Text $103648
+#WRITE(ptr,$B8B84)
+ホーリィ[END]
+// current address: $103651
+
+//Text $103630
+#WRITE(ptr,$B8B88)
+低確率で最大ＨＰ加算[END]
+// current address: $103645
+
+//Text $103620
+#WRITE(ptr,$B8B8C)
+マーシナリー[END]
+// current address: $10362D
+
+//Text $103610
+#WRITE(ptr,$B8B90)
+ウォリア[END]
+// current address: $103619
+
+//Text $103600
+#WRITE(ptr,$B8B94)
+エリート[END]
+// current address: $103609
+
+//Text $1035F0
+#WRITE(ptr,$B8B98)
+ジェネラル[END]
+// current address: $1035FB
+
+//Text $1035E0
+#WRITE(ptr,$B8B9C)
+マーシャル[END]
+// current address: $1035EB
+
+//Text $1035C0
+#WRITE(ptr,$B8BA0)
+アイテム使用硬直時間減少[END]
+// current address: $1035D9
+
+//Text $1035B0
+#WRITE(ptr,$B8BA4)
+スライト[END]
+// current address: $1035B9
+
+//Text $1035A0
+#WRITE(ptr,$B8BA8)
+クラフトマン[END]
+// current address: $1035AD
+
+//Text $103590
+#WRITE(ptr,$B8BAC)
+ベテラン[END]
+// current address: $103599
+
+//Text $103580
+#WRITE(ptr,$B8BB0)
+エキスパート[END]
+// current address: $10358D
+
+//Text $103570
+#WRITE(ptr,$B8BB4)
+アーティスト[END]
+// current address: $10357D
+
+//Text $103558
+#WRITE(ptr,$B8BB8)
+取得ガルドが増加する[END]
+// current address: $10356D
+
+//Text $103548
+#WRITE(ptr,$B8BBC)
+マーチャント[END]
+// current address: $103555
+
+//Text $103538
+#WRITE(ptr,$B8BC0)
+プライズ[END]
+// current address: $103541
+
+//Text $103528
+#WRITE(ptr,$B8BC4)
+ハイリワード[END]
+// current address: $103535
+
+//Text $103518
+#WRITE(ptr,$B8BC8)
+ウェルス[END]
+// current address: $103521
+
+//Text $103508
+#WRITE(ptr,$B8BCC)
+バウンティ[END]
+// current address: $103513
+
+//Text $1034F0
+#WRITE(ptr,$B8BD0)
+アイテム取得確率上昇[END]
+// current address: $103505
+
+//Text $1034E0
+#WRITE(ptr,$B8BD4)
+トレジャー[END]
+// current address: $1034EB
+
+//Text $1034D0
+#WRITE(ptr,$B8BD8)
+クァンタム[END]
+// current address: $1034DB
+
+//Text $1034C0
+#WRITE(ptr,$B8BDC)
+アバウンド[END]
+// current address: $1034CB
+
+//Text $1034B0
+#WRITE(ptr,$B8BE0)
+プレントリー[END]
+// current address: $1034BD
+
+//Text $1034A0
+#WRITE(ptr,$B8BE4)
+レガシー[END]
+// current address: $1034A9
+
+//Text $103488
+#WRITE(ptr,$B8BE8)
+取得E<$78><$70>が増加する[END]
+// current address: $10349A
+
+//Text $103478
+#WRITE(ptr,$B8BEC)
+オーサム[END]
+// current address: $103481
+
+//Text $103468
+#WRITE(ptr,$B8BF0)
+プレステージ[END]
+// current address: $103475
+
+//Text $103458
+#WRITE(ptr,$B8BF4)
+セイントリー[END]
+// current address: $103465
+
+//Text $103448
+#WRITE(ptr,$B8BF8)
+グローリアス[END]
+// current address: $103455
+
+//Text $103438
+#WRITE(ptr,$B8BFC)
+セイクリッド[END]
+// current address: $103445
+
+//Text $103418
+#WRITE(ptr,$B8C00)
+＜確率効果＞の発生確率上昇[END]
+// current address: $103433
+
+//Text $103408
+#WRITE(ptr,$B8C04)
+デュエリスト[END]
+// current address: $103415
+
+//Text $1033F8
+#WRITE(ptr,$B8C08)
+ドラグーン[END]
+// current address: $103403
+
+//Text $1033E8
+#WRITE(ptr,$B8C0C)
+チャンピオン[END]
+// current address: $1033F5
+
+//Text $1033D8
+#WRITE(ptr,$B8C10)
+マスター[END]
+// current address: $1033E1
+
+//Text $1033C8
+#WRITE(ptr,$B8C14)
+ベルセルク[END]
+// current address: $1033D3
+
+//Text $1033B0
+#WRITE(ptr,$B8C18)
+対のスロットの効果上昇[END]
+// current address: $1033C7
+
+//Text $1033A0
+#WRITE(ptr,$B8C1C)
+スクワイア[END]
+// current address: $1033AB
+
+//Text $103398
+#WRITE(ptr,$B8C20)
+ナイツ[END]
+// current address: $10339F
+
+//Text $103388
+#WRITE(ptr,$B8C24)
+パラディン[END]
+// current address: $103393
+
+//Text $103378
+#WRITE(ptr,$B8C28)
+パトリオット[END]
+// current address: $103385
+
+//Text $103368
+#WRITE(ptr,$B8C2C)
+クルセイダー[END]
+// current address: $103375
+
+//Text $103348
+#WRITE(ptr,$B8C30)
+対のスロットが低確率でLVUP[END]
+// current address: $103363
+
+//Text $103338
+#WRITE(ptr,$B8C34)
+プラティナム[END]
+// current address: $103345
+
+//Text $103328
+#WRITE(ptr,$B8C38)
+ミスリル[END]
+// current address: $103331
+
+//Text $103318
+#WRITE(ptr,$B8C3C)
+スターダスト[END]
+// current address: $103325
+
+//Text $103308
+#WRITE(ptr,$B8C40)
+オリハルコン[END]
+// current address: $103315
+
+//Text $1032F8
+#WRITE(ptr,$B8C44)
+メテオリック[END]
+// current address: $103305
+
+//Text $1032E0
+#WRITE(ptr,$B8C48)
+地属性を付加する[END]
+// current address: $1032F1
+
+//Text $1032D8
+#WRITE(ptr,$B8C4C)
+ソイル[END]
+// current address: $1032DF
+
+//Text $1032D0
+#WRITE(ptr,$B8C50)
+アース[END]
+// current address: $1032D7
+
+//Text $1032C8
+#WRITE(ptr,$B8C54)
+ガイア[END]
+// current address: $1032CF
+
+//Text $1032C0
+#WRITE(ptr,$B8C58)
+ノーム[END]
+// current address: $1032C7
+
+//Text $1032B0
+#WRITE(ptr,$B8C5C)
+マーテル[END]
+// current address: $1032B9
+
+//Text $103298
+#WRITE(ptr,$B8C60)
+水属性を付加する[END]
+// current address: $1032A9
+
+//Text $103288
+#WRITE(ptr,$B8C64)
+ウォーター[END]
+// current address: $103293
+
+//Text $103278
+#WRITE(ptr,$B8C68)
+アクエリアス[END]
+// current address: $103285
+
+//Text $103268
+#WRITE(ptr,$B8C6C)
+トリトン[END]
+// current address: $103271
+
+//Text $103258
+#WRITE(ptr,$B8C70)
+ウンディーネ[END]
+// current address: $103265
+
+//Text $103248
+#WRITE(ptr,$B8C74)
+ポセイドン[END]
+// current address: $103253
+
+//Text $103230
+#WRITE(ptr,$B8C78)
+火属性を付加する[END]
+// current address: $103241
+
+//Text $103220
+#WRITE(ptr,$B8C7C)
+ファイア[END]
+// current address: $103229
+
+//Text $103218
+#WRITE(ptr,$B8C80)
+フレア[END]
+// current address: $10321F
+
+//Text $103208
+#WRITE(ptr,$B8C84)
+シアリング[END]
+// current address: $103213
+
+//Text $1031F8
+#WRITE(ptr,$B8C88)
+サラマンダー[END]
+// current address: $103205
+
+//Text $1031E8
+#WRITE(ptr,$B8C8C)
+イフリート[END]
+// current address: $1031F3
+
+//Text $1031D0
+#WRITE(ptr,$B8C90)
+風属性を付加する[END]
+// current address: $1031E1
+
+//Text $1031C0
+#WRITE(ptr,$B8C94)
+ウィンディ[END]
+// current address: $1031CB
+
+//Text $1031B8
+#WRITE(ptr,$B8C98)
+ゲイル[END]
+// current address: $1031BF
+
+//Text $1031A8
+#WRITE(ptr,$B8C9C)
+ゼファー[END]
+// current address: $1031B1
+
+//Text $103198
+#WRITE(ptr,$B8CA0)
+エアリアル[END]
+// current address: $1031A3
+
+//Text $103188
+#WRITE(ptr,$B8CA4)
+シルフィ[END]
+// current address: $103191
+
+//Text $103170
+#WRITE(ptr,$B8CA8)
+光属性を付加する[END]
+// current address: $103181
+
+//Text $103168
+#WRITE(ptr,$B8CAC)
+ライト[END]
+// current address: $10316F
+
+//Text $103158
+#WRITE(ptr,$B8CB0)
+イルミネイト[END]
+// current address: $103165
+
+//Text $103148
+#WRITE(ptr,$B8CB4)
+ブリリアント[END]
+// current address: $103155
+
+//Text $103138
+#WRITE(ptr,$B8CB8)
+トゥインクル[END]
+// current address: $103145
+
+//Text $103128
+#WRITE(ptr,$B8CBC)
+フォトン[END]
+// current address: $103131
+
+//Text $103110
+#WRITE(ptr,$B8CC0)
+闇属性を付加する[END]
+// current address: $103121
+
+//Text $103108
+#WRITE(ptr,$B8CC4)
+ダスク[END]
+// current address: $10310F
+
+//Text $1030F8
+#WRITE(ptr,$B8CC8)
+シルエット[END]
+// current address: $103103
+
+//Text $1030E8
+#WRITE(ptr,$B8CCC)
+シェイド[END]
+// current address: $1030F1
+
+//Text $1030D8
+#WRITE(ptr,$B8CD0)
+ダークネス[END]
+// current address: $1030E3
+
+//Text $1030C8
+#WRITE(ptr,$B8CD4)
+シャドウ[END]
+// current address: $1030D1
+
+//Text $1030A8
+#WRITE(ptr,$B8CD8)
+＜確率効果＞毒を付加する[END]
+// current address: $1030C1
+
+//Text $103098
+#WRITE(ptr,$B8CDC)
+ポイズン[END]
+// current address: $1030A1
+
+//Text $103088
+#WRITE(ptr,$B8CE0)
+ノキサス[END]
+// current address: $103091
+
+//Text $103078
+#WRITE(ptr,$B8CE4)
+ヴェノム[END]
+// current address: $103081
+
+//Text $103068
+#WRITE(ptr,$B8CE8)
+エピデミック[END]
+// current address: $103075
+
+//Text $103058
+#WRITE(ptr,$B8CEC)
+プラギュー[END]
+// current address: $103063
+
+//Text $103038
+#WRITE(ptr,$B8CF0)
+＜確率効果＞麻痺を付加する[END]
+// current address: $103053
+
+//Text $103028
+#WRITE(ptr,$B8CF4)
+パラライズ[END]
+// current address: $103033
+
+//Text $103018
+#WRITE(ptr,$B8CF8)
+スパイダー[END]
+// current address: $103023
+
+//Text $103008
+#WRITE(ptr,$B8CFC)
+コカトリス[END]
+// current address: $103013
+
+//Text $102FF8
+#WRITE(ptr,$B8D00)
+バシリスク[END]
+// current address: $103003
+
+//Text $102FE8
+#WRITE(ptr,$B8D04)
+メデューサ[END]
+// current address: $102FF3
+
+//Text $102FC8
+#WRITE(ptr,$B8D08)
+＜確率効果＞凍結効果を付加[END]
+// current address: $102FE3
+
+//Text $102FB8
+#WRITE(ptr,$B8D0C)
+コールド[END]
+// current address: $102FC1
+
+//Text $102FA8
+#WRITE(ptr,$B8D10)
+フリーズ[END]
+// current address: $102FB1
+
+//Text $102F98
+#WRITE(ptr,$B8D14)
+アイスバーグ[END]
+// current address: $102FA5
+
+//Text $102F88
+#WRITE(ptr,$B8D18)
+グレイシャル[END]
+// current address: $102F95
+
+//Text $102F78
+#WRITE(ptr,$B8D1C)
+ステイシス[END]
+// current address: $102F83
+
+//Text $102F58
+#WRITE(ptr,$B8D20)
+＜確率効果＞衰弱効果を付加[END]
+// current address: $102F73
+
+//Text $102F48
+#WRITE(ptr,$B8D24)
+ウィークン[END]
+// current address: $102F53
+
+//Text $102F38
+#WRITE(ptr,$B8D28)
+ディジーズ[END]
+// current address: $102F43
+
+//Text $102F28
+#WRITE(ptr,$B8D2C)
+ファイナー[END]
+// current address: $102F33
+
+//Text $102F18
+#WRITE(ptr,$B8D30)
+ペインフル[END]
+// current address: $102F23
+
+//Text $102F08
+#WRITE(ptr,$B8D34)
+ファティーグ[END]
+// current address: $102F15
+
+//Text $102EE8
+#WRITE(ptr,$B8D38)
+＜確率効果＞気絶効果を付加[END]
+// current address: $102F03
+
+//Text $102ED8
+#WRITE(ptr,$B8D3C)
+ハウリング[END]
+// current address: $102EE3
+
+//Text $102EC8
+#WRITE(ptr,$B8D40)
+バッシング[END]
+// current address: $102ED3
+
+//Text $102EB8
+#WRITE(ptr,$B8D44)
+グロッギー[END]
+// current address: $102EC3
+
+//Text $102EA8
+#WRITE(ptr,$B8D48)
+ストライク[END]
+// current address: $102EB3
+
+//Text $102E98
+#WRITE(ptr,$B8D4C)
+ドライビング[END]
+// current address: $102EA5
+
+//Text $102E78
+#WRITE(ptr,$B8D50)
+クリティカル率が上昇する[END]
+// current address: $102E91
+
+//Text $1017D0
+#WRITE(ptr,$B8D54)
+クリティカル[END]
+// current address: $1017DD
+
+//Text $102E68
+#WRITE(ptr,$B8D58)
+ランページ[END]
+// current address: $102E73
+
+//Text $102E58
+#WRITE(ptr,$B8D5C)
+マーシレス[END]
+// current address: $102E63
+
+//Text $102E48
+#WRITE(ptr,$B8D60)
+カーネイジ[END]
+// current address: $102E53
+
+//Text $102E38
+#WRITE(ptr,$B8D64)
+ジェノサイド[END]
+// current address: $102E45
+
+//Text $102E20
+#WRITE(ptr,$B8D68)
+攻撃時にＨＰ吸収[END]
+// current address: $102E31
+
+//Text $102E10
+#WRITE(ptr,$B8D6C)
+モスキート[END]
+// current address: $102E1B
+
+//Text $102E00
+#WRITE(ptr,$B8D70)
+ブラッディ[END]
+// current address: $102E0B
+
+//Text $102DF0
+#WRITE(ptr,$B8D74)
+スナッチャー[END]
+// current address: $102DFD
+
+//Text $102DE0
+#WRITE(ptr,$B8D78)
+サッキュバス[END]
+// current address: $102DED
+
+//Text $102DD0
+#WRITE(ptr,$B8D7C)
+ヴァンパイア[END]
+// current address: $102DDD
+
+//Text $102DB8
+#WRITE(ptr,$B8D80)
+攻撃時にＴＰ吸収[END]
+// current address: $102DC9
+
+//Text $102DA8
+#WRITE(ptr,$B8D84)
+ファントム[END]
+// current address: $102DB3
+
+//Text $102D98
+#WRITE(ptr,$B8D88)
+スペクター[END]
+// current address: $102DA3
+
+//Text $102D88
+#WRITE(ptr,$B8D8C)
+スピリット[END]
+// current address: $102D93
+
+//Text $102D78
+#WRITE(ptr,$B8D90)
+ナイトメア[END]
+// current address: $102D83
+
+//Text $102D68
+#WRITE(ptr,$B8D94)
+ヴァルパイン[END]
+// current address: $102D75
+
+//Text $102D48
+#WRITE(ptr,$B8D98)
+敵撃破時にＨＰを回復する[END]
+// current address: $102D61
+
+//Text $102D38
+#WRITE(ptr,$B8D9C)
+ハーモニー[END]
+// current address: $102D43
+
+//Text $102D28
+#WRITE(ptr,$B8DA0)
+プレジャー[END]
+// current address: $102D33
+
+//Text $102D18
+#WRITE(ptr,$B8DA4)
+リリーヴ[END]
+// current address: $102D21
+
+//Text $102D08
+#WRITE(ptr,$B8DA8)
+パスタイム[END]
+// current address: $102D13
+
+//Text $102CF8
+#WRITE(ptr,$B8DAC)
+リレントリー[END]
+// current address: $102D05
+
+//Text $102CD8
+#WRITE(ptr,$B8DB0)
+撃破時のＴＰ回復量が増加[END]
+// current address: $102CF1
+
+//Text $102CD0
+#WRITE(ptr,$B8DB4)
+メイジ[END]
+// current address: $102CD7
+
+//Text $102CC0
+#WRITE(ptr,$B8DB8)
+マジカル[END]
+// current address: $102CC9
+
+//Text $102CB8
+#WRITE(ptr,$B8DBC)
+ルーン[END]
+// current address: $102CBF
+
+//Text $102CA8
+#WRITE(ptr,$B8DC0)
+ワンダー[END]
+// current address: $102CB1
+
+//Text $102C98
+#WRITE(ptr,$B8DC4)
+ストレンジ[END]
+// current address: $102CA3
+
+//Text $102C78
+#WRITE(ptr,$B8DC8)
+アタックレベルの成長促進[END]
+// current address: $102C91
+
+//Text $102C68
+#WRITE(ptr,$B8DCC)
+アサルト[END]
+// current address: $102C71
+
+//Text $102C58
+#WRITE(ptr,$B8DD0)
+トランプル[END]
+// current address: $102C63
+
+//Text $102C48
+#WRITE(ptr,$B8DD4)
+オンスロート[END]
+// current address: $102C55
+
+//Text $102C38
+#WRITE(ptr,$B8DD8)
+サヴェイジ[END]
+// current address: $102C43
+
+//Text $102C28
+#WRITE(ptr,$B8DDC)
+デッドリー[END]
+// current address: $102C33
+
+//Text $102C10
+#WRITE(ptr,$B8DE0)
+スキルレベルの成長促進[END]
+// current address: $102C27
+
+//Text $102C00
+#WRITE(ptr,$B8DE4)
+ガンビット[END]
+// current address: $102C0B
+
+//Text $102BF0
+#WRITE(ptr,$B8DE8)
+エイミング[END]
+// current address: $102BFB
+
+//Text $102BE0
+#WRITE(ptr,$B8DEC)
+ファイン[END]
+// current address: $102BE9
+
+//Text $102BD0
+#WRITE(ptr,$B8DF0)
+ガイデッド[END]
+// current address: $102BDB
+
+//Text $102BC0
+#WRITE(ptr,$B8DF4)
+アキュレイト[END]
+// current address: $102BCD
+
+//Text $102BA8
+#WRITE(ptr,$B8DF8)
+マジックレベル成長促進[END]
+// current address: $102BBF
+
+//Text $102CC0
+#WRITE(ptr,$B8DFC)
+マジカル[END]
+// current address: $102CC9
+
+//Text $102B98
+#WRITE(ptr,$B8E00)
+スローター[END]
+// current address: $102BA3
+
+//Text $102B88
+#WRITE(ptr,$B8E04)
+カタストロフ[END]
+// current address: $102B95
+
+//Text $102B78
+#WRITE(ptr,$B8E08)
+ハルマゲドン[END]
+// current address: $102B85
+
+//Text $102B68
+#WRITE(ptr,$B8E0C)
+アポカリプス[END]
+// current address: $102B75
+
+//Text $102B48
+#WRITE(ptr,$B8E10)
+チェインレベルの成長促進[END]
+// current address: $102B61
+
+//Text $102B38
+#WRITE(ptr,$B8E14)
+ドリーム[END]
+// current address: $102B41
+
+//Text $102B28
+#WRITE(ptr,$B8E18)
+ファンタジー[END]
+// current address: $102B35
+
+//Text $102B18
+#WRITE(ptr,$B8E1C)
+ジェスター[END]
+// current address: $102B23
+
+//Text $102B08
+#WRITE(ptr,$B8E20)
+アルルカン[END]
+// current address: $102B13
+
+//Text $102AF8
+#WRITE(ptr,$B8E24)
+ハーレクイン[END]
+// current address: $102B05
+
+//Text $102AE0
+#WRITE(ptr,$B8E28)
+＜継続効果＞の時間延長[END]
+// current address: $102AF7
+
+//Text $102AD0
+#WRITE(ptr,$B8E2C)
+スカウト[END]
+// current address: $102AD9
+
+//Text $102AC0
+#WRITE(ptr,$B8E30)
+ブルーム[END]
+// current address: $102AC9
+
+//Text $102AB0
+#WRITE(ptr,$B8E34)
+ヴィジョン[END]
+// current address: $102ABB
+
+//Text $102AA0
+#WRITE(ptr,$B8E38)
+ユースフル[END]
+// current address: $102AAB
+
+//Text $102A90
+#WRITE(ptr,$B8E3C)
+チアリング[END]
+// current address: $102A9B
+
+//Text $102A78
+#WRITE(ptr,$B8E40)
+ドラゴンに対して有効[END]
+// current address: $102A8D
+
+//Text $102A68
+#WRITE(ptr,$B8E44)
+リザード[END]
+// current address: $102A71
+
+//Text $102A58
+#WRITE(ptr,$B8E48)
+ドレイク[END]
+// current address: $102A61
+
+//Text $102A48
+#WRITE(ptr,$B8E4C)
+ドラゴン[END]
+// current address: $102A51
+
+//Text $102A38
+#WRITE(ptr,$B8E50)
+ワイアーム[END]
+// current address: $102A43
+
+//Text $102A28
+#WRITE(ptr,$B8E54)
+バハムート[END]
+// current address: $102A33
+
+//Text $102A10
+#WRITE(ptr,$B8E58)
+機械に対して有効[END]
+// current address: $102A21
+
+//Text $102A00
+#WRITE(ptr,$B8E5C)
+ブレイク[END]
+// current address: $102A09
+
+//Text $1029F0
+#WRITE(ptr,$B8E60)
+クラッシュ[END]
+// current address: $1029FB
+
+//Text $1029E0
+#WRITE(ptr,$B8E64)
+デストロイ[END]
+// current address: $1029EB
+
+//Text $1029D0
+#WRITE(ptr,$B8E68)
+ハングアップ[END]
+// current address: $1029DD
+
+//Text $1029C0
+#WRITE(ptr,$B8E6C)
+デモリション[END]
+// current address: $1029CD
+
+//Text $1029B0
+#WRITE(ptr,$B8E70)
+獣に対して有効[END]
+// current address: $1029BF
+
+//Text $1029A0
+#WRITE(ptr,$B8E74)
+ハウンド[END]
+// current address: $1029A9
+
+//Text $102990
+#WRITE(ptr,$B8E78)
+ビースト[END]
+// current address: $102999
+
+//Text $102980
+#WRITE(ptr,$B8E7C)
+プレデター[END]
+// current address: $10298B
+
+//Text $102970
+#WRITE(ptr,$B8E80)
+ベスティアル[END]
+// current address: $10297D
+
+//Text $102960
+#WRITE(ptr,$B8E84)
+スレイヤー[END]
+// current address: $10296B
+
+//Text $102948
+#WRITE(ptr,$B8E88)
+空の敵に対して有効[END]
+// current address: $10295B
+
+//Text $102938
+#WRITE(ptr,$B8E8C)
+ラプター[END]
+// current address: $102941
+
+//Text $102928
+#WRITE(ptr,$B8E90)
+ハーピー[END]
+// current address: $102931
+
+//Text $102918
+#WRITE(ptr,$B8E94)
+ペガサス[END]
+// current address: $102921
+
+//Text $102908
+#WRITE(ptr,$B8E98)
+グリフィン[END]
+// current address: $102913
+
+//Text $1028F8
+#WRITE(ptr,$B8E9C)
+フェニックス[END]
+// current address: $102905
+
+//Text $1028E0
+#WRITE(ptr,$B8EA0)
+悪魔に対して有効[END]
+// current address: $1028F1
+
+//Text $1028D0
+#WRITE(ptr,$B8EA4)
+オーガー[END]
+// current address: $1028D9
+
+//Text $1028C0
+#WRITE(ptr,$B8EA8)
+フィーンド[END]
+// current address: $1028CB
+
+//Text $1028B0
+#WRITE(ptr,$B8EAC)
+グレムリン[END]
+// current address: $1028BB
+
+//Text $1028A8
+#WRITE(ptr,$B8EB0)
+デビル[END]
+// current address: $1028AF
+
+//Text $102898
+#WRITE(ptr,$B8EB4)
+デーモン[END]
+// current address: $1028A1
+
+//Text $102880
+#WRITE(ptr,$B8EB8)
+無機物に対して有効[END]
+// current address: $102893
+
+//Text $102870
+#WRITE(ptr,$B8EBC)
+パペット[END]
+// current address: $102879
+
+//Text $102860
+#WRITE(ptr,$B8EC0)
+ゴーレム[END]
+// current address: $102869
+
+//Text $102850
+#WRITE(ptr,$B8EC4)
+ガーゴイル[END]
+// current address: $10285B
+
+//Text $102840
+#WRITE(ptr,$B8EC8)
+ガーディアン[END]
+// current address: $10284D
+
+//Text $102830
+#WRITE(ptr,$B8ECC)
+ヴァリアント[END]
+// current address: $10283D
+
+//Text $102818
+#WRITE(ptr,$B8ED0)
+攻撃と命中が上昇する[END]
+// current address: $10282D
+
+//Text $102808
+#WRITE(ptr,$B8ED4)
+カレージャス[END]
+// current address: $102815
+
+//Text $1027F8
+#WRITE(ptr,$B8ED8)
+マジェスティ[END]
+// current address: $102805
+
+//Text $1027E8
+#WRITE(ptr,$B8EDC)
+パーフェクト[END]
+// current address: $1027F5
+
+//Text $1027D8
+#WRITE(ptr,$B8EE0)
+ハイパー[END]
+// current address: $1027E1
+
+//Text $1027C8
+#WRITE(ptr,$B8EE4)
+ファイナル[END]
+// current address: $1027D3
+
+//Text $1027A8
+#WRITE(ptr,$B8EE8)
+攻撃とクリティカルが上昇する[END]
+// current address: $1027C5
+
+//Text $1027A0
+#WRITE(ptr,$B8EEC)
+ロード[END]
+// current address: $1027A7
+
+//Text $102790
+#WRITE(ptr,$B8EF0)
+エンペラー[END]
+// current address: $10279B
+
+//Text $102780
+#WRITE(ptr,$B8EF4)
+カイザー[END]
+// current address: $102789
+
+//Text $102770
+#WRITE(ptr,$B8EF8)
+タイラント[END]
+// current address: $10277B
+
+//Text $102760
+#WRITE(ptr,$B8EFC)
+ディアティ[END]
+// current address: $10276B
+
+//Text $102740
+#WRITE(ptr,$B8F00)
+SP軽減力とTP軽減力が上昇[END]
+// current address: $102759
+
+//Text $102730
+#WRITE(ptr,$B8F04)
+ワールド[END]
+// current address: $102739
+
+//Text $102720
+#WRITE(ptr,$B8F08)
+ヘヴンズ[END]
+// current address: $102729
+
+//Text $102710
+#WRITE(ptr,$B8F0C)
+パラダイス[END]
+// current address: $10271B
+
+//Text $102700
+#WRITE(ptr,$B8F10)
+エルドラド[END]
+// current address: $10270B
+
+//Text $1026F0
+#WRITE(ptr,$B8F14)
+アルカディア[END]
+// current address: $1026FD
+
+//Text $1026D8
+#WRITE(ptr,$B8F18)
+攻撃と最大HPが上昇[END]
+// current address: $1026EB
+
+//Text $1026C8
+#WRITE(ptr,$B8F1C)
+バサルト[END]
+// current address: $1026D1
+
+//Text $1026B8
+#WRITE(ptr,$B8F20)
+マーブル[END]
+// current address: $1026C1
+
+//Text $1026A8
+#WRITE(ptr,$B8F24)
+グラニット[END]
+// current address: $1026B3
+
+//Text $102698
+#WRITE(ptr,$B8F28)
+ラーヴァ[END]
+// current address: $1026A1
+
+//Text $102688
+#WRITE(ptr,$B8F2C)
+レアメタル[END]
+// current address: $102693
+
+//Text $102668
+#WRITE(ptr,$B8F30)
+詠唱速度とTP回復力が上昇[END]
+// current address: $102681
+
+//Text $102658
+#WRITE(ptr,$B8F34)
+アーデント[END]
+// current address: $102663
+
+//Text $102648
+#WRITE(ptr,$B8F38)
+ファーヴァー[END]
+// current address: $102655
+
+//Text $102638
+#WRITE(ptr,$B8F3C)
+ジーラス[END]
+// current address: $102641
+
+//Text $102628
+#WRITE(ptr,$B8F40)
+インプレス[END]
+// current address: $102633
+
+//Text $102618
+#WRITE(ptr,$B8F44)
+アーネスト[END]
+// current address: $102623
+
+//Text $1025F8
+#WRITE(ptr,$B8F48)
+持主が低レベルほど攻撃上昇[END]
+// current address: $102613
+
+//Text $1025E8
+#WRITE(ptr,$B8F4C)
+ダマスカス[END]
+// current address: $1025F3
+
+//Text $1025D8
+#WRITE(ptr,$B8F50)
+ペルシャ[END]
+// current address: $1025E1
+
+//Text $1025C8
+#WRITE(ptr,$B8F54)
+ロイヤル[END]
+// current address: $1025D1
+
+//Text $1025B8
+#WRITE(ptr,$B8F58)
+アルカイック[END]
+// current address: $1025C5
+
+//Text $1025A8
+#WRITE(ptr,$B8F5C)
+エンシェント[END]
+// current address: $1025B5
+
+//Text $102590
+#WRITE(ptr,$B8F60)
+毒耐性と反撃効果を得る[END]
+// current address: $1025A7
+
+//Text $102580
+#WRITE(ptr,$B8F64)
+アンチドート[END]
+// current address: $10258D
+
+//Text $102570
+#WRITE(ptr,$B8F68)
+レストフル[END]
+// current address: $10257B
+
+//Text $102560
+#WRITE(ptr,$B8F6C)
+キュアオール[END]
+// current address: $10256D
+
+//Text $102550
+#WRITE(ptr,$B8F70)
+コンフォート[END]
+// current address: $10255D
+
+//Text $102540
+#WRITE(ptr,$B8F74)
+フレグランス[END]
+// current address: $10254D
+
+//Text $102520
+#WRITE(ptr,$B8F78)
+鈍足耐性と反撃効果を得る[END]
+// current address: $102539
+
+//Text $102510
+#WRITE(ptr,$B8F7C)
+ステップ[END]
+// current address: $102519
+
+//Text $102500
+#WRITE(ptr,$B8F80)
+ヘイスト[END]
+// current address: $102509
+
+//Text $1024F0
+#WRITE(ptr,$B8F84)
+アジリティ[END]
+// current address: $1024FB
+
+//Text $1024E0
+#WRITE(ptr,$B8F88)
+スウィフト[END]
+// current address: $1024EB
+
+//Text $1024D0
+#WRITE(ptr,$B8F8C)
+エルヴン[END]
+// current address: $1024D9
+
+//Text $1024B0
+#WRITE(ptr,$B8F90)
+麻痺耐性と反撃効果を得る[END]
+// current address: $1024C9
+
+//Text $1024A0
+#WRITE(ptr,$B8F94)
+ロッキング[END]
+// current address: $1024AB
+
+//Text $102490
+#WRITE(ptr,$B8F98)
+イージー[END]
+// current address: $102499
+
+//Text $102480
+#WRITE(ptr,$B8F9C)
+アクティブ[END]
+// current address: $10248B
+
+//Text $102470
+#WRITE(ptr,$B8FA0)
+オプティマム[END]
+// current address: $10247D
+
+//Text $102460
+#WRITE(ptr,$B8FA4)
+ファニー[END]
+// current address: $102469
+
+//Text $102440
+#WRITE(ptr,$B8FA8)
+凍結耐性と反撃効果を得る[END]
+// current address: $102459
+
+//Text $102430
+#WRITE(ptr,$B8FAC)
+ウォーミング[END]
+// current address: $10243D
+
+//Text $102420
+#WRITE(ptr,$B8FB0)
+メルティング[END]
+// current address: $10242D
+
+//Text $102410
+#WRITE(ptr,$B8FB4)
+ヒーティング[END]
+// current address: $10241D
+
+//Text $102400
+#WRITE(ptr,$B8FB8)
+ソーイング[END]
+// current address: $10240B
+
+//Text $1023F0
+#WRITE(ptr,$B8FBC)
+スタッフィ[END]
+// current address: $1023FB
+
+//Text $1023D0
+#WRITE(ptr,$B8FC0)
+衰弱耐性と反撃効果を得る[END]
+// current address: $1023E9
+
+//Text $1023C0
+#WRITE(ptr,$B8FC4)
+リーディング[END]
+// current address: $1023CD
+
+//Text $1023B0
+#WRITE(ptr,$B8FC8)
+モラール[END]
+// current address: $1023B9
+
+//Text $1023A0
+#WRITE(ptr,$B8FCC)
+オーダー[END]
+// current address: $1023A9
+
+//Text $102390
+#WRITE(ptr,$B8FD0)
+フェイス[END]
+// current address: $102399
+
+//Text $102388
+#WRITE(ptr,$B8FD4)
+オーラ[END]
+// current address: $10238F
+
+//Text $102370
+#WRITE(ptr,$B8FD8)
+気絶時間を減らす[END]
+// current address: $102381
+
+//Text $102360
+#WRITE(ptr,$B8FDC)
+ストロング[END]
+// current address: $10236B
+
+//Text $102350
+#WRITE(ptr,$B8FE0)
+レジスト[END]
+// current address: $102359
+
+//Text $102340
+#WRITE(ptr,$B8FE4)
+コンシャス[END]
+// current address: $10234B
+
+//Text $102330
+#WRITE(ptr,$B8FE8)
+エナジー[END]
+// current address: $102339
+
+//Text $102320
+#WRITE(ptr,$B8FEC)
+グッドウィル[END]
+// current address: $10232D
+
+//Text $102308
+#WRITE(ptr,$B8FF0)
+瀕死時にＨＰが回復する[END]
+// current address: $10231F
+
+//Text $1022F8
+#WRITE(ptr,$B8FF4)
+サバイバル[END]
+// current address: $102303
+
+//Text $1022E8
+#WRITE(ptr,$B8FF8)
+バイタリティ[END]
+// current address: $1022F5
+
+//Text $1022D8
+#WRITE(ptr,$B8FFC)
+レジューム[END]
+// current address: $1022E3
+
+//Text $1022C8
+#WRITE(ptr,$B9000)
+リグロース[END]
+// current address: $1022D3
+
+//Text $1022B8
+#WRITE(ptr,$B9004)
+リバース[END]
+// current address: $1022C1
+
+//Text $1022A8
+#WRITE(ptr,$B9008)
+地耐性を得る[END]
+// current address: $1022B5
+
+//Text $102298
+#WRITE(ptr,$B900C)
+ブラウン[END]
+// current address: $1022A1
+
+//Text $102288
+#WRITE(ptr,$B9010)
+オーカー[END]
+// current address: $102291
+
+//Text $102278
+#WRITE(ptr,$B9014)
+タンジリン[END]
+// current address: $102283
+
+//Text $102268
+#WRITE(ptr,$B9018)
+トパーズ[END]
+// current address: $102271
+
+//Text $102258
+#WRITE(ptr,$B901C)
+アンバー[END]
+// current address: $102261
+
+//Text $102248
+#WRITE(ptr,$B9020)
+水耐性を得る[END]
+// current address: $102255
+
+//Text $102240
+#WRITE(ptr,$B9024)
+シアン[END]
+// current address: $102247
+
+//Text $102230
+#WRITE(ptr,$B9028)
+ラピスラズリ[END]
+// current address: $10223D
+
+//Text $102220
+#WRITE(ptr,$B902C)
+アクアマリン[END]
+// current address: $10222D
+
+//Text $102210
+#WRITE(ptr,$B9030)
+サファイア[END]
+// current address: $10221B
+
+//Text $102200
+#WRITE(ptr,$B9034)
+セルリアン[END]
+// current address: $10220B
+
+//Text $1021F0
+#WRITE(ptr,$B9038)
+火耐性を得る[END]
+// current address: $1021FD
+
+//Text $1021E0
+#WRITE(ptr,$B903C)
+バーミリオン[END]
+// current address: $1021ED
+
+//Text $1021D0
+#WRITE(ptr,$B9040)
+クリムゾン[END]
+// current address: $1021DB
+
+//Text $1021C0
+#WRITE(ptr,$B9044)
+スカーレット[END]
+// current address: $1021CD
+
+//Text $1021B8
+#WRITE(ptr,$B9048)
+ルビー[END]
+// current address: $1021BF
+
+//Text $1021A8
+#WRITE(ptr,$B904C)
+カーネリアン[END]
+// current address: $1021B5
+
+//Text $102198
+#WRITE(ptr,$B9050)
+風耐性を得る[END]
+// current address: $1021A5
+
+//Text $102188
+#WRITE(ptr,$B9054)
+ストーム[END]
+// current address: $102191
+
+//Text $102178
+#WRITE(ptr,$B9058)
+ハリケーン[END]
+// current address: $102183
+
+//Text $102168
+#WRITE(ptr,$B905C)
+サイクロン[END]
+// current address: $102173
+
+//Text $102158
+#WRITE(ptr,$B9060)
+テンペスト[END]
+// current address: $102163
+
+//Text $102148
+#WRITE(ptr,$B9064)
+ディザスター[END]
+// current address: $102155
+
+//Text $102138
+#WRITE(ptr,$B9068)
+光耐性を得る[END]
+// current address: $102145
+
+//Text $102128
+#WRITE(ptr,$B906C)
+コーラル[END]
+// current address: $102131
+
+//Text $102118
+#WRITE(ptr,$B9070)
+アイボリー[END]
+// current address: $102123
+
+//Text $102108
+#WRITE(ptr,$B9074)
+アラバスター[END]
+// current address: $102115
+
+//Text $1020F8
+#WRITE(ptr,$B9078)
+クリスタル[END]
+// current address: $102103
+
+//Text $1020E8
+#WRITE(ptr,$B907C)
+ダイヤモンド[END]
+// current address: $1020F5
+
+//Text $1020D8
+#WRITE(ptr,$B9080)
+闇耐性を得る[END]
+// current address: $1020E5
+
+//Text $1020C8
+#WRITE(ptr,$B9084)
+チャコール[END]
+// current address: $1020D3
+
+//Text $1020B8
+#WRITE(ptr,$B9088)
+カーボン[END]
+// current address: $1020C1
+
+//Text $1020A8
+#WRITE(ptr,$B908C)
+オニキス[END]
+// current address: $1020B1
+
+//Text $102098
+#WRITE(ptr,$B9090)
+アメジスト[END]
+// current address: $1020A3
+
+//Text $102088
+#WRITE(ptr,$B9094)
+エボニー[END]
+// current address: $102091
+
+//Text $102070
+#WRITE(ptr,$B9098)
+全ダメージを微軽減する[END]
+// current address: $102087
+
+//Text $102068
+#WRITE(ptr,$B909C)
+ボーン[END]
+// current address: $10206F
+
+//Text $102060
+#WRITE(ptr,$B90A0)
+スカル[END]
+// current address: $102067
+
+//Text $102050
+#WRITE(ptr,$B90A4)
+スパイト[END]
+// current address: $102059
+
+//Text $102040
+#WRITE(ptr,$B90A8)
+ドゥーム[END]
+// current address: $102049
+
+//Text $102030
+#WRITE(ptr,$B90AC)
+カオティック[END]
+// current address: $10203D
+
+//Text $102018
+#WRITE(ptr,$B90B0)
+ガード時にＳＰが回復[END]
+// current address: $10202D
+
+//Text $102008
+#WRITE(ptr,$B90B4)
+シケット[END]
+// current address: $102011
+
+//Text $101FF8
+#WRITE(ptr,$B90B8)
+ティンバー[END]
+// current address: $102003
+
+//Text $101FE8
+#WRITE(ptr,$B90BC)
+フォレスト[END]
+// current address: $101FF3
+
+//Text $101FD8
+#WRITE(ptr,$B90C0)
+シルヴァン[END]
+// current address: $101FE3
+
+//Text $101FC8
+#WRITE(ptr,$B90C4)
+ティタニア[END]
+// current address: $101FD3
+
+//Text $101FB0
+#WRITE(ptr,$B90C8)
+ガード時にＴＰが回復[END]
+// current address: $101FC5
+
+//Text $101FA0
+#WRITE(ptr,$B90CC)
+コットン[END]
+// current address: $101FA9
+
+//Text $101F90
+#WRITE(ptr,$B90D0)
+ウーリー[END]
+// current address: $101F99
+
+//Text $101F80
+#WRITE(ptr,$B90D4)
+フェザー[END]
+// current address: $101F89
+
+//Text $101F70
+#WRITE(ptr,$B90D8)
+ベルベット[END]
+// current address: $101F7B
+
+//Text $101F60
+#WRITE(ptr,$B90DC)
+シルキー[END]
+// current address: $101F69
+
+//Text $101F48
+#WRITE(ptr,$B90E0)
+ガード時に防御上昇[END]
+// current address: $101F5B
+
+//Text $101F38
+#WRITE(ptr,$B90E4)
+リザルヴ[END]
+// current address: $101F41
+
+//Text $101F28
+#WRITE(ptr,$B90E8)
+ディフェンス[END]
+// current address: $101F35
+
+//Text $101F18
+#WRITE(ptr,$B90EC)
+ジャスティス[END]
+// current address: $101F25
+
+//Text $101F08
+#WRITE(ptr,$B90F0)
+プライム[END]
+// current address: $101F11
+
+//Text $101EF8
+#WRITE(ptr,$B90F4)
+オベロン[END]
+// current address: $101F01
+
+//Text $101EE0
+#WRITE(ptr,$B90F8)
+ガード時に回避上昇[END]
+// current address: $101EF3
+
+//Text $101ED0
+#WRITE(ptr,$B90FC)
+ガイザー[END]
+// current address: $101ED9
+
+//Text $101EC0
+#WRITE(ptr,$B9100)
+インサイト[END]
+// current address: $101ECB
+
+//Text $101EB0
+#WRITE(ptr,$B9104)
+インスペクト[END]
+// current address: $101EBD
+
+//Text $101EA0
+#WRITE(ptr,$B9108)
+エンライト[END]
+// current address: $101EAB
+
+//Text $101E90
+#WRITE(ptr,$B910C)
+ミラージュ[END]
+// current address: $101E9B
+
+//Text $101E78
+#WRITE(ptr,$B9110)
+ガード時に詠唱速度上昇[END]
+// current address: $101E8F
+
+//Text $101E68
+#WRITE(ptr,$B9114)
+ソーサラー[END]
+// current address: $101E73
+
+//Text $101E58
+#WRITE(ptr,$B9118)
+アデプト[END]
+// current address: $101E61
+
+//Text $101E48
+#WRITE(ptr,$B911C)
+メイガス[END]
+// current address: $101E51
+
+//Text $101E38
+#WRITE(ptr,$B9120)
+ウィザード[END]
+// current address: $101E43
+
+//Text $101E28
+#WRITE(ptr,$B9124)
+アバタール[END]
+// current address: $101E33
+
+//Text $101E08
+#WRITE(ptr,$B9128)
+ガード時にガルドが増える[END]
+// current address: $101E21
+
+//Text $101DF8
+#WRITE(ptr,$B912C)
+ファミリア[END]
+// current address: $101E03
+
+//Text $101DE8
+#WRITE(ptr,$B9130)
+ピレッジ[END]
+// current address: $101DF1
+
+//Text $101DD8
+#WRITE(ptr,$B9134)
+グラスプ[END]
+// current address: $101DE1
+
+//Text $101DC8
+#WRITE(ptr,$B9138)
+ハミリティ[END]
+// current address: $101DD3
+
+//Text $101DB8
+#WRITE(ptr,$B913C)
+ディヴォート[END]
+// current address: $101DC5
+
+//Text $101DA0
+#WRITE(ptr,$B9140)
+落下時ダウン時間を減少[END]
+// current address: $101DB7
+
+//Text $101D90
+#WRITE(ptr,$B9144)
+ブロッキング[END]
+// current address: $101D9D
+
+//Text $101D80
+#WRITE(ptr,$B9148)
+バランス[END]
+// current address: $101D89
+
+//Text $101D70
+#WRITE(ptr,$B914C)
+デクスタラス[END]
+// current address: $101D7D
+
+//Text $101D60
+#WRITE(ptr,$B9150)
+タイアレス[END]
+// current address: $101D6B
+
+//Text $101D50
+#WRITE(ptr,$B9154)
+スタビリティ[END]
+// current address: $101D5D
+
+//Text $101D38
+#WRITE(ptr,$B9158)
+ダメージ硬直時間の減少[END]
+// current address: $101D4F
+
+//Text $101D28
+#WRITE(ptr,$B915C)
+ストライプ[END]
+// current address: $101D33
+
+//Text $101D18
+#WRITE(ptr,$B9160)
+スウィート[END]
+// current address: $101D23
+
+//Text $101D08
+#WRITE(ptr,$B9164)
+プリティ[END]
+// current address: $101D11
+
+//Text $101CF8
+#WRITE(ptr,$B9168)
+キューティ[END]
+// current address: $101D03
+
+//Text $101CE8
+#WRITE(ptr,$B916C)
+ラブリィ[END]
+// current address: $101CF1
+
+//Text $101CC8
+#WRITE(ptr,$B9170)
+受けたダメージを時間回復[END]
+// current address: $101CE1
+
+//Text $101CB8
+#WRITE(ptr,$B9174)
+エランド[END]
+// current address: $101CC1
+
+//Text $101CA8
+#WRITE(ptr,$B9178)
+エンジェル[END]
+// current address: $101CB3
+
+//Text $101C98
+#WRITE(ptr,$B917C)
+ドミニオン[END]
+// current address: $101CA3
+
+//Text $101C88
+#WRITE(ptr,$B9180)
+ケルビム[END]
+// current address: $101C91
+
+//Text $101C78
+#WRITE(ptr,$B9184)
+セラフィック[END]
+// current address: $101C85
+
+//Text $101C58
+#WRITE(ptr,$B9188)
+ガードストライクしやすくなる[END]
+// current address: $101C75
+
+//Text $101C48
+#WRITE(ptr,$B918C)
+ソーンズ[END]
+// current address: $101C51
+
+//Text $101C38
+#WRITE(ptr,$B9190)
+リバウンド[END]
+// current address: $101C43
+
+//Text $101C28
+#WRITE(ptr,$B9194)
+レパルス[END]
+// current address: $101C31
+
+//Text $101C18
+#WRITE(ptr,$B9198)
+リヴェンジ[END]
+// current address: $101C23
+
+//Text $101C08
+#WRITE(ptr,$B919C)
+ウェイレイ[END]
+// current address: $101C13
+
+//Text $101BF0
+#WRITE(ptr,$B91A0)
+ダメージ量でＴＰ回復[END]
+// current address: $101C05
+
+//Text $101BE0
+#WRITE(ptr,$B91A4)
+フォージ[END]
+// current address: $101BE9
+
+//Text $101BD0
+#WRITE(ptr,$B91A8)
+メイスン[END]
+// current address: $101BD9
+
+//Text $101BC0
+#WRITE(ptr,$B91AC)
+ハーベスト[END]
+// current address: $101BCB
+
+//Text $101BB0
+#WRITE(ptr,$B91B0)
+ウェルフェア[END]
+// current address: $101BBD
+
+//Text $101BA0
+#WRITE(ptr,$B91B4)
+ミザリー[END]
+// current address: $101BA9
+
+//Text $101B88
+#WRITE(ptr,$B91B8)
+防御・回避が上昇[END]
+// current address: $101B99
+
+//Text $101B78
+#WRITE(ptr,$B91BC)
+スキルフル[END]
+// current address: $101B83
+
+//Text $101B68
+#WRITE(ptr,$B91C0)
+ベイシス[END]
+// current address: $101B71
+
+//Text $101B58
+#WRITE(ptr,$B91C4)
+オーネイト[END]
+// current address: $101B63
+
+//Text $101B48
+#WRITE(ptr,$B91C8)
+ミラクル[END]
+// current address: $101B51
+
+//Text $101B38
+#WRITE(ptr,$B91CC)
+ドレッド[END]
+// current address: $101B41
+
+//Text $101B28
+#WRITE(ptr,$B91D0)
+運・回避が上昇[END]
+// current address: $101B37
+
+//Text $101B18
+#WRITE(ptr,$B91D4)
+マーシー[END]
+// current address: $101B21
+
+//Text $101B08
+#WRITE(ptr,$B91D8)
+イグノランス[END]
+// current address: $101B15
+
+//Text $101AF8
+#WRITE(ptr,$B91DC)
+イノセンス[END]
+// current address: $101B03
+
+//Text $101AE8
+#WRITE(ptr,$B91E0)
+ヴォイド[END]
+// current address: $101AF1
+
+//Text $101AE0
+#WRITE(ptr,$B91E4)
+シーア[END]
+// current address: $101AE7
+
+//Text $101AC0
+#WRITE(ptr,$B91E8)
+SP回復力とTP回復力が上昇[END]
+// current address: $101AD9
+
+//Text $101AB8
+#WRITE(ptr,$B91EC)
+スター[END]
+// current address: $101ABF
+
+//Text $101AA8
+#WRITE(ptr,$B91F0)
+ホロスコープ[END]
+// current address: $101AB5
+
+//Text $101A98
+#WRITE(ptr,$B91F4)
+ネビュラ[END]
+// current address: $101AA1
+
+//Text $101A88
+#WRITE(ptr,$B91F8)
+ギャラクシー[END]
+// current address: $101A95
+
+//Text $101A78
+#WRITE(ptr,$B91FC)
+ユニヴァース[END]
+// current address: $101A85
+
+//Text $101A60
+#WRITE(ptr,$B9200)
+防御と最大HPが上昇[END]
+// current address: $101A73
+
+//Text $101A58
+#WRITE(ptr,$B9204)
+ワース[END]
+// current address: $101A5F
+
+//Text $101A48
+#WRITE(ptr,$B9208)
+メジャー[END]
+// current address: $101A51
+
+//Text $101A38
+#WRITE(ptr,$B920C)
+クオリティ[END]
+// current address: $101A43
+
+//Text $101A28
+#WRITE(ptr,$B9210)
+ワンダフル[END]
+// current address: $101A33
+
+//Text $101A18
+#WRITE(ptr,$B9214)
+エクセレント[END]
+// current address: $101A25
+
+//Text $1019F8
+#WRITE(ptr,$B9218)
+TP軽減力とTP回復力が上昇する[END]
+// current address: $101A15
+
+//Text $1019E8
+#WRITE(ptr,$B921C)
+フロード[END]
+// current address: $1019F1
+
+//Text $1019D8
+#WRITE(ptr,$B9220)
+マジシャン[END]
+// current address: $1019E3
+
+//Text $1019C8
+#WRITE(ptr,$B9224)
+シャーマン[END]
+// current address: $1019D3
+
+//Text $1019B8
+#WRITE(ptr,$B9228)
+コンジャラー[END]
+// current address: $1019C5
+
+//Text $1019A8
+#WRITE(ptr,$B922C)
+ハーミット[END]
+// current address: $1019B3
+
+//Text $101988
+#WRITE(ptr,$B9230)
+知性と詠唱速度が上昇する[END]
+// current address: $1019A1
+
+//Text $101978
+#WRITE(ptr,$B9234)
+プリズム[END]
+// current address: $101981
+
+//Text $101968
+#WRITE(ptr,$B9238)
+エレメンタル[END]
+// current address: $101975
+
+//Text $101958
+#WRITE(ptr,$B923C)
+リフレクト[END]
+// current address: $101963
+
+//Text $101948
+#WRITE(ptr,$B9240)
+エーテル[END]
+// current address: $101951
+
+//Text $101938
+#WRITE(ptr,$B9244)
+スペクトラル[END]
+// current address: $101945
+
+//Text $101918
+#WRITE(ptr,$B9248)
+ステータス異常を防ぐ確率上昇[END]
+// current address: $101935
+
+//Text $101908
+#WRITE(ptr,$B924C)
+レデュース[END]
+// current address: $101913
+
+//Text $1018F8
+#WRITE(ptr,$B9250)
+レスポンス[END]
+// current address: $101903
+
+//Text $1018E8
+#WRITE(ptr,$B9254)
+アヴォイド[END]
+// current address: $1018F3
+
+//Text $1018D8
+#WRITE(ptr,$B9258)
+デフレクト[END]
+// current address: $1018E3
+
+//Text $1018C8
+#WRITE(ptr,$B925C)
+インヴァリド[END]
+// current address: $1018D5
+
+//Text $1018B0
+#WRITE(ptr,$B9260)
+HPとTPが自動で回復する[END]
+// current address: $1018C7
+
+//Text $1018A0
+#WRITE(ptr,$B9264)
+アコライト[END]
+// current address: $1018AB
+
+//Text $101890
+#WRITE(ptr,$B9268)
+レクター[END]
+// current address: $101899
+
+//Text $101880
+#WRITE(ptr,$B926C)
+プリースト[END]
+// current address: $10188B
+
+//Text $101870
+#WRITE(ptr,$B9270)
+クレリック[END]
+// current address: $10187B
+
+//Text $101860
+#WRITE(ptr,$B9274)
+カーディナル[END]
+// current address: $10186D

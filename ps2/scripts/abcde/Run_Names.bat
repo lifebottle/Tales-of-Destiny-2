@@ -1,1 +1,1 @@
-python Run.py slps_Names
+python Run.py TOD2_Names

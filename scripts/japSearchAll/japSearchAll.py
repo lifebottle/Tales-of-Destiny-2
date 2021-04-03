@@ -77,7 +77,7 @@ dfAllPoss['value'] = dfAllPoss['value'].str.replace(' ', '')
 
 
 #Stuff to search
-japText = '戦闘メンバーに戦闘可能なキャラがいません'
+japText = 'を使用'
 #List all the different possible ways of HEX for this text
 df = [ dfAllPoss.loc[dfAllPoss['value'] == character, 'hex'].tolist() for character in japText]
 listValues = []
@@ -94,14 +94,14 @@ lookForHex(listValues, slpsFile)
 #listFiles = [join(pathTables+"/../patch/DAT_FILES/"+file) for file in listFiles]
 #listFiles.append(file1)
 
-folderList = ['DAT_FILES', 'ENEM', 'PAK0','PAK1', 'PAK3']
-allDir = [ os.path.join(pathTables, "../patch", ele) for ele in folderList]
+folderList = ['menus']
+allDir = [ os.path.join(pathTables, "ps2", ele) for ele in folderList]
 
 for myDir in allDir:
     for file in os.listdir(myDir):
         lookForHex(listValues,myDir+"/"+file)
         
         
-hexJp = "25 64"
+hexJp = "99 6A 99 67 9A A2 9E 8B"
 
 hexToJpn(pathTables, hexJp)

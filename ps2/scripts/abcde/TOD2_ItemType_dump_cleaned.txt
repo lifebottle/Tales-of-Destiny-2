@@ -1,0 +1,220 @@
+
+//Text $116AA0
+#WRITE(ptr,$F6E7C)
+武器[END]
+// current address: $116AA5
+
+//Text $116A98
+#WRITE(ptr,$F6E80)
+体[END]
+// current address: $116A9B
+
+//Text $116A90
+#WRITE(ptr,$F6E84)
+頭[END]
+// current address: $116A93
+
+//Text $116A88
+#WRITE(ptr,$F6E88)
+腕[END]
+// current address: $116A8B
+
+//Text $116A80
+#WRITE(ptr,$F6E8C)
+外装[END]
+// current address: $116A85
+
+//Text $116A78
+#WRITE(ptr,$F6E90)
+靴[END]
+// current address: $116A7B
+
+//Text $116A70
+#WRITE(ptr,$F6E94)
+装飾品[END]
+// current address: $116A77
+
+//Text $116AA8
+#WRITE(ptr,$F6E98)
+[END]
+// current address: $116AA9
+
+//Text $116A68
+#WRITE(ptr,$F6E9C)
+貴重品[END]
+// current address: $116A6F
+
+//Text $116A60
+#WRITE(ptr,$F6EA0)
+収集品[END]
+// current address: $116A67
+
+//Text $116A58
+#WRITE(ptr,$F6EA4)
+食材[END]
+// current address: $116A5D
+
+//Text $116A50
+#WRITE(ptr,$F6EA8)
+道具[END]
+// current address: $116A55
+
+//Text $116A48
+#WRITE(ptr,$F6EAC)
+薬[END]
+// current address: $116A4B
+
+//Text $116A40
+#WRITE(ptr,$F6EB0)
+瓶・壺[END]
+// current address: $116A47
+
+//Text $116A30
+#WRITE(ptr,$F6EB4)
+調理器具[END]
+// current address: $116A39
+
+//Text $116A28
+#WRITE(ptr,$F6EB8)
+剣[END]
+// current address: $116A2B
+
+//Text $116A20
+#WRITE(ptr,$F6EBC)
+刀[END]
+// current address: $116A23
+
+//Text $116A28
+#WRITE(ptr,$F6EC0)
+剣[END]
+// current address: $116A2B
+
+//Text $116A28
+#WRITE(ptr,$F6EC4)
+剣[END]
+// current address: $116A2B
+
+//Text $116A18
+#WRITE(ptr,$F6EC8)
+槍[END]
+// current address: $116A1B
+
+//Text $116A10
+#WRITE(ptr,$F6ECC)
+斧[END]
+// current address: $116A13
+
+//Text $116A08
+#WRITE(ptr,$F6ED0)
+斧槍[END]
+// current address: $116A0D
+
+//Text $116A00
+#WRITE(ptr,$F6ED4)
+鎚矛[END]
+// current address: $116A05
+
+//Text $1169F8
+#WRITE(ptr,$F6ED8)
+弓[END]
+// current address: $1169FB
+
+//Text $1169F0
+#WRITE(ptr,$F6EDC)
+杖[END]
+// current address: $1169F3
+
+//Text $1169F0
+#WRITE(ptr,$F6EE0)
+杖[END]
+// current address: $1169F3
+
+//Text $1169F0
+#WRITE(ptr,$F6EE4)
+杖[END]
+// current address: $1169F3
+
+//Text $1169E8
+#WRITE(ptr,$F6EE8)
+鎧[END]
+// current address: $1169EB
+
+//Text $1169E0
+#WRITE(ptr,$F6EEC)
+服[END]
+// current address: $1169E3
+
+//Text $1169D8
+#WRITE(ptr,$F6EF0)
+兜[END]
+// current address: $1169DB
+
+//Text $1169D0
+#WRITE(ptr,$F6EF4)
+帽子[END]
+// current address: $1169D5
+
+//Text $1169C8
+#WRITE(ptr,$F6EF8)
+頭飾り[END]
+// current address: $1169CF
+
+//Text $1169C0
+#WRITE(ptr,$F6EFC)
+短剣[END]
+// current address: $1169C5
+
+//Text $1169B8
+#WRITE(ptr,$F6F00)
+篭手[END]
+// current address: $1169BD
+
+//Text $1169B0
+#WRITE(ptr,$F6F04)
+手袋[END]
+// current address: $1169B5
+
+//Text $1169A8
+#WRITE(ptr,$F6F08)
+腕飾り[END]
+// current address: $1169AF
+
+//Text $1169A0
+#WRITE(ptr,$F6F0C)
+マント[END]
+// current address: $1169A7
+
+//Text $116998
+#WRITE(ptr,$F6F10)
+ケープ[END]
+// current address: $11699F
+
+//Text $116990
+#WRITE(ptr,$F6F14)
+ブーツ[END]
+// current address: $116997
+
+//Text $116988
+#WRITE(ptr,$F6F18)
+腕輪[END]
+// current address: $11698D
+
+//Text $116980
+#WRITE(ptr,$F6F1C)
+指輪[END]
+// current address: $116985
+
+//Text $116978
+#WRITE(ptr,$F6F20)
+紋章[END]
+// current address: $11697D
+
+//Text $116970
+#WRITE(ptr,$F6F24)
+人形[END]
+// current address: $116975
+
+//Text $116968
+#WRITE(ptr,$F6F28)
+宝石[END]
+// current address: $11696D

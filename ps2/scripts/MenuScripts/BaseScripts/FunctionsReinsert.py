@@ -7,24 +7,28 @@ import pandas as pd
 import pygsheets
 import re
 
-class Helper:
+class FunctionsReinsert:
     
     #Initialize object
     def __init__(self):
         
         self.basePath = os.path.abspath(os.path.dirname(__file__))
-        self.tblName = "toddc.tbl"
+        print(self.basePath)
+        self.tblName = "tod2_utf8.tbl"
+        self.slpsOriginal = "SLPS_251.72"
         
         #Load the two json files for config
         with open(os.path.join(self.basePath, "sectionsSLPS.json")) as f:
             self.dataJson = json.load(f)
             self.dataItems = self.dataJson['items']
         
-        with open(os.path.join(self.basePath, "memoryBanks.json")) as f:
-            data = json.load(f)
-            self.dfBanks = pd.DataFrame.from_dict(data['memoryBanks'])
-            self.dfBanks['BlockDesc'] = ''
+        #with open(os.path.join(self.basePath, "memoryBanks.json")) as f:
+        #    data = json.load(f)
+        #    self.dfBanks = pd.DataFrame.from_dict(data['memoryBanks'])
+        #    self.dfBanks['BlockDesc'] = ''
             
+        
+        
         #Authentification
         self.gc = pygsheets.authorize(service_file=os.path.join(self.basePath,'gsheet.json'))
         
@@ -36,12 +40,12 @@ class Helper:
         
         self.loadTable()
         
-    def getJsonBlock(self,blockId):
-        return [ele for ele in self.dataItems if ele['BlockId'] == int(blockId)][0]
+    def getJsonBlock(self,blockDesc):
+        return [ele for ele in self.dataItems if ele['BlockDesc'] == blockDesc][0]
     
-    def showSections(self,blockId):
+    def showSections(self,blockDesc):
         
-        blockSections = self.getJsonBlock(blockId)
+        blockSections = self.getJsonBlock(blockDesc)
         sectionsInfos = [ [ele['SectionId'], ele['SectionDesc']] for ele in blockSections['Sections']]
         
         #Print the sections on the screen
@@ -130,14 +134,14 @@ class Helper:
 #VAR(ptr, CUSTOMPOINTER)
 #CREATEPTR(ptr, "LINEAR", $-FF000, 32)
 
-""".format(os.path.join(self.basePath, "abcde", self.tblName))
+""".format(os.path.join(self.basePath, "..", "..","abcde", self.tblName))
     
     
         return headerTxt
 
     def loadTable(self):
     
-        with open(os.path.join(self.basePath, "abcde", self.tblName), encoding="utf-8", mode="r") as tblfile:
+        with open(os.path.join(self.basePath,"..","..", "abcde", self.tblName), encoding="utf-8", mode="r") as tblfile:
             lines=tblfile.readlines()
             
         df = pd.DataFrame(lines, columns=['Value'])
@@ -305,12 +309,12 @@ class Helper:
     def reinsertText_Block(self,blockId, slpsName):
     
         #Copy the original SLPS file first
-        shutil.copyfile( os.path.join(self.basePath,"abcde","SLPS_original","SLPS_258.42"), os.path.join(self.basePath,"abcde","SLPS_258.42"))
+        shutil.copyfile( os.path.join(self.basePath,"abcde","SLPS_original",self.slpsOriginal), os.path.join(self.basePath,"abcde",self.slpsOriginal))
         
         #Run Atlas in command line
         blockDesc = [ele['BlockDesc'] for ele in self.dataItems if ele['BlockId'] == int(blockId)][0]
         
-        args = ["perl", "abcde.pl", "-m", "text2bin", "-cm", "abcde::Atlas", "SLPS_258.42", "TODDC_"+blockDesc+"_Dump.txt"]
+        args = ["perl", "abcde.pl", "-m", "text2bin", "-cm", "abcde::Atlas", self.slpsOriginal, "TODDC_"+blockDesc+"_Dump.txt"]
         listFile = subprocess.run(
             args,
             cwd= os.path.join(self.basePath, "abcde"),
@@ -327,12 +331,13 @@ class Helper:
         
         
         #For each block, pick the first and last Offset
-        listBlock = [ [ ele['BlockId'], ele['BlockDesc'], ele['Sections'][0]['TextStart'], ele['Sections'][-1]['TextEnd']] for ele in self.dataItems]
-        dfBase = pd.DataFrame(listBlock, columns=['Id', 'BlockDesc','TextStart','TextEnd'])
+        listBlock = [ [ ele['BlockDesc'], ele['Sections'][0]['TextStart'], ele['Sections'][-1]['TextEnd']] for ele in self.dataItems]
+        dfBase = pd.DataFrame(listBlock, columns=['BlockDesc','TextStart','TextEnd'])
         
         
         #Add the 3 original memory banks
-        self.dfBanks = dfBase.append(self.dfBanks)
+        #self.dfBanks = dfBase.append(self.dfBanks)
+        self.dfBanks = dfBase
         self.dfBanks = self.dfBanks.reset_index(drop=True)
         self.dfBanks['Id'] = self.dfBanks.index + 1
     
@@ -344,7 +349,7 @@ class Helper:
         print("create banks")
         self.createAllBanks()
         
-        print( self.dfBanks)
+        #print( self.dfBanks)
         
         #tbl dataframe to use
         self.loadTable()
@@ -356,6 +361,7 @@ class Helper:
         banksNotEmpty = self.dfBanks[ self.dfBanks['BlockDesc'] != ""]
         lastbank = banksNotEmpty[banksNotEmpty['Id'] == banksNotEmpty['Id'].max()]
         print(lastbank)
+        
         textStart = bank['TextStart'][0]
         finalEnd = lastbank['TextEnd'].tolist()[0]
         self.currentStart  = int(textStart, 16)
@@ -406,25 +412,22 @@ class Helper:
         allText = self.createBlockAll()
        
         header = self.getHeader()
-        with open(os.path.join(self.basePath,"abcde", "TODDC_All_Dump.txt"),encoding="utf-8", mode="w") as finalScript:
+        with open(os.path.join(self.basePath, "TOD2_All_Dump.txt"),encoding="utf-8", mode="w") as finalScript:
             finalScript.write(header + allText)
 
     
-    def reinsertText_All(self, fileFull):
+    def reinsertText_All(self):
     
         #Copy the original SLPS file first
-        shutil.copyfile( os.path.join(self.basePath,"abcde","SLPS_original","SLPS_258.42"), os.path.join(self.basePath,"abcde","SLPS_258.42"))
+        shutil.copyfile( os.path.join(self.basePath,"SLPS_original",self.slpsOriginal), os.path.join(self.basePath,self.slpsOriginal))
+    
         
-        
-        args = ["perl", "abcde.pl", "-m", "text2bin", "-cm", "abcde::Atlas", "SLPS_258.42", "TODDC_All_Dump.txt"]
+        args = ["perl", "abcde.pl", "-m", "text2bin", "-cm", "abcde::Atlas", os.path.join(self.basePath, self.slpsOriginal), os.path.join(self.basePath,"TOD2_All_Dump.txt")]
         listFile = subprocess.run(
             args,
-            cwd= os.path.join(self.basePath, "abcde"),
+            cwd= os.path.join(self.basePath,"..","..", "abcde"),
             )
         
-        shutil.copyfile( os.path.join(self.basePath,"abcde", "SLPS_258.42"), os.path.join(self.basePath,"..", "SLPS_258.42"))
+        shutil.copyfile( os.path.join(self.basePath, self.slpsOriginal), os.path.join(self.basePath,"..", self.slpsOriginal))
     
     
-def updateBlock(blockId, SLPSName):
-    createAtlasScript_Block(blockId)
-    reinsertText_Block(blockId, SLPSName)
