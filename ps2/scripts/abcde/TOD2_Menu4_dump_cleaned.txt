@@ -1,0 +1,166 @@
+//Text $116B08
+#WRITE(ptr,$F6D7C)
+最大ＨＰ[END]
+// current address: $116B11
+
+
+
+
+
+//Text $116B00
+#WRITE(ptr,$F6D84)
+攻撃[END]
+// current address: $116B05
+
+
+
+
+
+//Text $116AF8
+#WRITE(ptr,$F6D8C)
+防御[END]
+// current address: $116AFD
+
+
+
+
+
+//Text $116910
+#WRITE(ptr,$F6D94)
+知性[END]
+// current address: $116915
+
+
+
+
+
+//Text $116958
+#WRITE(ptr,$F6D9C)
+命中[END]
+// current address: $11695D
+
+
+
+
+
+//Text $116928
+#WRITE(ptr,$F6DA4)
+回避[END]
+// current address: $11692D
+
+
+
+
+
+//Text $116AF0
+#WRITE(ptr,$F6DAC)
+幸運[END]
+// current address: $116AF5
+
+
+
+
+
+//Text $1168C0
+#WRITE(ptr,$F6DB4)
+ＳＰ回復[END]
+// current address: $1168C9
+
+
+
+
+
+//Text $116AE0
+#WRITE(ptr,$F6DBC)
+ＳＰ軽減[END]
+// current address: $116AE9
+
+
+
+
+
+//Text $116918
+#WRITE(ptr,$F6DC4)
+ＴＰ回復[END]
+// current address: $116921
+
+
+
+
+
+//Text $116900
+#WRITE(ptr,$F6DCC)
+ＴＰ軽減[END]
+// current address: $116909
+
+
+
+
+
+//Text $116938
+#WRITE(ptr,$F6DD4)
+詠唱速度[END]
+// current address: $116941
+
+
+
+
+
+//Text $116948
+#WRITE(ptr,$F6DDC)
+クリティカル[END]
+// current address: $116955
+
+
+
+
+
+//Text $116AD8
+#WRITE(ptr,$F6DE4)
+地属性[END]
+// current address: $116ADF
+
+
+
+
+
+//Text $116AD0
+#WRITE(ptr,$F6DEC)
+水属性[END]
+// current address: $116AD7
+
+
+
+
+
+//Text $116AC8
+#WRITE(ptr,$F6DF4)
+火属性[END]
+// current address: $116ACF
+
+
+
+
+
+//Text $116AC0
+#WRITE(ptr,$F6DFC)
+風属性[END]
+// current address: $116AC7
+
+
+
+
+
+//Text $116AB8
+#WRITE(ptr,$F6E04)
+光属性[END]
+// current address: $116ABF
+
+
+
+
+
+//Text $116AB0
+#WRITE(ptr,$F6E0C)
+闇属性[END]
+// current address: $116AB7

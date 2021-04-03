@@ -1,28 +1,28 @@
-from HelperfunctionsNew import *
+from FunctionsReinsert import *
 import sys
 
 if __name__ == "__main__":
     
-    blockId = sys.argv[1]
+    blockDesc = sys.argv[1]
     
     
-    helper = Helper()
+    helper = FunctionsReinsert()
     
-    if blockId != "All":
+    if blockDesc != "All":
         
         slpsName = sys.argv[2]
         print("\nWhat's inside this block :")
-        helper.showSections(blockId)
+        helper.showSections(blockDesc)
         
         print("Create the script based on google sheet")
-        helper.createAtlasScript_Block(blockId)
+        helper.createAtlasScript_Block(blockDesc)
         
         
         print("Create the SLPS for this block")
-        helper.reinsertText_Block(blockId, slpsName)
+        helper.reinsertText_Block(blockDesc, slpsName)
     else:
         
         helper.createAtlasScript_All()
         
         print("Create the SLPS for this block")
-        helper.reinsertText_All(blockId)
+        helper.reinsertText_All()

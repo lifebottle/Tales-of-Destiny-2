@@ -1,0 +1,80 @@
+//Text $116960
+#WRITE(ptr,$F6B88)
+#WRITE(ptr,$F6BC0)
+攻撃力[END]
+// current address: $116967
+
+//Text $116958
+#WRITE(ptr,$F6B8C)
+命中[END]
+// current address: $11695D
+
+//Text $116948
+#WRITE(ptr,$F6B90)
+クリティカル[END]
+// current address: $116955
+
+//Text $116938
+#WRITE(ptr,$F6B94)
+詠唱速度[END]
+// current address: $116941
+
+//Text $116930
+#WRITE(ptr,$F6B98)
+防御力[END]
+// current address: $116937
+
+//Text $116928
+#WRITE(ptr,$F6B9C)
+回避[END]
+// current address: $11692D
+
+//Text $116918
+#WRITE(ptr,$F6BA0)
+ＴＰ回復[END]
+// current address: $116921
+
+//Text $116910
+#WRITE(ptr,$F6BA8)
+知性[END]
+// current address: $116915
+
+//Text $116930
+#WRITE(ptr,$F6BAC)
+防御力[END]
+// current address: $116937
+
+//Text $116900
+#WRITE(ptr,$F6BB0)
+ＴＰ軽減[END]
+// current address: $116909
+
+//Text $1168F0
+#WRITE(ptr,$F6BB8)
+防御回数[END]
+// current address: $1168F9
+
+//Text $1168E0
+#WRITE(ptr,$F6BBC)
+ダメージ軽減[END]
+// current address: $1168ED
+
+//Text $116958
+#WRITE(ptr,$F6BC4)
+命中[END]
+// current address: $11695D
+
+//Text $116928
+#WRITE(ptr,$F6BC8)
+回避[END]
+// current address: $11692D
+
+//Text $1168D0
+#WRITE(ptr,$F6BCC)
+移動速度[END]
+// current address: $1168D9
+
+//Text $1168C0
+#WRITE(ptr,$F6BD0)
+ＳＰ回復[END]
+// current address: $1168C9

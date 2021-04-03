@@ -1,0 +1,647 @@
+
+
+//Text $101850
+#WRITE(ptr,$B8820)
+命中率アップ[END]
+// current address: $10185D
+
+//Text $101838
+#WRITE(ptr,$B8824)
+特技の命中率を増やす[END]
+// current address: $10184D
+
+//Text $101828
+#WRITE(ptr,$B8828)
+攻撃力アップ[END]
+// current address: $101835
+
+//Text $101810
+#WRITE(ptr,$B882C)
+特技のダメージを増やす[END]
+// current address: $101827
+
+//Text $101800
+#WRITE(ptr,$B8830)
+SP減少軽減[END]
+// current address: $10180B
+
+//Text $1017E0
+#WRITE(ptr,$B8834)
+特技中のSP消費を軽減する[END]
+// current address: $1017F9
+
+//Text $1017D0
+#WRITE(ptr,$B8838)
+クリティカル[END]
+// current address: $1017DD
+
+//Text $1017B0
+#WRITE(ptr,$B883C)
+特技のクリティカル率を増やす[END]
+// current address: $1017CD
+
+//Text $1017A0
+#WRITE(ptr,$B8840)
+詠唱速度－[END]
+// current address: $1017AB
+
+//Text $101760
+#WRITE(ptr,$B8844)
+＜確率・継続効果＞ヒット時に敵の詠唱時間を[LINE]
+一定時間減少させる[END]
+// current address: $10179E
+
+//Text $101758
+#WRITE(ptr,$B8848)
+知性－[END]
+// current address: $10175F
+
+//Text $101718
+#WRITE(ptr,$B884C)
+＜確率・継続効果＞ヒット時に敵の知性能力を[LINE]
+一定時間減少させる[END]
+// current address: $101756
+
+//Text $101708
+#WRITE(ptr,$B8850)
+地耐性－[END]
+// current address: $101711
+
+//Text $1016C8
+#WRITE(ptr,$B8854)
+＜確率・継続効果＞ヒット時に敵の地耐性を[LINE]
+一定時間減少させる[END]
+// current address: $101704
+
+//Text $1016B8
+#WRITE(ptr,$B8858)
+水耐性－[END]
+// current address: $1016C1
+
+//Text $101678
+#WRITE(ptr,$B885C)
+＜確率・継続効果＞ヒット時に敵の水耐性を[LINE]
+一定時間減少させる[END]
+// current address: $1016B4
+
+//Text $101668
+#WRITE(ptr,$B8860)
+火耐性－[END]
+// current address: $101671
+
+//Text $101628
+#WRITE(ptr,$B8864)
+＜確率・継続効果＞ヒット時に敵の火耐性を[LINE]
+一定時間減少させる[END]
+// current address: $101664
+
+//Text $101618
+#WRITE(ptr,$B8868)
+風耐性－[END]
+// current address: $101621
+
+//Text $1015D8
+#WRITE(ptr,$B886C)
+＜確率・継続効果＞ヒット時に敵の風耐性を[LINE]
+一定時間減少させる[END]
+// current address: $101614
+
+//Text $1015C8
+#WRITE(ptr,$B8870)
+光耐性－[END]
+// current address: $1015D1
+
+//Text $101588
+#WRITE(ptr,$B8874)
+＜確率・継続効果＞ヒット時に敵の光耐性を[LINE]
+一定時間減少させる[END]
+// current address: $1015C4
+
+//Text $101578
+#WRITE(ptr,$B8878)
+闇耐性－[END]
+// current address: $101581
+
+//Text $101538
+#WRITE(ptr,$B887C)
+＜確率・継続効果＞ヒット時に敵の闇耐性を[LINE]
+一定時間減少させる[END]
+// current address: $101574
+
+//Text $101528
+#WRITE(ptr,$B8880)
+属性攻撃貫通[END]
+// current address: $101535
+
+//Text $1014E0
+#WRITE(ptr,$B8884)
+自分の最も耐性のある属性のみ、特技中[LINE]
+レベル数だけ属性攻撃に耐えられる[END]
+// current address: $101526
+
+//Text $1014D0
+#WRITE(ptr,$B8888)
+属性晶術貫通[END]
+// current address: $1014DD
+
+//Text $101488
+#WRITE(ptr,$B888C)
+自分の最も耐性のある属性のみ、特技中[LINE]
+レベル数だけ属性晶術に耐えられる[END]
+// current address: $1014CE
+
+//Text $101478
+#WRITE(ptr,$B8890)
+ブラスター[END]
+// current address: $101483
+
+//Text $101438
+#WRITE(ptr,$B8894)
+スピリッツブラスター状態になるための[LINE]
+カウントが加算される[END]
+// current address: $101472
+
+//Text $101428
+#WRITE(ptr,$B8898)
+詠唱速度上昇[END]
+// current address: $101435
+
+//Text $101400
+#WRITE(ptr,$B889C)
+＜継続効果＞詠唱速度が一定時間上昇する[END]
+// current address: $101427
+
+//Text $1013F0
+#WRITE(ptr,$B88A0)
+アイテム強奪[END]
+// current address: $1013FD
+
+//Text $1013B8
+#WRITE(ptr,$B88A4)
+＜確率効果＞ヒット時にアイテムを盗むことが[LINE]
+できる[END]
+// current address: $1013EA
+
+//Text $1013A8
+#WRITE(ptr,$B88A8)
+瞬間完全回避[END]
+// current address: $1013B5
+
+//Text $101370
+#WRITE(ptr,$B88AC)
+特技発動開始のごく僅かな時間[LINE]
+全ての攻撃を回避する[END]
+// current address: $1013A2
+
+//Text $101360
+#WRITE(ptr,$B88B0)
+追加特技[END]
+// current address: $101369
+
+//Text $101328
+#WRITE(ptr,$B88B4)
+敵ヒット時「<$09><$3D>[END]
+// current address: $101337
+
+//Text $101320
+#WRITE(ptr,$B88B8)
+秘奥義[END]
+// current address: $101327
+
+//Text $1012E8
+#WRITE(ptr,$B88BC)
+敵のけぞり中「<$09><$3D>[END]
+// current address: $1012F9
+
+//Text $1012D8
+#WRITE(ptr,$B88C0)
+反撃発動[END]
+// current address: $1012E1
+
+//Text $101298
+#WRITE(ptr,$B88C4)
+地上でダメージを受けた瞬間に「特技入力」で[LINE]
+特技を発動できる。[END]
+// current address: $1012D6
+
+//Text $101288
+#WRITE(ptr,$B88C8)
+ガード発動[END]
+// current address: $101293
+
+//Text $101248
+#WRITE(ptr,$B88CC)
+地上で攻撃をガードした瞬間に「特技入力」で[LINE]
+特技を発動できる。[END]
+// current address: $101286
+
+//Text $101238
+#WRITE(ptr,$B88D0)
+空中発動[END]
+// current address: $101241
+
+//Text $101208
+#WRITE(ptr,$B88D4)
+空中にいる時に「特技入力」で特技を発動できる[LINE]
+[END]
+// current address: $101236
+
+//Text $1011F8
+#WRITE(ptr,$B88D8)
+ガードブレイク[END]
+// current address: $101207
+
+//Text $1011B8
+#WRITE(ptr,$B88DC)
+敵ガード時に「<$09><$3D>[END]
+// current address: $1011C9
+
+//Text $1011A8
+#WRITE(ptr,$B88E0)
+ふっ飛ばし[END]
+// current address: $1011B3
+
+//Text $101170
+#WRITE(ptr,$B88E4)
+ヒット時に「<$09><$3D>[END]
+// current address: $10117F
+
+//Text $101160
+#WRITE(ptr,$B88E8)
+通常技連携[END]
+// current address: $10116B
+
+//Text $101120
+#WRITE(ptr,$B88EC)
+特技から開始して「<$09><$3D>[END]
+// current address: $101135
+
+//Text $101110
+#WRITE(ptr,$B88F0)
+攻撃後前進[END]
+// current address: $10111B
+
+//Text $1010D0
+#WRITE(ptr,$B88F4)
+「<$09><$3D>[END]
+// current address: $1010D5
+
+//Text $1010C0
+#WRITE(ptr,$B88F8)
+攻撃後後退[END]
+// current address: $1010CB
+
+//Text $101080
+#WRITE(ptr,$B88FC)
+「<$09><$3D>[END]
+// current address: $101085
+
+//Text $101070
+#WRITE(ptr,$B8900)
+背面取り[END]
+// current address: $101079
+
+//Text $101030
+#WRITE(ptr,$B8904)
+「<$09><$3D>[END]
+// current address: $101035
+
+//Text $101020
+#WRITE(ptr,$B8908)
+晶術追撃[END]
+// current address: $101029
+
+//Text $100FE8
+#WRITE(ptr,$B890C)
+特技後「晶術入力」で下級攻撃晶術を[LINE]
+高速発動できる。[END]
+// current address: $10101C
+
+//Text $100FD8
+#WRITE(ptr,$B8910)
+特技連携[END]
+// current address: $100FE1
+
+//Text $100FA0
+#WRITE(ptr,$B8914)
+特技中に「他特技入力」で一回だけ特技[LINE]
+で連携可能。[END]
+// current address: $100FD2
+
+//Text $100F90
+#WRITE(ptr,$B8918)
+効果上昇[END]
+// current address: $100F99
+
+//Text $100F60
+#WRITE(ptr,$B891C)
+攻撃晶術はダメージが、[LINE]
+回復晶術は回復量が上昇[END]
+// current address: $100F8E
+
+//Text $100F50
+#WRITE(ptr,$B8920)
+詠唱加速[END]
+// current address: $100F59
+
+//Text $100F30
+#WRITE(ptr,$B8924)
+使用晶術の詠唱速度が上昇する[END]
+// current address: $100F4D
+
+//Text $100F20
+#WRITE(ptr,$B8928)
+TP減少軽減[END]
+// current address: $100F2B
+
+//Text $100F00
+#WRITE(ptr,$B892C)
+使用晶術の消費TPを軽減する[END]
+// current address: $100F1B
+
+//Text $100EF0
+#WRITE(ptr,$B8930)
+属性抵抗上昇[END]
+// current address: $100EFD
+
+//Text $100EB8
+#WRITE(ptr,$B8934)
+＜継続効果＞使用晶術の属性の耐性が一定時間[LINE]
+上昇する[END]
+// current address: $100EEC
+
+//Text $100EA8
+#WRITE(ptr,$B8938)
+攻撃力－[END]
+// current address: $100EB1
+
+//Text $100E70
+#WRITE(ptr,$B893C)
+＜確率・継続効果＞敵の攻撃力を一定時間[LINE]
+減少させる[END]
+// current address: $100EA2
+
+//Text $100E68
+#WRITE(ptr,$B8940)
+命中－[END]
+// current address: $100E6F
+
+//Text $100E30
+#WRITE(ptr,$B8944)
+＜確率・継続効果＞敵の命中力を一定時間[LINE]
+減少させる[END]
+// current address: $100E62
+
+//Text $100E20
+#WRITE(ptr,$B8948)
+防御力－[END]
+// current address: $100E29
+
+//Text $100DE8
+#WRITE(ptr,$B894C)
+＜確率・継続効果＞敵の防御力を一定時間[LINE]
+減少させる[END]
+// current address: $100E1A
+
+//Text $100DD8
+#WRITE(ptr,$B8950)
+回避力－[END]
+// current address: $100DE1
+
+//Text $100DA0
+#WRITE(ptr,$B8954)
+＜確率・継続効果＞敵の回避力を一定時間[LINE]
+減少させる[END]
+// current address: $100DD2
+
+//Text $100D98
+#WRITE(ptr,$B8958)
+SP－[END]
+// current address: $100D9D
+
+//Text $100D70
+#WRITE(ptr,$B895C)
+＜確率効果＞敵SPにダメージを与える[END]
+// current address: $100D93
+
+//Text $100D68
+#WRITE(ptr,$B8960)
+TP－[END]
+// current address: $100D6D
+
+//Text $100D40
+#WRITE(ptr,$B8964)
+＜確率効果＞敵TPにダメージを与える[END]
+// current address: $100D63
+
+//Text $100D38
+#WRITE(ptr,$B8968)
+毒効果[END]
+// current address: $100D3F
+
+//Text $100D08
+#WRITE(ptr,$B896C)
+＜確率・継続効果＞敵を一定時間毒状態にする[END]
+// current address: $100D33
+
+//Text $100CF8
+#WRITE(ptr,$B8970)
+凍結効果[END]
+// current address: $100D01
+
+//Text $100CC8
+#WRITE(ptr,$B8974)
+＜確率・継続効果＞敵を一定時間凍結状態にする[END]
+// current address: $100CF5
+
+//Text $100CB8
+#WRITE(ptr,$B8978)
+麻痺効果[END]
+// current address: $100CC1
+
+//Text $100C88
+#WRITE(ptr,$B897C)
+＜確率・継続効果＞敵を一定時間麻痺状態にする[END]
+// current address: $100CB5
+
+//Text $100C78
+#WRITE(ptr,$B8980)
+鈍足効果[END]
+// current address: $100C81
+
+//Text $100C48
+#WRITE(ptr,$B8984)
+＜確率・継続効果＞敵を一定時間鈍足状態にする[END]
+// current address: $100C75
+
+//Text $100C38
+#WRITE(ptr,$B8988)
+硬直時間加算[END]
+// current address: $100C45
+
+//Text $100C10
+#WRITE(ptr,$B898C)
+ヒット時の敵の硬直時間を長くする[END]
+// current address: $100C31
+
+//Text $100C00
+#WRITE(ptr,$B8990)
+リカバー[END]
+// current address: $100C09
+
+//Text $100BB0
+#WRITE(ptr,$B8994)
+LVに応じて(毒/衰弱/麻痺/鈍足･凍結)を解除する[LINE]
+非戦闘時はセットしなくても解除可能[END]
+// current address: $100C00
+
+//Text $100BA0
+#WRITE(ptr,$B8998)
+ゲットアイテム[END]
+// current address: $100BAF
+
+//Text $100B60
+#WRITE(ptr,$B899C)
+＜確率効果＞この晶術で倒した時のアイテム[LINE]
+入手確率が上昇する[END]
+// current address: $100B9C
+
+//Text $100B50
+#WRITE(ptr,$B89A0)
+スピリッツ[END]
+// current address: $100B5B
+
+//Text $100B38
+#WRITE(ptr,$B89A4)
+回復者のSPが回復する[END]
+// current address: $100B4D
+
+//Text $100B28
+#WRITE(ptr,$B89A8)
+メンタル[END]
+// current address: $100B31
+
+//Text $100B10
+#WRITE(ptr,$B89AC)
+回復者のTPが回復する[END]
+// current address: $100B25
+
+//Text $100B00
+#WRITE(ptr,$B89B0)
+追加晶術[END]
+// current address: $100B09
+
+//Text $100AD0
+#WRITE(ptr,$B89B4)
+「<$09><$3D>[END]
+// current address: $100AD5
+
+//Text $100AC0
+#WRITE(ptr,$B89B8)
+具現結晶[END]
+// current address: $100AC9
+
+//Text $100A78
+#WRITE(ptr,$B89BC)
+「<$09><$3D>[END]
+// current address: $100A7D
+
+//Text $100A68
+#WRITE(ptr,$B89C0)
+連携発動[END]
+// current address: $100A71
+
+//Text $100A18
+#WRITE(ptr,$B89C4)
+晶術チャージ完了後<$09><$3D>[END]
+// current address: $100A2D
+
+//Text $100A08
+#WRITE(ptr,$B89C8)
+４倍速詠唱[END]
+// current address: $100A13
+
+//Text $1009C8
+#WRITE(ptr,$B89CC)
+詠唱開始直後に「<$09><$3D>[END]
+// current address: $1009DB
+
+//Text $1009C0
+#WRITE(ptr,$B89D0)
+HP吸収[END]
+// current address: $1009C7
+
+//Text $100980
+#WRITE(ptr,$B89D4)
+「<$09><$3D>[END]
+// current address: $100985
+
+//Text $100978
+#WRITE(ptr,$B89D8)
+SP転換[END]
+// current address: $10097F
+
+//Text $100950
+#WRITE(ptr,$B89DC)
+「<$09><$3D>[END]
+// current address: $100955
+
+//Text $100948
+#WRITE(ptr,$B89E0)
+TP転換[END]
+// current address: $10094F
+
+//Text $100920
+#WRITE(ptr,$B89E4)
+「<$09><$3D>[END]
+// current address: $100925
+
+//Text $100918
+#WRITE(ptr,$B89E8)
+SP分与[END]
+// current address: $10091F
+
+//Text $1008E0
+#WRITE(ptr,$B89EC)
+「<$09><$3D>[END]
+// current address: $1008E5
+
+//Text $1008D0
+#WRITE(ptr,$B89F0)
+引き寄せ[END]
+// current address: $1008D9
+
+//Text $FE868
+#WRITE(ptr,$B89F4)
+[END]
+// current address: $FE869
+
+//Text $1008C0
+#WRITE(ptr,$B89F8)
+一定完全回避[END]
+// current address: $1008CD
+
+//Text $100878
+#WRITE(ptr,$B89FC)
+「<$09><$3D>[END]
+// current address: $10087D
+
+//Text $100868
+#WRITE(ptr,$B8A00)
+硬直解除[END]
+// current address: $100871
+
+//Text $100830
+#WRITE(ptr,$B8A04)
+「<$09><$3D>[END]
+// current address: $100835
+
+//Text $100820
+#WRITE(ptr,$B8A08)
+気絶攻撃[END]
+// current address: $100829
+
+//Text $1007E8
+#WRITE(ptr,$B8A0C)
+「<$09><$3D>[END]
+// current address: $1007ED

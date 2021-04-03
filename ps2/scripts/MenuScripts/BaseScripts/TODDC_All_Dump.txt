@@ -1,0 +1,61 @@
+#VAR(Table_0, TABLE)
+#ADDTBL("G:\TalesHacking\TOD2\GitProject\Tales-of-Destiny-2\ps2\scripts\MenuScripts\BaseScripts\abcde\tod2_utf8.tbl", Table_0)
+
+//BLOCK #000 NAME:
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+#VAR(ptr, CUSTOMPOINTER)
+#CREATEPTR(ptr, "LINEAR", $-FF000, 32)
+
+#JMP($132920)
+//Section Top Menu
+
+//Text $132990
+#WRITE(ptr,$F88E0)
+Artes[END]
+
+
+//Text $132980
+#WRITE(ptr,$F88E4)
+Enchant[END]
+
+
+//Text $132978
+#WRITE(ptr,$F88E8)
+Strategy[END]
+
+
+//Text $132970
+#WRITE(ptr,$F88EC)
+Cooking[END]
+
+
+//Text $132960
+#WRITE(ptr,$F88F0)
+Customize[END]
+
+
+//Text $132950
+#WRITE(ptr,$F88F4)
+Items[END]
+
+
+//Text $132948
+#WRITE(ptr,$F88F8)
+Equipment[END]
+
+
+//Text $132938
+#WRITE(ptr,$F88FC)
+Refine[END]
+
+
+//Text $132928
+#WRITE(ptr,$F8900)
+Status[END]
+
+
+//Text $132920
+#WRITE(ptr,$F8904)
+Save[END]
+
+
