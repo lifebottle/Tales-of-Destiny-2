@@ -32,7 +32,8 @@ def unpack():
         fname = name.split('.')[0]
         if fname in data.keys():
             print (name)
-            new_location = 'file/' + data[fname] + '/' + fname + '.' + data[fname]
+            new_location = f'file/{data[fname]}/{fname}.{data[fname]}'
+            #new_location = 'file/' + data[fname] + '/' + fname + '.' + data[fname]
             shutil.copy(os.path.join('fpb/', name), new_location)
             c_result = is_compressed(new_location)
             c_data[fname] = c_result[1]
