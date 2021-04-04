@@ -13,10 +13,7 @@ Spreadsheet with Info: https://docs.google.com/spreadsheets/d/1UVaEjK0o-V1-3atPH
 
 ## Wanted Items
 
-1. Tool to extract and re-insert the fonts
-1. Tool to extract the `TM2` files
-1. `abcde`, `cartographer`, and `atlas` script to dump and insert menu text
-
+1. Translators!  Start by checking ps2/scenarios and add `#` before the Japanese line and type English translation underneath.
 
 
 ## FILE.FPB (PS2) INFO
@@ -39,6 +36,8 @@ Offset   | Description | Notes
 4. That's the glyph index for lowercase "a"
 5. Replace that with `0x31` which is "ぁ"
 6. And just follow the sequence up until `0x4B`
+7. Formula to find offset for low bytes: `0xC9D00` - `0x20` + `0xASCII`
+8. Example: For lowercase letter `a`: `0xC9D00` - `0x20` + `0x61` = `0x0C9D41`.  So at this offset, map `a` to `0x31`th letter in the font (originally `ぁ`, new font is `a`).
 
 ## FILE.FPB (PSP) INFO
 1. FILE.FPB has information to unpack the files inside `EBOOT.BIN`
@@ -128,6 +127,7 @@ To extract font image from `0018.bin` (PS2) and `0000.bin` (PSP):
 ## Screenshots
 
 ![SLPS_251.72](https://raw.githubusercontent.com/pnvnd/Tales-of-Destiny-2/main/tod2_slps_base.png)
+![new_font](https://raw.githubusercontent.com/pnvnd/Tales-of-Destiny-2/main/current_font.png)
 
 ## Credits
 - Thanks to Lanyn for allowing use of Tales of Destiny 2 English translation script, check out https://www.youtube.com/user/lanyn/videos
