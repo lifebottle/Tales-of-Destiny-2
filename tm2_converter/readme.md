@@ -22,3 +22,7 @@ For example, to repack 00020.tm2 you also need 00020.tm2.png in the same directo
 Then, drag and drop the .TM2 file into repack.bat or use this command:
 TalesOfDestinyTm2Converter.exe -r 00020.tm2
 
+*****
+Notes
+*****
+Used "apphost-extract" to extract the .NET assembly embedded in the runtime, and then decompiled with a normal decompiler like IlSpy.
