@@ -6,88 +6,1076 @@
 #VAR(ptr, CUSTOMPOINTER)
 #CREATEPTR(ptr, "LINEAR", $-FF000, 32)
 
-#JMP($132920)
+#JMP($FE8C0)
+//Section Artes
+
+//Text $FFE78
+#WRITE(ptr,$B75AC)
+蒼破刃[END]
+
+
+//Text $FFE68
+#WRITE(ptr,$B75B0)
+ソウハジン[END]
+
+
+//Text $FFE18
+#WRITE(ptr,$B75B4)
+斬撃と、生じる真空波による飛び道具を放つ[LINE]
+特技。「特技」は通常技から連携可能[END]
+
+
+//Text $FFE10
+#WRITE(ptr,$B75C8)
+散葉塵[END]
+
+
+//Text $FFE00
+#WRITE(ptr,$B75CC)
+チリハジン[END]
+
+
+//Text $FFDD0
+#WRITE(ptr,$B75D0)
+舞う木の葉を切り刻む程の高速の剣を繰り出す[LINE]
+特技[END]
+
+
+//Text $FFDC8
+#WRITE(ptr,$B75E4)
+空翔斬[END]
+
+
+//Text $FFDB8
+#WRITE(ptr,$B75E8)
+Bong bong[END]
+
+
+//Text $FFD88
+#WRITE(ptr,$B75EC)
+Instantly move into the air and swing your[LINE]
+sword down from there.[END]
+
+
+//Text $FFD80
+#WRITE(ptr,$B7600)
+Destroy everyone[END]
+
+
+//Text $FFD70
+#WRITE(ptr,$B7604)
+バクエンケン[END]
+
+
+//Text $FFD28
+#WRITE(ptr,$B7608)
+地面に突き立てた剣撃がヒットすると、[LINE]
+目標の敵の足元から爆炎が起こる特技[END]
+
+
+//Text $FFD20
+#WRITE(ptr,$B761C)
+閃光衝[END]
+
+
+//Text $FFD10
+#WRITE(ptr,$B7620)
+センコウショウ[END]
+
+
+//Text $FFCC8
+#WRITE(ptr,$B7624)
+高速の斬撃による真空波が渦を巻き、[LINE]
+閃光となって敵を打ち上げる特技[END]
+
+
+//Text $FFCB8
+#WRITE(ptr,$B7638)
+牙連蒼破刃[END]
+
+
+//Text $FFCA0
+#WRITE(ptr,$B763C)
+ガレンソウハジン[END]
+
+
+//Text $FFC50
+#WRITE(ptr,$B7640)
+気を纏った連続攻撃から真空波を放つ奥義。[LINE]
+「奥義」は通常技と特技から連携可能[END]
+
+
+//Text $FFC40
+#WRITE(ptr,$B7654)
+空破絶風撃[END]
+
+
+//Text $FFC28
+#WRITE(ptr,$B7658)
+クウハゼップウゲキ[END]
+
+
+//Text $FFBE0
+#WRITE(ptr,$B765C)
+神速の連続突きにより、突風が巻き起こり、[LINE]
+敵を吹き飛ばす効果を持つ奥義[END]
+
+
+//Text $FFBD0
+#WRITE(ptr,$B7670)
+屠龍連撃破[END]
+
+
+//Text $FFBB8
+#WRITE(ptr,$B7674)
+トリュウレンゲキハ[END]
+
+
+//Text $FFB90
+#WRITE(ptr,$B7678)
+対空攻撃からの連続攻撃を繰り出す奥義[END]
+
+
+//Text $FFB80
+#WRITE(ptr,$B768C)
+疾空連殺剣[END]
+
+
+//Text $FFB68
+#WRITE(ptr,$B7690)
+シックウレンサツケン[END]
+
+
+//Text $FFB30
+#WRITE(ptr,$B7694)
+連続攻撃で空中に打ち上げ、そして[LINE]
+真空の刃で叩き落す奥義[END]
+
+
+//Text $FFB20
+#WRITE(ptr,$B76A8)
+岩斬滅砕陣[END]
+
+
+//Text $FFB08
+#WRITE(ptr,$B76AC)
+ガンザンメッサイジン[END]
+
+
+//Text $FFAD8
+#WRITE(ptr,$B76B0)
+大地に衝撃を与え、数多の岩片を吹き飛ばす奥義[END]
+
+
+//Text $FFAD0
+#WRITE(ptr,$B76C4)
+天翔弾[END]
+
+
+//Text $FFAC0
+#WRITE(ptr,$B76C8)
+テンショウダン[END]
+
+
+//Text $FFA90
+#WRITE(ptr,$B76CC)
+跳躍後、打ち下ろしの精霊弾を発射する特技[END]
+
+
+//Text $FFA88
+#WRITE(ptr,$B76E0)
+風神招[END]
+
+
+//Text $FFA78
+#WRITE(ptr,$B76E4)
+フウジンショウ[END]
+
+
+//Text $FFA58
+#WRITE(ptr,$B76E8)
+小規模な竜巻を発生させる特技[END]
+
+
+//Text $FFA50
+#WRITE(ptr,$B76FC)
+護法蓮[END]
+
+
+//Text $FFA40
+#WRITE(ptr,$B7700)
+ゴホウレン[END]
+
+
+//Text $FF9F0
+#WRITE(ptr,$B7704)
+前方に敵を吹き飛ばす障壁を展開、[LINE]
+同時に近距離の仲間の体力を微回復させる特技[END]
+
+
+//Text $FF9E8
+#WRITE(ptr,$B7718)
+流蓮弾[END]
+
+
+//Text $FF9D8
+#WRITE(ptr,$B771C)
+リュウレンダン[END]
+
+
+//Text $FF9B8
+#WRITE(ptr,$B7720)
+圧縮した水流弾を撃ち放つ特技[END]
+
+
+//Text $FF9B0
+#WRITE(ptr,$B7734)
+双打鐘[END]
+
+
+//Text $FF9A0
+#WRITE(ptr,$B7738)
+ソウダショウ[END]
+
+
+//Text $FF978
+#WRITE(ptr,$B773C)
+漢の拳を交えた二連攻撃を行う特技[END]
+
+
+//Text $FF970
+#WRITE(ptr,$B7750)
+雷神招[END]
+
+
+//Text $FF960
+#WRITE(ptr,$B7754)
+ライジンショウ[END]
+
+
+//Text $FF930
+#WRITE(ptr,$B7758)
+修行の成果で雷を呼び起こし、[LINE]
+力を解放する特技[END]
+
+
+//Text $FF928
+#WRITE(ptr,$B776C)
+放墜鐘[END]
+
+
+//Text $FF918
+#WRITE(ptr,$B7770)
+ホウツイショウ[END]
+
+
+//Text $FF8C0
+#WRITE(ptr,$B7774)
+貫いた敵を豪腕で振り上げる特技。命中率が低い[LINE]
+のがなんだが敵の隊列を入れ替えるにはナイス[END]
+
+
+//Text $FF8B8
+#WRITE(ptr,$B7788)
+霧氷翔[END]
+
+
+//Text $FF8A8
+#WRITE(ptr,$B778C)
+ムヒョウショウ[END]
+
+
+//Text $FF860
+#WRITE(ptr,$B7790)
+空中から冷気の槍で敵を貫く特技[LINE]
+敵の攻撃をかわしながら出すとステキ[END]
+
+
+//Text $FF858
+#WRITE(ptr,$B77A4)
+爆灰鐘[END]
+
+
+//Text $FF848
+#WRITE(ptr,$B77A8)
+バッカイショウ[END]
+
+
+//Text $FF810
+#WRITE(ptr,$B77AC)
+それはもう強力な振り下ろしで、大地を[LINE]
+震撼させる特技[END]
+
+
+//Text $FF800
+#WRITE(ptr,$B77C0)
+割破爆走撃[END]
+
+
+//Text $FF7E8
+#WRITE(ptr,$B77C4)
+カッパバクソウゲキ[END]
+
+
+//Text $FF7B0
+#WRITE(ptr,$B77C8)
+振り下ろしから引き込み、突進で追いつめる[LINE]
+前向き奥義[END]
+
+
+//Text $FF7A0
+#WRITE(ptr,$B77DC)
+空破特攻弾[END]
+
+
+//Text $FF788
+#WRITE(ptr,$B77E0)
+クウハトッコウダン[END]
+
+
+//Text $FF750
+#WRITE(ptr,$B77E4)
+低空回転体当たりでところかまわず[LINE]
+吹き飛ばす迷惑奥義[END]
+
+
+//Text $FF740
+#WRITE(ptr,$B77F8)
+戦吼爆ッ破[END]
+
+
+//Text $FF730
+#WRITE(ptr,$B77FC)
+センコウバッパ[END]
+
+
+//Text $FF708
+#WRITE(ptr,$B7800)
+あふれる気合を露骨に叩きつける[LINE]
+爆烈奥義[END]
+
+
+//Text $FF6F8
+#WRITE(ptr,$B7814)
+神空割砕人[END]
+
+
+//Text $FF6E0
+#WRITE(ptr,$B7818)
+シンクウカッサイジン[END]
+
+
+//Text $FF6B0
+#WRITE(ptr,$B781C)
+神の住まう天空から割砕するは人。[LINE]
+すなわち俺奥義[END]
+
+
+//Text $FF6A8
+#WRITE(ptr,$B7830)
+飛連斬[END]
+
+
+//Text $FF698
+#WRITE(ptr,$B7834)
+ヒレンザン[END]
+
+
+//Text $FF670
+#WRITE(ptr,$B7838)
+対空能力を持った二連斬りを繰り出す特技[END]
+
+
+//Text $FF668
+#WRITE(ptr,$B784C)
+双連撃[END]
+
+
+//Text $FF658
+#WRITE(ptr,$B7850)
+ソウレンゲキ[END]
+
+
+//Text $FF630
+#WRITE(ptr,$B7854)
+双剣を交互に繰り出す四連撃の特技[END]
+
+
+//Text $FF628
+#WRITE(ptr,$B7868)
+幻影刃[END]
+
+
+//Text $FF618
+#WRITE(ptr,$B786C)
+ゲンエイジン[END]
+
+
+//Text $FF5C8
+#WRITE(ptr,$B7870)
+突きがヒットすると、目前の敵をすり抜けて[LINE]
+奥の敵に斬りかかる性質を持つ特技[END]
+
+
+//Text $FF5C0
+#WRITE(ptr,$B7884)
+月閃光[END]
+
+
+//Text $FF5B0
+#WRITE(ptr,$B7888)
+ゲッセンコウ[END]
+
+
+//Text $FF588
+#WRITE(ptr,$B788C)
+斬撃の真空波が三日月の軌跡を描く特技[END]
+
+
+//Text $FF578
+#WRITE(ptr,$B78A0)
+千裂虚光閃[END]
+
+
+//Text $FF560
+#WRITE(ptr,$B78A4)
+センレツココウセン[END]
+
+
+//Text $FF538
+#WRITE(ptr,$B78A8)
+打ち上げた敵を神速突きで捕らえる奥義[END]
+
+
+//Text $FF528
+#WRITE(ptr,$B78BC)
+粉塵裂破衝[END]
+
+
+//Text $FF510
+#WRITE(ptr,$B78C0)
+フンジンレッパショウ[END]
+
+
+//Text $FF4D0
+#WRITE(ptr,$B78C4)
+土煙を巻き起こし、双剣によって火花を起こして[LINE]
+爆発させる奥義[END]
+
+
+//Text $FF4C0
+#WRITE(ptr,$B78D8)
+崩龍斬光剣[END]
+
+
+//Text $FF4A8
+#WRITE(ptr,$B78DC)
+ホウリュウザンコウケン[END]
+
+
+//Text $FF478
+#WRITE(ptr,$B78E0)
+常人の目には見切れぬ瞬間移動を伴った[LINE]
+斬撃奥義[END]
+
+
+//Text $FF468
+#WRITE(ptr,$B78F4)
+魔人滅殺闇[END]
+
+
+//Text $FF450
+#WRITE(ptr,$B78F8)
+マジンメッサツエン[END]
+
+
+//Text $FF420
+#WRITE(ptr,$B78FC)
+抗う敵を捕らえ、「滅殺する闇」を開く[LINE]
+暗黒奥義[END]
+
+
+//Text $FF418
+#WRITE(ptr,$B7910)
+烈火閃[END]
+
+
+//Text $FF408
+#WRITE(ptr,$B7914)
+レッカセン[END]
+
+
+//Text $FF3E8
+#WRITE(ptr,$B7918)
+着弾時に爆発する矢を放つ特技[END]
+
+
+//Text $FF3E0
+#WRITE(ptr,$B792C)
+牙連閃[END]
+
+
+//Text $FF3D0
+#WRITE(ptr,$B7930)
+ガレンセン[END]
+
+
+//Text $FF3A8
+#WRITE(ptr,$B7934)
+熟練の手さばきで矢を三連射する特技[END]
+
+
+//Text $FF3A0
+#WRITE(ptr,$B7948)
+扇氷閃[END]
+
+
+//Text $FF390
+#WRITE(ptr,$B794C)
+センヒョウセン[END]
+
+
+//Text $FF370
+#WRITE(ptr,$B7950)
+矢を五方向に拡散させて放つ特技[END]
+
+
+//Text $FF368
+#WRITE(ptr,$B7964)
+墜陽閃[END]
+
+
+//Text $FF358
+#WRITE(ptr,$B7968)
+ツイヨウセン[END]
+
+
+//Text $FF328
+#WRITE(ptr,$B796C)
+攻撃中の敵に対して絶大な追尾性能を持つ特技[END]
+
+
+//Text $FF320
+#WRITE(ptr,$B7980)
+虚空閃[END]
+
+
+//Text $FF310
+#WRITE(ptr,$B7984)
+コクウセン[END]
+
+
+//Text $FF2E8
+#WRITE(ptr,$B7988)
+空中から高速の矢で敵を狙い打つ特技[END]
+
+
+//Text $FF2E0
+#WRITE(ptr,$B799C)
+龍炎閃[END]
+
+
+//Text $FF2D0
+#WRITE(ptr,$B79A0)
+リュウエンセン[END]
+
+
+//Text $FF2A0
+#WRITE(ptr,$B79A4)
+数多の敵を貫通する炎の閃光を生み出す[LINE]
+特技[END]
+
+
+//Text $FF298
+#WRITE(ptr,$B79B8)
+雷牙衝[END]
+
+
+//Text $FF288
+#WRITE(ptr,$B79BC)
+ライガショウ[END]
+
+
+//Text $FF268
+#WRITE(ptr,$B79C0)
+電撃の力を利用して敵を討つ特技[END]
+
+
+//Text $FF260
+#WRITE(ptr,$B79D4)
+華連撃[END]
+
+
+//Text $FF250
+#WRITE(ptr,$B79D8)
+カレンゲキ[END]
+
+
+//Text $FF230
+#WRITE(ptr,$B79DC)
+自称華麗なる連続攻撃を行う特技[END]
+
+
+//Text $FF228
+#WRITE(ptr,$B79F0)
+影閃剣[END]
+
+
+//Text $FF218
+#WRITE(ptr,$B79F4)
+エイセンケン[END]
+
+
+//Text $FF1E0
+#WRITE(ptr,$B79F8)
+影に閃く神速の投剣を放つ特技。[LINE]
+衝撃は背後の敵にも及ぶ[END]
+
+
+//Text $FF1D8
+#WRITE(ptr,$B7A0C)
+鏡影槍[END]
+
+
+//Text $FF1C8
+#WRITE(ptr,$B7A10)
+キョウエイソウ[END]
+
+
+//Text $FF1A0
+#WRITE(ptr,$B7A14)
+魂に通ずるという「影」を貫く特技[END]
+
+
+//Text $FF198
+#WRITE(ptr,$B7A28)
+ヒール[END]
+
+
+//Text $FF178
+#WRITE(ptr,$B7A30)
+味方一人の体力を回復させる晶術[END]
+
+
+//Text $FF170
+#WRITE(ptr,$B7A44)
+キュア[END]
+
+
+//Text $FF148
+#WRITE(ptr,$B7A4C)
+味方一人の体力を大幅に回復させる晶術[END]
+
+
+//Text $FF138
+#WRITE(ptr,$B7A60)
+リザレクション[END]
+
+
+//Text $FF0F8
+#WRITE(ptr,$B7A68)
+移動中は全員、戦闘中は[LINE]
+範囲内の味方の体力を回復させる晶術[END]
+
+
+//Text $FF0E8
+#WRITE(ptr,$B7A7C)
+レイズデッド[END]
+
+
+//Text $FF0C0
+#WRITE(ptr,$B7A84)
+味方一人を戦闘不能から回復させる晶術[END]
+
+
+//Text $FF0A8
+#WRITE(ptr,$B7A98)
+ストーンザッパー[END]
+
+
+//Text $FF078
+#WRITE(ptr,$B7AA0)
+複数の石片を弧を描いて敵にぶつける下級晶術[END]
+
+
+//Text $FF068
+#WRITE(ptr,$B7AB4)
+アクアスパイク[END]
+
+
+//Text $FF040
+#WRITE(ptr,$B7ABC)
+高速回転させた水圧を発射する下級晶術[END]
+
+
+//Text $FF028
+#WRITE(ptr,$B7AD0)
+フレイムドライブ[END]
+
+
+//Text $FF008
+#WRITE(ptr,$B7AD8)
+複数の火球弾が敵を狙う下級晶術[END]
+
+
+//Text $FEFF0
+#WRITE(ptr,$B7AEC)
+ウィンドスラッシュ[END]
+
+
+//Text $FEFB8
+#WRITE(ptr,$B7AF4)
+相手との距離に関係なく真空の刃を発生させる[LINE]
+下級晶術[END]
+
+
+//Text $FEFA8
+#WRITE(ptr,$B7B08)
+デルタレイ[END]
+
+
+//Text $FEF80
+#WRITE(ptr,$B7B10)
+三つの光弾を同時に撃ち出す下級晶術[END]
+
+
+//Text $FEF70
+#WRITE(ptr,$B7B24)
+シャドウエッジ[END]
+
+
+//Text $FEF40
+#WRITE(ptr,$B7B2C)
+地面から発生した闇の刃が敵を貫く下級晶術[END]
+
+
+//Text $FEF28
+#WRITE(ptr,$B7B40)
+スティングレイブ[END]
+
+
+//Text $FEEF0
+#WRITE(ptr,$B7B48)
+とがった岩を連続に突き出し、敵を貫く[LINE]
+下級昇華晶術[END]
+
+
+//Text $FEED8
+#WRITE(ptr,$B7B5C)
+フリーズハンター[END]
+
+
+//Text $FEE98
+#WRITE(ptr,$B7B64)
+鋭利な氷の槍を、ターゲットに照準を当てて[LINE]
+次々と貫く下級昇華晶術[END]
+
+
+//Text $FEE80
+#WRITE(ptr,$B7B78)
+フォトンブレイズ[END]
+
+
+//Text $FEE48
+#WRITE(ptr,$B7B80)
+局所的に高熱を発生させ、狙った敵を屠る[LINE]
+下級昇華晶術[END]
+
+
+//Text $FEE38
+#WRITE(ptr,$B7B94)
+クロスブレイド[END]
+
+
+//Text $FEDF0
+#WRITE(ptr,$B7B9C)
+高速で接近した真空のかまいたちが両側から[LINE]
+敵を切り刻む下級昇華晶術[END]
+
+
+//Text $FEDD8
+#WRITE(ptr,$B7BB0)
+トリニティスパーク[END]
+
+
+//Text $FEDA8
+#WRITE(ptr,$B7BB8)
+三連の光弾から滅殺の稲妻を放つ下級昇華晶術[END]
+
+
+//Text $FED90
+#WRITE(ptr,$B7BCC)
+ブラッディクロス[END]
+
+
+//Text $FED60
+#WRITE(ptr,$B7BD4)
+血塗られた講いの波動が交わる下級昇華晶術[END]
+
+
+//Text $FED48
+#WRITE(ptr,$B7BE8)
+エアプレッシャー[END]
+
+
+//Text $FED08
+#WRITE(ptr,$B7BF0)
+重力場を発生させて押しつぶし、[LINE]
+大地もろとも破砕する中級晶術[END]
+
+
+//Text $FECF8
+#WRITE(ptr,$B7C04)
+スプラッシュ[END]
+
+
+//Text $FECD0
+#WRITE(ptr,$B7C0C)
+連続的に水流を地面に叩きつける中級晶術[END]
+
+
+//Text $FECB8
+#WRITE(ptr,$B7C20)
+バーンストライク[END]
+
+
+//Text $FEC80
+#WRITE(ptr,$B7C28)
+地面で強力な爆発を起こす火炎弾を降らせる[LINE]
+中級晶術[END]
+
+
+//Text $FEC68
+#WRITE(ptr,$B7C3C)
+スラストファング[END]
+
+
+//Text $FEC40
+#WRITE(ptr,$B7C44)
+無数の真空の刃で敵を切り裂く中級晶術[END]
+
+
+//Text $FEC28
+#WRITE(ptr,$B7C58)
+プリズムフラッシャ[END]
+
+
+//Text $FEBF8
+#WRITE(ptr,$B7C60)
+光の洗礼を受けた七色の剣が降り注ぐ中級晶術[END]
+
+
+//Text $FEBE0
+#WRITE(ptr,$B7C74)
+ネガティブゲイト[END]
+
+
+//Text $FEBB0
+#WRITE(ptr,$B7C7C)
+敵の動きを封じ込める魔空間を引き出す[LINE]
+中級晶術[END]
+
+
+//Text $FEB98
+#WRITE(ptr,$B7C90)
+シリングフォール[END]
+
+
+//Text $FEB60
+#WRITE(ptr,$B7C98)
+水圧を利用して巨大な鉱石を落下させる[LINE]
+中級昇華晶術[END]
+
+
+//Text $FEB48
+#WRITE(ptr,$B7CAC)
+クラッシュガスト[END]
+
+
+//Text $FEB18
+#WRITE(ptr,$B7CB4)
+氷を風の力で粉砕し、敵にぶつける中級昇華晶術[END]
+
+
+//Text $FEB00
+#WRITE(ptr,$B7CC8)
+ヴォルカニックレイ[END]
+
+
+//Text $FEAC8
+#WRITE(ptr,$B7CD0)
+熱を大地に集中させ、局地的な噴火を起こす[LINE]
+中級昇華晶術[END]
+
+
+//Text $FEAB0
+#WRITE(ptr,$B7CE4)
+ヴォルテックヒート[END]
+
+
+//Text $FEA80
+#WRITE(ptr,$B7CEC)
+熱風を巻き起こして敵を吹き飛ばす中級昇華晶術[END]
+
+
+//Text $FEA68
+#WRITE(ptr,$B7D00)
+シャイニングスピア[END]
+
+
+//Text $FEA30
+#WRITE(ptr,$B7D08)
+輝きの槍を突き刺し、更に追撃を加える[LINE]
+中級昇華晶術[END]
+
+
+//Text $FEA18
+#WRITE(ptr,$B7D1C)
+イービルスフィア[END]
+
+
+//Text $FEA30
+#WRITE(ptr,$B7D24)
+輝きの槍を突き刺し、更に追撃を加える[LINE]
+中級昇華晶術[END]
+
+
+//Text $FEA00
+#WRITE(ptr,$B7D38)
+グランヴァニッシュ[END]
+
+
+//Text $FE9D0
+#WRITE(ptr,$B7D40)
+大地の力を圧縮し、そして解放させる[LINE]
+上級晶術[END]
+
+
+//Text $FE9B8
+#WRITE(ptr,$B7D54)
+インブレイスエンド[END]
+
+
+//Text $FE988
+#WRITE(ptr,$B7D5C)
+氷の棺に敵を閉じ込め、「終焉」を与える[LINE]
+上級晶術[END]
+
+
+//Text $FE970
+#WRITE(ptr,$B7D70)
+エンシェントノヴァ[END]
+
+
+//Text $FE940
+#WRITE(ptr,$B7D78)
+古代より伝えられし浄化の炎を呼び起こす[LINE]
+上級晶術[END]
+
+
+//Text $FE928
+#WRITE(ptr,$B7D8C)
+フィアフルストーム[END]
+
+
+//Text $FE900
+#WRITE(ptr,$B7D94)
+壊滅的な威力の嵐を巻き起こす[LINE]
+上級晶術[END]
+
+
+//Text $FE8E8
+#WRITE(ptr,$B7DA8)
+ディバインセイバー[END]
+
+
+//Text $FE8C0
+#WRITE(ptr,$B7DB0)
+神聖なる裁きの雷を撃ち放つ[LINE]
+上級晶術[END]
+
+
 //Section Top Menu
 
 //Text $132990
 #WRITE(ptr,$F88E0)
-ARTES[END]
+Artes[END]
 
 
 //Text $132980
 #WRITE(ptr,$F88E4)
-ENCHANT[END]
+Enchant[END]
 
 
 //Text $132978
 #WRITE(ptr,$F88E8)
-STRATEGY[END]
+Strategy[END]
 
 
 //Text $132970
 #WRITE(ptr,$F88EC)
-COOKING[END]
+Cooking[END]
 
 
 //Text $132960
 #WRITE(ptr,$F88F0)
-CUSTOMIZE[END]
+Customize[END]
 
 
 //Text $132950
 #WRITE(ptr,$F88F4)
-ITEMS[END]
+Items[END]
 
 
 //Text $132948
 #WRITE(ptr,$F88F8)
-EQUIPMENT[END]
+Equipment[END]
 
 
 //Text $132938
 #WRITE(ptr,$F88FC)
-REFINE[END]
+Refine[END]
 
 
 //Text $132928
 #WRITE(ptr,$F8900)
-STATUS[END]
+Status[END]
 
 
 //Text $132920
 #WRITE(ptr,$F8904)
-SAVE[END]
+Save[END]
 
 
 //Section Side Menu
 
 //Text $1329E0
 #WRITE(ptr,$F8964)
-GALD[END]
+Gald[END]
 
 
 //Text $1329D8
 #WRITE(ptr,$F8968)
-LENS[END]
+Lens[END]
 
 
 //Text $1329C8
 #WRITE(ptr,$F896C)
-BATTLES[END]
+Battles[END]
 
 
 //Text $1329B8
 #WRITE(ptr,$F8970)
-MAX COMBO[END]
+Max Combo[END]
 
 
 //Text $1329A8
 #WRITE(ptr,$F8974)
-BATTLE RANKKKKKKKKKKKKKKKKKK[END]
+Battle Rank[END]
 
 
 //Text $132998
 #WRITE(ptr,$F8978)
-PLAYTIME[END]
+Playtime[END]
 
 

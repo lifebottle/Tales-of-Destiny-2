@@ -1,5 +1,18 @@
 {
 	"items":[
+	
+	{
+		"BlockDesc":		"Artes",
+		"TextStartBlock":	"",
+		"Sections":[
+		{
+			"SectionId":	1,
+			"SectionDesc":	"Artes",
+			"GoogleSheetId":"1z2M5d0T_VBrkZAHTdVR2Jjh2M6dtKJygEutN7jgW8QE",
+			"TextStart":	"FE8C0",
+			"TextEnd":		"FFE7E"
+		}]
+	},
 	{
 		"BlockDesc":		"Main Menu",
 		"TextStartBlock":	"",
