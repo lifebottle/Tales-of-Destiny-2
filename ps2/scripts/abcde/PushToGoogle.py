@@ -55,8 +55,8 @@ def cleanData(dfData):
     return dfData
 
 
-googleId = '15cX1Vb6jsnoev4T3o-x00jYNaNgNdz6h2QwApBocjQg'
-fileName = 'TOD2_SideMenu_Dump_cleaned.txt'
+googleId = '1z2M5d0T_VBrkZAHTdVR2Jjh2M6dtKJygEutN7jgW8QE'
+fileName = 'TOD2_Artes_dump_cleaned.txt'
 finalList = parseText(fileName)
 writeColumn(finalList, googleId)
     

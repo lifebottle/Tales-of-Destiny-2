@@ -102,6 +102,6 @@ for myDir in allDir:
         lookForHex(listValues,myDir+"/"+file)
         
         
-hexJp = "99 6A 99 67 9A A2 9E 8B"
+hexJp = "C9 99 E4 99 C9 9A 49"
 
 hexToJpn(pathTables, hexJp)
