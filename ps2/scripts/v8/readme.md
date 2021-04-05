@@ -1,6 +1,6 @@
-Tales of Destiny 2 (PS2) Tool
+#Tales of Destiny 2 (PS2) Tool
 
-Usage:
+##Usage
 1.  Copy SLPS_251.72 and FILE.FPB to this directory
 
 2.  Run 01_extract_files.bat or "python tod2_ps2.py 1"
@@ -38,7 +38,7 @@ FPB
 ***
 16. Create a copy of SLPS_251.72 used to extract FILE.FPB and rename it to "new_SLPS_251.72"
 17. Run 03_pack_fpb.bat or "python tod2_ps2.py 3" to get "FILE_NEW.FPB" and an updated "new_SLPS_251.72" file
-18. Run 04_insert_font.bat or "python tod2_ps2.py 4" to insert font.bin and update lowercase letter mapping
+18. Run 04_insert_font.bat or "python tod2_ps2.py 4" to insert font.bin and update lowercase letter mapping (optional)
 19. Copy/move and rename "FILE_NEW.FPB" to "FILE.FPB" and "new_SLPS_251.72" to "SLPS_251.72" to replace in game ISO
 
 ***
