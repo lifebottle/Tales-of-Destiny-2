@@ -1,14 +1,21 @@
-なあ、<char:00000001>。俺の留守中に、なにか変わったことはなかったか？
+#なあ、<char:00000001>。俺の留守中に、なにか変わったことはなかったか？
+Say, Kyle, did anything unusual happen while I was gone?
 -----------------------
-変わったこと？　そういえば母さんが、このところすごく悩んでて‥‥。
+#変わったこと？　そういえば母さんが、このところすごく悩んでて‥‥。
+Anything unusual? Now that you mention it, mom has been awfully distressed lately...
 -----------------------
-なにっ!?　ルーティさんが？　まさか孤児院の経営が危ないとか‥‥あっ！　しつこく言い寄ってくる男がいるとかじゃねえだろうな!?
+#なにっ!?　ルーティさんが？　まさか孤児院の経営が危ないとか‥‥あっ！　しつこく言い寄ってくる男がいるとかじゃねえだろうな!?
+What!? Ms. Rutee has? Don't tell me that she's having trouble managing the orphanage, or...Ah! There'd better not be some persistent man who's making passes at her!?
 -----------------------
-ちがう、ちがう。『シワが増えた～』って大騒ぎしてるだけだよ。
+#ちがう、ちがう。『シワが増えた～』って大騒ぎしてるだけだよ。
+No, no, you've got it all wrong. She just made a huge fuss about how she's "getting more wrinkles."
 -----------------------
-なんだシワかぁ‥‥大ゲサに言うから、もっと大問題かと思ったじゃねえか。
+#なんだシワかぁ‥‥大ゲサに言うから、もっと大問題かと思ったじゃねえか。
+What, you mean you were talking about wrinkles...I thought that it was a much bigger problem from the way you exaggerated things.
 -----------------------
-でも、本人にとっては大問題みたいだよ。
+#でも、本人にとっては大問題みたいだよ。
+But it looked like it was a big deal to her.
 -----------------------
-バ～カ！　あの人の美しさは、シワが多少増えたくらいじゃかすんだりしねえんだよ。
+#バ～カ！　あの人の美しさは、シワが多少増えたくらいじゃかすんだりしねえんだよ。
+Don't be stupid! Her beauty is such that it won't be overshadowed by a couple of measly wrinkles.
 -----------------------
