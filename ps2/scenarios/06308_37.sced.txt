@@ -1,49 +1,66 @@
-クレスタの街
+#クレスタの街
+Cresta City
 -----------------------
-クレスタの街
+#クレスタの街
+Cresta City
 -----------------------
-クレスタの街
+#クレスタの街
+Cresta City
 -----------------------
-クレスタの街
+#クレスタの街
+Cresta City
 -----------------------
-クレスタの街
+#クレスタの街
+Cresta City
 -----------------------
 notice
 -----------------------
+#<char:00000003>は
+#称号「<item:0000080B>」を得ました
 <char:00000003> acquired the title
-<item:0000080B>
+"<item:0000080B>".
 -----------------------
 notice
 -----------------------
+#マップ画面でSELECTボタンを押すことによって
+#「スクリーンチャット」が起動します
 You can activate Screen Chats by pressing
 the SELECT button on the map screen.
 -----------------------
 notice
 -----------------------
-Hints indicating where you should go next,
-amusing conversations between your characters,
-and other various dialogues take place during
-the Screen Chats.
+#「スクリーンチャット」では
+#これから目指すべき場所などのヒントや
+#キャラクター同士の楽しいおしゃべりなど
+#様々な会話が行なわれます
+Hints on where to go next,
+amusing conversations between
+characters, and various dialogues
+take place during Screen Chats.
 -----------------------
 notice
 -----------------------
+#いろいろな場面で
+#SELECTボタンを押してみましょう
 Try pushing the SELECT button
 in different settings.
 -----------------------
 <char:00000002>
 -----------------------
-ここは････クレスタ？
+#ここは････クレスタ？
+Is this...Cresta?
 -----------------------
 <char:000003E8>
 -----------------------
-<char:00000001>を探さないと････
+#<char:00000001>を探さないと････
+Need to find <char:00000001>...
 -----------------------
 menu
 -----------------------
 <03:00000000>操作説明を聞きますか？
-　はい　
-　いいえ　
-　永久にいいえ　
+はい　
+いいえ　
+永久にいいえ　
 -----------------------
 notice
 -----------------------
@@ -54,16 +71,28 @@ notice
 避けて通るようにしましょう{02}武器や防具は装備しないと役に立ちません{02}ちなみに後々役立つ裏技として････
 <button:00000029>、<button:00000029>で動かずに向きだけを
 変えることができます{02}こまめにセーブしましょう{02}
+#Press SELECT on the menu screen for help.
+#{02}Select character with <button:00000028> to switch.
+#{02}Avoid forests and deserts to reduce encounters.
+#{02}Weapons and armor are useless unless you equip them.
+#{02}By the way, here's a trick that will help you later...
+#{02}You can use <button:00000029> and <button:00000029> to change
+#only the orientation without moving.{02}Save often.{02}
 -----------------------
 notice
 -----------------------
-そうですか････
+#そうですか････
+I see...
 -----------------------
-おばさん
+#おばさん
+Woman
 -----------------------
-おやおや、こんなに晴れた日に
-<char:00000003>、あんたに会えるなんて
-これも、アタモニさまのお導きかね？
+#おやおや、こんなに晴れた日に
+#<char:00000003>、あんたに会えるなんて
+#これも、アタモニさまのお導きかね？
+Well, well, well...<char:00000003>, I never thought
+I'd see you on a sunny day like this...
+Is this another sign from Atamoni?
 -----------------------
 <char:00000003>
 -----------------------

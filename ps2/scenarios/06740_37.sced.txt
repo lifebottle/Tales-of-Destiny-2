@@ -1,8 +1,11 @@
-デュナミス孤児院
+#デュナミス孤児院
+Dunamis Orphanage
 -----------------------
-デュナミス孤児院
+#デュナミス孤児院
+Dunamis Orphanage
 -----------------------
-デュナミス孤児院
+#デュナミス孤児院
+Dunamis Orphanage
 -----------------------
 #<size:00000180>いってえぇぇっ～!!
 <size:00000180>Owwie~!!
@@ -21,9 +24,9 @@ Cinnamon
 #なにやってんだよ、もうっ！
 #そこで<char:00000001>がやられちゃ
 #なんにもならないだろ！
-Geez, whadduya think you're doin'!
-There's no point in doing this if
-you're gonna let yourself get beat up like that, <char:00000001>!
+Geez, whadduya think you're doin'! There's
+no point in doing this if you're gonna let
+yourself get beat up like that, <char:00000001>!
 -----------------------
 #シナモン
 Cinnamon
@@ -50,9 +53,9 @@ Cinnamon
 #でもさ、毎日毎日
 #ごっこ遊びばっかじゃ、つまんないよな～
 #<char:00000001>は、こんなんだし
-Ya know what though? Playing nothin' but make-believe
-everyday is so bo~ring. It doesn't help that <char:00000001>'s 
-being like this either.
+Ya know what though? Playing nothin' but make-
+believe everyday is so bo~ring. It doesn't help
+that <char:00000001>'s being like this either.
 -----------------------
 #シナモン
 Cinnamon
@@ -115,9 +118,9 @@ the world's next great hero,
 #よし、これから街を出て冒険だ！
 #みんな、オレから離れるんじゃないぞ！
 #いいなッ！
-Alright then, we're leaving town to go on an adventure!
-Everyone, don't leave my side for even a second!
-Is that clear!
+Alright then, we're leaving town to go on
+an adventure! Everyone, don't leave my side
+for even a second! Is that clear!
 -----------------------
 <char:00000001>
 -----------------------

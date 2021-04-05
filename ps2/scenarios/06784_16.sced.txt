@@ -1,6 +1,8 @@
-クレスタ
+#クレスタ
+Cresta
 -----------------------
-クレスタ
+#クレスタ
+Cresta
 -----------------------
 <char:00000001>
 -----------------------
@@ -23,18 +25,18 @@ I went ahead and sent the kids on home.
 #あぁ、それと
 #さっきのことは口止めしておいた
 #ルーティさんに知れたら、大変だからな
-Oh yeah, and I told them to keep what happened
-earlier under wraps too. We'd be in some serious
-hot water if Ms. Rutee ever found out.
+Also, I told them to keep what happened
+earlier under wraps too. We'd be in some
+serious shit if Rutee ever found out.
 -----------------------
 <char:00000001>
 -----------------------
 #････ごめんね、<char:00000003>
 #ひさしぶりに会ったっていうのに
 #迷惑ばっかりかけちゃって････
-...Man, I'm sorry, <char:00000003>. I ended up causing
-nothing but trouble for you even though we
-haven't seen each other in ages...
+...Man, I'm sorry, <char:00000003>. I ended up
+causing nothing but trouble for you even
+though we haven't seen each other in ages...
 -----------------------
 <char:00000003>
 -----------------------
@@ -49,8 +51,8 @@ You 'n' me are pals, aren't we?
 -----------------------
 #それに、俺がアタモニ神団に入ってから
 #孤児院のことは、まかせっきりだったしな
-And besides, I pretty much dumped the orphanage
-on you and all after I joined the Church of Atamoni.
+And besides, I pretty much dumped the orphanage on
+you and all after I joined the Church of Atamoni.
 -----------------------
 <char:00000003>
 -----------------------
@@ -71,25 +73,25 @@ Don't sweat it.
 #どうだ、孤児院へ帰る前に
 #街の中をぶらついてみないか？
 #ひさしぶりに、みんなに会いたいしな
-Why don't we try to take a stroll through town
-before returning to the orphanage? It's been a
-minute, so I want to see everyone.
+Why don't we try to take a stroll through
+town before returning to the orphanage? It's
+been a minute, so I want to see everyone.
 -----------------------
 <char:00000001>
 -----------------------
 #じゃ、そうしようか
 #････って<char:00000003>
 #そろそろ降ろしてくんない？
-Let's do that then....or rather, <char:00000003>,
+Let's do that then.
+...or rather, <char:00000003>,
 isn't it about time that you put me down?
 -----------------------
 <char:00000003>
 -----------------------
 #ん～？　別に、このままでもいいぜ？
 #なんかよ、おまえの重さがなつかしくってな
-Hm? It doesn't really matter
-if we stay like this, does it?
-Your weight brings back memories for some reason.
+Hm? It doesn't really matter if we stay like this, does
+it? Your weight brings back memories for some reason.
 -----------------------
 <char:00000001>
 -----------------------
