@@ -1,3 +1,2 @@
-#街のみんなにあいさつしたら、孤児院に帰るとするか。
-How about returning to the orphanage after saying hello to everyone in town.
+街のみんなにあいさつしたら、孤児院に帰るとするか。
 -----------------------

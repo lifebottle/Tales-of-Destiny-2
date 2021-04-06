@@ -1,116 +1,81 @@
-#クレスタ
-Cresta
+クレスタ
 -----------------------
-#クレスタ
-Cresta
+クレスタ
 -----------------------
-<char:00000001>
+<Kyle>
 -----------------------
-#ん････
-#うぅ、こ、ここは････？
-Nn...ugh,
-w, where are we...?
+ん････
+うぅ、こ、ここは････？
 -----------------------
-<char:00000003>
+<Loni>
 -----------------------
-#気がついたか、<char:00000001>？
-#安心しろ、もうクレスタに着いた
-#ガキどもは、先に帰しておいたよ
-You awake, <char:00000001>? We've already
-arrived in Cresta, so no need to worry.
-I went ahead and sent the kids on home.
+気がついたか、<Kyle>？
+安心しろ、もうクレスタに着いた
+ガキどもは、先に帰しておいたよ
 -----------------------
-<char:00000003>
+<Loni>
 -----------------------
-#あぁ、それと
-#さっきのことは口止めしておいた
-#ルーティさんに知れたら、大変だからな
-Also, I told them to keep what happened
-earlier under wraps too. We'd be in some
-serious shit if Rutee ever found out.
+あぁ、それと
+さっきのことは口止めしておいた
+ルーティさんに知れたら、大変だからな
 -----------------------
-<char:00000001>
+<Kyle>
 -----------------------
-#････ごめんね、<char:00000003>
-#ひさしぶりに会ったっていうのに
-#迷惑ばっかりかけちゃって････
-...Man, I'm sorry, <char:00000003>. I ended up
-causing nothing but trouble for you even
-though we haven't seen each other in ages...
+････ごめんね、<Loni>
+ひさしぶりに会ったっていうのに
+迷惑ばっかりかけちゃって････
 -----------------------
-<char:00000003>
+<Loni>
 -----------------------
-#迷惑ぅ？　ははっ！
-#水くさいぜ、<char:00000001>
-#俺とおまえの仲じゃねえか
-Trouble? Ha ha!
-Don't be such a stranger, <char:00000001>.
-You 'n' me are pals, aren't we?
+迷惑ぅ？　ははっ！
+水くさいぜ、<Kyle>
+俺とおまえの仲じゃねえか
 -----------------------
-<char:00000003>
+<Loni>
 -----------------------
-#それに、俺がアタモニ神団に入ってから
-#孤児院のことは、まかせっきりだったしな
-And besides, I pretty much dumped the orphanage on
-you and all after I joined the Church of Atamoni.
+それに、俺がアタモニ神団に入ってから
+孤児院のことは、まかせっきりだったしな
 -----------------------
-<char:00000003>
+<Loni>
 -----------------------
-#罪滅ぼしじゃねえが
-#これぐらいは、当然のことさ
-#気にすんな
-It ain't much in terms of atonement,
-but something like this is nothing.
-Don't sweat it.
+罪滅ぼしじゃねえが
+これぐらいは、当然のことさ
+気にすんな
 -----------------------
-<char:00000001>
+<Kyle>
 -----------------------
-#<char:00000003>････
-<char:00000003>...
+<Loni>････
 -----------------------
-<char:00000003>
+<Loni>
 -----------------------
-#どうだ、孤児院へ帰る前に
-#街の中をぶらついてみないか？
-#ひさしぶりに、みんなに会いたいしな
-Why don't we try to take a stroll through
-town before returning to the orphanage? It's
-been a minute, so I want to see everyone.
+どうだ、孤児院へ帰る前に
+街の中をぶらついてみないか？
+ひさしぶりに、みんなに会いたいしな
 -----------------------
-<char:00000001>
+<Kyle>
 -----------------------
-#じゃ、そうしようか
-#････って<char:00000003>
-#そろそろ降ろしてくんない？
-Let's do that then.
-...or rather, <char:00000003>,
-isn't it about time that you put me down?
+じゃ、そうしようか
+････って<Loni>
+そろそろ降ろしてくんない？
 -----------------------
-<char:00000003>
+<Loni>
 -----------------------
-#ん～？　別に、このままでもいいぜ？
-#なんかよ、おまえの重さがなつかしくってな
-Hm? It doesn't really matter if we stay like this, does
-it? Your weight brings back memories for some reason.
+ん～？　別に、このままでもいいぜ？
+なんかよ、おまえの重さがなつかしくってな
 -----------------------
-<char:00000001>
+<Kyle>
 -----------------------
-#バ、バカッ！
-#子供あつかいすんなよ！
-D, don't be stupid! 
-Quit treating me like a child!
+バ、バカッ！
+子供あつかいすんなよ！
 -----------------------
-<char:00000003>
+<Loni>
 -----------------------
-#はははっ！
-#わかった、わかった
-Ha ha ha!
-I gotcha, I gotcha.
+はははっ！
+わかった、わかった
 -----------------------
-<char:00000003>
+<Loni>
 -----------------------
-#んじゃ行くか、<char:00000001>
-Well, you comin', <char:00000001>?
+んじゃ行くか、<Kyle>
 -----------------------
 いってらっしゃいませ
 -----------------------

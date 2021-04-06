@@ -15,8 +15,10 @@ movie_begin = 0xE62F0
 movie_end = 0xE631F
 
 tags = {0x4: 'color', 0x5: 'size', 0x6: 'num', 0x7: 'char', 0x8: 'item', 0x9: 'button'}
+names = {1: 'Kyle', 2: 'Reala', 3: 'Loni', 4: 'Judas', 5: 'Nanaly', 6: 'Harold' }
 
-com_tag = r'(<\w+:[0-9A-F]{8}>)'
+#com_tag = r'(<\w+:[0-9A-F]{8}>)'
+com_tag = r'(<\w+:?\w+>)'
 hex_tag = r'(\{[0-9A-F]{2}\})'
 
 printable = ''.join((string.digits,string.ascii_letters,string.punctuation,' '))
@@ -257,8 +259,11 @@ def extract_sced():
     #json_file2 = open('TBL2.json', 'w')
     json_data = json.load(json_file)
     json_file.close()
-    sced_file = open('SCED.json', 'w')
-    sced_data = {}
+    #sced_file = open('SCED.json', 'w')
+    #sced_data = {}
+    sced_file = open('sced.json', 'r')
+    sced_data = json.load(sced_file)
+    sced_file.close()
     
     #char_file = open('00019.bin', 'r', encoding='cp932')
     #char_index = char_file.read()
@@ -270,7 +275,7 @@ def extract_sced():
         if header != b'\x53\x43\x45\x44':
             continue
         o = open('txt/' + name + '.txt', 'w', encoding = 'utf-8')
-        sced_data[name] = []
+        #sced_data[name] = []
         pointer_block = struct.unpack('<L', f.read(4))[0]
         text_block = struct.unpack('<L', f.read(4))[0]
         fsize = os.path.getsize('sced/' + name)
@@ -281,8 +286,9 @@ def extract_sced():
             b = f.read(1)
             if b == b'\xF8':
                 addr = struct.unpack('<H', f.read(2))[0]
-                if (addr < fsize - text_block) and (addr > 0):
-                    sced_data[name].append(f.tell() - 2)
+                if f.tell() - 2 in sced_data[name]:
+                #if (addr < fsize - text_block) and (addr > 0):
+                    #sced_data[name].append(f.tell() - 2)
                     text_pointers.append(addr)
 
         for i in range(len(text_pointers)):
@@ -300,7 +306,10 @@ def extract_sced():
                 elif b in (0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0xB):
                     b2 = struct.unpack('<L', f.read(4))[0]
                     if b in tags:
-                        o.write('<%s:%08X>' % (tags[b], b2))
+                        if b == 0x7 and b2 in names:
+                            o.write('<%s>' % names[b2])
+                        else:
+                            o.write('<%s:%08X>' % (tags[b], b2))
                     else:
                         o.write('<%02X:%08X>' % (b, b2))
                 elif chr(b) in printable:
@@ -321,7 +330,7 @@ def extract_sced():
         o.close()
         
     #json.dump(json_data, json_file2, indent=4)
-    json.dump(sced_data, sced_file, indent=4)
+    #json.dump(sced_data, sced_file, indent=4)
 
 def insert_sced():
     json_file = open('TBL.json', 'r')
@@ -333,6 +342,7 @@ def insert_sced():
     
     itable = dict([[i,struct.pack('>H', int(j))] for j,i in table.items()])
     itags = dict([[i,j] for j,i in tags.items()])
+    inames = dict([[i,j] for j,i in names.items()])
     
     mkdir('SCED_NEW/')
 
@@ -357,27 +367,32 @@ def insert_sced():
                 txt = bytearray()
             else:
                 string_hex = re.split(hex_tag, line)
+                string_hex = [sh for sh in string_hex if sh]
                 for s in string_hex:
-                    if s:
-                        if re.match(hex_tag, s):
-                            txt += (struct.pack('B', int(s[1:3], 16)))
-                        else:
-                            s_com = re.split(com_tag, s)
-                            for c in s_com:
-                                if c:
-                                    if re.match(com_tag, c):
-                                        split = c.split(':') 
-                                        if split[0][1:] in itags.keys():
-                                            txt += (struct.pack('B', itags[split[0][1:]]))
-                                        else:
-                                            txt += (struct.pack('B', int(split[0][1:], 16)))
-                                        txt += (struct.pack('<I', int(split[1][:8], 16)))
+                    if re.match(hex_tag, s):
+                        txt += (struct.pack('B', int(s[1:3], 16)))
+                    else:
+                        s_com = re.split(com_tag, s)
+                        s_com = [sc for sc in s_com if sc]
+                        for c in s_com:
+                            if re.match(com_tag, c):
+                                if ':' in c:
+                                    split = c.split(':') 
+                                    if split[0][1:] in itags.keys():
+                                        txt += (struct.pack('B', itags[split[0][1:]]))
                                     else:
-                                        for c2 in c:
-                                            if c2 in itable.keys():
-                                                txt += itable[c2]
-                                            else:
-                                                txt += c2.encode('cp932')
+                                        txt += (struct.pack('B', int(split[0][1:], 16)))
+                                    txt += (struct.pack('<I', int(split[1][:8], 16)))
+                                else:
+                                    txt += struct.pack('B', 0x7)
+                                    txt += struct.pack('<I', inames[c[1:-1]])
+                                    
+                            else:
+                                for c2 in c:
+                                    if c2 in itable.keys():
+                                        txt += itable[c2]
+                                    else:
+                                        txt += c2.encode('cp932')
                 txt += (b'\x01')
                 
         f.close()
@@ -424,11 +439,11 @@ def insert_font():
 
 def extract_files():
     print ("Extracting fpb...")
-    extract_fpb()
+    #extract_fpb()
     print ("Extracting scpk...")
-    extract_scpk()
+    #extract_scpk()
     print ("Extracting script...")
-    move_sced()
+    #move_sced()
     extract_sced()
 
 def insert_files():
@@ -459,7 +474,7 @@ if __name__ == '__main__':
     elif sys.argv[1] == '5':
         extract_fpb()
     elif sys.argv[1] == '6':
-        export_scpk()
+        extract_scpk()
     elif sys.argv[1] == '7':
         extract_sced()
     elif sys.argv[1] == '8':
