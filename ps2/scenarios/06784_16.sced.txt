@@ -1,81 +1,116 @@
-クレスタ
+#クレスタ
+Cresta
 -----------------------
-クレスタ
------------------------
-<Kyle>
------------------------
-ん････
-うぅ、こ、ここは････？
------------------------
-<Loni>
------------------------
-気がついたか、<Kyle>？
-安心しろ、もうクレスタに着いた
-ガキどもは、先に帰しておいたよ
------------------------
-<Loni>
------------------------
-あぁ、それと
-さっきのことは口止めしておいた
-ルーティさんに知れたら、大変だからな
+#クレスタ
+Cresta
 -----------------------
 <Kyle>
 -----------------------
-････ごめんね、<Loni>
-ひさしぶりに会ったっていうのに
-迷惑ばっかりかけちゃって････
+#ん････
+#うぅ、こ、ここは････？
+Nn...ugh,
+w, where are we...?
 -----------------------
 <Loni>
 -----------------------
-迷惑ぅ？　ははっ！
-水くさいぜ、<Kyle>
-俺とおまえの仲じゃねえか
+#気がついたか、<Kyle>？
+#安心しろ、もうクレスタに着いた
+#ガキどもは、先に帰しておいたよ
+You awake, <Kyle>? We've already
+arrived in Cresta, so no need to worry.
+I went ahead and sent the kids on home.
 -----------------------
 <Loni>
 -----------------------
-それに、俺がアタモニ神団に入ってから
-孤児院のことは、まかせっきりだったしな
------------------------
-<Loni>
------------------------
-罪滅ぼしじゃねえが
-これぐらいは、当然のことさ
-気にすんな
+#あぁ、それと
+#さっきのことは口止めしておいた
+#ルーティさんに知れたら、大変だからな
+Also, I told them to keep what happened
+earlier under wraps too. We'd be in some
+serious shit if Rutee ever found out.
 -----------------------
 <Kyle>
 -----------------------
-<Loni>････
+#････ごめんね、<Loni>
+#ひさしぶりに会ったっていうのに
+#迷惑ばっかりかけちゃって････
+...Man, I'm sorry, <Loni>. I ended up
+causing nothing but trouble for you even
+though we haven't seen each other in ages...
 -----------------------
 <Loni>
 -----------------------
-どうだ、孤児院へ帰る前に
-街の中をぶらついてみないか？
-ひさしぶりに、みんなに会いたいしな
+#迷惑ぅ？　ははっ！
+#水くさいぜ、<Kyle>
+#俺とおまえの仲じゃねえか
+Trouble? Ha ha!
+Don't be such a stranger, <Kyle>.
+You 'n' me are pals, aren't we?
+-----------------------
+<Loni>
+-----------------------
+#それに、俺がアタモニ神団に入ってから
+#孤児院のことは、まかせっきりだったしな
+And besides, I pretty much dumped the orphanage on
+you and all after I joined the Church of Atamoni.
+-----------------------
+<Loni>
+-----------------------
+#罪滅ぼしじゃねえが
+#これぐらいは、当然のことさ
+#気にすんな
+It ain't much in terms of atonement,
+but something like this is nothing.
+Don't sweat it.
 -----------------------
 <Kyle>
 -----------------------
-じゃ、そうしようか
-････って<Loni>
-そろそろ降ろしてくんない？
+#<Loni>････
+<Loni>...
 -----------------------
 <Loni>
 -----------------------
-ん～？　別に、このままでもいいぜ？
-なんかよ、おまえの重さがなつかしくってな
+#どうだ、孤児院へ帰る前に
+#街の中をぶらついてみないか？
+#ひさしぶりに、みんなに会いたいしな
+Why don't we try to take a stroll through
+town before returning to the orphanage? It's
+been a minute, so I want to see everyone.
 -----------------------
 <Kyle>
 -----------------------
-バ、バカッ！
-子供あつかいすんなよ！
+#じゃ、そうしようか
+#････って<Loni>
+#そろそろ降ろしてくんない？
+Let's do that then.
+...or rather, <Loni>,
+isn't it about time that you put me down?
 -----------------------
 <Loni>
 -----------------------
-はははっ！
-わかった、わかった
+#ん～？　別に、このままでもいいぜ？
+#なんかよ、おまえの重さがなつかしくってな
+Hm? It doesn't really matter if we stay like this, does
+it? Your weight brings back memories for some reason.
+-----------------------
+<Kyle>
+-----------------------
+#バ、バカッ！
+#子供あつかいすんなよ！
+D, don't be stupid! 
+Quit treating me like a child!
 -----------------------
 <Loni>
 -----------------------
-んじゃ行くか、<Kyle>
+#はははっ！
+#わかった、わかった
+Ha ha ha!
+I gotcha, I gotcha.
+-----------------------
+<Loni>
+-----------------------
+#んじゃ行くか、<Kyle>
+Well, you comin', <Kyle>?
 -----------------------
 いってらっしゃいませ
 -----------------------
