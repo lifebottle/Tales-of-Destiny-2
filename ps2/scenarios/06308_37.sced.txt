@@ -1600,7 +1600,7 @@ Why not? Can't I keep doing it?
 #気をつけることだ
 If your spirit gauge is low,
 your accuracy and evasion drops.
-This can be fuck you up,
+This can fuck you up,
 so be very careful.
 -----------------------
 #防御が成功するとＳＰが多く回復するから、
