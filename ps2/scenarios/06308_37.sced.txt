@@ -57,10 +57,14 @@ Need to find <Kyle>
 -----------------------
 menu
 -----------------------
-<03:00000000>操作説明を聞きますか？
-　はい　
-　いいえ　
-　永久にいいえ　
+#<03:00000000>操作説明を聞きますか？
+#　はい　
+#　いいえ　
+#　永久にいいえ　
+<03:00000000>Do you want to hear the operating instructions?
+ Yes 
+ No 
+ Don't ask again
 -----------------------
 notice
 -----------------------
@@ -187,28 +191,37 @@ Please don't be so angry...
 #おばさん
 Woman
 -----------------------
-ルーティには、顔を見せたのかい？
-明るく振る舞ってはいるけど
-さびしいと思うよ
+#ルーティには、顔を見せたのかい？
+#明るく振る舞ってはいるけど
+#さびしいと思うよ
+Did you show your face to Rutee?
+She appears to be cheerful,
+but I think she's lonely.
 -----------------------
 #おばさん
 Woman
 -----------------------
-<Kyle>、また冒険ごっこに行くのかい
-まったく、あぶないじゃないかい！
+#<Kyle>、また冒険ごっこに行くのかい
+#まったく、あぶないじゃないかい！
+<Kyle>, you're going on another
+pretend adventure, aren't you?
 -----------------------
 <Kyle>
 -----------------------
-ごっこじゃなくて、本物の冒険だよ
-冒険には、ある程度の危険は
-つきものさ！
+#ごっこじゃなくて、本物の冒険だよ
+#冒険には、ある程度の危険は
+#つきものさ！
+It's not pretending, it's a real adventure!
+And adventures comes a certain amount of danger!
 -----------------------
 #おばさん
 Woman
 -----------------------
-まったく、両親が英雄だからって
-あんたまで、英雄を目指すことも
-ないだろうに････
+#まったく、両親が英雄だからって
+#あんたまで、英雄を目指すことも
+#ないだろうに････
+Just because your parents are heroes
+doesn't mean you have to be one, too.
 -----------------------
 #おじいさん
 Old Man
@@ -693,100 +706,128 @@ Girl
 ダメよ
 -----------------------
 #バケツおじさん
-Uncle Bucket
+Bucket Man
 -----------------------
-ルーティは、十八年前の戦いで
-「英雄」とまで呼ばれた人物だ
-望めば、楽な生活だってできたハズだ
+#ルーティは、十八年前の戦いで
+#「英雄」とまで呼ばれた人物だ
+#望めば、楽な生活だってできたハズだ
+Rutee was a "hero" in the battle 18 years ago,
+and she could have had an easy life if she wanted.
 -----------------------
 #バケツおじさん
-Uncle Bucket
+Bucket Man
 -----------------------
-なのに、あいつはこの街と孤児院を
-再建することを選んだ
-まったく、大したやつだよ
+#なのに、あいつはこの街と孤児院を
+#再建することを選んだ
+#まったく、大したやつだよ
+And yet, she chose to rebuild the city
+and the orphanage. She's amazing.
 -----------------------
 <Kyle>
 -----------------------
-そう考えると、母さんって
-スゴい人なんだよなぁ
-････普段は、ただの怒りんぼだけど
+#そう考えると、母さんって
+#スゴい人なんだよなぁ
+#････普段は、ただの怒りんぼだけど
+When I think about it, my mom is amazing.
+...Usually, she's just an angry person.
 -----------------------
 #バケツおじさん
-Uncle Bucket
+Bucket Man
 -----------------------
-<Kyle>、<Loni>
-もし、ルーティが困ってたら
-何なりと言ってくれよ
------------------------
-#バケツおじさん
-Uncle Bucket
------------------------
-ひとりで孤児院を支えてるんだ
-苦しいことだってあるだろう
-すぐに力を貸すからな
+#<Kyle>、<Loni>
+#もし、ルーティが困ってたら
+#何なりと言ってくれよ
+<Kyle>, <Loni>,
+if Rutee's in trouble,
+just let me know.
 -----------------------
 #バケツおじさん
-Uncle Bucket
+Bucket Man
 -----------------------
-孤児院も、だいぶガタがきてるだろ
-いっちょ建て直すってのはどうだ？
-木なら、俺が切ってくるからよ
+#ひとりで孤児院を支えてるんだ
+#苦しいことだってあるだろう
+#すぐに力を貸すからな
+You're running an orphanage all by yourself.
+I know how hard it can be.
+I'm here to help you.
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#孤児院も、だいぶガタがきてるだろ
+#いっちょ建て直すってのはどうだ？
+#木なら、俺が切ってくるからよ
+The orphanage's pretty much falling apart.
+How about rebuilding it together?
+If it's a tree, I'll cut it
 -----------------------
 <Kyle>
 -----------------------
-気持ちはうれしいけど
-たぶん必要ないと思う
-母さん、あの建物気に入ってるから
+#気持ちはうれしいけど
+#たぶん必要ないと思う
+#母さん、あの建物気に入ってるから
+I appreciate the sentiment,
+but probably don't need it,
+because mom and I love that building.
 -----------------------
 #バケツおじさん
-Uncle Bucket
+Bucket Man
 -----------------------
-そっか、そうだな
-あれは、ルーティがスタンと建てた
-思い出のある建物だったな
------------------------
-#バケツおじさん
-Uncle Bucket
------------------------
-どんなに不便でも
-何物にも代えがたいものがある
-あの建物も、そうだってわけか････
+#そっか、そうだな
+#あれは、ルーティがスタンと建てた
+#思い出のある建物だったな
+I see. Rutee built it with Stahn.
+It's a building with a lot of memories.
 -----------------------
 #バケツおじさん
-Uncle Bucket
+Bucket Man
 -----------------------
-<Kyle>も<Loni>も
-幸せそうな顔してらぁ
------------------------
-#バケツおじさん
-Uncle Bucket
------------------------
-二人が幸せだと
-俺たちも幸せだぜ
+#どんなに不便でも
+#何物にも代えがたいものがある
+#あの建物も、そうだってわけか････
+No matter how inconvenient it is,
+that building has something irreplaceable.
 -----------------------
 #バケツおじさん
-Uncle Bucket
+Bucket Man
 -----------------------
-毎日が幸せだぜ
-怖いくらいに････
+#<Kyle>も<Loni>も
+#幸せそうな顔してらぁ
+<Kyle> and <Loni>,
+look how happy you are.
 -----------------------
 #バケツおじさん
-Uncle Bucket
+Bucket Man
+-----------------------
+#二人が幸せだと
+#俺たちも幸せだぜ
+When you're happy,
+we're happy, too.
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#毎日が幸せだぜ
+#怖いくらいに････
+I'm so happy every day,
+it's scary...
+-----------------------
+#バケツおじさん
+Bucket Man
 -----------------------
 どうしたんだよ、<Kyle>？
 めずらしく帰ってきたと思ったら
 シケた顔しやがって
 -----------------------
 #バケツおじさん
-Uncle Bucket
+Bucket Man
 -----------------------
 いつも、バカみたいに前を見てる
 それが、おまえの長所だったハズだぜ
 いったい、どうしたってんだよ？
 -----------------------
 #バケツおじさん
-Uncle Bucket
+Bucket Man
 -----------------------
 なんだよ、<Kyle>
 また、ルーティにナイショで
@@ -798,14 +839,14 @@ Uncle Bucket
 本当の冒険に出るんだよ！
 -----------------------
 #バケツおじさん
-Uncle Bucket
+Bucket Man
 -----------------------
 はっはっは！　そうだったな
 冒険に出て、英雄になるってのは
 ずっと、おまえの夢だったもんな
 -----------------------
 #バケツおじさん
-Uncle Bucket
+Bucket Man
 -----------------------
 おまえなら、きっと英雄になれるさ
 なんてったって、身近にふたりも
@@ -814,14 +855,18 @@ Uncle Bucket
 #富豪
 Millionaire
 -----------------------
-私の娘がこの街に
-嫁いだのだがな
+#私の娘がこの街に
+#嫁いだのだがな
+My daughter married
+into this city.
 -----------------------
 #富豪
 Millionaire
 -----------------------
-こんなさびれた所より
-アイグレッテのほうがいいに決まっとる
+#こんなさびれた所より
+#アイグレッテのほうがいいに決まっとる
+This place is so deserted,
+Aigrette is much better.
 -----------------------
 #富豪
 Millionaire
@@ -833,123 +878,171 @@ Millionaire
 #富豪
 Millionaire
 -----------------------
-幸せになりたければ
-アタモニ神のおひざもとである
-アイグレッテに住むべきだと思わんか？
+#幸せになりたければ
+#アタモニ神のおひざもとである
+#アイグレッテに住むべきだと思わんか？
+For the sake of my daughter's happiness,
+I must bring her back to Aigrette, where
+Atamoni has blessed her.
 -----------------------
 <Kyle>
 -----------------------
-オレ、ここに住んでるけど
-普通に幸せだよ？
+#オレ、ここに住んでるけど
+#普通に幸せだよ？
+I live here, and
+I'm happy as can be?
 -----------------------
 #富豪
 Millionaire
 -----------------------
-こんなさびれた街じゃ
-幸せになることはできん！
+#こんなさびれた街じゃ
+#幸せになることはできん！
+You can't be happy in
+this deserted city!
 -----------------------
 #富豪
 Millionaire
 -----------------------
-････そう思って、娘夫婦を
-アイグレッテにつれ帰ろうと思っていたが
-間違えてたのかもしれん････
+#････そう思って、娘夫婦を
+#アイグレッテにつれ帰ろうと思っていたが
+#間違えてたのかもしれん････
+...that's what I thought, and I was going to
+take my daughter and her husband back to Aigrette,
+but maybe I was wrong.
 -----------------------
 #富豪
 Millionaire
 -----------------------
-娘の幸せそうな顔を見てたら
-むりやりアイグレッテにつれ帰るなんて
-バカバカしく思えてきたんだ
+#娘の幸せそうな顔を見てたら
+#むりやりアイグレッテにつれ帰るなんて
+#バカバカしく思えてきたんだ
+Seeing my daughter's happy face
+made me think it would be foolish
+to force her to come home to Aigrette.
 -----------------------
 #富豪
 Millionaire
 -----------------------
-人間、どこでだって
-どんな環境でだって
-幸せになれるもんだな
+#人間、どこでだって
+#どんな環境でだって
+#幸せになれるもんだな
+People can be happy anywhere,
+and in any environment.
 -----------------------
 #富豪
 Millionaire
 -----------------------
-仕事休みを利用して
-娘夫婦に会いにきたんだが
-こんな田舎だとは思わなかったよ
+#仕事休みを利用して
+#娘夫婦に会いにきたんだが
+#こんな田舎だとは思わなかったよ
+I came here on my day off from work
+to see my daughter and her husband,
+but I didn't realize how rural it was.
 -----------------------
 #富豪
 Millionaire
 -----------------------
-でも二人とも幸せそうだし
-よかったよかった
+#でも二人とも幸せそうだし
+#よかったよかった
+But they both look happy,
+which is good, good, good.
 -----------------------
 #富豪
 Millionaire
 -----------------------
-どんなに貧しくても
-幸せなのが一番！
-そうは思わんかね？
+#どんなに貧しくても
+#幸せなのが一番！
+#そうは思わんかね？
+No matter how poor you are,
+you should be happy!
+Don't you think so?
 -----------------------
 #女性
 Woman
 -----------------------
-アイグレッテではレンズさえあれば
-アタモニ神団の人たちが
-奇跡の力で助けてくれるの
+#アイグレッテではレンズさえあれば
+#アタモニ神団の人たちが
+#奇跡の力で助けてくれるの
+In Aigrette, as long as you have a lens,
+the Church of the Atamoni can help you
+with their miraculous powers.
 -----------------------
 #女性
 Woman
 -----------------------
-でも、ここでは
-自分で努力しなきゃいけないでしょ？
-それが楽しいのよね♪
+#でも、ここでは
+#自分で努力しなきゃいけないでしょ？
+#それが楽しいのよね♪
+But here, you have to do
+the work yourself, right?
+That's what makes it fun♪
 -----------------------
 <Kyle>
 -----------------------
-う～ん････
-楽するより努力するのが楽しいの？
-よく、わかんないなあ
+#う～ん････
+#楽するより努力するのが楽しいの？
+#よく、わかんないなあ
+Hmmm...it's more fun to
+work hard than to have fun?
+I don't get it.
 -----------------------
 #女性
 Woman
 -----------------------
-いっしょに住んでる人たちも親切だし
-ほんと、この街はいいところよ
+#いっしょに住んでる人たちも親切だし
+#ほんと、この街はいいところよ
+The people who live here are nice,
+and it's a really nice place to live.
 -----------------------
 #女性
 Woman
 -----------------------
-あら、<Kyle>
-あそびにいくの？
-たまには、手伝いもしなきゃダメよ
+#あら、<Kyle>
+#あそびにいくの？
+#たまには、手伝いもしなきゃダメよ
+Hey, <Kyle>.
+Are you going out to play?
+You have to help out once in a while.
 -----------------------
 <Kyle>
 -----------------------
-遊びじゃないよ！
-今度はホンモノの冒険に
-行くのさ！
+#遊びじゃないよ！
+#今度はホンモノの冒険に
+#行くのさ！
+I'm not playing!
+We're going on a
+real adventure!
 -----------------------
 <Kyle>
 -----------------------
-父さんみたいな
-英雄になって帰ってくるからね！
+#父さんみたいな
+#英雄になって帰ってくるからね！
+I'll come back a hero,
+just like my dad!
 -----------------------
 #女性
 Woman
 -----------------------
-ふーん
-英雄になる前に、ちゃんとお掃除が
-出来るようになってね
+#ふーん
+#英雄になる前に、ちゃんとお掃除が
+#出来るようになってね
+Hmmm...
+before you become a hero,
+learn to clean up properly.
 -----------------------
 #女性
 Woman
 -----------------------
-<Kyle>、あんまりムリしないでね
-<Loni>は<Kyle>に
-へんなあそびばかり教えちゃダメよ
+#<Kyle>、あんまりムリしないでね
+#<Loni>は<Kyle>に
+#へんなあそびばかり教えちゃダメよ
+Don't be too hard on yourself, <Kyle>
+And don't let Loni teach you dumb shit.
 -----------------------
 <Loni>
 -----------------------
-俺って信用ねえんだな････
+#俺って信用ねえんだな････
+I don't trust you...
 -----------------------
 #女性
 Woman
@@ -971,61 +1064,79 @@ Woman
 #女性
 Woman
 -----------------------
-ふふっ
-わたし、もうすぐお母さんになるのよ♪
-元気な子が生まれたらいいなあ
+#ふふっ
+#わたし、もうすぐお母さんになるのよ♪
+#元気な子が生まれたらいいなあ
+Fufu~
+I'm going to be a mother soon♪
+I hope to have a healthy baby.
 -----------------------
 <Kyle>
 -----------------------
-えっ！
-まさか<Loni>の子じゃ････
+#えっ！
+#まさか<Loni>の子じゃ････
+Eh!
+No way, <Loni>'s child...
 -----------------------
 #女性
 Woman
 -----------------------
-そんなわけないでしょ！
+#そんなわけないでしょ！
+Hell nah!
 -----------------------
 #女性
 Woman
 -----------------------
-アイグレッテの両親が
-わたしのようすを見にきてるの
+#アイグレッテの両親が
+#わたしのようすを見にきてるの
+My parents from Aigrette
+are here to see how I'm doing.
 -----------------------
 #女性
 Woman
 -----------------------
-親っていうのは
-いくつになっても子どものことが
-心配なものなのね････
+#親っていうのは
+#いくつになっても子どものことが
+#心配なものなのね････
+Parents are always worried
+about their children, no matter
+how old they are.
 -----------------------
 <Loni>
 -----------------------
-<Kyle>も
-スタンさんやルーティさんに
-心配かけっぱなしだもんな
+#<Kyle>も
+#スタンさんやルーティさんに
+#心配かけっぱなしだもんな
+<Kyle> is also constantly
+worrying about Stahn and Rutee.
 -----------------------
 #女性
 Woman
 -----------------------
-親になったら
-お母さんたちの気持ちが
-少しはわかるのかしら？
+#親になったら
+#お母さんたちの気持ちが
+#少しはわかるのかしら？
+I wonder if I'll better understand
+how mothers feel a little when I
+become a parent?
 -----------------------
 NOTICE
 -----------------------
 #<item:0000012F>を手に入れました
-You got <item:0000012F>!
+Acquired <item:0000012F>.
 -----------------------
 #女性
 Woman
 -----------------------
-って、コラ！
-勝手に触らないの！
+#って、コラ！
+#勝手に触らないの！
+Hey!
+Don't touch that!
 -----------------------
 NOTICE
 -----------------------
 #<item:0000012F>を元に戻しました
-Put back <item:0000012F>.
+Returned <item:0000012F>.
 -----------------------
 #女性
 Woman
@@ -1056,25 +1167,31 @@ Better avoid the forest as much as possible.
 #おじさん
 Man
 -----------------------
-デカい木が生えた遺跡があるが、
-あぶなくて、みんな近づかねぇな！
+#デカい木が生えた遺跡があるが、
+#あぶなくて、みんな近づかねぇな！
+There's a ruin with a big tree growing out
+of it, but it's too dangerous to get close!
 -----------------------
 #おじさん
 Man
 -----------------------
-お、<Kyle>
-冒険に出るってのはホントか？
-
+#お、<Kyle>
+#冒険に出るってのはホントか？
+Oh, <Kyle>. Is it true that
+you're going on an adventure?
 -----------------------
 <Kyle>
 -----------------------
-ああ、英雄になるために
-行ってくるよ！
+#ああ、英雄になるために
+#行ってくるよ！
+Yep, to be a hero.
+Off I go!
 -----------------------
 #おじさん
 Man
 -----------------------
-ならよく聞け<Kyle>！
+#ならよく聞け<Kyle>！
+Then listen up, <Kyle>!
 -----------------------
 #おじさん
 Man
@@ -1087,12 +1204,14 @@ Man
 #おじさん
 Man
 -----------------------
-････何を言おうとしたか忘れちまったぁ
+#････何を言おうとしたか忘れちまったぁ
+I forgot what I was going to say.
 -----------------------
 #おじさん
 Man
 -----------------------
-思いだせんなぁ
+#思いだせんなぁ
+I don't recall.
 -----------------------
 #おじさん
 Man
@@ -1189,7 +1308,7 @@ Woman
 #<size:00000200><char:000003E8>！
 #イタズラしちゃダメでしょ！
 <size:00000200><char:000003E8>!
-You can't prank me!
+I'm not falling for your pranks!
 -----------------------
 #美味しそうな野菜が実っている
 #ちょうど収穫時のようだ
@@ -1199,7 +1318,7 @@ Looks like it's harvest time.
 NOTICE
 -----------------------
 #<item:0000005B>を３個、手に入れました
-You got 3x <item:0000005B>.
+Acquired 3x <item:0000005B>.
 -----------------------
 #用水路だ
 #噴水がくみ上げた水を村に引き込んでいる
@@ -1218,8 +1337,8 @@ Maybe they're grinding flour inside.
 -----------------------
 #風力を利用した噴水がある
 #クレスタのシンボルだ
-There's a wind-powered
-fountain, the symbol of Cresta.
+There's a wind-powered fountain,
+the symbol of Cresta.
 -----------------------
 #看板がある
 #『デュナミス孤児院へ』
@@ -1234,38 +1353,61 @@ There's a sign:
 #カーテンが閉められている　中は見えない････
 The curtains are closed. You can't see inside.
 -----------------------
-孤児院の子供たちが植えた花だ
+#孤児院の子供たちが植えた花だ
+These flowers were planted by
+the children of the orphanage.
 -----------------------
-孤児院の子供たちが植えた花だ
-これは何の花だろう？
+#孤児院の子供たちが植えた花だ
+#これは何の花だろう？
+These flowers were planted by
+the children of the orphanage.
+What kind of flowers are these?
 -----------------------
-孤児院の子供たちが植えた花だ
-『配合実験中・ユニー作』と書かれている
+#孤児院の子供たちが植えた花だ
+#『配合実験中・ユニー作』と書かれている
+These flowers were planted by
+the children of the orphanage.
+It's labeled "Yuni's Compounding Experiment".
 -----------------------
-用水路が深くなっている
-これ以上は進めそうもない
+#用水路が深くなっている
+#これ以上は進めそうもない
+The canal is getting deeper,
+and we can't go any further.
 -----------------------
-謎の戦士
+#謎の戦士
+Mysterious Warrior
 -----------------------
-私は数多の激戦を潜り抜けてきた
-勇者になる予定の者だ
-君たちにとって戦いとは
-なんたるものかね？
+#私は数多の激戦を潜り抜けてきた
+#勇者になる予定の者だ
+#君たちにとって戦いとは
+#なんたるものかね？
+I've been through many battles.
+I would've been a hero.
+What does battle mean to you?
 -----------------------
 select
 -----------------------
-<03:00000000>　楽勝　
-　普通　
-　つらい　
+#<03:00000000>　楽勝　
+#　普通　
+#　つらい　
+<03:00000000> Easy 
+ Normal 
+ Hard
 -----------------------
-ほほう
-さすればより華麗に戦いGRADEを
-積み重ねていくとよい
+#ほほう
+#さすればより華麗に戦いGRADEを
+#積み重ねていくとよい
+Ohh?
+By the way, it's better to fight
+more splendidly and accumulate GRADE.
 -----------------------
-まあ命を大事にな
+#まあ命を大事にな
+Well, take care of yourself.
 -----------------------
-なんと
-つまり初心者まるだしかね
+#なんと
+#つまり初心者まるだしかね
+What?
+So you're just a beginner?
 -----------------------
 select
 -----------------------
@@ -1274,8 +1416,10 @@ select
 <03:00000000> Yes 
  No
 -----------------------
-それはすなわちみんなから
-ビギナービギナー呼ばれてもいいのかね
+#それはすなわちみんなから
+#ビギナービギナー呼ばれてもいいのかね
+That is, can everyone call
+you a beginner beginner?
 -----------------------
 select
 -----------------------
@@ -1284,25 +1428,34 @@ select
 <03:00000000> Yes 
  No
 -----------------------
-むう
-まあ誰でも最初は怖いものだ
-経験をつみたまえよ
+#むう
+#まあ誰でも最初は怖いものだ
+#経験をつみたまえよ
+Mmm.
+Well, everyone's scared at first.
+Get some experience.
 -----------------------
 notice
 -----------------------
-<Kyle>たちは
-称号「<item:00000853>」を得ました
+<Kyle> and party got the title
+"<item:00000853>".
 -----------------------
-戦いから逃げちゃいかんな！戦士なら
+#戦いから逃げちゃいかんな！戦士なら
+You can't run from a fight! You're a warrior.
 -----------------------
-何か答えたまえ
+#何か答えたまえ
+What's your answer?
 -----------------------
-いってらっしゃいませ
+#いってらっしゃいませ
+Take care.
 -----------------------
-<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
-お泊まりになりますか？
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+Would you like to stay?
 -----------------------
-お泊まりになりますか？
+#お泊まりになりますか？
+Would you like to stay?
 -----------------------
 select
 -----------------------
@@ -1311,13 +1464,17 @@ select
 <03:00000000> Yes 
  No 
 -----------------------
-ごゆっくりお休みください
+#ごゆっくりお休みください
+Have a good night.
 -----------------------
-おはようございます
+#おはようございます
+Good morning!
 -----------------------
-お金が足りません
+#お金が足りません
+Not enough money.
 -----------------------
-またのおこしをお待ちしております
+#またのおこしをお待ちしております
+We look forward to seeing you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -1327,20 +1484,25 @@ exit-party_togather( short spd )
 -----------------------
 notice
 -----------------------
-{16}{26}{2A}{C0}を手に入れました
+#{16}{26}{2A}{C0}を手に入れました
+Acquired {16}{26}{2A}{C0}.
 -----------------------
 notice
 -----------------------
-<item:FFFFFFFF>を手に入れました
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>
 -----------------------
 notice
 -----------------------
-{16}{26}{32}{C0}がありましたが
-いっぱいで持てませんでした
+#{16}{26}{32}{C0}がありましたが
+#いっぱいで持てませんでした
+There's {16}{26}{32}{C0},
+but can't hold any more.
 -----------------------
 notice
 -----------------------
-何もありません
+#何もありません
+There's nothing here.
 -----------------------
 <item:00000012>屋
 -----------------------
@@ -1586,9 +1748,9 @@ will change the way you attack.
 #（ＳＰ　戦闘中の<color:00000001>青いゲージ<color:00000007>です）
 #減りすぎたら攻撃を控えて、
 #回復を待ったほうがいい
-When attacking, Spirit Points (SP) decrease
-(<color:00000001>blue guage<color:00000007> in battle).
-If it decreases too much, you should stop
+When attacking, Spirit Points (SP)
+decrease (the <color:00000001>blue guage<color:00000007> in battle).
+{02}If it decreases too much, you should stop
 attacking and wait for it to recover.
 -----------------------
 #なんでさ？　しまくりゃいいさ
@@ -2203,10 +2365,13 @@ notice
 -----------------------
 select
 -----------------------
-<03:00000000>　はい　
-　いいえ　
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
 -----------------------
 <Kyle>
 -----------------------
-オレはオレの道を極めるぜ!!
+#オレはオレの道を極めるぜ!!
+I'll follow my own path!!
 -----------------------
