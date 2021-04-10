@@ -1714,7 +1714,7 @@ notice
 #「武器攻撃」について
 #話し合っているようです
 #耳を傾けますか？
-They're discussing a "weapon attacks."
+They're discussing "weapon attacks."
 Do you want to listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
