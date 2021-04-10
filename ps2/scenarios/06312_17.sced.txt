@@ -19,7 +19,7 @@ Do you need anything?
 See you soon!
 -----------------------
 #何も買ってくれないの？
-You're not buying me anything?
+You're not buying anything?
 -----------------------
 #雑貨屋
 Item Clerk
@@ -59,8 +59,8 @@ Equipment Clerk
 #コラ！
 #勝手に売り物に触っちゃ
 #ダメでしょ！
-Yeoo!
-You can't touch the goods
+Hey!
+You can't touch the merchandise
 without permission!
 -----------------------
 #この水車で

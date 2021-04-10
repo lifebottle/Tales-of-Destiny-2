@@ -249,7 +249,7 @@ Take your time.
 Chef
 -----------------------
 #{16}{34}{8C}{C0}作ってる？
-Ar you making {16}{34}{8C}{C0}?
+Are you making {16}{34}{8C}{C0}?
 -----------------------
 #シェフ
 Chef
@@ -280,7 +280,7 @@ Chef
 #自分で作るのかい？
 #まぁ、それもいいだろう
 You want to make your own?
-Well, that's a good idea.
+Well, suit yourself.
 -----------------------
 #シェフ
 Chef
