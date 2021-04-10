@@ -871,9 +871,12 @@ Aigrette is much better.
 #富豪
 Millionaire
 -----------------------
-娘の幸せのためにも
-アタモニ神のご加護のある
-アイグレッテにつれもどさにゃならん
+#娘の幸せのためにも
+#アタモニ神のご加護のある
+#アイグレッテにつれもどさにゃならん
+For the sake of my daughter's happiness,
+I must bring her back to Aigrette, where
+Atamoni has blessed her.
 -----------------------
 #富豪
 Millionaire
@@ -881,15 +884,15 @@ Millionaire
 #幸せになりたければ
 #アタモニ神のおひざもとである
 #アイグレッテに住むべきだと思わんか？
-For the sake of my daughter's happiness,
-I must bring her back to Aigrette, where
-Atamoni has blessed her.
+If you want to be happy,
+don't you think you should
+live in Aigrette,  closer to Atamoni?
 -----------------------
 <Kyle>
 -----------------------
 #オレ、ここに住んでるけど
 #普通に幸せだよ？
-I live here, and
+But I live here, and
 I'm happy as can be?
 -----------------------
 #富豪
