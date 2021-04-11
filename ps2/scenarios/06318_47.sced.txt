@@ -1,178 +1,264 @@
-デュナミス孤児院
+#デュナミス孤児院
+Dunamis Orphanage
 -----------------------
-デュナミス孤児院
+#デュナミス孤児院
+Dunamis Orphanage
 -----------------------
-デュナミス孤児院
+#デュナミス孤児院
+Dunamis Orphanage
 -----------------------
-メェェ～
+#メェェ～
+Meh~
 -----------------------
-コケェーッ　コッコ！
+#コケェーッ　コッコ！
+Cock-a-doodle-doo!
 -----------------------
 <Loni>
 -----------------------
-久しぶりに来てみたが････
+#久しぶりに来てみたが････
+I haven't been here
+in forever, but...
 -----------------------
 <Loni>
 -----------------------
-････相変わらず、ボロっちいな
+#････相変わらず、ボロっちいな
+...I see that things are
+as run-down as ever.
 -----------------------
 <Kyle>
 -----------------------
-相変わらずじゃないよ、<Loni>
+#相変わらずじゃないよ、<Loni>
+Not everything's the same
+as when you left, Loni.
 -----------------------
 <Kyle>
 -----------------------
-雨もりする場所が三ヶ所増えたし
-この前は、床板が抜けたし
+#雨もりする場所が三ヶ所増えたし
+#この前は、床板が抜けたし
+We've got leaks in three more places
+and recently, the floorboards gave way.
 -----------------------
 <Loni>
 -----------------------
-････あ～あ
-あのウワサが本当ならなぁ
-ここも、チョチョイと直せるのによ
+#････あ～あ
+#あのウワサが本当ならなぁ
+#ここも、チョチョイと直せるのによ
+...Aw man, what I wouldn't give for
+that rumor to be true. We could fix
+this place up in a jiffy if it were.
 -----------------------
 <Kyle>
 -----------------------
-あのウワサ？
+#あのウワサ？
+That rumor?
 -----------------------
 <Loni>
 -----------------------
-この近くに、ラグナ遺跡ってあるだろ？
-あそこの最上部で
-でっかいレンズが発見されたんだと
+#この近くに、ラグナ遺跡ってあるだろ？
+#あそこの最上部で
+#でっかいレンズが発見されたんだと
+There's a place called the Laguna Ruins around
+here, right? They say that a humongous Lens was
+discovered on the top floor.
 -----------------------
 <Loni>
 -----------------------
-神団の方にも情報が入ってて
-調査隊が、もうダリルシェイドまで来てる
-俺は、その護衛役なんだよ
+#神団の方にも情報が入ってて
+#調査隊が、もうダリルシェイドまで来てる
+#俺は、その護衛役なんだよ
+The Church of Atamoni got ahold of this
+information too and an investigation team's
+already on its way to Darilsheid.
+{02}I'm acting as their escort.
 -----------------------
 <Kyle>
 -----------------------
-でもさ、それと孤児院と
-なんの関係があるの？
+#でもさ、それと孤児院と
+#なんの関係があるの？
+Okay, but what does that
+have to do with the orphanage?
 -----------------------
 <Loni>
 -----------------------
-へへ････聞いて驚け
-そのレンズの価値は････
-三百万ガルドを、軽く上まわるんだと
+#へへ････聞いて驚け
+#そのレンズの価値は････
+#三百万ガルドを、軽く上まわるんだと
+Heh heh...you'll be shocked when you
+hear this. Word has it that the Lens
+is worth...slightly over 3,000,000 Gald.
 -----------------------
 <Kyle>
 -----------------------
-さ、三百万ガルド!?
+#さ、三百万ガルド!?
+T, three million Gald!?
 -----------------------
 <Loni>
 -----------------------
-とにかく、それさえあれば
-この孤児院も建てなおせる
-ルーティさんも、ラクできるってワケだ
+#とにかく、それさえあれば
+#この孤児院も建てなおせる
+#ルーティさんも、ラクできるってワケだ
+In any case, we could rebuild this
+orphanage if we only had that Lens.
+{02}That means that Rutee
+could live the easy life too.
 -----------------------
 <Kyle>
 -----------------------
-よし、行こう、<Loni>！
+#よし、行こう、<Loni>！
+Alright, let's go, <Loni>!
 -----------------------
 <Loni>
 -----------------------
-行くって････
-おい、まさか
-遺跡に行くつもりじゃないだろうな!?
+#行くって････
+#おい、まさか
+#遺跡に行くつもりじゃないだろうな!?
+By "go," you don't mean...
+Hey, you're not planning on
+going to the ruins, are you!?
 -----------------------
 <Kyle>
 -----------------------
-うん！
+#うん！
+Yup!
 -----------------------
 <Loni>
 -----------------------
-あのなぁ････
-これは、あくまでウワサなんだよ
-ウ・ワ・サ！
+#あのなぁ････
+#これは、あくまでウワサなんだよ
+#ウ・ワ・サ！
+Now listen here...
+keep in mind that
+this is just a rumor.
+{02}A r-u-m-o-r!
 -----------------------
 <Loni>
 -----------------------
-それに、万が一本当だったとしても
-そいつを奪えば、アタモニ神団に
-目をつけられるんだぞ!?
+#それに、万が一本当だったとしても
+#そいつを奪えば、アタモニ神団に
+#目をつけられるんだぞ!?
+And besides, even on the
+off-chance that it's true...
+{02}...the Church of Atamoni won't let you out
+of its sight if you swipe that thing, you know!?
 -----------------------
 <Kyle>
 -----------------------
-でも、<Loni>は探そうと思ってるんでしょ？
-だから、護衛役を引き受けたんだよね？
+#でも、<Loni>は探そうと思ってるんでしょ？
+#だから、護衛役を引き受けたんだよね？
+But Loni, you were thinking about
+searching for it, weren't you?
+{02}That's why you took on the job
+as their escort, am I right?
 -----------------------
 <Loni>
 -----------------------
-うっ！
+#うっ！
+Ack!
 -----------------------
 <Kyle>
 -----------------------
-でもって、<Loni>のことだから････
+#でもって、<Loni>のことだから････
+But this is you we're
+talking about here, so...
 -----------------------
 <Kyle>
 -----------------------
-「<Kyle>やルーティさんに
-  メイワクはかけられない」
+#「<Kyle>やルーティさんに
+#  メイワクはかけられない」
+"I can't cause any trouble
+for Kyle and Rutee."
 -----------------------
 <Kyle>
 -----------------------
-････とかいって
-ひとりで探すつもりだったんでしょ？
+#････とかいって
+#ひとりで探すつもりだったんでしょ？
+...You thought something along those
+lines and had every intention to go
+looking for it by yourself, right?
 -----------------------
 <Loni>
 -----------------------
-ううっ！
+#ううっ！
+Double ack!
 -----------------------
 <Kyle>
 -----------------------
-それこそ水くさいよ！
-<Loni>と、オレの仲じゃないか！
+#それこそ水くさいよ！
+#<Loni>と、オレの仲じゃないか！
+Now who's being the stranger!
+We're buddies, aren't we <Loni>?
 -----------------------
 <Loni>
 -----------------------
-････やれやれ
-口は災いの元ってのはホントだな････
+#････やれやれ
+#口は災いの元ってのはホントだな････
+...Good grief. They weren't kidding
+when they said that the mouth is the
+root of misfortune, were they...
 -----------------------
 <Loni>
 -----------------------
-分かったよ、<Kyle>
-連れてってやるよ
+#分かったよ、<Kyle>
+#連れてってやるよ
+I hear ya, <Kyle>.
+I'll take you with me.
 -----------------------
 <Kyle>
 -----------------------
-そうこなくっちゃ！
+#そうこなくっちゃ！
+Now that's more like it!
 -----------------------
 <Loni>
 -----------------------
-ただし！ルーティさんの許可が出たらだ
+#ただし！ルーティさんの許可が出たらだ
+But! Only after we get Rutee's permission.
 -----------------------
 <Kyle>
 -----------------------
-分かってるって！
-じゃ、さっそく母さんに話さなくっちゃ
-行こう、<Loni>！
+#分かってるって！
+#じゃ、さっそく母さんに話さなくっちゃ
+#行こう、<Loni>！
+I gotcha already!
+Then I have to talk to mom
+right away. Let's go, <Loni>!
 -----------------------
 notice
 -----------------------
-<Kyle>と<Loni>は
-称号「<item:00000807>」を得ました
+#<Kyle>と<Loni>は
+#称号「<item:00000807>」を得ました
+<Kyle> and <Loni> acquired the title
+"<item:00000807>".
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
-スタンにルーティだな
-先の災厄を救った、四英雄の････
+#スタンにルーティだな
+#先の災厄を救った、四英雄の････
+Stahn and Rutee, I presume?
+Two of the four heroes who saved the
+world from that cataclysm some time ago...
 -----------------------
-スタン
+#スタン
+Stahn
 -----------------------
-目的はなんだ？
-金か、レンズか？
+#目的はなんだ？
+#金か、レンズか？
+What're you after!?
+Is it money? Lens?
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
-貴様らの、命だ････！
+#貴様らの、命だ････！
+Your wretched lives...!
 -----------------------
-ルーティ
+#ルーティ
+Rutee
 -----------------------
-<Kyle>、<Loni>！
-ふたりとも、逃げてぇっ!!
+#<Kyle>、<Loni>！
+#ふたりとも、逃げてぇっ!!
+<Kyle>, <Loni>!
+You two get out of here!!
 -----------------------
 <Reala>
 -----------------------
@@ -490,10 +576,6 @@ notice
 だとしたら、やっぱり
 「ありがとう」だよ
 -----------------------
-なの!?
-これが幸せなの!?
-違うよね、<Kyle>！
------------------------
 <Loni>
 -----------------------
 <Kyle>････ッ！
@@ -684,8 +766,6 @@ NOTICE
 捕まえた！
 -----------------------
 コケェーッ　コッコ！
------------------------
-思いをしないようにって
 -----------------------
 いってらっしゃいませ
 -----------------------
