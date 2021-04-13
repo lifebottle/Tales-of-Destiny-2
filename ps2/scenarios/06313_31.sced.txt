@@ -86,78 +86,106 @@ to be up at this hour!
 -----------------------
 <Kyle>
 -----------------------
-そんなことないって････
-ちゃんと、ニンジンも残さないで
-食べてるだろ････
+#そんなことないって････
+#ちゃんと、ニンジンも残さないで
+#食べてるだろ････
+That's not true.
+I'm sure you've
+eaten all the carrots you could...
 -----------------------
 #ユニー
 Yuni
 -----------------------
-<Kyle>、まだ
-寝ぼけてるみたいだね････
+#<Kyle>、まだ
+#寝ぼけてるみたいだね････
+<Kyle>, you look like
+you're still sleepwalking.
 -----------------------
 #ユニー
 Yuni
 -----------------------
-ふわぁ････あれぇ？
-<Kyle>、おでかけするの？
+#ふわぁ････あれぇ？
+#<Kyle>、おでかけするの？
+*yawn*...huh?
+<Kyle>, are you going out?
 -----------------------
 <Kyle>
 -----------------------
-････ああ
-しばらく、留守にするんだ
-いい子にしててくれよな
+#････ああ
+#しばらく、留守にするんだ
+#いい子にしててくれよな
+...oh,
+I'm gonna be gone for a
+while, so be good, okay?
 -----------------------
 #ユニー
 Yuni
 -----------------------
-ふたりとも
-いってらっしゃ～い････
-ふわぁ････
+#ふたりとも
+#いってらっしゃ～い････
+#ふわぁ････
+Have a good day, you two!
+*yawn*...
 -----------------------
 #ユニー
 Yuni
 -----------------------
-ねえ、みてみて！
-このスカート
-あたしが作ったんだよ！
+#ねえ、みてみて！
+#このスカート
+#あたしが作ったんだよ！
+Hey, look at this!
+I made this skirt by myself!
 -----------------------
 <Loni>
 -----------------------
-ほー、こりゃたいしたもんだ
-ユニーは、将来
-いいお嫁さんになるな！
+#ほー、こりゃたいしたもんだ
+#ユニーは、将来
+#いいお嫁さんになるな！
+Wow, that's great!
+Yunie, you're going
+to be a great wife!
 -----------------------
 #ユニー
 Yuni
 -----------------------
-えへへ～★
-みんなの服、あたしが作ってるんだよ
-<Loni>にも、なにか作ったげようか？
+#えへへ～★
+#みんなの服、あたしが作ってるんだよ
+#<Loni>にも、なにか作ったげようか？
+Hehehe~★
+I'm making clothes for everyone.
+Can I make something for <Loni> too?
 -----------------------
 <Kyle>
 -----------------------
-ユニーは器用だね
-いつでもお嫁さんになれるね
+#ユニーは器用だね
+#いつでもお嫁さんになれるね
+You're very good with your hands,
+Yuni. You can always be a bride.
 -----------------------
 #ユニー
 Yuni
 -----------------------
-そうだ！　<Loni>に
-あたしとおそろいのスカートを
-作ってあげるよ！
+#そうだ！　<Loni>に
+#あたしとおそろいのスカートを
+#作ってあげるよ！
+I know!
+I'll make <Loni> a
+matching skirt with mine!
 -----------------------
 <Loni>
 -----------------------
-いや
-スカートはちょっと････
+#いや
+#スカートはちょっと････
+No, skirts are a kindda...
 -----------------------
 #ユニー
 Yuni
 -----------------------
-ね！　ね！　<Loni>にも
-あたしとおそろいのスカート
-作ってあげるよ！
+#ね！　ね！　<Loni>にも
+#あたしとおそろいのスカート
+#作ってあげるよ！
+Hey!　Hey!
+I'll make <Loni> a matching skirt!
 -----------------------
 #シナモン
 Cinnamon
@@ -209,126 +237,170 @@ look like a castle!
 #シナモン
 Cinnamon
 -----------------------
-お～い、<Kyle>
-だいじょうぶか？
-なんだか、フラフラしてるぞ
+#お～い、<Kyle>
+#だいじょうぶか？
+#なんだか、フラフラしてるぞ
+Hey, <Kyle>.
+Are you all right?
+You look a little dizzy.
 -----------------------
 <Kyle>
 -----------------------
-････Ｚｚｚ････
+#････Ｚｚｚ････
+...Zzz...
 -----------------------
 <Loni>
 -----------------------
-････眠りながら歩けるってのも
-才能だよな････
+#････眠りながら歩けるってのも
+#才能だよな････
+...Being able to sleep
+walk is also a talent...
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-お～い、<Kyle>
-だいじょうぶか？
-なんだか、フラフラしてるぞ
+#お～い、<Kyle>
+#だいじょうぶか？
+#なんだか、フラフラしてるぞ
+Hey, <Kyle>.
+Are you all right?
+You look a little dizzy.
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-おっ、寝ぼすけ<Kyle>
-今日は、早起きじゃん！
+#おっ、寝ぼすけ<Kyle>
+#今日は、早起きじゃん！
+Whoa, sleepyhead <Kyle>!
+You're up early today!
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-おれ、もう少し大きくなったら
-<Kyle>みたいに
-英雄を目指すよ！
+#おれ、もう少し大きくなったら
+#<Kyle>みたいに
+#英雄を目指すよ！
+When I'm older,
+I'm going to be
+a hero like <Kyle>!
 -----------------------
 <Kyle>
 -----------------------
-････いや、おまえにはここに残って
-母さんや、みんなのことを
-守ってほしいんだ
+#････いや、おまえにはここに残って
+#母さんや、みんなのことを
+#守ってほしいんだ
+No, I want you to
+stay here and protect
+mom and everyone else.
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-そっか、そうだよな････
-<Kyle>も<Loni>もいないんだ
-おれが、ここを守らなきゃ････
+#そっか、そうだよな････
+#<Kyle>も<Loni>もいないんだ
+#おれが、ここを守らなきゃ････
+Oh yeah, that's right...
+<Kyle> and <Loni> aren't here,
+so I have to protect this place. 
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-孤児院のことは
-おれに任せてくれよ
-しっかりと、守るからさ
+#孤児院のことは
+#おれに任せてくれよ
+#しっかりと、守るからさ
+I'll take care of the
+orphanage, and I'll protect it.
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-なぁ、<Kyle>
-おれたちと鬼ごっこしようぜ
-勝ったらおれのお宝をやるからさ
+#なぁ、<Kyle>
+#おれたちと鬼ごっこしようぜ
+#勝ったらおれのお宝をやるからさ
+Come on, <Kyle>, let's play tag together,
+and if you win, you can have my treasure.
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-ねぇ、<Loni>兄ちゃん
-おれたちと鬼ごっこしようぜ
-勝ったらおれのお宝をやるからさ
+#ねぇ、<Loni>兄ちゃん
+#おれたちと鬼ごっこしようぜ
+#勝ったらおれのお宝をやるからさ
+Hey, <Loni>, why don't you play tag with us,
+and if you win, you can have my treasure.
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-なぁ、そこのあやしいにいちゃん
-おれたちと鬼ごっこしようぜ
-勝ったらおれのお宝をやるからさ
+#なぁ、そこのあやしいにいちゃん
+#おれたちと鬼ごっこしようぜ
+#勝ったらおれのお宝をやるからさ
+Hey, let's play tag, I'll give
+you my treasure if you win.
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-なぁ、そこのねえちゃん
-おれたちと鬼ごっこしようぜ
-勝ったらおれのお宝をやるからさ
+#なぁ、そこのねえちゃん
+#おれたちと鬼ごっこしようぜ
+#勝ったらおれのお宝をやるからさ
+Hey, there, lady.
+Let's play tag together.
+I'll give you my treasure if you win.
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-ねえちゃん、足早そうだね
-おれたちと鬼ごっこしようぜ
-勝ったらおれのお宝をやるからさ
+#ねえちゃん、足早そうだね
+#おれたちと鬼ごっこしようぜ
+#勝ったらおれのお宝をやるからさ
+Hey, lady, you look fast.
+Let's play tag together.
+I'll give you my treasure if you win.
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-そこのあやしいねえちゃん
-おれたちと鬼ごっこしようぜ
-勝ったらおれのお宝をやるからさ
+#そこのあやしいねえちゃん
+#おれたちと鬼ごっこしようぜ
+#勝ったらおれのお宝をやるからさ
+Hey there Lady,
+Come play tag with us.
+If you win, I'll give you my treasure.
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-なあ、鬼ごっこしようぜ
+#なあ、鬼ごっこしようぜ
+Hey, let's play tag!
 -----------------------
 select
 -----------------------
-<03:00000000>　する　
-　しない　
+#<03:00000000>　する　
+#　しない　
+<03:00000000> Let's play
+ Let's not
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-それじゃあ、勝負だ！
+#それじゃあ、勝負だ！
+Let's play then!
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-まあ、いいけどさ
+#まあ、いいけどさ
+Well, okay.
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
-おっ、寝ぼすけ<Kyle>
-今日は、早起きじゃん！
+#おっ、寝ぼすけ<Kyle>
+#今日は、早起きじゃん！
+Whoa, sleepyhead <Kyle>!
+You're up early today!
 -----------------------
 #バジル
 Basil
@@ -369,20 +441,26 @@ things falling apart in many places.
 #バジル
 Basil
 -----------------------
-あいたた、<Kyle>さん
-ひっぱらないでくださいよ
-ボク、これから朝の仕事が････
+#あいたた、<Kyle>さん
+#ひっぱらないでくださいよ
+#ボク、これから朝の仕事が････
+Oh no, please don't pull me, <Kyle>.
+I have work to do in the morning. 
 -----------------------
 <Kyle>
 -----------------------
-それよりも
-レンズを手に入れるのが先だろ
-早く行こうぜ、<Loni>････
+#それよりも
+#レンズを手に入れるのが先だろ
+#早く行こうぜ、<Loni>････
+More importantly, let's get the
+lens first. Let's get going, <Loni>...
 -----------------------
 <Loni>
 -----------------------
-おい････
-俺はこっちだ････
+#おい････
+#俺はこっちだ････
+Hey...
+I'm over here...
 -----------------------
 #バジル
 Basil
@@ -470,8 +548,7 @@ Salt
 -----------------------
 #<Kyle>、はやく
 #ハミガキしておいでよ
-<Kyle>, go brush
-your teeth now.
+<Kyle>, go brush your teeth.
 -----------------------
 <Kyle>
 -----------------------
@@ -479,7 +556,7 @@ your teeth now.
 #ハミガキセットを買ってこなきゃ････
 #Ｚｚｚ････
 Mmmm...I'll have to get
-the toothpaste set then...
+the toothpaste then...
 Zzz...
 -----------------------
 #ソルト
@@ -494,9 +571,12 @@ wash your face before brushing.
 #ソルト
 Salt
 -----------------------
-あ、<Kyle>････
-よかった、ボク
-怖い夢をみたんだ････
+#あ、<Kyle>････
+#よかった、ボク
+#怖い夢をみたんだ････
+Oh, <Kyle>...
+Good, I thought I'm
+having a scary dream.
 -----------------------
 <Kyle>
 -----------------------
@@ -624,24 +704,33 @@ Nothing at all, Rutee!
 #ルーティ
 Rutee
 -----------------------
-ま、いいわ
-あんまり遅くならないように
-帰ってきなさいね
+#ま、いいわ
+#あんまり遅くならないように
+#帰ってきなさいね
+Well, okay, don't
+be too late, okay?
 -----------------------
 #ルーティ
 Rutee
 -----------------------
-<Kyle>、いいこと？
-冒険に出るからには
-父親に負けないくらい
-デカいことをしてみなさい
+#<Kyle>、いいこと？
+#冒険に出るからには
+#父親に負けないくらい
+#デカいことをしてみなさい
+You good, <Kyle>?
+You're going on an adventure,
+and you're going to do something
+great just like your father.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
-････でも、父親の影を追うのは
-やめるのよ
-あんたはあんた、なんだからね
+#････でも、父親の影を追うのは
+#やめるのよ
+#あんたはあんた、なんだからね
+...but you have to stop
+chasing your father's shadow.
+You are who you are.
 -----------------------
 #ルーティ
 Rutee
@@ -795,8 +884,8 @@ Like it matters though since I've gotten used to it.
 #レンズを持ってるヤツが優先される
 But let me tell you, there's something about
 the way they do things that just ain't right.
-The folks who have Lens take precedence over
-{02}prayer and the treatment of illnesses.
+{02}The folks who have Lens take precedence over
+prayer and the treatment of illnesses.
 -----------------------
 <Loni>
 -----------------------
@@ -1479,5 +1568,6 @@ notice
 -----------------------
 notice
 -----------------------
-何もありません
+#何もありません
+There's nothing here.
 -----------------------

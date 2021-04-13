@@ -145,7 +145,7 @@ of its sight if you swipe that thing, you know!?
 -----------------------
 #でも、<Loni>は探そうと思ってるんでしょ？
 #だから、護衛役を引き受けたんだよね？
-But Loni, you were thinking about
+But <Loni>, you were thinking about
 searching for it, weren't you?
 {02}That's why you took on the job
 as their escort, am I right?
@@ -166,7 +166,7 @@ talking about here, so...
 #「<Kyle>やルーティさんに
 #  メイワクはかけられない」
 "I can't cause any trouble
-for Kyle and Rutee."
+for <Kyle> and Rutee."
 -----------------------
 <Kyle>
 -----------------------
@@ -756,16 +756,22 @@ You two get out of here!!
 -----------------------
 notice
 -----------------------
-子供たちとにわとりから<num:00000014>秒逃げて下さい
-マップの外に出たら無条件で負けになります
+#子供たちとにわとりから<num:00000014>秒逃げて下さい
+#マップの外に出たら無条件で負けになります
+Run away from the children and
+the chickens for <num:00000014> seconds,
+or you'll be disqualified if you leave the map.
 -----------------------
 NOTICE
 -----------------------
-逃げ切った！
+#逃げ切った！
+We got away!
 -----------------------
-捕まえた！
+#捕まえた！
+We got caught!
 -----------------------
-コケェーッ　コッコ！
+#コケェーッ　コッコ！
+Cock-a-doodle-doo!
 -----------------------
 いってらっしゃいませ
 -----------------------
@@ -810,37 +816,55 @@ notice
 -----------------------
 何もありません
 -----------------------
-デュナミス孤児院
+#デュナミス孤児院
+Dunamis Orphanage
 -----------------------
 NOTICE
 -----------------------
-すべり台で遊びますか？
+#すべり台で遊びますか？
+Do you want to play on the slide?
 -----------------------
 select
 -----------------------
-<03:00000000>　遊ぶ　
-　遊ばない　
+#<03:00000000>　遊ぶ　
+#　遊ばない　
+<03:00000000> Play 
+ Don't play
 -----------------------
 <Kyle>
 -----------------------
-よっしゃ！
+#よっしゃ！
+Alright!
 -----------------------
 <Kyle>がサボっているせいで
 マキ置き場には、一本もマキが無い････
 -----------------------
 <Kyle>
 -----------------------
-結構な量の洗濯物だ
-毎日毎日、母さんも大変だよな････
+#結構な量の洗濯物だ
+#毎日毎日、母さんも大変だよな････
+That's a lot of laundry.
+Day in and day out, it's
+a lot of work for mom...
 -----------------------
-孤児たちの洗濯物が干されている
-ルーティが一人で干しているようだ
+#孤児たちの洗濯物が干されている
+#ルーティが一人で干しているようだ
+The orphans' laundry is hanging out to dry.
+Rutee seems to be drying them all by herself.
 -----------------------
-孤児院の花壇だ
-きれいな花が咲いている
+#孤児院の花壇だ
+#きれいな花が咲いている
+The orphanage flower bed.
+Beautiful flowers are blooming.
 -----------------------
-看板がある
-『デュナミス孤児院
-　院長：スタン＝エルロン
-　　　　ルーティ＝カトレット』
+#看板がある
+#『デュナミス孤児院
+#　院長：スタン＝エルロン
+#　　　　ルーティ＝カトレット』
+
+There's a sign.
+"Dunamis Orphanage.
+Director:
+Stahn Aileron
+Ruthy Katrea."
 -----------------------

@@ -42,7 +42,7 @@ You're not ready for an adventure.
 You're too young!
 -----------------------
 #洗濯物を落としてしまった
-I dropped my laundry.
+The laundry dropped.
 -----------------------
 NOTICE
 -----------------------

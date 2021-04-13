@@ -1311,7 +1311,8 @@ Woman
 #<size:00000200><char:000003E8>！
 #イタズラしちゃダメでしょ！
 <size:00000200><char:000003E8>!
-I'm not falling for your pranks!
+I'm not falling
+for your pranks!
 -----------------------
 #美味しそうな野菜が実っている
 #ちょうど収穫時のようだ
