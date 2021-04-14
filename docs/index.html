@@ -1,0 +1,55 @@
+<!doctype html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <title>Tales of Destiny 2 - Hex to Japanese</title>
+  
+  <script src="hextojpn.js" type="text/javascript"></script>
+  <script language="javascript">
+    function convert() {
+      var hex = document.getElementById('hex').value.toUpperCase();
+      hex = hex.replace(/[^0-9A-F]+/g, "");
+      document.getElementById('sjis').value = "";
+      var Teil;
+      for (var i = 0; i < hex.length; i += 2) {
+        teil = hex.substring(i, i + 2);
+        if (isNaN(torh_to_unicode[teil])) {
+          teil = hex.substring(i, i + 4);
+          if (isNaN(torh_to_unicode[teil]))
+            teil = "3F"; // QUESTION MARK
+          else
+            i += 2;
+        }
+        if (teil == '01') {
+          document.getElementById('sjis').value += "\n";
+        }
+        else {
+          document.getElementById('sjis').value += String.fromCharCode(torh_to_unicode[teil]);
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+
+    <h1>Tales of Destiny 2 (PS2)</h1>
+    <h2>Hex to Japanese</h2>
+
+    <form>
+        <label for="fname">HEX Input</label><br>
+        <textarea name="hex" id="hex" rows="7" cols="77" name="hex"></textarea><br>
+
+        <label for="lname">Japanese Output</label><br>
+        <textarea name="sjis" id="sjis" rows="7" cols="77" name="jpn"></textarea><br><br>
+
+        <input type="submit" onClick="convert(); return false;">
+      </form>
+	  
+	<p>
+		Note: Original code from <a href="http://freaka.freehostia.com/charset_js.html">http://freaka.freehostia.com</a>
+	</p>
+</body>
+
+</html>
