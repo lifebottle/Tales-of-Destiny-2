@@ -14,9 +14,9 @@
       var Teil;
       for (var i = 0; i < hex.length; i += 2) {
         teil = hex.substring(i, i + 2);
-        if (isNaN(torh_to_unicode[teil])) {
+        if (isNaN(tod2_to_unicode[teil])) {
           teil = hex.substring(i, i + 4);
-          if (isNaN(torh_to_unicode[teil]))
+          if (isNaN(tod2_to_unicode[teil]))
             teil = "3F"; // QUESTION MARK
           else
             i += 2;
@@ -25,7 +25,7 @@
           document.getElementById('sjis').value += "\n";
         }
         else {
-          document.getElementById('sjis').value += String.fromCharCode(torh_to_unicode[teil]);
+          document.getElementById('sjis').value += String.fromCharCode(tod2_to_unicode[teil]);
         }
       }
     }
