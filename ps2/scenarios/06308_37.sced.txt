@@ -68,20 +68,20 @@ menu
 -----------------------
 notice
 -----------------------
-メニュー画面でSELECTボタンを押すと
-ヘルプが表示されます{02}メニューのキャラにカーソルを合わせて
-<button:00000028>を押すと選択状態になり、別の場所で
-もう一度<button:00000028>を押すと入換えができます{02}フィールドの森や砂漠、荒野は敵と遭遇する確率が高いので
-避けて通るようにしましょう{02}武器や防具は装備しないと役に立ちません{02}ちなみに後々役立つ裏技として････
-<button:00000029>、<button:00000029>で動かずに向きだけを
-変えることができます{02}こまめにセーブしましょう{02}
-#Press SELECT on the menu screen for help.
-#{02}Select character with <button:00000028> to switch.
-#{02}Avoid forests and deserts to reduce encounters.
-#{02}Weapons and armor are useless unless you equip them.
-#{02}By the way, here's a trick that will help you later...
-#{02}You can use <button:00000029> and <button:00000029> to change
-#only the orientation without moving.{02}Save often.{02}
+#メニュー画面でSELECTボタンを押すと
+#ヘルプが表示されます{02}メニューのキャラにカーソルを合わせて
+#<button:00000028>を押すと選択状態になり、別の場所で
+#もう一度<button:00000028>を押すと入換えができます{02}フィールドの森や砂漠、荒野は敵と遭遇する確率が高いので
+#避けて通るようにしましょう{02}武器や防具は装備しないと役に立ちません{02}ちなみに後々役立つ裏技として････
+#<button:00000029>、<button:00000029>で動かずに向きだけを
+#変えることができます{02}こまめにセーブしましょう{02}
+Press SELECT on the menu screen for help.
+{02}Select character with <button:00000028> to switch.
+{02}Avoid forests and deserts to reduce encounters.
+{02}Weapons and armor are useless unless you equip them.
+{02}By the way, here's a trick that will help you later...
+{02}You can use <button:00000029> and <button:00000029> to change
+only the orientation without moving.{02}Save often.{02}
 -----------------------
 notice
 -----------------------
@@ -332,13 +332,17 @@ is not here.
 #おじいさん
 Old Man
 -----------------------
-おお、シリの青いハナタレ坊主が
-こんなべっぴんさんを
-連れてくるとは！
+#おお、シリの青いハナタレ坊主が
+#こんなべっぴんさんを
+#連れてくるとは！
+Oh, Siri's blue-headed boy.
+I never thought I'd see you
+with such a pretty face!
 -----------------------
 <Reala>
 -----------------------
-まあ、おじいさんったら！
+#まあ、おじいさんったら！
+Oh, Grandpa!
 -----------------------
 <Kyle>
 -----------------------
@@ -348,33 +352,42 @@ Old Man
 #おじいさん
 Old Man
 -----------------------
-いたずらっ子のハナタレ坊主が
-べっぴんさんを連れてくるとは
-やるではないか
+#いたずらっ子のハナタレ坊主が
+#べっぴんさんを連れてくるとは
+#やるではないか
+What are you talking about, old man?
 -----------------------
 #おじいさん
 Old Man
 -----------------------
-なんじゃ、悪ガキふたりが
-首をならべて、どこへ行くんじゃ？
+#なんじゃ、悪ガキふたりが
+#首をならべて、どこへ行くんじゃ？
+Where are you two bad boys
+going with your heads together?
 -----------------------
 <Kyle>
 -----------------------
-へっへ～！
-冒険だよ、ぼ・う・け・ん！
+#へっへ～！
+#冒険だよ、ぼ・う・け・ん！
+Heh heh!
+It's an adventure,
+Ad-ven-ture!
 -----------------------
 #おじいさん
 Old Man
 -----------------------
-ふむ、冒険か
-晩メシまでには
-帰ってくるんじゃぞ
+#ふむ、冒険か
+#晩メシまでには
+#帰ってくるんじゃぞ
+Hmm, an adventure.
+Be back in time for dinner.
 -----------------------
 #おじいさん
 Old Man
 -----------------------
-ふたりとも、晩メシまでには
-帰ってくるんじゃぞ
+#ふたりとも、晩メシまでには
+#帰ってくるんじゃぞ
+Both of you, be home by dinner.
 -----------------------
 #めくりのジョー
 Flippin' Joe
@@ -458,32 +471,45 @@ Legend of the Skit Flipper...
 #青年
 Youth
 -----------------------
-クレスタは平和だな
-この平和が永遠に続くなんて
-素晴らしいだろ？
+#クレスタは平和だな
+#この平和が永遠に続くなんて
+#素晴らしいだろ？
+Cresta is peaceful.
+I can't believe this
+peace can last forever.
+Isn't it wonderful?
 -----------------------
 #青年
 Youth
 -----------------------
-クレスタにお客さんとは珍しいね
-ダリルシェイドから来たのかい？
+#クレスタにお客さんとは珍しいね
+#ダリルシェイドから来たのかい？
+It's unusual to have
+visitors here in Cresta.
+Are you from Darilsheid?
 -----------------------
 #青年
 Youth
 -----------------------
-俺もダリルシェイドみたいな
-都会で暮らしたいよ
+#俺もダリルシェイドみたいな
+#都会で暮らしたいよ
+I want to live in Darilsheid.
+I wish I lived in the city.
 -----------------------
 #めくりのジョー
 Flippin' Joe
 -----------------------
-ど、どうしたんだ、<Kyle>？
-元気ないじゃないか
+#ど、どうしたんだ、<Kyle>？
+#元気ないじゃないか
+What's wrong with you, <Kyle>?
+You don't look well.
 -----------------------
 <Kyle>
 -----------------------
-うん････
-ちょっと、ね
+#うん････
+#ちょっと、ね
+Yeah...
+A little, you know.
 -----------------------
 #めくりのジョー
 Flippin' Joe
@@ -494,18 +520,24 @@ Flippin' Joe
 #めくりのジョー
 Flippin' Joe
 -----------------------
-スカートめくりのテクニックを
-戦いに応用すれば、勝利はたやすいハズだ
+#スカートめくりのテクニックを
+#戦いに応用すれば、勝利はたやすいハズだ
+You don't look like yourself, <Kyle>.
+You're looking kinnda gloomy.
 -----------------------
 #めくりのジョー
 Flippin' Joe
 -----------------------
-どうだ？技を教えてやろうか？
+#どうだ？技を教えてやろうか？
+What do you think?
+You want me to teach my technique?
 -----------------------
 <Kyle>
 -----------------------
-････
-いえ、結構です････
+#････
+#いえ、結構です････
+...
+No, thank you...
 -----------------------
 #めくりのジョー
 Flippin' Joe
@@ -642,68 +674,91 @@ That's what makes you so cute...
 #女の子
 Girl
 -----------------------
-<Kyle>が、うれしそうに
-話してくれたの
-もうすぐ、お父さんが帰ってくるって
+#<Kyle>が、うれしそうに
+#話してくれたの
+#もうすぐ、お父さんが帰ってくるって
+<Kyle> was so happy
+to hear that his father
+would be home soon.
 -----------------------
 #女の子
 Girl
 -----------------------
-<Kyle>の、あんなに
-うれしそうな顔、久しぶりに見たわ
-なんだか、私もうれしくなっちゃった
+#<Kyle>の、あんなに
+#うれしそうな顔、久しぶりに見たわ
+#なんだか、私もうれしくなっちゃった
+It's been a long time since
+I've seen such a happy face.
+This makes me happy too.
 -----------------------
 #女の子
 Girl
 -----------------------
-あれ、<Kyle>････？
-なんだか、フンイキが変わったわね
-誰かと思っちゃった
+#あれ、<Kyle>････？
+#なんだか、フンイキが変わったわね
+#誰かと思っちゃった
+Hey, <Kyle>...?
+Sorry, I thought you
+were someone else.
 -----------------------
 #女の子
 Girl
 -----------------------
-旅をすると、人間って
-成長するものなのね････
+#旅をすると、人間って
+#成長するものなのね････
+Traveling makes us grow up. 
 -----------------------
 #女の子
 Girl
 -----------------------
-でも、アナタが旅に出たのって
-ほんの少し前じゃなかったっけ？
+#でも、アナタが旅に出たのって
+#ほんの少し前じゃなかったっけ？
+But wasn't it only a short while
+ago that you started your journey?
 -----------------------
 #女の子
 Girl
 -----------------------
-人間って短期間で
-かわるものねー
+#人間って短期間で
+#かわるものねー
+People change in
+such a short time.
 -----------------------
 #女の子
 Girl
 -----------------------
-ふたりとも、旅に出るんですってね
-<Loni>！
-あなたは特に気をつけるのよ！
+#ふたりとも、旅に出るんですってね
+#<Loni>！
+#あなたは特に気をつけるのよ！
+I hear you're both going on a trip.
+You have to be extra careful!
 -----------------------
 <Loni>
 -----------------------
-ちょっと待て
-それは、俺の方が
-頼りないっていうことか？
+#ちょっと待て
+#それは、俺の方が
+#頼りないっていうことか？
+Wait a minute.
+Does that mean
+I'm less reliable than you?
 -----------------------
 #女の子
 Girl
 -----------------------
-そうよ
-最近は、<Kyle>の方が
-大人っぽく見えるんだモン
+#そうよ
+#最近は、<Kyle>の方が
+#大人っぽく見えるんだモン
+Yes.
+These days, <Kyle> looks more mature.
 -----------------------
 #女の子
 Girl
 -----------------------
-いってらっしゃい！
-ふたりとも、あんまり危ないことしちゃ
-ダメよ
+#いってらっしゃい！
+#ふたりとも、あんまり危ないことしちゃ
+#ダメよ
+Have a safe trip!
+You two, don't do anything too dangerous.
 -----------------------
 #バケツおじさん
 Bucket Man
@@ -815,42 +870,59 @@ it's scary...
 #バケツおじさん
 Bucket Man
 -----------------------
-どうしたんだよ、<Kyle>？
-めずらしく帰ってきたと思ったら
-シケた顔しやがって
+#どうしたんだよ、<Kyle>？
+#めずらしく帰ってきたと思ったら
+#シケた顔しやがって
+What's wrong, Kyle?
+You haven't been back for a while,
+but your face looks like shit.
 -----------------------
 #バケツおじさん
 Bucket Man
 -----------------------
-いつも、バカみたいに前を見てる
-それが、おまえの長所だったハズだぜ
-いったい、どうしたってんだよ？
+#いつも、バカみたいに前を見てる
+#それが、おまえの長所だったハズだぜ
+#いったい、どうしたってんだよ？
+You're always looking ahead like an idiot.
+I thought that was your strong suit.
+What the hell happened to you?
 -----------------------
 #バケツおじさん
 Bucket Man
 -----------------------
-なんだよ、<Kyle>
-また、ルーティにナイショで
-冒険ごっこか？
+#なんだよ、<Kyle>
+#また、ルーティにナイショで
+#冒険ごっこか？
+<Kyle>, are you going on
+another adventure without
+telling Rutee?
 -----------------------
 <Kyle>
 -----------------------
-ごっこじゃないって！
-本当の冒険に出るんだよ！
+#ごっこじゃないって！
+#本当の冒険に出るんだよ！
+We're not playing games!
+We're going on a real adventure!
 -----------------------
 #バケツおじさん
 Bucket Man
 -----------------------
-はっはっは！　そうだったな
-冒険に出て、英雄になるってのは
-ずっと、おまえの夢だったもんな
+#はっはっは！　そうだったな
+#冒険に出て、英雄になるってのは
+#ずっと、おまえの夢だったもんな
+Hahaha!　Right...
+Going on adventures and becoming a hero...
+It's always been your dream, right?
 -----------------------
 #バケツおじさん
 Bucket Man
 -----------------------
-おまえなら、きっと英雄になれるさ
-なんてったって、身近にふたりも
-お手本がいるんだからな！
+#おまえなら、きっと英雄になれるさ
+#なんてったって、身近にふたりも
+#お手本がいるんだからな！
+I'm sure you'll be a hero,
+after all, you have two role
+models close by!
 -----------------------
 #富豪
 Millionaire
@@ -1050,19 +1122,26 @@ I don't trust you...
 #女性
 Woman
 -----------------------
-ふふっ
-わたし、もうすぐお母さんになるのよ♪
-元気な子が生まれたらいいなあ
+#ふふっ
+#わたし、もうすぐお母さんになるのよ♪
+#元気な子が生まれたらいいなあ
+Hmm.
+I'm going to be a mother soon♪
+I hope to have a healthy baby.
 -----------------------
 <Reala>
 -----------------------
-赤ちゃんかぁ
-これから生まれてくる子どものためにも
-がんばらなきゃね♪
+#赤ちゃんかぁ
+#これから生まれてくる子どものためにも
+#がんばらなきゃね♪
+A baby.
+I have to do my best
+for the child to be born♪
 -----------------------
 <Kyle>
 -----------------------
-<Reala>････
+#<Reala>････
+<Reala>...
 -----------------------
 #女性
 Woman
@@ -1219,64 +1298,87 @@ I don't recall.
 #おじさん
 Man
 -----------------------
-アクアヴェイルって知ってるか？
-なんでも、建物も住民の服装も
-ちょっと変わった雰囲気の街らしいぜ
+#アクアヴェイルって知ってるか？
+#なんでも、建物も住民の服装も
+#ちょっと変わった雰囲気の街らしいぜ
+Do you about Aquaveil?
+{02}Apparently, it's a town with an unusual atmosphere,
+both in terms of its buildings and the way its residents dress.
 -----------------------
 #おじさん
 Man
 -----------------------
-アクアヴェイルは、このクレスタから
-海をこえてずっと北東の方向にあるらしい
-一度行ってみたいもんだな
+#アクアヴェイルは、このクレスタから
+#海をこえてずっと北東の方向にあるらしい
+#一度行ってみたいもんだな
+Aquaveil is located across the ocean
+from Cresta, all the way to the northeast.
+I'd like to go there some day.
 -----------------------
 #おじさん
 Man
 -----------------------
-アクアヴェイルは、このクレスタから
-海をこえてずっと北東の方向にあるらしい
-一度行ってみたいもんだな
+#アクアヴェイルは、このクレスタから
+#海をこえてずっと北東の方向にあるらしい
+#一度行ってみたいもんだな
+Aquaveil is located across the ocean
+from Cresta, all the way to the northeast.
+I'd like to go there some day.
 -----------------------
 #光り物好きなメイド
 Maid Who Likes Shiny Things
 -----------------------
-レンズ<0B:00000001><num:00000005><0B:00000000>枚で
-ダリルシェイドへの
-行き方を知りたくない？
+#レンズ<0B:00000001><num:00000005><0B:00000000>枚で
+#ダリルシェイドへの
+#行き方を知りたくない？
+Want to know how to get to Darilsheid
+for <0B:00000001><num:00000005><0B:00000000> lens?
 -----------------------
 select
 -----------------------
-　聞きたい　
-　自力でいきます　
+#　聞きたい　
+#　自力でいきます　
+ Let's hear it 
+ I'm on my own
 -----------------------
 #光り物好きなメイド
 Maid Who Likes Shiny Things
 -----------------------
-へへ････まいど♪
+#へへ････まいど♪
+Heheh...maid♪
 -----------------------
 #光り物好きなメイド
 Maid Who Likes Shiny Things
 -----------------------
-ダリルシェイドへ行くには
-ラグナ遺跡の近くの橋を渡るの
-そうすると街道があるの
+#ダリルシェイドへ行くには
+#ラグナ遺跡の近くの橋を渡るの
+#そうすると街道があるの
+To get to Darilsheid, you'll have to
+cross the bridge near the Laguna ruins,
+and then you'll find the road.
 -----------------------
 #光り物好きなメイド
 Maid Who Likes Shiny Things
 -----------------------
-その街道を進むと海が見える
-右手に見えるのがダリルシェイドよ
+#その街道を進むと海が見える
+#右手に見えるのがダリルシェイドよ
+If you continue down that road,
+you'll see the ocean, and to
+the East is Darilsheid.
 -----------------------
 #光り物好きなメイド
 Maid Who Likes Shiny Things
 -----------------------
-････って、足りてないじゃない！
+#････って、足りてないじゃない！
+Tsk...it's not enough!
 -----------------------
 #光り物好きなメイド
 Maid Who Likes Shiny Things
 -----------------------
-さまよい続けても
-しらないからネ
+#さまよい続けても
+#しらないからネ
+I don't care if
+you keep wandering.
 -----------------------
 #ワン！
 Woof!
