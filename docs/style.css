@@ -1,0 +1,34 @@
+a, a:visited {
+  color: #555555;
+}
+a:hover {
+  color: #888888;
+}
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+h1{
+  background-color: #dddddd;
+  margin-left: -3%;
+  padding: 2%;
+}
+#discord-widget {
+  float: right;
+  margin-right: 5%;
+}
+/*alternate styling for small windows or mobile devices*/
+@media screen and (max-width: 600px) {
+  #discord-widget {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    text-align: center;
+  }
+  ul {
+    display: inline-block;
+  }
+}

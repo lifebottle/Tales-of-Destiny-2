@@ -1,52 +1,32 @@
 <!doctype html>
 
 <head>
+
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  
+
+  <link rel="stylesheet" href="style.css">
+
   <title>Tales of Destiny 2 Patch</title>
-  
-  <script src="hextojpn.js" type="text/javascript"></script>
-  <script language="javascript">
-    function convert() {
-      var hex = document.getElementById('hex').value.toUpperCase();
-      hex = hex.replace(/[^0-9A-F]+/g, "");
-      document.getElementById('sjis').value = "";
-      var Teil;
-      for (var i = 0; i < hex.length; i += 2) {
-        teil = hex.substring(i, i + 2);
-        if (isNaN(tod2_to_unicode[teil])) {
-          teil = hex.substring(i, i + 4);
-          if (isNaN(tod2_to_unicode[teil]))
-            teil = "3F"; // QUESTION MARK
-          else
-            i += 2;
-        }
-        if (teil == '01') {
-          document.getElementById('sjis').value += "\n";
-        }
-        else {
-          document.getElementById('sjis').value += String.fromCharCode(tod2_to_unicode[teil]);
-        }
-      }
-    }
-  </script>
+
 </head>
 
 <body>
 
     <h1>Tales of Destiny 2 (PS2) Patch</h1>
-	
+
+    <iframe id="discord-widget" src="https://discord.com/widget?id=818214215365427320&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
     <h2>Tools</h2>
-	
+
 	<p>
 		<ul>
 			<li><a href="https://pnvnd.github.io/Tales-of-Destiny-2/hextojpn">ToD2 Hex2Jpn</a></li>
 			<li><a href="https://pnvnd.github.io/Tales-of-Destiny-2/jpntohex">ToD2 Jpn2Hex</a></li>
 		</ul>
 	</p>
-	
+
 	<h2>Links</h2>
-	
+
 	<p>
 		<ul>
 			<li><a href="https://github.com/pnvnd/Tales-of-Destiny-2">Github Repository</a></li>
@@ -54,7 +34,7 @@
 			<li><a href="https://discord.gg/HZ2NFjpedn">Discord Server</a></li>
 		</ul>
 	</p>
-	
+
 	<h2>Team</h2>
 	<p>
 		<ul>
@@ -64,10 +44,8 @@
 			<li>Hacker</li>
 		</ul>
 	</p>
-	
-	<iframe src="https://discord.com/widget?id=818214215365427320&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-	
-	
+
+
 </body>
 
 </html>
