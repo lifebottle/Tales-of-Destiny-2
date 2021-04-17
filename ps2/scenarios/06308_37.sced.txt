@@ -1878,32 +1878,52 @@ So defending with <button:00000047> is also important.
 -----------------------
 notice
 -----------------------
-「特技」について
-話し合っているようです
-耳を傾けますか？
+#「特技」について
+#話し合っているようです
+#耳を傾けますか？
+They are discussing "Artes".
+Do you want to listen?
 -----------------------
-どうだ、特技を覚えて
-戦略に幅が出たろう？
+#どうだ、特技を覚えて
+#戦略に幅が出たろう？
+How's that? Now that
+you've learned a few
+tricks, you've got more strategy, right?
 -----------------------
-特技<button:00000046>はつえーけどＴＰがすぐなくなるさ
-戦闘中も自動的に回復するけど、
-まだ貧弱なので速度が遅いさ
+#特技<button:00000046>はつえーけどＴＰがすぐなくなるさ
+#戦闘中も自動的に回復するけど、
+#まだ貧弱なので速度が遅いさ
+Using <button:00000046> for Artes is great,
+but it runs out of TP quickly, and it automatically recovers during battle.
+{02}However, it's still too slow for me.
 -----------------------
-それはそうだ　そこで重要なのが
-<button:00000045>の通常攻撃となるわけだ
-一回通常攻撃がヒットすると、
-ＴＰが１回復するぞ
+#それはそうだ　そこで重要なのが
+#<button:00000045>の通常攻撃となるわけだ
+#一回通常攻撃がヒットすると、
+#ＴＰが１回復するぞ
+That's right. That's why it's important
+to use <button:00000045> for normal attacks.
+{02}TP is restored by 1 for
+each hit with normal attack.
 -----------------------
-じゃあ通常攻撃<button:00000045>しまくりさ
+#じゃあ通常攻撃<button:00000045>しまくりさ
+Then I'll just do
+a bunch of <button:00000045>.
 -----------------------
-････ＴＰが余ってももったいないからな
-術を使ってＳＰを回復させるなど、
-うまく使っていくのが大切だ
+#････ＴＰが余ってももったいないからな
+#術を使ってＳＰを回復させるなど、
+#うまく使っていくのが大切だ
+It'll be a waste to have an excess of TP.
+It's important to use it well, and using
+techniques to recover SP.
 -----------------------
-ＴＰは敵を倒したときも少量回復する
-しかも、敵を連携中に
-まとめて倒したりすると、
-より多くのＴＰを回復できるのだ
+#ＴＰは敵を倒したときも少量回復する
+#しかも、敵を連携中に
+#まとめて倒したりすると、
+#より多くのＴＰを回復できるのだ
+You can recover a bit of TP by defeating enemies.
+{02}But you can also recover more TP by defeating
+enemies all at once while working together!
 -----------------------
 notice
 -----------------------
