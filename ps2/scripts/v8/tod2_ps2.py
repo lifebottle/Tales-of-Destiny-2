@@ -40,10 +40,10 @@ def mkdir(name):
 
 def compress_comptoe(name, ctype=1):
     c = '-c%d' % ctype
-    subprocess.run(['comptoe', c, name, name + '.c'])
+    subprocess.run(['./comptoe.exe', c, name, name + '.c'])
 
 def decompress_comptoe(name):
-    subprocess.run(['comptoe', '-d', name, name + '.d'])
+    subprocess.run(['./comptoe.exe', '-d', name, name + '.d'])
 
 # by flame1234
 def decode(param):
@@ -79,18 +79,18 @@ def decode(param):
 
 def move_sced():
     mkdir('SCED')
-    sced_dir = os.getcwd() + '/sced/'
+    sced_dir = os.getcwd() + '/SCED/'
     
-    for folder in os.listdir('scpk'):
-        if not os.path.isdir('scpk/' + folder):
+    for folder in os.listdir('SCPK'):
+        if not os.path.isdir('SCPK/' + folder):
             continue
-        f = os.listdir('scpk/' + folder)[-1]
+        f = sorted(os.listdir('SCPK/' + folder))[-1]
         new_name = '%s_%s.sced' % (folder, f.split('.')[0])
-        shutil.copy(os.path.join('scpk', folder, f), sced_dir + new_name)
+        shutil.copy(os.path.join('SCPK', folder, f), sced_dir + new_name)
 
 def move_scpk_packed():
-    for f in os.listdir('scpk_packed'):
-        shutil.copy(os.path.join('scpk_packed', f), 'fpb/' + f)
+    for f in os.listdir('SCPK_PACKED'):
+        shutil.copy(os.path.join('SCPK_PACKED', f), 'FPB/' + f)
 
 def extract_fpb():
     f = open('FILE.FPB', 'rb')
@@ -141,9 +141,9 @@ def pack_fpb():
         size = 0
         remainder = 0
         if v != 'dummy':
-            f = open('fpb/%s.%s' % (k, v), 'rb')
+            f = open('FPB/%s.%s' % (k, v), 'rb')
             o.write(f.read())
-            size = os.path.getsize('fpb/%s.%s' % (k, v))
+            size = os.path.getsize('FPB/%s.%s' % (k, v))
             remainder = 0x40 - (size % 0x40)
             if remainder == 0x40:
                 remainder = 0
@@ -167,15 +167,15 @@ def extract_scpk():
     json_file = open('SCPK.json', 'w')
     json_data = {}
     
-    for file in os.listdir('fpb'):
+    for file in os.listdir('FPB'):
         if not file.endswith('scpk'):
             continue
-        f = open('fpb/%s' % file, 'rb')
+        f = open('FPB/%s' % file, 'rb')
         header = f.read(4)
         if header != b'SCPK':
             f.close()
             continue
-        mkdir('scpk/%s' % file.split('.')[0])
+        mkdir('SCPK/%s' % file.split('.')[0])
         index = file.split('.')[0]
         json_data[index] = {}
         f.read(4)
@@ -188,7 +188,7 @@ def extract_scpk():
             ext = 'bin'
             if i == files - 1:
                 ext = 'sced'
-            fname = 'scpk/%s/%02d.%s' % (file.split('.')[0], i, ext)
+            fname = 'SCPK/%s/%02d.%s' % (file.split('.')[0], i, ext)
             o = open(fname, 'wb')
             data = f.read(sizes[i])
             json_data[index][i] = data[0]
@@ -210,24 +210,24 @@ def pack_scpk():
     json_data = json.load(json_file)
     json_file.close()
 
-    for name in os.listdir('sced_new'):
+    for name in os.listdir('SCED_NEW'):
         folder = name[:5]
-        if not os.path.isdir('scpk/' + folder):
+        if not os.path.isdir('SCPK/' + folder):
             continue
-        if os.path.isdir('scpk/' + folder):
+        if os.path.isdir('SCPK/' + folder):
             sizes = []
-            o = open('scpk_packed/%s.SCPK' % folder, 'wb')
+            o = open('SCPK_PACKED/%s.SCPK' % folder, 'wb')
             data = bytearray()
-            listdir = os.listdir('scpk/' + folder)
+            listdir = os.listdir('SCPK/' + folder)
             for file in listdir:
                 read = bytearray()
                 index = str(int(file.split('.')[0]))
-                fname = 'scpk/%s/%s' % (folder, file)
+                fname = 'SCPK/%s/%s' % (folder, file)
                 f = open(fname, 'rb')
                 ctype = json_data[folder][index]
                 if file == listdir[-1]:
                     if ctype != 0:
-                        fname = 'sced_new/' + name
+                        fname = 'SCED_NEW/' + name
                         compress_comptoe(fname, ctype)
                         comp = open(fname + '.c', 'rb')
                         read = comp.read()
@@ -268,16 +268,16 @@ def extract_sced():
     #char_index = char_file.read()
     #char_file.close()
 
-    for name in os.listdir('sced/'):
-        f = open('sced/' + name, 'rb')
+    for name in os.listdir('SCED/'):
+        f = open('SCED/' + name, 'rb')
         header = f.read(4)
         if header != b'\x53\x43\x45\x44':
             continue
-        o = open('txt/' + name + '.txt', 'w', encoding = 'utf-8')
+        o = open('TXT/' + name + '.txt', 'w', encoding = 'utf-8')
         sced_data[name] = []
         pointer_block = struct.unpack('<L', f.read(4))[0]
         text_block = struct.unpack('<L', f.read(4))[0]
-        fsize = os.path.getsize('sced/' + name)
+        fsize = os.path.getsize('SCED/' + name)
         text_pointers = []
         addrs = []
         f.seek(pointer_block, 0)
@@ -350,11 +350,11 @@ def insert_sced():
     
     mkdir('SCED_NEW/')
 
-    for name in os.listdir('txt_en'):
-        f = open('txt_en/' + name, 'r', encoding='utf8')
+    for name in os.listdir('TXT_EN'):
+        f = open('TXT_EN/' + name, 'r', encoding='utf8')
         name = name[:-4]
-        sced = open('sced/' + name, 'rb')
-        o = open('sced_new/' + name, 'wb')
+        sced = open('SCED/' + name, 'rb')
+        o = open('SCED_NEW/' + name, 'wb')
 
         txts = []
         sizes = []
@@ -424,7 +424,7 @@ def insert_sced():
 def insert_font():
     offset = 0xCA238
     size = 0x5518
-    elf = open('new_slps_251.72' , 'r+b')
+    elf = open('new_SLPS_251.72' , 'r+b')
     font = open('font.bin', 'rb')
     data = font.read()
     font.close()
@@ -487,5 +487,7 @@ if __name__ == '__main__':
         pack_scpk()
     elif sys.argv[1] == '10':
         export_tbl()
+    elif sys.argv[1] == '11':
+        move_sced()
     else:
         sys.exit(1)
