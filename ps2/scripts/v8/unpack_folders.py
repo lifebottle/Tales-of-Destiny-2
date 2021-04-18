@@ -13,7 +13,7 @@ def is_compressed(name):
     return [False, 0]
 
 def unpack():
-    json_file = open('fpb.json', 'r')
+    json_file = open('FPB.json', 'r')
     data = json.load(json_file)
     json_file.close()
     c_json = open('compression.json', 'w')
@@ -25,16 +25,16 @@ def unpack():
     for d in data.values():
         if d == 'dummy':
             continue
-        try: os.mkdir('file/' + d)
+        try: os.mkdir('FILE/' + d)
         except: pass
     
     for name in os.listdir('FPB'):
         fname = name.split('.')[0]
         if fname in data.keys():
             print (name)
-            new_location = f'file/{data[fname]}/{fname}.{data[fname]}'
+            new_location = f'FILE/{data[fname]}/{fname}.{data[fname]}'
             #new_location = 'file/' + data[fname] + '/' + fname + '.' + data[fname]
-            shutil.copy(os.path.join('fpb/', name), new_location)
+            shutil.copy(os.path.join('FPB/', name), new_location)
             c_result = is_compressed(new_location)
             c_data[fname] = c_result[1]
             if data[fname] in compressed:
