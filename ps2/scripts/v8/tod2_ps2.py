@@ -17,7 +17,6 @@ movie_end = 0xE631F
 tags = {0x4: 'color', 0x5: 'size', 0x6: 'num', 0x7: 'char', 0x8: 'item', 0x9: 'button'}
 names = {1: 'Kyle', 2: 'Reala', 3: 'Loni', 4: 'Judas', 5: 'Nanaly', 6: 'Harold' }
 
-#com_tag = r'(<\w+:[0-9A-F]{8}>)'
 com_tag = r'(<\w+:?\w+>)'
 hex_tag = r'(\{[0-9A-F]{2}\})'
 
@@ -259,11 +258,11 @@ def extract_sced():
     #json_file2 = open('TBL2.json', 'w')
     json_data = json.load(json_file)
     json_file.close()
-    #sced_file = open('SCED.json', 'w')
-    #sced_data = {}
-    sced_file = open('sced.json', 'r')
-    sced_data = json.load(sced_file)
-    sced_file.close()
+    sced_file = open('SCED.json', 'w')
+    sced_data = {}
+    #sced_file = open('sced.json', 'r')
+    #sced_data = json.load(sced_file)
+    #sced_file.close()
     
     #char_file = open('00019.bin', 'r', encoding='cp932')
     #char_index = char_file.read()
@@ -275,24 +274,29 @@ def extract_sced():
         if header != b'\x53\x43\x45\x44':
             continue
         o = open('txt/' + name + '.txt', 'w', encoding = 'utf-8')
-        #sced_data[name] = []
+        sced_data[name] = []
         pointer_block = struct.unpack('<L', f.read(4))[0]
         text_block = struct.unpack('<L', f.read(4))[0]
         fsize = os.path.getsize('sced/' + name)
         text_pointers = []
+        addrs = []
         f.seek(pointer_block, 0)
         
         while f.tell() < text_block:
             b = f.read(1)
             if b == b'\xF8':
                 addr = struct.unpack('<H', f.read(2))[0]
-                if f.tell() - 2 in sced_data[name]:
-                #if (addr < fsize - text_block) and (addr > 0):
-                    #sced_data[name].append(f.tell() - 2)
+                #if f.tell() - 2 in sced_data[name]:
+                if (addr < fsize - text_block) and (addr > 0):
+                    addrs.append(f.tell() - 2)
                     text_pointers.append(addr)
 
         for i in range(len(text_pointers)):
-            f.seek(text_block + text_pointers[i], 0)
+            f.seek(text_block + text_pointers[i] - 1, 0)
+            b = f.read(1)
+            if b != b'\x00':
+                continue
+            sced_data[name].append(addrs[i])
             b = f.read(1)
             while b != b'\x00':
                 b = ord(b)
@@ -330,7 +334,7 @@ def extract_sced():
         o.close()
         
     #json.dump(json_data, json_file2, indent=4)
-    #json.dump(sced_data, sced_file, indent=4)
+    json.dump(sced_data, sced_file, indent=4)
 
 def insert_sced():
     json_file = open('TBL.json', 'r')
@@ -439,11 +443,11 @@ def insert_font():
 
 def extract_files():
     print ("Extracting fpb...")
-    #extract_fpb()
+    extract_fpb()
     print ("Extracting scpk...")
-    #extract_scpk()
+    extract_scpk()
     print ("Extracting script...")
-    #move_sced()
+    move_sced()
     extract_sced()
 
 def insert_files():
