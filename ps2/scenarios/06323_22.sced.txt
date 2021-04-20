@@ -1,141 +1,205 @@
-ラグナ遺跡
+#ラグナ遺跡
+Laguna Ruins
 -----------------------
-ラグナ遺跡
+#ラグナ遺跡
+Laguna Ruins
 -----------------------
-ラグナ遺跡
+#ラグナ遺跡
+Laguna Ruins
 -----------------------
-ラグナ遺跡
+#ラグナ遺跡
+Laguna Ruins
 -----------------------
 <Kyle>
 -----------------------
-調査隊が来てるって言ってたけど、
-姿が見えないじゃんか
+#調査隊が来てるって言ってたけど、
+#姿が見えないじゃんか
+You said that an investigation team is coming,
+but I don't see 'em anywhere, do you?
 -----------------------
 <Loni>
 -----------------------
-どうやら俺たちの方が先に
-着いたらしいな････って言ってるそば
-から来やがった　<Kyle>、隠れろ！
+#どうやら俺たちの方が先に
+#着いたらしいな････って言ってるそば
+#から来やがった　<Kyle>、隠れろ！
+It appears that we somehow managed to
+get here before they did...and speak of
+the devil, here they come. Kyle, hide!
 -----------------------
-隊長
+#隊長
+Commander
 -----------------------
-ここか？
-巨大レンズがあるという遺跡は
+#ここか？
+#巨大レンズがあるという遺跡は
+So these are the ruins where
+the gigantic Lens is said to be.
 -----------------------
-隊員
+#隊員
+Church Member
 -----------------------
-はっ！　自分は以前、確かにこの遺跡で
-レンズを目撃しました！
+#はっ！　自分は以前、確かにこの遺跡で
+#レンズを目撃しました！
+Yes sir! I personally observed the Lens during a
+previous visit, so I can attest to its presence here!
 -----------------------
-隊員
+#隊員
+Church Member
 -----------------------
-この遺跡はレンズが作られた時代の
-都市であると考えられています
+#この遺跡はレンズが作られた時代の
+#都市であると考えられています
+It is believed that these ruins date back to the
+era where cities were constructed out of Lenses.
 -----------------------
-隊長
+#隊長
+Commander
 -----------------------
-だから、レンズがあっても
-不思議ではないと言うのか？
-････疑わしいものだ
+#だから、レンズがあっても
+#不思議ではないと言うのか？
+#････疑わしいものだ
+And that is why you say that there is
+nothing strange about a Lens being here?
+...I somehow have my doubts.
 -----------------------
-隊員
+#隊員
+Church Member
 -----------------------
-現物を見れば
-信じていただけるでしょう
-レンズはこの中です
+#現物を見れば
+#信じていただけるでしょう
+#レンズはこの中です
+I hope that you will be able to
+believe us once you see the actual
+item. The Lens is inside here.
 -----------------------
-隊員
+#隊員
+Church Member
 -----------------------
-おい、ソーサラースコープを
+#おい、ソーサラースコープを
+Hey, bring out the Sorcerer's Scope.
 -----------------------
 <Kyle>
 -----------------------
-どうしよう････
-急がないと、あいつらに
-レンズを取られちゃうよ！
+#どうしよう････
+#急がないと、あいつらに
+#レンズを取られちゃうよ！
+What're we gonna do...
+those guys will end up taking
+the Lens if we don't hurry!
 -----------------------
 <Loni>
 -----------------------
-とはいえ、正面から
-遺跡に入るのはヤバいな
-あいつらと、はち合わせしちまう
+#とはいえ、正面から
+#遺跡に入るのはヤバいな
+#あいつらと、はち合わせしちまう
+Be that as it may, entering the
+ruins from the front is chancy.
+We may accidentally bump into them.
 -----------------------
 <Kyle>
 -----------------------
-じゃあ、あっちの横穴はどう？
+#じゃあ、あっちの横穴はどう？
+Then how about that tunnel over there?
 -----------------------
 <Loni>
 -----------------------
-ん････なんとか行けそうだな
-<Kyle>、急ぐぜ！
+#ん････なんとか行けそうだな
+#<Kyle>、急ぐぜ！
+Hm...that looks like it just might work.
+Kyle, let's get moving!
 -----------------------
 <Kyle>
 -----------------------
-あれ、ここは････？
+#あれ、ここは････？
+Huh, is this...?
 -----------------------
 <Loni>
 -----------------------
-ラグナ遺跡だな
+#ラグナ遺跡だな
+The Laguna Ruins.
 -----------------------
 <Loni>
 -----------------------
-かつては空中都市とよばれていた遺跡だが
-あらかた調べつくされて
-考古学的な価値はゼロって話だ
+#かつては空中都市とよばれていた遺跡だが
+#あらかた調べつくされて
+#考古学的な価値はゼロって話だ
+The ruins of what used to be an aerial city,
+but it's been completely destroyed. There's
+no archeological value to it.
 -----------------------
 <Kyle>
 -----------------------
-････････
-････････････････
+#････････
+#････････････････
+......
+............
 -----------------------
 <Loni>
 -----------------------
-どうした？
-気になるものでもあったか？
+#どうした？
+#気になるものでもあったか？
+What's up?
+Is there something on your mind?
 -----------------------
 <Kyle>
 -----------------------
-いや、そうじゃないけど
-ここにいると
-なんだか不思議な感じがするんだ
+#いや、そうじゃないけど
+#ここにいると
+#なんだか不思議な感じがするんだ
+No, I'm not, but...
+When I'm here,
+I get this strange feeling.
 -----------------------
 <Loni>
 -----------------------
-不思議な感じ？
+#不思議な感じ？
+Strange, isn't it?
 -----------------------
 <Kyle>
 -----------------------
-口じゃうまく言えないよ
-ただ、だれかが呼んでるような
-それもよく知ってるはずのだれかが････
+#口じゃうまく言えないよ
+#ただ、だれかが呼んでるような
+#それもよく知ってるはずのだれかが････
+I can't really put my finger on it.
+But it's like someone's calling me.
+And it's someone you know well...
 -----------------------
 <Loni>
 -----------------------
-おい、気味悪ぃな
-うらみを残して死んだ女が････
-なんてのはゴメンだぜ
+#おい、気味悪ぃな
+#うらみを残して死んだ女が････
+#なんてのはゴメンだぜ
+Hey, I don't want a dead woman
+with a creepy grin on her face.
 -----------------------
 <Loni>
 -----------------------
-そんなに気になるなら、いってこいよ
-ここで待っててやるから
+#そんなに気になるなら、いってこいよ
+#ここで待っててやるから
+If it bothers you that much,
+go ahead, I'll wait here for you.
 -----------------------
 <Kyle>
 -----------------------
-うん、そうするよ
-ごめんね、<Loni>
+#うん、そうするよ
+#ごめんね、<Loni>
+Yeah, I will.
+I'm sorry, <Loni>.
 -----------------------
 <Kyle>
 -----------------------
-この辺から入っていった気がするけど････？
-見つかったらマズイし、オレたちは横穴から
-中に入ろう
+#この辺から入っていった気がするけど････？
+#見つかったらマズイし、オレたちは横穴から
+#中に入ろう
+I think we went in from around here?
+If they see us, we'll have to go in through the side hole.
 -----------------------
 <Kyle>
 -----------------------
-ここが入口かなあ？
-でも、開け方が分からないや
-なにか道具が手に入ったら、また来てみよう
+#ここが入口かなあ？
+#でも、開け方が分からないや
+#なにか道具が手に入ったら、また来てみよう
+I wonder if this is the entrance.
+I can't figure out how to open it,
+we need to come back with some tools.
 -----------------------
 いってらっしゃいませ
 -----------------------
