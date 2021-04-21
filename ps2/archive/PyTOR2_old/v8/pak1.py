@@ -9,8 +9,8 @@ def extract_pak1():
     for name in os.listdir('pak1'):
         if not name.endswith('pak1'):
             continue
-        f = open('pak1/' + name, 'rb')
-        try: os.mkdir('pak1/' + name[:5])
+        f = open('PAK1/' + name, 'rb')
+        try: os.mkdir('PAK1/' + name[:5])
         except: pass
         n = struct.unpack('<I', f.read(4))[0]
         offsets = []
@@ -29,7 +29,7 @@ def extract_pak1():
                     ext = 'sced'
                 else:
                     pass
-            o = open('pak1/' + name[:5] + '/' + '%s_%02d.%s' % (name[:5], i, ext), 'wb')
+            o = open('PAK1/' + name[:5] + '/' + '%s_%02d.%s' % (name[:5], i, ext), 'wb')
             o.write(data)
             o.close()
         f.close()
@@ -39,24 +39,24 @@ def insert_pak1():
     json_data = json.load(json_file)
     json_file.close()
     print ("Packing pak1...")
-    try: os.mkdir('pak1_packed')
+    try: os.mkdir('PAK1_PACKED')
     except: pass
-    for name in os.listdir('pak1'):
-        if not os.path.isdir('pak1/' + name):
+    for name in os.listdir('PAK1'):
+        if not os.path.isdir('PAK1/' + name):
             continue
-        dir_ = os.listdir('pak1/' + name)
+        dir_ = os.listdir('PAK1/' + name)
         files = []
         paddings = []
         n = len(dir_)
         for file in dir_:
-            f = open('pak1/' + name + '/' + file, 'rb')
+            f = open('PAK1/' + name + '/' + file, 'rb')
             data = f.read()
             padding = 16 - (len(data) % 16)
             if padding == 16:
                 padding = 0
             files.append(data)
             paddings.append(padding)
-        fname = 'pak1_packed/' + name + '.pak1'
+        fname = 'PAK1_PACKED/' + name + '.pak1'
         o = open(fname, 'wb')
         o.write(struct.pack('<I', n))
         new_offset = 4 + n * 8
@@ -74,7 +74,7 @@ def insert_pak1():
             o.write(files[i] + b'\x00' * paddings[i])
         o.close()
         if compress and json_data[name] == 3:
-            subprocess.run(['comptoe', '-c3', fname, fname + '.c'])
+            subprocess.run(['comptoe.exe', '-c3', fname, fname + '.c'])
             os.remove(fname)
             os.rename(fname + '.c', fname)
 

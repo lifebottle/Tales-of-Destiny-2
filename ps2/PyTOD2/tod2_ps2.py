@@ -470,6 +470,130 @@ def export_tbl():
     f = open('tbl.tbl', 'w', encoding = 'utf8')
     for k, v in table.items():
         f.write('%04X=%s\n' % (int(k), v))
+
+# folders that will be decompressed
+compressed = ['bin', 'mcd', 'pak0', 'pak1', 'pak4', 'tm2']
+
+def is_compressed(name):
+    f = open(name, 'rb')
+    data = f.read()
+    if struct.unpack('<L', data[1:5])[0] == len(data) - 9:
+        f.close()
+        return [True, data[0]]
+    f.close()
+    return [False, 0]
+
+def unpack():
+    json_file = open('FPB.json', 'r')
+    data = json.load(json_file)
+    json_file.close()
+    c_json = open('compression.json', 'w')
+    c_data = {}
+    
+    try: os.mkdir('FILE')
+    except: pass
+
+    for d in data.values():
+        if d == 'dummy':
+            continue
+        try: os.mkdir('FILE/' + d)
+        except: pass
+    
+    for name in os.listdir('FPB'):
+        fname = name.split('.')[0]
+        if fname in data.keys():
+            print (name)
+            new_location = f'FILE/{data[fname]}/{fname}.{data[fname]}'
+            #new_location = 'file/' + data[fname] + '/' + fname + '.' + data[fname]
+            shutil.copy(os.path.join('FPB/', name), new_location)
+            c_result = is_compressed(new_location)
+            c_data[fname] = c_result[1]
+            if data[fname] in compressed:
+                if not c_result[0]:
+                    continue
+                dec = new_location + '.d'
+                subprocess.run(['comptoe.exe', '-d', new_location, dec])
+                os.remove(new_location)
+                os.rename(dec, new_location)
+    json.dump(c_data, c_json, indent=4)
+
+# True to automatically compress after packing
+# False to only pack
+compress = True
+
+def extract_pak1():
+    print ("Extracting pak1...")
+    for name in os.listdir('pak1'):
+        if not name.endswith('pak1'):
+            continue
+        f = open('PAK1/' + name, 'rb')
+        try: os.mkdir('PAK1/' + name[:5])
+        except: pass
+        n = struct.unpack('<I', f.read(4))[0]
+        offsets = []
+        sizes = []
+        for i in range(n):
+            offsets.append(struct.unpack('<I', f.read(4))[0])
+            sizes.append(struct.unpack('<I', f.read(4))[0])
+        for i in range(n):
+            f.seek(offsets[i], 0)
+            data = f.read(sizes[i])
+            ext = 'bin'
+            if len(data) > 4:
+                if data[:4] == b'TM2@':
+                    ext = 'tm2'
+                elif data[:4] == b'SCED':
+                    ext = 'sced'
+                else:
+                    pass
+            o = open('PAK1/' + name[:5] + '/' + '%s_%02d.%s' % (name[:5], i, ext), 'wb')
+            o.write(data)
+            o.close()
+        f.close()
+
+def insert_pak1():
+    json_file = open('compression.json', 'r')
+    json_data = json.load(json_file)
+    json_file.close()
+    print ("Packing pak1...")
+    try: os.mkdir('PAK1_PACKED')
+    except: pass
+    for name in os.listdir('PAK1'):
+        if not os.path.isdir('PAK1/' + name):
+            continue
+        dir_ = os.listdir('PAK1/' + name)
+        files = []
+        paddings = []
+        n = len(dir_)
+        for file in dir_:
+            f = open('PAK1/' + name + '/' + file, 'rb')
+            data = f.read()
+            padding = 16 - (len(data) % 16)
+            if padding == 16:
+                padding = 0
+            files.append(data)
+            paddings.append(padding)
+        fname = 'PAK1_PACKED/' + name + '.pak1'
+        o = open(fname, 'wb')
+        o.write(struct.pack('<I', n))
+        new_offset = 4 + n * 8
+        offset_padding = 16 - new_offset % 16
+        if offset_padding == 16:
+            offset_padding = 0
+        new_offset += offset_padding
+        for i in range(n):
+            o.write(struct.pack('<I', new_offset))
+            size = len(files[i])
+            o.write(struct.pack('<I', size))
+            new_offset += size + paddings[i]
+        o.write(b'\x00' * offset_padding)
+        for i in range(n):
+            o.write(files[i] + b'\x00' * paddings[i])
+        o.close()
+        if compress and json_data[name] == 3:
+            subprocess.run(['comptoe.exe', '-c3', fname, fname + '.c'])
+            os.remove(fname)
+            os.rename(fname + '.c', fname)
     
 if __name__ == '__main__':
     if sys.argv[1] == '1':
@@ -494,5 +618,11 @@ if __name__ == '__main__':
         export_tbl()
     elif sys.argv[1] == '11':
         move_sced()
+    elif sys.argv[1] == '12':
+        unpack()
+    elif sys.argv[1] == '13':
+        extract_pak1()
+    elif sys.argv[1] == '14':
+        insert_pak1()
     else:
         sys.exit(1)
