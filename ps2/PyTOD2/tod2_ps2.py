@@ -40,10 +40,10 @@ def mkdir(name):
 
 def compress_comptoe(name, ctype=1):
     c = '-c%d' % ctype
-    subprocess.run(['./comptoe.exe', c, name, name + '.c'])
+    subprocess.run(['comptoe.exe', c, name, name + '.c'])
 
 def decompress_comptoe(name):
-    subprocess.run(['./comptoe.exe', '-d', name, name + '.d'])
+    subprocess.run(['comptoe.exe', '-d', name, name + '.d'])
 
 # by flame1234
 def decode(param):
@@ -133,7 +133,7 @@ def pack_fpb():
     #ext_file = open('tree.json', 'r')
     #ext_data = json.load(ext_file)
     #ext_file.close()
-    o = open('FILE_NEW.FPB', 'wb')
+    o = open('new_FILE.FPB', 'wb')
 
     print ("Packing FPB...")
     
@@ -254,6 +254,11 @@ def pack_scpk():
 
 def extract_sced():
     mkdir('TXT')
+    mkdir('TXT_EN')
+    mkdir('PAK1')
+    mkdir('SKITS')
+    mkdir('SKITS/SCED')
+    mkdir('SKITS/TXT_EN')
     json_file = open('TBL.json', 'r')
     #json_file2 = open('TBL2.json', 'w')
     json_data = json.load(json_file)
