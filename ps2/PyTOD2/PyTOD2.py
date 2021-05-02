@@ -24,6 +24,8 @@ low_bits = 0x3F
 high_bits = 0xFFFFFFC0
 pointer_begin = 0xDD320
 pointer_end = 0xE62EF
+movie_begin = 0xE62F0
+movie_end = 0xE631F
 
 tags = {0x4: 'color', 0x5: 'size', 0x6: 'num', 0x7: 'char', 0x8: 'item', 0x9: 'button'}
 names = {1: 'Kyle', 2: 'Reala', 3: 'Loni', 4: 'Judas', 5: 'Nanaly', 6: 'Harold' }
@@ -44,6 +46,39 @@ def get_pointers():
 
     f.close()
     return pointers
+
+def get_movie_pointers():
+    f = open("SLPS_251.72", 'rb')
+    f.seek(movie_begin, 0)
+    movie_pointers = []
+
+    while f.tell() < movie_end:
+        p = struct.unpack('<L', f.read(4))[0]
+        movie_pointers.append(p)
+
+    f.close()
+    return movie_pointers
+
+def extract_movie():
+    f = open('MOVIE.FPB', 'rb')
+    mkdir('MOVIE')
+    movie_pointers = get_movie_pointers()
+    
+    for i in range(len(movie_pointers) - 1):
+        remainder = movie_pointers[i] & low_bits
+        start = movie_pointers[i] & high_bits
+        end = (movie_pointers[i+1] & high_bits) - remainder
+        f.seek(start, 0)
+        size = (end - start)
+        if size == 0:
+            continue
+        data = f.read(size)
+        extension = 'mpeg'
+        o = open('MOVIE/' + '%05d.%s' % (i, extension), 'wb')
+        o.write(data)
+        o.close()
+
+    f.close()
 
 def mkdir(name):
     try: os.mkdir(name)
@@ -466,15 +501,16 @@ btn_unpackSCED = Button(text="Unpack SCED", command = extract_sced)
 btn_unpackSCED.pack(side=LEFT)
 
 btn_unpackSCED = Button(text="Pack SCED", command = insert_sced)
-btn_unpackSCED.pack(side=RIGHT)
+btn_unpackSCED.pack(side=LEFT)
 
 btn_unpackSCPK = Button(text="Pack SCPK", command = pack_scpk)
-btn_unpackSCPK.pack(side=RIGHT)
+btn_unpackSCPK.pack(side=LEFT)
 
 btn_unpackFPB = Button(text="Pack FPB", command = pack_fpb)
+btn_unpackFPB.pack(side=LEFT)
+
+btn_unpackFPB = Button(text="Unpack MOVIE", command = extract_movie)
 btn_unpackFPB.pack(side=RIGHT)
-
-
 
 
 window.mainloop()
