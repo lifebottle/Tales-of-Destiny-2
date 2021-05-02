@@ -195,6 +195,7 @@ def extract_scpk():
         f.close()
         
     json.dump(json_data, json_file, indent = 4)
+    move_sced()
 
 def move_sced():
     mkdir('SCED')
@@ -208,7 +209,6 @@ def move_sced():
         shutil.copy(os.path.join('SCPK', folder, f), sced_dir + new_name)
 
 def extract_sced():
-    move_sced()
     mkdir('TXT')
     mkdir('TXT_EN')
     json_file = open('TBL.json', 'r')
@@ -470,6 +470,209 @@ def pack_fpb():
     o.close()
     u.close()
 
+def insert_font():
+    offset = 0xCA238
+    size = 0x5518
+    elf = open('new_SLPS_251.72' , 'r+b')
+    font = open('font.bin', 'rb')
+    data = font.read()
+    font.close()
+    elf.seek(offset, 0)
+    if len(data) > size:
+        print("Error. Size is greater than allowed.")
+        return
+    remainder = size - len(data)
+    elf.write(data)
+    elf.write(b'\x00' * remainder)
+    elf.seek(0xC9D41, 0)
+    for i in range(0x31, 0x4B):
+        elf.write(struct.pack('B', i))
+    elf.close()
+    #print ("Font inserted")
+
+def export_tbl():
+    json_file = open('TBL.json', 'r')
+    table = json.load(json_file)
+    json_file.close()
+    f = open('tod2.tbl', 'w', encoding = 'utf8')
+    for k, v in table.items():
+        f.write('%04X=%s\n' % (int(k), v))
+
+# folders that will be decompressed
+compressed = ['bin', 'mcd', 'pak0', 'pak1', 'pak4', 'tm2']
+
+def is_compressed(name):
+    f = open(name, 'rb')
+    data = f.read()
+    if struct.unpack('<L', data[1:5])[0] == len(data) - 9:
+        f.close()
+        return [True, data[0]]
+    f.close()
+    return [False, 0]
+
+def unpack():
+    json_file = open('FPB.json', 'r')
+    data = json.load(json_file)
+    json_file.close()
+    c_json = open('compression.json', 'w')
+    c_data = {}
+    
+    try: os.mkdir('FILE')
+    except: pass
+
+    for d in data.values():
+        if d == 'dummy':
+            continue
+        try: os.mkdir('FILE/' + d)
+        except: pass
+    
+    for name in os.listdir('FPB'):
+        fname = name.split('.')[0]
+        if fname in data.keys():
+            print (name)
+            new_location = f'FILE/{data[fname]}/{fname}.{data[fname]}'
+            #new_location = 'file/' + data[fname] + '/' + fname + '.' + data[fname]
+            shutil.copy(os.path.join('FPB/', name), new_location)
+            c_result = is_compressed(new_location)
+            c_data[fname] = c_result[1]
+            if data[fname] in compressed:
+                if not c_result[0]:
+                    continue
+                dec = new_location + '.d'
+                subprocess.run(['comptoe.exe', '-d', new_location, dec])
+                os.remove(new_location)
+                os.rename(dec, new_location)
+    json.dump(c_data, c_json, indent=4)
+
+# True to automatically compress after packing
+# False to only pack
+compress = True
+
+def extract_pak1():
+    #print ("Extracting pak1...")
+    for name in os.listdir('pak1'):
+        if not name.endswith('pak1'):
+            continue
+        f = open('PAK1/' + name, 'rb')
+        try: os.mkdir('PAK1/' + name[:5])
+        except: pass
+        n = struct.unpack('<I', f.read(4))[0]
+        offsets = []
+        sizes = []
+        for i in range(n):
+            offsets.append(struct.unpack('<I', f.read(4))[0])
+            sizes.append(struct.unpack('<I', f.read(4))[0])
+        for i in range(n):
+            f.seek(offsets[i], 0)
+            data = f.read(sizes[i])
+            ext = 'bin'
+            if len(data) > 4:
+                if data[:4] == b'TM2@':
+                    ext = 'tm2'
+                elif data[:4] == b'SCED':
+                    ext = 'sced'
+                else:
+                    pass
+            o = open('PAK1/' + name[:5] + '/' + '%s_%02d.%s' % (name[:5], i, ext), 'wb')
+            o.write(data)
+            o.close()
+        f.close()
+
+def move_skits_out():
+
+    os.chdir('PAK1')
+
+    try:
+        os.mkdir('SCED')
+    except:
+        pass
+    
+    for folder in os.listdir(os.getcwd()):
+        if not os.path.isdir(folder):
+            continue
+        if folder == 'PAK1':
+            continue
+        for n in os.listdir(folder):
+            if n.endswith('sced'):
+                f = n
+                break
+        new_name = '%s_%s.sced' % (folder, f.split('.')[0])
+        try:
+            shutil.copy(os.path.join(folder,f), 'SCED/' + f)
+        except:
+            pass
+        #print (new_name)
+
+    os.chdir('C:/TOD2')
+
+def extract_skit():
+    copyfile('TBL.json', 'PAK1/TBL.json')
+    os.chdir('PAK1')
+    extract_sced()
+    os.chdir('C:/TOD2')
+    
+def insert_skit():
+    os.chdir('PAK1')
+    insert_sced()
+    os.chdir('C:/TOD2')
+    
+def move_skits_in():
+    os.chdir('PAK1')
+    
+    for name in os.listdir('SCED_NEW'):
+        folder = name.split('_')[0]
+        #n = name.split('_')[0]
+        shutil.copy(os.path.join('SCED_NEW/', name), os.path.join(folder, name))
+        #print (name)
+
+    os.chdir('C:/TOD2')
+
+def insert_pak1():
+    json_file = open('compression.json', 'r')
+    json_data = json.load(json_file)
+    json_file.close()
+    #print ("Packing pak1...")
+    try: os.mkdir('PAK1_PACKED')
+    except: pass
+    for name in os.listdir('PAK1'):
+        if not os.path.isdir('PAK1/' + name):
+            continue
+        dir_ = os.listdir('PAK1/' + name)
+        if name == 'SCED' or name == 'SCED_NEW' or name == 'TXT' or name == 'TXT_EN':
+            continue
+        files = []
+        paddings = []
+        n = len(dir_)
+        for file in dir_:
+            f = open('PAK1/' + name + '/' + file, 'rb')
+            data = f.read()
+            padding = 16 - (len(data) % 16)
+            if padding == 16:
+                padding = 0
+            files.append(data)
+            paddings.append(padding)
+        fname = 'PAK1_PACKED/' + name + '.pak1'
+        o = open(fname, 'wb')
+        o.write(struct.pack('<I', n))
+        new_offset = 4 + n * 8
+        offset_padding = 16 - new_offset % 16
+        if offset_padding == 16:
+            offset_padding = 0
+        new_offset += offset_padding
+        for i in range(n):
+            o.write(struct.pack('<I', new_offset))
+            size = len(files[i])
+            o.write(struct.pack('<I', size))
+            new_offset += size + paddings[i]
+        o.write(b'\x00' * offset_padding)
+        for i in range(n):
+            o.write(files[i] + b'\x00' * paddings[i])
+        o.close()
+        if compress and json_data[name] == 3:
+            subprocess.run(['comptoe.exe', '-c3', fname, fname + '.c'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
+            os.remove(fname)
+            os.rename(fname + '.c', fname)
+
 '''
 Graphical Interface Start
 '''
@@ -479,7 +682,7 @@ window = Tk()
 window.title("PyTOD2 - Tales of Destiny 2 (PS2) Tool")
 
 #Set working directory for GUI
-os.chdir('C:/Users/pvnn/Desktop')
+os.chdir('C:/TOD2')
 
 label = Label(window, text = "PyTOD2 unpacks resources from Tales of Destiny 2 (PS2) and repacks them.")
 #label.pack(padx = 200, pady = 50)
@@ -512,6 +715,32 @@ btn_unpackFPB.pack(side=LEFT)
 btn_unpackFPB = Button(text="Unpack MOVIE", command = extract_movie)
 btn_unpackFPB.pack(side=RIGHT)
 
+btn_unpackFPB = Button(text="Insert FONT", command = insert_font)
+btn_unpackFPB.pack(side=RIGHT)
+
+btn_unpackFPB = Button(text="Export TBL", command = export_tbl)
+btn_unpackFPB.pack(side=RIGHT)
+
+btn_unpackFPB = Button(text="Move Skits OUT", command = move_skits_out)
+btn_unpackFPB.pack(side=RIGHT)
+
+btn_unpackFPB = Button(text="Move Skits IN", command = move_skits_in)
+btn_unpackFPB.pack(side=RIGHT)
+
+btn_unpackFPB = Button(text="Unpack PAK1", command = extract_pak1)
+btn_unpackFPB.pack(side=RIGHT)
+
+btn_unpackFPB = Button(text="Pack PAK1", command = insert_pak1)
+btn_unpackFPB.pack(side=RIGHT)
+
+btn_unpackFPB = Button(text="Sort FPB", command = unpack)
+btn_unpackFPB.pack(side=RIGHT)
+
+btn_unpackFPB = Button(text="Extract SKIT", command = extract_skit)
+btn_unpackFPB.pack(side=RIGHT)
+
+btn_unpackFPB = Button(text="Insert SKIT", command = insert_skit)
+btn_unpackFPB.pack(side=RIGHT)
 
 window.mainloop()
 
