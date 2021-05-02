@@ -13,7 +13,10 @@ import subprocess
 import shutil
 import string
 
-#Set working directory
+#Prevents PC becoming hostage
+from subprocess import CREATE_NO_WINDOW
+
+#Set working directory for GUI
 os.chdir('C:/Users/pvnn/Desktop')
 
 low_bits = 0x3F
@@ -47,10 +50,10 @@ def mkdir(name):
 
 def compress_comptoe(name, ctype=1):
     c = '-c%d' % ctype
-    subprocess.run(['comptoe.exe', c, name, name + '.c'])
+    subprocess.run(['comptoe.exe', c, name, name + '.c'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
 def decompress_comptoe(name):
-    subprocess.run(['comptoe.exe', '-d', name, name + '.d'])
+    subprocess.run(['comptoe.exe', '-d', name, name + '.d'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
 # by flame1234
 def decode(param):
@@ -254,6 +257,12 @@ def extract_sced():
     #json.dump(json_data, json_file2, indent=4)
     json.dump(sced_data, sced_file, indent=4)
 
+
+
+'''
+Graphical Interface Start
+'''
+
 window = Tk()
 
 window.title("PyTOD2 - Tales of Destiny 2 (PS2) Tool")
@@ -286,11 +295,8 @@ btn_unpackSCPK.pack(side=RIGHT)
 btn_unpackSCED = Button(text="Pack SCED")
 btn_unpackSCED.pack(side=RIGHT)
 
-
-
-
-
 window.mainloop()
+
 
 
 '''
