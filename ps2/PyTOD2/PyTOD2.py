@@ -16,8 +16,9 @@ import string
 #Prevents PC becoming hostage
 from subprocess import CREATE_NO_WINDOW
 
-#Set working directory for GUI
-os.chdir('C:/Users/pvnn/Desktop')
+#Copy SLPS file and rename to new_SLPS
+from shutil import copyfile
+
 
 low_bits = 0x3F
 high_bits = 0xFFFFFFC0
@@ -257,7 +258,182 @@ def extract_sced():
     #json.dump(json_data, json_file2, indent=4)
     json.dump(sced_data, sced_file, indent=4)
 
+def insert_sced():
+    json_file = open('TBL.json', 'r')
+    sced_json = open('SCED.json', 'r')
+    table = json.load(json_file)
+    sced_data = json.load(sced_json)
+    json_file.close()
+    sced_json.close()
+    
+    itable = dict([[i,struct.pack('>H', int(j))] for j,i in table.items()])
+    itags = dict([[i,j] for j,i in tags.items()])
+    inames = dict([[i,j] for j,i in names.items()])
+    
+    mkdir('SCED_NEW/')
 
+    for name in os.listdir('txt_en'):
+        f = open('txt_en/' + name, 'r', encoding='utf8')
+        name = name[:-4]
+        sced = open('sced/' + name, 'rb')
+        o = open('sced_new/' + name, 'wb')
+
+        txts = []
+        sizes = []
+        txt = bytearray()
+
+        for line in f:
+            line = line.strip('\x0A')
+            if len(line) > 0:
+                if line[0] == '#':
+                    continue
+            if '-----------------------' in line:
+                txts.append(txt[:-1] + b'\x00')
+                sizes.append(len(txt))
+                txt = bytearray()
+            else:
+                string_hex = re.split(hex_tag, line)
+                string_hex = [sh for sh in string_hex if sh]
+                for s in string_hex:
+                    if re.match(hex_tag, s):
+                        txt += (struct.pack('B', int(s[1:3], 16)))
+                    else:
+                        s_com = re.split(com_tag, s)
+                        s_com = [sc for sc in s_com if sc]
+                        for c in s_com:
+                            if re.match(com_tag, c):
+                                if ':' in c:
+                                    split = c.split(':') 
+                                    if split[0][1:] in itags.keys():
+                                        txt += (struct.pack('B', itags[split[0][1:]]))
+                                    else:
+                                        txt += (struct.pack('B', int(split[0][1:], 16)))
+                                    txt += (struct.pack('<I', int(split[1][:8], 16)))
+                                else:
+                                    txt += struct.pack('B', 0x7)
+                                    txt += struct.pack('<I', inames[c[1:-1]])
+                                    
+                            else:
+                                for c2 in c:
+                                    if c2 in itable.keys():
+                                        txt += itable[c2]
+                                    else:
+                                        txt += c2.encode('cp932')
+                txt += (b'\x01')
+                
+        f.close()
+        
+        sced.seek(8, 0)
+        pointer_block = struct.unpack('<L', sced.read(4))[0]
+        sced.seek(0, 0)
+        header = sced.read(pointer_block)
+        o.write(header + b'\x00')
+        sced.close()
+
+        pos = 1
+        for i in range(len(txts)):
+            o.seek(sced_data[name][i], 0)
+            o.write(struct.pack('<H', pos))
+            pos += sizes[i]
+
+        o.seek(pointer_block + 1, 0)
+        
+        for t in txts:
+            o.write(t)
+            
+        o.close()
+
+def pack_scpk():
+    mkdir('SCPK_PACKED')
+    json_file = open('SCPK.json', 'r')
+    json_data = json.load(json_file)
+    json_file.close()
+
+    for name in os.listdir('sced_new'):
+        folder = name[:5]
+        if not os.path.isdir('scpk/' + folder):
+            continue
+        if os.path.isdir('scpk/' + folder):
+            sizes = []
+            o = open('scpk_packed/%s.SCPK' % folder, 'wb')
+            data = bytearray()
+            listdir = os.listdir('scpk/' + folder)
+            for file in listdir:
+                read = bytearray()
+                index = str(int(file.split('.')[0]))
+                fname = 'scpk/%s/%s' % (folder, file)
+                f = open(fname, 'rb')
+                ctype = json_data[folder][index]
+                if file == listdir[-1]:
+                    if ctype != 0:
+                        fname = 'sced_new/' + name
+                        compress_comptoe(fname, ctype)
+                        comp = open(fname + '.c', 'rb')
+                        read = comp.read()
+                        comp.close()
+                        os.remove(fname + '.c')
+                    else:
+                        read = f.read()
+                else:
+                    read = f.read()
+                data += read
+                sizes.append(len(read))
+                f.close()
+                
+            o.write(b'\x53\x43\x50\x4B\x01\x00\x07\x00')
+            o.write(struct.pack('<L', len(sizes)))
+            o.write(b'\x00' * 4)
+            
+            for i in range(len(sizes)):
+                o.write(struct.pack('<L', sizes[i]))
+                
+            o.write(data)
+            o.close()
+
+def move_scpk_packed():
+    for f in os.listdir('SCPK_PACKED'):
+        shutil.copy(os.path.join('SCPK_PACKED', f), 'FPB/' + f)
+
+def pack_fpb():
+    move_scpk_packed()
+    sectors = [0]
+    remainders = []
+    buffer = 0
+    json_file = open('FPB.json', 'r')
+    json_data = json.load(json_file)
+    json_file.close()
+    #ext_file = open('tree.json', 'r')
+    #ext_data = json.load(ext_file)
+    #ext_file.close()
+    o = open('FILE_NEW.FPB', 'wb')
+
+    #print ("Packing FPB...")
+    
+    for k, v in json_data.items():
+        size = 0
+        remainder = 0
+        if v != 'dummy':
+            f = open('fpb/%s.%s' % (k, v), 'rb')
+            o.write(f.read())
+            size = os.path.getsize('fpb/%s.%s' % (k, v))
+            remainder = 0x40 - (size % 0x40)
+            if remainder == 0x40:
+                remainder = 0
+            o.write(b'\x00' * remainder)
+            f.close()
+        remainders.append(remainder)
+        buffer += (size + remainder)
+        sectors.append(buffer)
+
+    copyfile('SLPS_251.72', 'new_SLPS_251.72')
+    u = open('new_SLPS_251.72', 'r+b')
+    u.seek(pointer_begin)
+    
+    for i in range(len(sectors) - 1):
+        u.write(struct.pack('<L', sectors[i] + remainders[i]))
+        
+    o.close()
+    u.close()
 
 '''
 Graphical Interface Start
@@ -266,6 +442,9 @@ Graphical Interface Start
 window = Tk()
 
 window.title("PyTOD2 - Tales of Destiny 2 (PS2) Tool")
+
+#Set working directory for GUI
+os.chdir('C:/Users/pvnn/Desktop')
 
 label = Label(window, text = "PyTOD2 unpacks resources from Tales of Destiny 2 (PS2) and repacks them.")
 #label.pack(padx = 200, pady = 50)
@@ -286,14 +465,17 @@ btn_unpackSCPK.pack(side=LEFT)
 btn_unpackSCED = Button(text="Unpack SCED", command = extract_sced)
 btn_unpackSCED.pack(side=LEFT)
 
-btn_unpackFPB = Button(text="Pack FPB")
-btn_unpackFPB.pack(side=RIGHT)
+btn_unpackSCED = Button(text="Pack SCED", command = insert_sced)
+btn_unpackSCED.pack(side=RIGHT)
 
-btn_unpackSCPK = Button(text="Pack SCPK")
+btn_unpackSCPK = Button(text="Pack SCPK", command = pack_scpk)
 btn_unpackSCPK.pack(side=RIGHT)
 
-btn_unpackSCED = Button(text="Pack SCED")
-btn_unpackSCED.pack(side=RIGHT)
+btn_unpackFPB = Button(text="Pack FPB", command = pack_fpb)
+btn_unpackFPB.pack(side=RIGHT)
+
+
+
 
 window.mainloop()
 
