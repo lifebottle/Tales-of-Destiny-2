@@ -604,18 +604,18 @@ def move_skits_out():
             pass
         #print (new_name)
 
-    os.chdir('C:/TOD2')
+    os.chdir('..')
 
 def extract_skit():
     copyfile('TBL.json', 'PAK1/TBL.json')
     os.chdir('PAK1')
     extract_sced()
-    os.chdir('C:/TOD2')
+    os.chdir('..')
     
 def insert_skit():
     os.chdir('PAK1')
     insert_sced()
-    os.chdir('C:/TOD2')
+    os.chdir('..')
     
 def move_skits_in():
     os.chdir('PAK1')
@@ -626,7 +626,7 @@ def move_skits_in():
         shutil.copy(os.path.join('SCED_NEW/', name), os.path.join(folder, name))
         #print (name)
 
-    os.chdir('C:/TOD2')
+    os.chdir('..')
 
 def insert_pak1():
     json_file = open('compression.json', 'r')
