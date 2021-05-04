@@ -2,6 +2,7 @@
 # Windows Freeze: Run > cmd > pyinstaller --onefile --noconsole PyTOD2.py
 
 from tkinter import *
+from tkinter import filedialog
 import tkinter.messagebox as box
 
 import sys
@@ -673,6 +674,16 @@ def insert_pak1():
             os.remove(fname)
             os.rename(fname + '.c', fname)
 
+def donothing():
+   filewin = Toplevel(window)
+   button = Button(filewin, text="Do nothing button")
+   button.pack()
+
+def work_dir():
+    pwd = filedialog.askdirectory()
+    os.chdir(pwd)
+    cwd.config(text="Current Working Directory: " + pwd)
+
 '''
 Graphical Interface Start
 '''
@@ -681,14 +692,46 @@ window = Tk()
 
 window.title("PyTOD2 - Tales of Destiny 2 (PS2) Tool")
 
-#Set working directory for GUI
-os.chdir('C:/TOD2')
+menubar = Menu(window)
+filemenu = Menu(menubar, tearoff=0)
+filemenu.add_command(label="New", command=donothing)
+filemenu.add_command(label="Open", command=donothing)
+filemenu.add_command(label="Save", command=donothing)
+filemenu.add_command(label="Save as...", command=donothing)
+filemenu.add_command(label="Close", command=donothing)
+
+filemenu.add_separator()
+
+filemenu.add_command(label="Exit", command=window.quit)
+menubar.add_cascade(label="File", menu=filemenu)
+editmenu = Menu(menubar, tearoff=0)
+editmenu.add_command(label="Undo", command=donothing)
+
+editmenu.add_separator()
+
+editmenu.add_command(label="Cut", command=donothing)
+editmenu.add_command(label="Copy", command=donothing)
+editmenu.add_command(label="Paste", command=donothing)
+editmenu.add_command(label="Delete", command=donothing)
+editmenu.add_command(label="Select All", command=donothing)
+
+menubar.add_cascade(label="Edit", menu=editmenu)
+helpmenu = Menu(menubar, tearoff=0)
+helpmenu.add_command(label="Help Index", command=donothing)
+helpmenu.add_command(label="About...", command=donothing)
+menubar.add_cascade(label="Help", menu=helpmenu)
+
+window.config(menu=menubar)
+
 
 label = Label(window, text = "PyTOD2 unpacks resources from Tales of Destiny 2 (PS2) and repacks them.")
 #label.pack(padx = 200, pady = 50)
 label.pack(anchor="w")
 
+btn_getPWD = Button(text="Change Work Directory", command = work_dir)
+btn_getPWD.pack()
 
+#Set working directory for GUI
 cwd = Label(window, text = "Current Working Directory: " + os.getcwd())
 cwd.pack(anchor="w")
 #path_SLPS = Label(window, text = "Path to SLPS_251.72")
