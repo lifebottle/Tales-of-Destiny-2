@@ -1,5 +1,5 @@
 # pip install pyinstaller
-# Windows Freeze: Run > cmd > pyinstaller --onefile --noconsole PyTOD2.py
+# Windows Freeze: Run > cmd > pyinstaller --onefile --noconsole --icon favicon.ico PyTOD2.py
 
 from tkinter import *
 from tkinter import filedialog
@@ -196,7 +196,6 @@ def extract_scpk():
         f.close()
         
     json.dump(json_data, json_file, indent = 4)
-    move_sced()
 
 def move_sced():
     mkdir('SCED')
@@ -210,6 +209,7 @@ def move_sced():
         shutil.copy(os.path.join('SCPK', folder, f), sced_dir + new_name)
 
 def extract_sced():
+    move_sced()
     mkdir('TXT')
     mkdir('TXT_EN')
     json_file = open('TBL.json', 'r')
@@ -391,7 +391,7 @@ def pack_scpk():
             continue
         if os.path.isdir('scpk/' + folder):
             sizes = []
-            o = open('scpk_packed/%s.SCPK' % folder, 'wb')
+            o = open('scpk_packed/%s.scpk' % folder, 'wb')
             data = bytearray()
             listdir = os.listdir('scpk/' + folder)
             for file in listdir:
@@ -540,7 +540,7 @@ def unpack():
                 if not c_result[0]:
                     continue
                 dec = new_location + '.d'
-                subprocess.run(['comptoe.exe', '-d', new_location, dec])
+                subprocess.run(['comptoe.exe', '-d', new_location, dec], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
                 os.remove(new_location)
                 os.rename(dec, new_location)
     json.dump(c_data, c_json, indent=4)
@@ -723,7 +723,7 @@ menubar.add_cascade(label="Help", menu=helpmenu)
 
 window.config(menu=menubar)
 
-window.iconbitmap("favicon.ico")
+#window.iconbitmap("favicon.ico")
 label = Label(window, text = "PyTOD2 unpacks resources from Tales of Destiny 2 (PS2) and repacks them.")
 #label.pack(padx = 200, pady = 50)
 label.grid(row=0, column=0, columnspan=4)
