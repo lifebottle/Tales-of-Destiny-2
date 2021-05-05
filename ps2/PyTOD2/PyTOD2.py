@@ -723,67 +723,81 @@ menubar.add_cascade(label="Help", menu=helpmenu)
 
 window.config(menu=menubar)
 
-
+window.iconbitmap("favicon.ico")
 label = Label(window, text = "PyTOD2 unpacks resources from Tales of Destiny 2 (PS2) and repacks them.")
 #label.pack(padx = 200, pady = 50)
-label.pack(anchor="w")
+label.grid(row=0, column=0, columnspan=4)
 
-btn_getPWD = Button(text="Change Work Directory", command = work_dir)
-btn_getPWD.pack()
 
-#Set working directory for GUI
-cwd = Label(window, text = "Current Working Directory: " + os.getcwd())
-cwd.pack(anchor="w")
 #path_SLPS = Label(window, text = "Path to SLPS_251.72")
 #path_SLPS.pack(anchor="w")
 
-btn_unpackFPB = Button(text="Unpack FPB", command = extract_fpb)
-btn_unpackFPB.pack(side=LEFT)
 
-btn_unpackSCPK = Button(text="Unpack SCPK", command = extract_scpk)
-btn_unpackSCPK.pack(side=LEFT)
+frame1 = LabelFrame(window, text="Unpack", padx=5, pady=5)
+frame1.grid(row=1, column=0, padx=10, pady=10)
 
-btn_unpackSCED = Button(text="Unpack SCED", command = extract_sced)
-btn_unpackSCED.pack(side=LEFT)
+btn_unpackFPB = Button(frame1, text="Unpack FPB", command = extract_fpb)
+btn_unpackFPB.grid(row=0, column=0)
 
-btn_unpackSCED = Button(text="Pack SCED", command = insert_sced)
-btn_unpackSCED.pack(side=LEFT)
+btn_unpackSCPK = Button(frame1, text="Unpack SCPK", command = extract_scpk)
+btn_unpackSCPK.grid(row=1, column=0)
 
-btn_unpackSCPK = Button(text="Pack SCPK", command = pack_scpk)
-btn_unpackSCPK.pack(side=LEFT)
+btn_unpackSCED = Button(frame1, text="Unpack SCED", command = extract_sced)
+btn_unpackSCED.grid(row=2, column=0)
 
-btn_unpackFPB = Button(text="Pack FPB", command = pack_fpb)
-btn_unpackFPB.pack(side=LEFT)
+btn_unpackPAK1 = Button(frame1, text="Unpack PAK1", command = extract_pak1)
+btn_unpackPAK1.grid(row=3, column=0)
 
-btn_unpackFPB = Button(text="Unpack MOVIE", command = extract_movie)
-btn_unpackFPB.pack(side=RIGHT)
+btn_moveOUT = Button(frame1, text="Move Skits OUT", command = move_skits_out)
+btn_moveOUT.grid(row=4, column=0)
 
-btn_unpackFPB = Button(text="Insert FONT", command = insert_font)
-btn_unpackFPB.pack(side=RIGHT)
+btn_unpackSKIT = Button(frame1, text="Extract SKIT", command = extract_skit)
+btn_unpackSKIT.grid(row=5, column=0)
 
-btn_unpackFPB = Button(text="Export TBL", command = export_tbl)
-btn_unpackFPB.pack(side=RIGHT)
+frame2 = LabelFrame(window, text="Re-pack", padx=5, pady=5)
+frame2.grid(row=1, column=1, padx=10, pady=10)
 
-btn_unpackFPB = Button(text="Move Skits OUT", command = move_skits_out)
-btn_unpackFPB.pack(side=RIGHT)
+btn_packFPB = Button(frame2, text="Pack FPB", command = pack_fpb)
+btn_packFPB.grid(row=0, column=0)
 
-btn_unpackFPB = Button(text="Move Skits IN", command = move_skits_in)
-btn_unpackFPB.pack(side=RIGHT)
+btn_packSCPK = Button(frame2, text="Pack SCPK", command = pack_scpk)
+btn_packSCPK.grid(row=1, column=0)
 
-btn_unpackFPB = Button(text="Unpack PAK1", command = extract_pak1)
-btn_unpackFPB.pack(side=RIGHT)
+btn_packSCED = Button(frame2, text="Pack SCED", command = insert_sced)
+btn_packSCED.grid(row=2, column=0)
 
-btn_unpackFPB = Button(text="Pack PAK1", command = insert_pak1)
-btn_unpackFPB.pack(side=RIGHT)
+btn_packPAK1 = Button(frame2, text="Pack PAK1", command = insert_pak1)
+btn_packPAK1.grid(row=3, column=0)
 
-btn_unpackFPB = Button(text="Sort FPB", command = unpack)
-btn_unpackFPB.pack(side=RIGHT)
+btn_moveIN = Button(frame2, text="Move Skits IN", command = move_skits_in)
+btn_moveIN.grid(row=4, column=0)
 
-btn_unpackFPB = Button(text="Extract SKIT", command = extract_skit)
-btn_unpackFPB.pack(side=RIGHT)
+btn_packSKIT = Button(frame2, text="Insert SKIT", command = insert_skit)
+btn_packSKIT.grid(row=5, column=0)
 
-btn_unpackFPB = Button(text="Insert SKIT", command = insert_skit)
-btn_unpackFPB.pack(side=RIGHT)
+frame3 = LabelFrame(window, text="Misc.", padx=5, pady=5)
+frame3.grid(row=1, column=2, padx=10, pady=10)
+
+btn_unpackMOVIE = Button(frame3, text="Unpack MOVIE", command = extract_movie)
+btn_unpackMOVIE.grid(row=0, column=0)
+
+btn_insertFONT = Button(frame3, text="Insert FONT", command = insert_font)
+btn_insertFONT.grid(row=1, column=0)
+
+btn_exportTBL = Button(frame3, text="Export TBL", command = export_tbl)
+btn_exportTBL.grid(row=2, column=0)
+
+btn_sortFPB = Button(frame3, text="Sort FPB", command = unpack)
+btn_sortFPB.grid(row=3, column=0)
+
+btn_getPWD = Button(frame3, text="Change Work Directory", command = work_dir)
+btn_getPWD.grid(row=4, column=0)
+
+#Set working directory for GUI
+cwd = Label(window, text = "Current Working Directory: " + os.getcwd(), bd=1, relief=SUNKEN, anchor=W)
+cwd.grid(row=5, column=0, columnspan=4, sticky=W+E)
+
+
 
 window.mainloop()
 
