@@ -1,5 +1,5 @@
 # pip install pyinstaller
-# Windows Freeze: Run > cmd > pyinstaller --onefile --noconsole --icon favicon.ico PyTOD2.py
+# Windows Freeze: Run > cmd > pyinstaller --onefile --noconsole --icon favicon.ico --add-binary="comptoe.exe" PyTOD2.py
 
 from tkinter import *
 from tkinter import filedialog
@@ -208,9 +208,11 @@ def extract_scpk():
         
     json.dump(json_data, json_file, indent = 4)
 
-    move_sced()
-
 def extract_sced():
+    move_sced()
+    extract_sced_skit()
+
+def extract_sced_skit():
     mkdir('TXT')
     mkdir('TXT_EN')
     json_file = open('TBL.json', 'r')
@@ -386,24 +388,24 @@ def pack_scpk():
     json_data = json.load(json_file)
     json_file.close()
 
-    for name in os.listdir('sced_new'):
+    for name in os.listdir('SCED_NEW'):
         folder = name[:5]
-        if not os.path.isdir('scpk/' + folder):
+        if not os.path.isdir('SCPK/' + folder):
             continue
-        if os.path.isdir('scpk/' + folder):
+        if os.path.isdir('SCPK/' + folder):
             sizes = []
-            o = open('scpk_packed/%s.scpk' % folder, 'wb')
+            o = open('SCPK_PACKED/%s.scpk' % folder, 'wb')
             data = bytearray()
-            listdir = os.listdir('scpk/' + folder)
+            listdir = os.listdir('SCPK/' + folder)
             for file in listdir:
                 read = bytearray()
                 index = str(int(file.split('.')[0]))
-                fname = 'scpk/%s/%s' % (folder, file)
+                fname = 'SCPK/%s/%s' % (folder, file)
                 f = open(fname, 'rb')
                 ctype = json_data[folder][index]
                 if file == listdir[-1]:
                     if ctype != 0:
-                        fname = 'sced_new/' + name
+                        fname = 'SCED_NEW/' + name
                         compress_comptoe(fname, ctype)
                         comp = open(fname + '.c', 'rb')
                         read = comp.read()
@@ -431,8 +433,16 @@ def move_scpk_packed():
     for f in os.listdir('SCPK_PACKED'):
         shutil.copy(os.path.join('SCPK_PACKED', f), 'FPB/' + f)
 
+def move_pak1_packed():
+    for f in os.listdir('PAK1_PACKED'):
+        shutil.copy(os.path.join('PAK1_PACKED', f), 'FPB/' + f)
+
 def pack_fpb():
     move_scpk_packed()
+    try:
+        move_pak1_packed()
+    except:
+        pass
     sectors = [0]
     remainders = []
     buffer = 0
@@ -607,12 +617,12 @@ def move_skits_out():
             pass
         #print (new_name)
 
-    os.chdir('..')
+    os.chdir('../..')
 
 def extract_skit():
     copyfile('TBL.json', 'FILE/pak1/TBL.json')
     os.chdir('FILE/pak1')
-    extract_sced()
+    extract_sced_skit()
     os.chdir('../..')
     
 def insert_skit():
@@ -726,7 +736,7 @@ menubar.add_cascade(label="Help", menu=helpmenu)
 
 window.config(menu=menubar)
 
-#window.iconbitmap("favicon.ico")
+window.iconbitmap("favicon.ico")
 label = Label(window, text = "PyTOD2 unpacks resources from Tales of Destiny 2 (PS2) and repacks them.")
 #label.pack(padx = 200, pady = 50)
 label.grid(row=0, column=0, columnspan=4)
