@@ -155,6 +155,17 @@ def extract_fpb():
     #json.dump(json_data, json_file, indent = 4)
     f.close()
 
+def move_sced():
+    mkdir('SCED')
+    sced_dir = os.getcwd() + '/SCED/'
+    
+    for folder in os.listdir('SCPK'):
+        if not os.path.isdir('SCPK/' + folder):
+            continue
+        f = sorted(os.listdir('SCPK/' + folder))[-1]
+        new_name = '%s_%s.sced' % (folder, f.split('.')[0])
+        shutil.copy(os.path.join('SCPK', folder, f), sced_dir + new_name)
+
 def extract_scpk():
     mkdir('SCPK')
     json_file = open('SCPK.json', 'w')
@@ -197,19 +208,9 @@ def extract_scpk():
         
     json.dump(json_data, json_file, indent = 4)
 
-def move_sced():
-    mkdir('SCED')
-    sced_dir = os.getcwd() + '/SCED/'
-    
-    for folder in os.listdir('SCPK'):
-        if not os.path.isdir('SCPK/' + folder):
-            continue
-        f = sorted(os.listdir('SCPK/' + folder))[-1]
-        new_name = '%s_%s.sced' % (folder, f.split('.')[0])
-        shutil.copy(os.path.join('SCPK', folder, f), sced_dir + new_name)
+    move_sced()
 
 def extract_sced():
-    move_sced()
     mkdir('TXT')
     mkdir('TXT_EN')
     json_file = open('TBL.json', 'r')
@@ -530,7 +531,7 @@ def unpack():
     for name in os.listdir('FPB'):
         fname = name.split('.')[0]
         if fname in data.keys():
-            print (name)
+            #print (name)
             new_location = f'FILE/{data[fname]}/{fname}.{data[fname]}'
             #new_location = 'file/' + data[fname] + '/' + fname + '.' + data[fname]
             shutil.copy(os.path.join('FPB/', name), new_location)
@@ -550,12 +551,13 @@ def unpack():
 compress = True
 
 def extract_pak1():
+    os.chdir('FILE')
     #print ("Extracting pak1...")
     for name in os.listdir('pak1'):
         if not name.endswith('pak1'):
             continue
-        f = open('PAK1/' + name, 'rb')
-        try: os.mkdir('PAK1/' + name[:5])
+        f = open('pak1/' + name, 'rb')
+        try: os.mkdir('pak1/' + name[:5])
         except: pass
         n = struct.unpack('<I', f.read(4))[0]
         offsets = []
@@ -578,10 +580,11 @@ def extract_pak1():
             o.write(data)
             o.close()
         f.close()
+    os.chdir('..')
 
 def move_skits_out():
 
-    os.chdir('PAK1')
+    os.chdir('FILE/pak1')
 
     try:
         os.mkdir('SCED')
@@ -591,7 +594,7 @@ def move_skits_out():
     for folder in os.listdir(os.getcwd()):
         if not os.path.isdir(folder):
             continue
-        if folder == 'PAK1':
+        if folder == 'pak1' or folder == '00022':
             continue
         for n in os.listdir(folder):
             if n.endswith('sced'):
@@ -607,18 +610,18 @@ def move_skits_out():
     os.chdir('..')
 
 def extract_skit():
-    copyfile('TBL.json', 'PAK1/TBL.json')
-    os.chdir('PAK1')
+    copyfile('TBL.json', 'FILE/pak1/TBL.json')
+    os.chdir('FILE/pak1')
     extract_sced()
-    os.chdir('..')
+    os.chdir('../..')
     
 def insert_skit():
-    os.chdir('PAK1')
+    os.chdir('FILE/pak1')
     insert_sced()
-    os.chdir('..')
+    os.chdir('../..')
     
 def move_skits_in():
-    os.chdir('PAK1')
+    os.chdir('FILE/pak1')
     
     for name in os.listdir('SCED_NEW'):
         folder = name.split('_')[0]
@@ -626,7 +629,7 @@ def move_skits_in():
         shutil.copy(os.path.join('SCED_NEW/', name), os.path.join(folder, name))
         #print (name)
 
-    os.chdir('..')
+    os.chdir('../..')
 
 def insert_pak1():
     json_file = open('compression.json', 'r')
@@ -635,17 +638,17 @@ def insert_pak1():
     #print ("Packing pak1...")
     try: os.mkdir('PAK1_PACKED')
     except: pass
-    for name in os.listdir('PAK1'):
-        if not os.path.isdir('PAK1/' + name):
+    for name in os.listdir('FILE/pak1'):
+        if not os.path.isdir('FILE/pak1/' + name):
             continue
-        dir_ = os.listdir('PAK1/' + name)
+        dir_ = os.listdir('FILE/pak1/' + name)
         if name == 'SCED' or name == 'SCED_NEW' or name == 'TXT' or name == 'TXT_EN':
             continue
         files = []
         paddings = []
         n = len(dir_)
         for file in dir_:
-            f = open('PAK1/' + name + '/' + file, 'rb')
+            f = open('FILE/pak1/' + name + '/' + file, 'rb')
             data = f.read()
             padding = 16 - (len(data) % 16)
             if padding == 16:
@@ -778,20 +781,23 @@ btn_packSKIT.grid(row=5, column=0)
 frame3 = LabelFrame(window, text="Misc.", padx=5, pady=5)
 frame3.grid(row=1, column=2, padx=10, pady=10)
 
+btn_sortFPB = Button(frame3, text="Organize FPB", command = unpack)
+btn_sortFPB.grid(row=0, column=0)
+
 btn_unpackMOVIE = Button(frame3, text="Unpack MOVIE", command = extract_movie)
-btn_unpackMOVIE.grid(row=0, column=0)
+btn_unpackMOVIE.grid(row=1, column=0)
 
 btn_insertFONT = Button(frame3, text="Insert FONT", command = insert_font)
-btn_insertFONT.grid(row=1, column=0)
+btn_insertFONT.grid(row=2, column=0)
 
 btn_exportTBL = Button(frame3, text="Export TBL", command = export_tbl)
-btn_exportTBL.grid(row=2, column=0)
+btn_exportTBL.grid(row=3, column=0)
 
-btn_sortFPB = Button(frame3, text="Sort FPB", command = unpack)
-btn_sortFPB.grid(row=3, column=0)
+btn_pak1skit = Button(frame3, text="Pack Movie (Broken)")
+btn_pak1skit.grid(row=4, column=0)
 
 btn_getPWD = Button(frame3, text="Change Work Directory", command = work_dir)
-btn_getPWD.grid(row=4, column=0)
+btn_getPWD.grid(row=5, column=0)
 
 #Set working directory for GUI
 cwd = Label(window, text = "Current Working Directory: " + os.getcwd(), bd=1, relief=SUNKEN, anchor=W)
