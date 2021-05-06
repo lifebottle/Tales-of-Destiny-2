@@ -1,5 +1,5 @@
 # pip install pyinstaller
-# Windows Freeze: Run > cmd > pyinstaller --onefile --noconsole --icon favicon.ico --add-binary="comptoe.exe" PyTOD2.py
+# Windows Freeze: Run > cmd > pyinstaller --onefile --noconsole --icon favicon.ico PyTOD2.py
 
 from tkinter import *
 from tkinter import filedialog
@@ -20,6 +20,11 @@ from subprocess import CREATE_NO_WINDOW
 #Copy SLPS file and rename to new_SLPS
 from shutil import copyfile
 
+#For Hyperlinks in the GUI
+import webbrowser
+
+def callback(url):
+    webbrowser.open_new(url)
 
 low_bits = 0x3F
 high_bits = 0xFFFFFFC0
@@ -87,10 +92,10 @@ def mkdir(name):
 
 def compress_comptoe(name, ctype=1):
     c = '-c%d' % ctype
-    subprocess.run(['comptoe.exe', c, name, name + '.c'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
+    subprocess.run(['comptoe.exe', c, name, name + '.c'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
 def decompress_comptoe(name):
-    subprocess.run(['comptoe.exe', '-d', name, name + '.d'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
+    subprocess.run(['comptoe.exe', '-d', name, name + '.d'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
 # by flame1234
 def decode(param):
@@ -551,7 +556,7 @@ def unpack():
                 if not c_result[0]:
                     continue
                 dec = new_location + '.d'
-                subprocess.run(['comptoe.exe', '-d', new_location, dec], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
+                subprocess.run(['comptoe.exe', '-d', new_location, dec], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
                 os.remove(new_location)
                 os.rename(dec, new_location)
     json.dump(c_data, c_json, indent=4)
@@ -683,7 +688,7 @@ def insert_pak1():
             o.write(files[i] + b'\x00' * paddings[i])
         o.close()
         if compress and json_data[name] == 3:
-            subprocess.run(['comptoe.exe', '-c3', fname, fname + '.c'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
+            subprocess.run(['comptoe.exe', '-c3', fname, fname + '.c'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
             os.remove(fname)
             os.rename(fname + '.c', fname)
 
@@ -691,6 +696,28 @@ def donothing():
    filewin = Toplevel(window)
    button = Button(filewin, text="Do nothing button")
    button.pack()
+
+def about():
+   about_win = Toplevel(window)
+
+   about_win.title("About PyTOD2 v0.3")
+   
+   frame0 = LabelFrame(about_win, text="PyTOD2 v0.3", padx=5, pady=5)
+   frame0.pack(padx=10, pady=10)
+   
+   about_label = Label(frame0, text = "PyTOD2 is an open-source tool that can unpack and repack resources from Tales of Destiny 2 (PS2).")
+   about_label.pack()
+
+   link1 = Label(frame0, text="GitHub Project", fg="blue", cursor="hand2")
+   link1.pack(anchor=W)
+   link1.bind("<Button-1>", lambda e: callback("https://github.com/pnvnd/Tales-of-Destiny-2"))
+
+   link2 = Label(frame0, text="Discord Server", fg="blue", cursor="hand2")
+   link2.pack(anchor=W)
+   link2.bind("<Button-1>", lambda e: callback("https://discord.gg/HZ2NFjpedn"))
+
+   close_button = Button(about_win, text="Close", command = about_win.destroy)
+   close_button.pack(padx=10, pady=10)
 
 def work_dir():
     pwd = filedialog.askdirectory()
@@ -731,12 +758,12 @@ editmenu.add_command(label="Select All", command=donothing)
 menubar.add_cascade(label="Edit", menu=editmenu)
 helpmenu = Menu(menubar, tearoff=0)
 helpmenu.add_command(label="Help Index", command=donothing)
-helpmenu.add_command(label="About...", command=donothing)
+helpmenu.add_command(label="About...", command=about)
 menubar.add_cascade(label="Help", menu=helpmenu)
 
 window.config(menu=menubar)
 
-window.iconbitmap("favicon.ico")
+#window.iconbitmap("favicon.ico")
 label = Label(window, text = "PyTOD2 unpacks resources from Tales of Destiny 2 (PS2) and repacks them.")
 #label.pack(padx = 200, pady = 50)
 label.grid(row=0, column=0, columnspan=4)
