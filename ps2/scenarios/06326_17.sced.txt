@@ -14,11 +14,15 @@ Captain
 <size:000000F0>What the hell?
 We're at a dead end here!
 -----------------------
-隊員
+#隊員
+Troops
 -----------------------
-<size:000000F0>以前は通れたんですが････
-どうやら道が崩れてしまったようです
-なにぶん、古いですし････
+#<size:000000F0>以前は通れたんですが････
+#どうやら道が崩れてしまったようです
+#なにぶん、古いですし････
+<size:000000F0>But we've been through here before...
+It seems the road collapsed. 
+Anyhow, it was old...
 
 -----------------------
 隊長
