@@ -22,14 +22,17 @@ Troops
 #なにぶん、古いですし････
 <size:000000F0>But we've been through here before...
 It seems the road collapsed. 
-Anyhow, it was old...
-
+Please, bear in mind that this place is old.
 -----------------------
-隊長
+#隊長
+Captain
 -----------------------
-<size:000000F0>遺跡が古いのは、当たり前だろう！
-まったく、無駄足を踏ませおって････
-別の道を探すぞ！
+#<size:000000F0>遺跡が古いのは、当たり前だろう！
+#まったく、無駄足を踏ませおって････
+#別の道を探すぞ！
+Of course it is old, these are ruins!
+Honestly, all this hassle over a fool's errand...
+Let's search for a different route!
 -----------------------
 いってらっしゃいませ
 -----------------------
