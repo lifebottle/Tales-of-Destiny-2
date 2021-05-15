@@ -13,8 +13,6 @@ Harmentz Valley
 #ここはハーメンツヴァレーです
 This is Harmentz Valley
 -----------------------
-せん
------------------------
 #いってらっしゃいませ
 Have a great day!
 -----------------------
@@ -31,7 +29,7 @@ select
 #<03:00000000>　はい　
 #　いいえ　
 <03:00000000> Yes 
-No
+No 
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -54,12 +52,12 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{B6}{C0}を手に入れました
-You obtained {16}{25}{B6}{C0}
+You obtained {16}{25}{B6}{C0}.
 -----------------------
 notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
-You obtained <item:FFFFFFFF>
+You obtained <item:FFFFFFFF>.
 -----------------------
 notice
 -----------------------
