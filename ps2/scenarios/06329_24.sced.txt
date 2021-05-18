@@ -55,76 +55,108 @@ this much crap laying around.
 -----------------------
 <Loni>
 -----------------------
-あの枝にロープを引っかければ
-上にあがれそうだな
+#あの枝にロープを引っかければ
+#上にあがれそうだな
+I bet we could climb up if 
+we tossed the rope onto that branch.
 -----------------------
 <Kyle>
 -----------------------
-わかった、やってみるよ！
+#わかった、やってみるよ！
+Gotcha, I'll give it a shot!
 -----------------------
 <Kyle>
 -----------------------
-何か道具があれば
-ここから登れそうだ！
+#何か道具があれば
+#ここから登れそうだ！
+It appears that we could ascend
+from here if we had some kind of tool!
 -----------------------
 <Kyle>
 -----------------------
-なんだこれ？
-まだ動いてるみたいだ
+#なんだこれ？
+#まだ動いてるみたいだ
+What's this thing?
+It looks like it's still running.
 -----------------------
 <Loni>
 -----------------------
-こいつは････天地戦争時代の機械だ
-前に、神殿の本で見たことがある
+#こいつは････天地戦争時代の機械だ
+#前に、神殿の本で見たことがある
+This's... a machine from the Aeth'er Wars,
+I saw it once in one of the books at the shrine.
 -----------------------
 <Loni>
 -----------------------
-確か、分析だか透視だかをする
-機械だったハズだ
+#確か、分析だか透視だかをする
+#機械だったハズだ
+If I remember correctly, it's supposed
+to be either an assay or x-ray machine.
 -----------------------
 <Kyle>
 -----------------------
-ブンセキ？　トーシ？
-どういうこと？
+#ブンセキ？　トーシ？
+#どういうこと？
+As-sey? Ex-ray?
+What're those?
 -----------------------
 <Loni>
 -----------------------
-ま、見てろって
-たとえば、このバンダナを
-入れるとだな････
+#ま、見てろって
+#たとえば、このバンダナを
+#入れるとだな････
+Well, here, just watch.
+For example, if I insert
+this bandana like so...
 -----------------------
 notice
 -----------------------
-バンダナ
-主に頭部を装飾するのに使用する
+#バンダナ
+#主に頭部を装飾するのに使用する
+Bandana
+An object which mainly adorns the head
+but can also be used for other purposes.
 -----------------------
 <Loni>
 -----------------------
-この穴にモノを入れれば
-それが何なのか教えてくれるんだよ
+#この穴にモノを入れれば
+#それが何なのか教えてくれるんだよ
+If we put something into this opening,
+then it'll tell us what it is.
 -----------------------
 <Loni>
 -----------------------
-こいつを使えば、
-上にあがるのに使えそうなものも
-ラクに探せるってワケだ
+#こいつを使えば、
+#上にあがるのに使えそうなものも
+#ラクに探せるってワケだ
+Which means that it'll be easier for us to find something
+that we can use to climb up out of here if we put
+this sucker to use.
 -----------------------
 <Kyle>
 -----------------------
-おもしろ～い！
-ねぇ<Loni>、オレもやってみたい！
+#おもしろ～い！
+#ねぇ<Loni>、オレもやってみたい！
+Ooh, spiffy!
+Hey <Loni>, I wanna give it a try too!
 -----------------------
 <Loni>
 -----------------------
-それじゃ、<Kyle>
-『動かせそうなもの』の前に立って
-<button:00000025>ボタンを押すんだ
+#それじゃ、<Kyle>
+#『動かせそうなもの』の前に立って
+#<button:00000025>ボタンを押すんだ
+Okay then, <Kyle>.
+Stand in front of "something that looks movable" and
+press the <button:00000025> button.
 -----------------------
 <Loni>
 -----------------------
-<button:00000025>ボタンを押しっぱなしにして
-移動すれば、物を引きずれる
-それを、この機械の中に入れるんだ
+#<button:00000025>ボタンを押しっぱなしにして
+#移動すれば、物を引きずれる
+#それを、この機械の中に入れるんだ
+You can drag things if you move while holding
+down the <button:00000025> button.
+Then just pop 'em inside this machine.
 -----------------------
 {15}{24}{A2}{C0}  レベル : {14}{24}{A4}{C0}
 -----------------------
