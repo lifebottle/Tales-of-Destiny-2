@@ -1,96 +1,134 @@
-古都ダリルシェイド
+#古都ダリルシェイド
+Darilsheid prison
 -----------------------
-古都ダリルシェイド
------------------------
-<Kyle>
------------------------
-ダメだ、見張りがいる
-これ以上は進めないよ
+#古都ダリルシェイド
+Darilsheid prison
 -----------------------
 <Kyle>
 -----------------------
-ダメだ、見張りがいる
-これ以上は進めないよ
+#ダメだ、見張りがいる
+#これ以上は進めないよ
+It's no use, there're guards.
+We can't go any farther.
+-----------------------
+<Kyle>
+-----------------------
+#ダメだ、見張りがいる
+#これ以上は進めないよ
+It's no use, there're guards.
+We can't go any farther.
 -----------------------
 <Loni>
 -----------------------
-しかし他に出口は無いぞ
-どうする？　強行突破するか？
+#しかし他に出口は無いぞ
+#どうする？　強行突破するか？
+But there's no other way out.
+What now?
+Should we bust our way through?
 -----------------------
 <Judas>
 -----------------------
-待て
-････こっちだ、ついて来い
+#待て
+#････こっちだ、ついて来い
+Wait...
+This way, follow me.
 -----------------------
 <Judas>
 -----------------------
-ここはオベロン社総帥だった
-『ヒューゴ』の屋敷だ
+#ここはオベロン社総帥だった
+#『ヒューゴ』の屋敷だ
+This mansion belongs to Hugo,
+who used to be the head of
+the Oberon Corporation.
 -----------------------
 <Judas>
 -----------------------
-オベロン社解体と同時に屋敷は接収され、
-神殿に改修されたが、
-隠し通路はまだ残っているはずだ
+#オベロン社解体と同時に屋敷は接収され、
+#神殿に改修されたが、
+#隠し通路はまだ残っているはずだ
+When the Oberon Corp. was dissolved, this
+mansion was confiscated and converted into a temple, but
+the hidden passageway should still be here.
 -----------------------
 <Judas>
 -----------------------
-････ここだ
-おい、これを使って
-そこのマークを撃ってみろ
+#････ここだ
+#おい、これを使って
+#そこのマークを撃ってみろ
+This is the spot...
+Here, use this and try to hit that mark.
 -----------------------
 notice
 -----------------------
-<item:0000002B>をもらいました
+#<item:0000002B>をもらいました
+You received the <item:0000002B>
 -----------------------
 <Kyle>
 -----------------------
-これは？
+#これは？
+What's this?
 -----------------------
 <Judas>
 -----------------------
-レンズからエネルギーを引き出し、
-熱線と衝撃を撃ち出す道具だ
+#レンズからエネルギーを引き出し、
+#熱線と衝撃を撃ち出す道具だ
+It's a tool that extracts energy from Lenses,
+which is then used to shoot out a blast of heat
+in the form of a beam.
 -----------------------
 <Judas>
 -----------------------
-<button:0000003C>ボタンで熱線を発射できるが、
-一発毎にレンズを一枚消費する
-ムダ撃ちはするなよ
+#<button:0000003C>ボタンで熱線を発射できるが、
+#一発毎にレンズを一枚消費する
+#ムダ撃ちはするなよ
+You can fire a heat ray by using the <button:0000003C> button,
+but each shot consumes one Lens.
+Don't go around shooting everything in sight.
 -----------------------
 <Judas>
 -----------------------
-<item:0000002B>を使えば
-手の届かない場所にあるスイッチを押せる
+#<item:0000002B>を使えば
+#手の届かない場所にあるスイッチを押せる
+If you use the <item:0000002B>, you can activate
+switches in places that you cannot normally reach.
 -----------------------
 <Judas>
 -----------------------
-むろん、熱を利用して
-火をともすことも可能だ
-上手く使え
+#むろん、熱を利用して
+#火をともすことも可能だ
+#上手く使え
+Needless to say, the heat which is generated
+can also be used to light a fire.
+Utilize it well.
 -----------------------
 <Kyle>
 -----------------------
-わかった
-････ところで<Judas>
-なんでこんな通路の事を知ってるの？
+#わかった
+#････ところで<Judas>
+#なんでこんな通路の事を知ってるの？
+Got it... by the way, <Judas>,
+how did you know about this passageway?
 -----------------------
 <Judas>
 -----------------------
-････それを聞いてどうする？
+#････それを聞いてどうする？
+What's the point of asking me that?
 -----------------------
 <Kyle>
 -----------------------
-いや、別にどうもしないけど････
+#いや、別にどうもしないけど････
+Well, there's not really a point persay, but...
 -----------------------
 <Judas>
 -----------------------
-なら、行くぞ
+#なら、行くぞ
+Then let's go.
 -----------------------
 notice
 -----------------------
-<Judas>は
-称号「<item:00000826>」を得ました
+#<Judas>は
+#称号「<item:00000826>」を得ました
+<Judas> have earned the title <item:00000826>!
 -----------------------
 オベロン社の物らしき書類が保管されている
 どうやら、神の眼の騒乱に関係した物のようだ
