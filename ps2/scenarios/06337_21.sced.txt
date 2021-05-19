@@ -234,7 +234,8 @@ Ever since that day...
 #あの日････？
 That day...?
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
 #フッフッフ････
 #ハッハッハッハッ！
@@ -246,7 +247,8 @@ Ha ha ha ha!
 #だれだッ!?
 Who's there!?
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
 #おまえ、自分が英雄になれるなどと
 #本気で思っているのか？
@@ -259,19 +261,22 @@ If so, then you're about as green as they come.
 #ねぇ、なんでオレが英雄になれないの!?
 Hey, why can't I become a hero!?
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
 #フッ、簡単なことだ
 Hmph, it's a simple matter, really.
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
 #英雄とは、過去の功績に対して
 #人々から贈られる称号
 The title of hero is awarded to a person by the masses
 based on his orher past achievements.
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
 #自らなろうとするものではないし
 #ましてや、なりたいと思って
@@ -288,13 +293,15 @@ just by wanting to become one.
 Well, someone sure sounds like Mr. Know-It-All, now doesn't he.
 You even talk as if you're a hero yourself.
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
 #････
 #････････
 ...
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
 #僕自身は英雄じゃない
 #だが、そう呼ばれる人物を
@@ -318,7 +325,8 @@ we're personally acquainted with two of them!
 Anyhow, I guess we owe that to the
 fact that they're his parents.
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
 #両親が････英雄!?
 #････！
@@ -352,7 +360,8 @@ Alright already.
 That being said though, the door to this
 cell is built like a friggin' rock...
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
 #おい、おまえたち
 Hey, you two.
@@ -365,7 +374,8 @@ Hey, you two.
 Whaddaya want? 
 We're busy here, can't ya tell?
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
 #ここを出たいのだろう？
 #なら、僕にいい考えがある
@@ -421,7 +431,8 @@ It's settled then!
 So, tell us about it!
 Um...
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
 #名前か？
 #････名前など、僕にとっては
@@ -429,7 +440,8 @@ Um...
 My name?...
 Things such as names are meaningless to me.
 -----------------------
-？？？？？
+#？？？？？
+?????
 -----------------------
 #おまえたちの好きなように
 #呼べばいい
