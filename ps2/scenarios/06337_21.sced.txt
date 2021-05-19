@@ -1,352 +1,493 @@
-古都ダリルシェイド
+#古都ダリルシェイド
+Darilsheid prison
 -----------------------
-古都ダリルシェイド
+#古都ダリルシェイド
+Darilsheid prison
 -----------------------
-おい<Kyle>、相手にすんな
-あいつ、あからさまにあやしいぞ
+#おい<Kyle>、相手にすんな
+#あいつ、あからさまにあやしいぞ
+Hey, <Kyle>, don't mess with him.
+That guy's got some serious shit going on.
 -----------------------
 <Loni>
 -----------------------
 notice
 -----------------------
-<03:00000000>休みますか？
-　はい　
-　いいえ　
+#<03:00000000>休みますか？
+#　はい　
+#　いいえ　
+<03:00000000> Do you want to rest?
+Yes
+No
 -----------------------
 <Loni>
 -----------------------
-こらあっ！
-話も聞かずに牢屋に閉じこめるたぁ
-どういう了見だ！
+#こらあっ！
+#話も聞かずに牢屋に閉じこめるたぁ
+#どういう了見だ！
+Hey, I know you're out there!
+What's the big idea, locking us up in prison
+without even listening to our side of the story!
 -----------------------
 <Loni>
 -----------------------
-おいこら！
-責任者、出てこい!!
+#おいこら！
+#責任者、出てこい!!
+Hey, I'm not screaming for my health here!
+Bring out the person in charge!!
 -----------------------
 <Loni>
 -----------------------
-くそッ！　しくじっちまったぜ
-まさか、こんなハメになるとは････
+#くそッ！　しくじっちまったぜ
+#まさか、こんなハメになるとは････
+Dammit! Well, that was a complete flop.
+Never would've guessed that 
+things would wind up like this...
 -----------------------
 <Kyle>
 -----------------------
-う～ん････
-こ、ここは････？
+#う～ん････
+#こ、ここは････？
+Nhh...w, where are we...?
 -----------------------
 <Kyle>
 -----------------------
-えっと、ラグナ遺跡に行って
-レンズを見つけたんだけど、割れちゃって
-アタモニ神団に捕まって････
+#えっと、ラグナ遺跡に行って
+#レンズを見つけたんだけど、割れちゃって
+#アタモニ神団に捕まって････
+Lemme think, we went to the Laguna Ruins and
+found the Lens, but it shattered into pieces
+and we got caught by the Church of Atamoni...
 -----------------------
 <Kyle>
 -----------------------
-････あれ？
-それから、どうしたんだっけ？
+#････あれ？
+#それから、どうしたんだっけ？
+Huh?
+What happened after that again?
 -----------------------
 <Loni>
 -----------------------
-････のん気だねぇ、おまえは
+#････のん気だねぇ、おまえは
+Boy, ain't got a care in the world, do you?
 -----------------------
 <Loni>
 -----------------------
-見てのとおり
-牢にぶちこまれたんだよ
-たぶん、ダリルシェイドの地下だろう
+#見てのとおり
+#牢にぶちこまれたんだよ
+#たぶん、ダリルシェイドの地下だろう
+As you can see, we've been thrown in a cell.
+I'm guessing that we're probably in the jail
+underneath Darilshade.
 -----------------------
 <Kyle>
 -----------------------
-えっ
+#えっ
+Eh?
 -----------------------
 <Loni>
 -----------------------
-笑ってる････
+#笑ってる････
+He's laughing...
 -----------------------
 <Loni>
 -----------------------
-お、おい、<Kyle>!?
-どうした!?　頭でも打ったか!?
-ちょっと、見せてみろ！
+#お、おい、<Kyle>!?
+#どうした!?　頭でも打ったか!?
+#ちょっと、見せてみろ！
+H, hey, <Kyle>!? What's wrong!?
+Did they hit you on the head too!?
+C'mere, let me take a look at it!
 -----------------------
 <Kyle>
 -----------------------
-ちがうよ、<Loni>
-オレさ、今すっごく幸せなんだ！
-だってさ、冒険がはじまったんだよ！
+#ちがうよ、<Loni>
+#オレさ、今すっごく幸せなんだ！
+#だってさ、冒険がはじまったんだよ！
+No, no, <Loni>, it's not that.
+It's just that I'm really happy right about
+now! I mean, my adventure's finally begun!
 -----------------------
 <Loni>
 -----------------------
-冒険････？
+#冒険････？
+Adventure...?
 -----------------------
 <Kyle>
 -----------------------
-あの子が現れた瞬間、オレ、思ったんだ
-冒険がはじまったんだって
+#あの子が現れた瞬間、オレ、思ったんだ
+#冒険がはじまったんだって
+The moment that girl appeared, I thought to
+myself, "My adventure has begun."
 -----------------------
 <Kyle>
 -----------------------
-だってさ、レンズの中から出てきて
-「英雄を探しているの」だよ！
+#だってさ、レンズの中から出てきて
+#「英雄を探しているの」だよ！
+I mean, she came out of a Lens and said
+"I'm searching for a hero," you know!
 -----------------------
 <Kyle>
 -----------------------
-お話の中でしか････いや、お話の中だって
-こんなことなかった！
-それが、オレの目の前で起こったんだ！
+#お話の中でしか････いや、お話の中だって
+#こんなことなかった！
+#それが、オレの目の前で起こったんだ！
+All we did was... no. Although all we did was
+talk to her, look everything
+that happened! And it all
+took place right before my very eyes!
 -----------------------
 <Kyle>
 -----------------------
-そうだ、<Loni>！
-オレ、クレスタへ戻ったら旅に出るよ
+#そうだ、<Loni>！
+#オレ、クレスタへ戻ったら旅に出るよ
+Wait, I know, <Loni>!
+When we get back to Cresta, I'm going on a journey.
 -----------------------
 <Loni>
 -----------------------
-旅････？
+#旅････？
+Journey...?
 -----------------------
 <Kyle>
 -----------------------
-そう、英雄になるための冒険の旅！
+#そう、英雄になるための冒険の旅！
+Yup, a journey full of adventure
+in order to become a hero!
 -----------------------
 <Kyle>
 -----------------------
-あの子が探してるのはオレなんだ！
-いまは違うかもしれないけど
-････そう！　未来のオレだ！
+#あの子が探してるのはオレなんだ！
+#いまは違うかもしれないけど
+#････そう！　未来のオレだ！
+I'm the one that girl is searching for!
+I might not be the one right now,
+but...I know! It's the future me!
 -----------------------
 <Kyle>
 -----------------------
-それをあの子に教えに････
-いや、わからせに行くんだ！
+#それをあの子に教えに････
+#いや、わからせに行くんだ！
+I'm going to go tell her that... no,
+I'm going to make her see that!
 -----------------------
 <Loni>
 -----------------------
-未来のおまえ････か
-フッ････嫌いじゃないぜ、そういうの
+#未来のおまえ････か
+#フッ････嫌いじゃないぜ、そういうの
+The future you...huh.
+Heh...can't say that has such a bad ring to it.
 -----------------------
 <Loni>
 -----------------------
-よし！　その旅、俺もつきあうぜ！
+#よし！　その旅、俺もつきあうぜ！
+Alrighty then!
+I'm gonna keep you company on that journey of yours!
 -----------------------
 <Kyle>
 -----------------------
-えっ!?
-でも<Loni>は
-アタモニ神団に････
+#えっ!?
+#でも<Loni>は
+#アタモニ神団に････
+Eh!?
+But <Loni>, you're in the Church of Atamoni...
 -----------------------
 <Loni>
 -----------------------
-あんな連中、こっちから願い下げだ
-今回のことで、よーくわかったよ！
-あそこは、俺のいるべき場所じゃねえ
+#あんな連中、こっちから願い下げだ
+#今回のことで、よーくわかったよ！
+#あそこは、俺のいるべき場所じゃねえ
+I'm cutting ties with those jerks.
+This incident really taught me something:
+that place ain't where I belong!
 -----------------------
 <Loni>
 -----------------------
-俺のいるべき場所は････
-<Kyle>、おまえのとなりだ････
-だから、俺はおまえにつきあうぜ
+#俺のいるべき場所は････
+#<Kyle>、おまえのとなりだ････
+#だから、俺はおまえにつきあうぜ
+The place where I belong is...
+by your side, <Kyle>...
+That's why I'm goin' along with ya.
 -----------------------
 <Kyle>
 -----------------------
-<Loni>････
+#<Loni>････
+<Loni>...
 -----------------------
 <Loni>
 -----------------------
-それにな、俺はスタンさんの････
-おまえのオヤジさんの代わりが
-できたらと思ってる
+#それにな、俺はスタンさんの････
+#おまえのオヤジさんの代わりが
+#できたらと思ってる
+And besides, you could say that 
+I think of myself as a substitute for
+Sta-... your father.
 -----------------------
 <Loni>
 -----------------------
-あの日から、ずっと････
+#あの日から、ずっと････
+Ever since that day...
 -----------------------
 <Kyle>
 -----------------------
-あの日････？
+#あの日････？
+That day...?
 -----------------------
 ？？？？？
 -----------------------
-フッフッフ････
-ハッハッハッハッ！
+#フッフッフ････
+#ハッハッハッハッ！
+Hm hm hm...
+Ha ha ha ha!
 -----------------------
 <Kyle>
 -----------------------
-だれだッ!?
+#だれだッ!?
+Who's there!?
 -----------------------
 ？？？？？
 -----------------------
-おまえ、自分が英雄になれるなどと
-本気で思っているのか？
-だとしたら、おめでたいヤツだ
+#おまえ、自分が英雄になれるなどと
+#本気で思っているのか？
+#だとしたら、おめでたいヤツだ
+Do you seriously think that you can become a hero?
+If so, then you're about as green as they come.
 -----------------------
 <Kyle>
 -----------------------
-ねぇ、なんでオレが英雄になれないの!?
+#ねぇ、なんでオレが英雄になれないの!?
+Hey, why can't I become a hero!?
 -----------------------
 ？？？？？
 -----------------------
-フッ、簡単なことだ
+#フッ、簡単なことだ
+Hmph, it's a simple matter, really.
 -----------------------
 ？？？？？
 -----------------------
-英雄とは、過去の功績に対して
-人々から贈られる称号
+#英雄とは、過去の功績に対して
+#人々から贈られる称号
+The title of hero is awarded to a person by the masses
+based on his orher past achievements.
 -----------------------
 ？？？？？
 -----------------------
-自らなろうとするものではないし
-ましてや、なりたいと思って
-なれるものでもない
+#自らなろうとするものではないし
+#ましてや、なりたいと思って
+#なれるものでもない
+It's not something that you try to become,
+much less something that you can become
+just by wanting to become one.
 -----------------------
 <Loni>
 -----------------------
-ずいぶんわかったような口を
-きくじゃないか
-まるで、自分が英雄だとでも言いたげだな
+#ずいぶんわかったような口を
+#きくじゃないか
+#まるで、自分が英雄だとでも言いたげだな
+Well, someone sure sounds like Mr. Know-It-All, now doesn't he.
+You even talk as if you're a hero yourself.
 -----------------------
 ？？？？？
 -----------------------
-････
-････････
+#････
+#････････
+...
 -----------------------
 ？？？？？
 -----------------------
-僕自身は英雄じゃない
-だが、そう呼ばれる人物を
-少なくとも四人、知っている
+#僕自身は英雄じゃない
+#だが、そう呼ばれる人物を
+#少なくとも四人、知っている
+I'm not a hero.
+But I know of at least four people who
+are characterized as being heroes.
 -----------------------
 <Loni>
 -----------------------
-四人？　ははぁ～ん････
-俺たちなんざ、知ってるだけじゃない
-そのうち二人と知り合いだぜ！
+#四人？　ははぁ～ん････
+#俺たちなんざ、知ってるだけじゃない
+#そのうち二人と知り合いだぜ！
+Four people? Oh ho ho~...
+The thing is, we don't just know about them,
+we're personally acquainted with two of them!
 -----------------------
 <Loni>
 -----------------------
-なにせ、こいつの両親が、そうだからな
+#なにせ、こいつの両親が、そうだからな
+Anyhow, I guess we owe that to the
+fact that they're his parents.
 -----------------------
 ？？？？？
 -----------------------
-両親が････英雄!?
-････！
-そうか、あいつらの････！
+#両親が････英雄!?
+#････！
+#そうか、あいつらの････！
+Your parents are...heroes!?
+...!
+I see, you're their...!
 -----------------------
 <Loni>
 -----------------------
-へっへ～！　驚いて
-声も出ないって感じだな
+#へっへ～！　驚いて
+#声も出ないって感じだな
+Heh heh~! I take it that the shock has
+left you at a loss for words, eh?
 -----------------------
 <Kyle>
 -----------------------
-そんなことより、<Loni>
-早く、クレスタに戻ろうよ！
-そうじゃないと、冒険に････
+#そんなことより、<Loni>
+#早く、クレスタに戻ろうよ！
+#そうじゃないと、冒険に････
+Never mind that, <Loni>,
+let's hurry up and get back to Cresta! If we
+don't, then we can't go on an adventure...
 -----------------------
 <Loni>
 -----------------------
-わかってるって
-とはいえ、ここの牢屋は
-頑丈だからなぁ････
+#わかってるって
+#とはいえ、ここの牢屋は
+#頑丈だからなぁ････
+Alright already.
+That being said though, the door to this
+cell is built like a friggin' rock...
 -----------------------
 ？？？？？
 -----------------------
-おい、おまえたち
+#おい、おまえたち
+Hey, you two.
 -----------------------
 <Loni>
 -----------------------
-んだよ？
-俺たちは忙しいんだよ
-見てわかんねぇか？
+#んだよ？
+#俺たちは忙しいんだよ
+#見てわかんねぇか？
+Whaddaya want? 
+We're busy here, can't ya tell?
 -----------------------
 ？？？？？
 -----------------------
-ここを出たいのだろう？
-なら、僕にいい考えがある
+#ここを出たいのだろう？
+#なら、僕にいい考えがある
+You want to leave this place, am I right?
+In that case, I have a great idea.
 -----------------------
 <Kyle>
 -----------------------
-ホント!?
-なに、いい考えって!?
+#ホント!?
+#なに、いい考えって!?
+Really!?
+What's this great idea of yours!?
 -----------------------
 <Loni>
 -----------------------
-おいおい、<Kyle>
-こいつの言うことなんか
+#おいおい、<Kyle>
+#こいつの言うことなんか
 信用すんなよ
+Hey now, <Kyle>, don't go
+trusting what this guy has to say.
 -----------------------
 <Loni>
 -----------------------
-仮面で顔を隠してるような輩だぜ？
-なに考えてるか
-わかったもんじゃないぞ？
+#仮面で顔を隠してるような輩だぜ？
+#なに考えてるか
+#わかったもんじゃないぞ？
+You see how the guy's hiding his face behind a mask?
+There's no tellin' what the man's thinking, you know?
 -----------------------
 <Kyle>
 -----------------------
-でも、こんなところでグズグズしてたら
-あの子、どんどん遠くへ行っちゃうよ！
-オレ、早く冒険に出たいんだよ!!
+#でも、こんなところでグズグズしてたら
+#あの子、どんどん遠くへ行っちゃうよ！
+#オレ、早く冒険に出たいんだよ!!
+But that girl is just going to get
+farther and farther away from us if
+we sit around in a place like this!
+I want to hurry up and start on my adventure!!
 -----------------------
 <Loni>
 -----------------------
-････わかったよ
-おまえの好きにしろ
+#････わかったよ
+#おまえの好きにしろ
+...Fine, I hear ya.
+Do as you please.
 -----------------------
 <Kyle>
 -----------------------
-決まり！
-それじゃ、教えてよ！
-え～っと････
+#決まり！
+#それじゃ、教えてよ！
+#え～っと････
+It's settled then!
+So, tell us about it!
+Um...
 -----------------------
 ？？？？？
 -----------------------
-名前か？
-････名前など、僕にとっては
-無意味なものだ
+#名前か？
+#････名前など、僕にとっては
+#無意味なものだ
+My name?...
+Things such as names are meaningless to me.
 -----------------------
 ？？？？？
 -----------------------
-おまえたちの好きなように
-呼べばいい
+#おまえたちの好きなように
+#呼べばいい
+You two can call me
+whatever you'd like.
 -----------------------
 <Kyle>
 -----------------------
-じゃあ････<Judas>！
+#じゃあ････<Judas>！
+Okay then... <Judas>!
 -----------------------
 <Judas>
 -----------------------
-<Judas>････か
-まあ、それで我慢してやろう
+#<Judas>････か
+#まあ、それで我慢してやろう
+<Judas>...huh.
+Oh well, I'll just have to deal with it.
 -----------------------
 <Loni>
 -----------------------
-で、<Judas>さんよ
-こっからどうやって脱出するつもりだ？
+#で、<Judas>さんよ
+#こっからどうやって脱出するつもりだ？
+So, Mr. <Judas>, how do you intend
+to escape from this lovely place?
 -----------------------
 <Judas>
 -----------------------
-簡単なことだ
-出口から出ればいい
+#簡単なことだ
+#出口から出ればいい
+A simple enough matter.
+All we need to do is leave through the exit.
 -----------------------
 <Loni>
 -----------------------
-出口からって････おい！
+#出口からって････おい！
+Through the exit... hey!
 -----------------------
 <Judas>
 -----------------------
-さがっていろ
+#さがっていろ
+Stand back.
 -----------------------
 <Judas>
 -----------------------
-ハァッ！
+#ハァッ！
+Haa!
 -----------------------
 <Kyle>
 -----------------------
-すげえ････！
+#すげえ････！
+Awesome...!
 -----------------------
 <Judas>
 -----------------------
-なにをぼーっとしている？
-さっさといくぞ
+#なにをぼーっとしている？
+#さっさといくぞ
+What are you gawking at?
+Let's get moving.
 -----------------------
 notice
 -----------------------
@@ -360,7 +501,8 @@ notice
 -----------------------
 notice
 -----------------------
-<Judas>が仲間になりました
+#<Judas>が仲間になりました
+<Judas> joined your party.
 -----------------------
 <Kyle>
 -----------------------
