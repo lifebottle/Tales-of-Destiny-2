@@ -1,44 +1,62 @@
-ダリルシェイド地下水路
+#ダリルシェイド地下水路
+Darilsheid Prison, Underground Canal
 -----------------------
-ダリルシェイド地下水路
+#ダリルシェイド地下水路
+Darilsheid Prison, Underground Canal
 -----------------------
-ダリルシェイド地下水路
+#ダリルシェイド地下水路
+Darilsheid Prison, Underground Canal
 -----------------------
 <Kyle>
 -----------------------
-うわ、まっくら！
+#うわ、まっくら！
+Whoa, it's pitch black!
 -----------------------
 <Judas>
 -----------------------
-この水路をたどっていけば
-地上にたどりつけるはずだ
+#この水路をたどっていけば
+#地上にたどりつけるはずだ
+If we follow this waterway,then it
+should bring us to the surface.
 -----------------------
 <Loni>
 -----------------------
-ホントにこの先が出口なのか？
-なんにも見えねえじゃねえか
+#ホントにこの先が出口なのか？
+#なんにも見えねえじゃねえか
+Is there really an exit up ahead?
+I can't see a bloody thing, can you?
 -----------------------
 <Judas>
 -----------------------
-あわてるな
-燭台に火を灯せば
-先が見えるようになる
+#あわてるな
+#燭台に火を灯せば
+#先が見えるようになる
+Don't panic.
+We'll be able to see where we're going
+if we light a candlestick.
 -----------------------
 <Judas>
 -----------------------
-さ、行くぞ
-せいぜい遅れないように
-ついて来い
+#さ、行くぞ
+#せいぜい遅れないように
+#ついて来い
+Let's get going.
+Follow me if you don't want
+to spend the night down here.
 -----------------------
 <Loni>
 -----------------------
-へっ！　そっちこそ
-足手まといになんなよ
-自信家の兄ちゃん！
+#へっ！　そっちこそ
+#足手まといになんなよ
+#自信家の兄ちゃん！
+Heh! Better make sure that you pull your
+weight then, oh fearless leader!
 -----------------------
-まっくらになりました
+#まっくらになりました
+It's all gone dark.
 -----------------------
-鉄格子を壊しました
+#鉄格子を壊しました
+I've broken the bars.
 -----------------------
 #まっくらで何も見えません
 Can't see anything in the dark.
@@ -47,7 +65,8 @@ notice
 -----------------------
 NOTICE
 -----------------------
-燭台があります
+#燭台があります
+There's a candlestick.
 -----------------------
 #まっくらで何も見えません
 Can't see anything in the dark.
