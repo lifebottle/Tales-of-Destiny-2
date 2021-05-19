@@ -1,123 +1,163 @@
-ダリルシェイド地下水路
+#ダリルシェイド地下水路
+Darilsheid Prison, Underground Canal
 -----------------------
-ダリルシェイド地下水路
+#ダリルシェイド地下水路
+Darilsheid Prison, Underground Canal
 -----------------------
-ダリルシェイド地下水路
------------------------
-<Judas>
------------------------
-ここが出口だ
-街の外へとつながっている
+#ダリルシェイド地下水路
+Darilsheid Prison, Underground Canal
 -----------------------
 <Judas>
 -----------------------
-しかし、思ったより時間がかかったな
-まったく、僕ひとりなら
-もっと早く出られたものを････
+#ここが出口だ
+#街の外へとつながっている
+This is the exit.
+It leads to the outskirts of the city.
+-----------------------
+<Judas>
+-----------------------
+#しかし、思ったより時間がかかったな
+#まったく、僕ひとりなら
+#もっと早く出られたものを････
+However, that certainly took much longer than I had expected.
+Honestly, I could have gotten out of here
+a lot faster had I been alone...
 -----------------------
 <Loni>
 -----------------------
-はいはい、言ってろよ
-ったく････
+#はいはい、言ってろよ
+#ったく････
+Yeah, yeah, tell it to the press. Geez...
 -----------------------
 <Loni>
 -----------------------
-<Kyle>、こんなヤツほっといて
-とっとと孤児院に戻ろうぜ
+#<Kyle>、こんなヤツほっといて
+#とっとと孤児院に戻ろうぜ
+<Kyle>, let's ditch this guy and get back
+to the orphanage as soon as possible.
 -----------------------
 <Kyle>
 -----------------------
-あ、うん
+#あ、うん
+Ah, right.
 -----------------------
 <Judas>
 -----------------------
-どうした？　早くもどって
-旅に出るんじゃなかったのか？
+#どうした？　早くもどって
+#旅に出るんじゃなかったのか？
+What's the matter?
+Weren't you going to hurry back
+and start on a journey?
 -----------------------
 <Kyle>
 -----------------------
-<Judas>
-ホント、ありがとう！
+#<Judas>
+#ホント、ありがとう！
+<Judas>, thanks a lot!
 -----------------------
 <Judas>
 -----------------------
-別に、礼を言われる筋合いはない
+#別に、礼を言われる筋合いはない
+There's no reason for you to thank me.
 -----------------------
 <Kyle>
 -----------------------
-それでも、ありがとう
-ホントに助かったよ！
+#それでも、ありがとう
+#ホントに助かったよ！
+#Even so, thanks.
+You really helped us out!
 -----------------------
 <Judas>
 -----------------------
-････
+#････
+...
 -----------------------
 <Kyle>
 -----------------------
-それじゃあね、<Judas>
-またどこかで会えるといいね！
+#それじゃあね、<Judas>
+#またどこかで会えるといいね！
+Well then, later, <Judas>.
+Hopefully, we'll meet again sometime!
 -----------------------
 <Judas>
 -----------------------
-<Kyle>････
+#<Kyle>････
+<Kyle>...
 -----------------------
 <Kyle>
 -----------------------
-なに？
+#なに？
+What?
 -----------------------
 <Judas>
 -----------------------
-僕は、おまえといっしょに････
+#僕は、おまえといっしょに････
+I'd like to go with...
 -----------------------
 <Judas>
 -----------------------
-････いや、なんでもない
+#････いや、なんでもない
+No, it's nothing.
 -----------------------
 <Judas>
 -----------------------
-英雄になりたければ
-せいぜい、がんばることだ
-じゃあな
+#英雄になりたければ
+#せいぜい、がんばることだ
+#じゃあな
+If you want to become a hero,
+then I wish you the best of luck.
+See you around.
 -----------------------
 <Kyle>
 -----------------------
-････なんかさ
-<Judas>って不思議だよね
+#････なんかさ
+#<Judas>って不思議だよね
+That <Judas>, he's kinda mysterious, isn't he?
 -----------------------
 <Loni>
 -----------------------
-不思議ぃ？
-ああいうのは不思議じゃなくて
-「ヘン」っていうんだぞ
+#不思議ぃ？
+#ああいうのは不思議じゃなくて
+#「ヘン」っていうんだぞ
+Uh, no. I think the word you're
+looking for is "weird," not mysterious.
 -----------------------
 <Kyle>
 -----------------------
-言い過ぎだよ、<Loni>
-<Judas>はいい人だよ
+#言い過ぎだよ、<Loni>
+#<Judas>はいい人だよ
+That was harsh, <Loni>. Judas is a nice guy.
 -----------------------
 <Kyle>
 -----------------------
-自分ひとりでも、脱出できたのに
-オレたちを連れ出してくれたりさ
+#自分ひとりでも、脱出できたのに
+#オレたちを連れ出してくれたりさ
+He could have escaped by himself and all,
+but he brought us along with him instead.
 -----------------------
 <Kyle>
 -----------------------
-それに今だって
-オレのこと、励ましてくれたし！
+#それに今だって
+#オレのこと、励ましてくれたし！
+And besides, he cheered me on just now!
 -----------------------
 <Loni>
 -----------------------
-････あのな<Kyle>
-あれは皮肉だ、励ましじゃない
+#････あのな<Kyle>
+#あれは皮肉だ、励ましじゃない
+Um, earth to Kyle, that was sarcasm, not encouragement.
 -----------------------
 <Kyle>
 -----------------------
-そうかなぁ････
+#そうかなぁ････
+You think so...?
 -----------------------
 <Loni>
 -----------------------
-そんなことより、早く孤児院に戻るぞ
-すっかり遅くなっちまったから、急ごうぜ
+#そんなことより、早く孤児院に戻るぞ
+#すっかり遅くなっちまったから、急ごうぜ
+More importantly though, let's hurry back to the orphanage.
+We're late as hell, so we'd better book it.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
