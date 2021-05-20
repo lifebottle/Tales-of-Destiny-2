@@ -183,8 +183,10 @@ You dont have the necessary ingredients
 #シェフ
 Chef
 -----------------------
-ゆずってくれれば{16}{35}{D8}{C0}を
-作るがどうだい？
+#ゆずってくれれば{16}{35}{D8}{C0}を
+#作るがどうだい？ 
+Hand over the ingredients 
+to make {16}{35}{D8}{C0}?
 -----------------------
 select
 -----------------------
