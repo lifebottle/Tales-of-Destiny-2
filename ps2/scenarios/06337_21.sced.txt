@@ -1,8 +1,8 @@
 #古都ダリルシェイド
-Darilsheid prison
+Darilsheid Prison
 -----------------------
 #古都ダリルシェイド
-Darilsheid prison
+Darilsheid Prison
 -----------------------
 #おい<Kyle>、相手にすんな
 #あいつ、あからさまにあやしいぞ
@@ -132,10 +132,9 @@ I mean, she came out of a Lens and said
 #お話の中でしか････いや、お話の中だって
 #こんなことなかった！
 #それが、オレの目の前で起こったんだ！
-All we did was... no. Although all we did was
-talk to her, look everything
-that happened! And it all
-took place right before my very eyes!
+All we did was...no. Although all we did was
+talk to her, look at everything that happened!
+{02}And it all took place right before my very eyes!
 -----------------------
 <Kyle>
 -----------------------
@@ -505,11 +504,15 @@ notice
 -----------------------
 <Kyle>は
 称号「<item:00000809>」を得ました
+<Kyle> acquired the title
+"<item:00000809>".
 -----------------------
 notice
 -----------------------
-<Loni>は
-称号「<item:0000080C>」を得ました
+#<Loni>は
+#称号「<item:0000080C>」を得ました
+<Loni> acquired the title
+"<item:0000080C>".
 -----------------------
 notice
 -----------------------
@@ -518,18 +521,23 @@ notice
 -----------------------
 <Kyle>
 -----------------------
-開かない
+#開かない
+It won't open.
 -----------------------
-いぶんわかったような口を
-きくじゃないか
-まるで、自分が英雄だとでも言いたげだな
+#いぶんわかったような口を
+#きくじゃないか
+#まるで、自分が英雄だとでも言いたげだな
+You talk as if you know what you're talking about,
+like you're some kind of hero.
 -----------------------
-<Judas>さんよ
-こっからどうやって脱出するつもりだ？
+#<Judas>さんよ
+#こっからどうやって脱出するつもりだ？
+<Judas> how are we getting out of here?
 -----------------------
 {EE}
 -----------------------
-、おまえたち
+#、おまえたち
+, you all.
 -----------------------
 RTY, 0 );
 -----------------------
@@ -571,7 +579,8 @@ exit-party_togather( short spd )
 -----------------------
 notice
 -----------------------
-{16}{25}{CA}{C0}を手に入れました
+#{16}{25}{CA}{C0}を手に入れました
+Acquired {16}{25}{CA}{C0}.
 -----------------------
 notice
 -----------------------
@@ -580,8 +589,10 @@ Acquired <item:FFFFFFFF>.
 -----------------------
 notice
 -----------------------
-{16}{25}{D2}{C0}がありましたが
-いっぱいで持てませんでした
+#{16}{25}{D2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{D2}{C0}, but
+inventory full already.
 -----------------------
 notice
 -----------------------

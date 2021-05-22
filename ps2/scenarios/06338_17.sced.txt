@@ -1,8 +1,8 @@
 #古都ダリルシェイド
-Darilsheid prison
+Darilsheid Prison
 -----------------------
 #古都ダリルシェイド
-Darilsheid prison
+Darilsheid Prison
 -----------------------
 <Kyle>
 -----------------------
@@ -61,7 +61,7 @@ Here, use this and try to hit that mark.
 notice
 -----------------------
 #<item:0000002B>をもらいました
-You received the <item:0000002B>
+Acquired <item:0000002B>.
 -----------------------
 <Kyle>
 -----------------------
@@ -128,17 +128,22 @@ notice
 -----------------------
 #<Judas>は
 #称号「<item:00000826>」を得ました
-<Judas> have earned the title <item:00000826>!
+<Judas> acquired the title "<item:00000826>"!
 -----------------------
-オベロン社の物らしき書類が保管されている
-どうやら、神の眼の騒乱に関係した物のようだ
+#オベロン社の物らしき書類が保管されている
+#どうやら、神の眼の騒乱に関係した物のようだ
+There are documents in storage that appear
+to belong to Oberon Corporation, related to
+a disaster and the Eye of Atamoni.
 -----------------------
 書類にサインがされている
 『ヒューゴ』『イレーヌ』『レンブラント』
 という名前が読み取れた
 -----------------------
-『ダリルシェイド復興を祈願して
-　ストレイライズ神殿フィリア＝フィリスより』
+#『ダリルシェイド復興を祈願して
+#　ストレイライズ神殿フィリア＝フィリスより』
+The papers are signed:
+"Hugo," "Irene," and "Rembrandt".
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -178,7 +183,8 @@ exit-party_togather( short spd )
 -----------------------
 notice
 -----------------------
-{16}{25}{BE}{C0}を手に入れました
+#{16}{25}{BE}{C0}を手に入れました
+Acquired {16}{25}{BE}{C0}
 -----------------------
 notice
 -----------------------
@@ -187,8 +193,10 @@ Acquired <item:FFFFFFFF>.
 -----------------------
 notice
 -----------------------
-{16}{25}{C6}{C0}がありましたが
-いっぱいで持てませんでした
+#{16}{25}{C6}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C6}{C0}, but
+inventory full already.
 -----------------------
 notice
 -----------------------
