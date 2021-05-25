@@ -12,9 +12,12 @@ Sleeping here won't make you tired...
 #メイドさん
 Maid
 -----------------------
-それにしても、ヒマ････
-やることがないっていうのも
-結構、ツラいんですよぉ
+#それにしても、ヒマ････
+#やることがないっていうのも
+#結構、ツラいんですよぉ
+Even with free time...
+this job is quite painful
+as there's nothing to do.
 -----------------------
 #メイドさん
 Maid
@@ -22,7 +25,7 @@ Maid
 #はぁ、今日もお客さまは
 #常連の方のひとりだけ････
 #お仕事なくて、タイクツだわぁ
-Haa, today there's
+Sigh, today there's
 only one other guest...
 This job is so tedious 
 -----------------------
