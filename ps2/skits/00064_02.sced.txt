@@ -1,5 +1,5 @@
 #ねえ、<Loni>。ラグナ遺跡にレンズを探しに行くのはいいけどさ、バレたら神団をクビにされるんじゃないの？
-Hey Loni, it's great that you're going to the Laguna Ruins to search for the Lens and all, but won't the Church fire you if they find out about it?
+Hey <Loni>, it's great that you're going to the Laguna Ruins to search for the Lens and all, but won't the Church fire you if they find out about it?
 -----------------------
 #なあに、バレなきゃいいのさ。
 Eh, it'll be fine as long as they don't find out.
