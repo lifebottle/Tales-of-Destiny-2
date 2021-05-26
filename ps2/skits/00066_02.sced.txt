@@ -2,7 +2,7 @@
 La, la, la, la!
 -----------------------
 #おい、<Kyle>。ちょっと待てよ。
-Hey Kyle, hold on a sec.
+Hey <Kyle>, hold on a sec.
 -----------------------
 #ん？　なに？
 Hm? What for?
