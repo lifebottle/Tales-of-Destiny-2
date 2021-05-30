@@ -524,23 +524,6 @@ notice
 #開かない
 It won't open.
 -----------------------
-#いぶんわかったような口を
-#きくじゃないか
-#まるで、自分が英雄だとでも言いたげだな
-You talk as if you know what you're talking about,
-like you're some kind of hero.
------------------------
-#<Judas>さんよ
-#こっからどうやって脱出するつもりだ？
-<Judas> how are we getting out of here?
------------------------
-{EE}
------------------------
-#、おまえたち
-, you all.
------------------------
-RTY, 0 );
------------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
