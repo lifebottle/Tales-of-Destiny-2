@@ -1,6 +1,6 @@
 {
    "browser_action": {
-      "default_icon": "kyle.png",
+      "default_icon": "judas.png",
       "default_popup": "index.html"
    },
    "description": "This extension converts Tales of Destiny 2 (PS2) game hex to Japanese.",

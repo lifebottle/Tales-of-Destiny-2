@@ -1781,3 +1781,24 @@ tod2_to_unicode["E3B6"] = 0x7C60; // 籠
 tod2_to_unicode["E44C"] = 0x5D16; // 崖
 tod2_to_unicode["E465"] = 0x71E5; // 燥
 tod2_to_unicode["E466"] = 0x8ED2; // 軒
+
+window.onload = function () { document.getElementById("hex").addEventListener("input", convert); };
+function convert() {
+  var hex = document.getElementById('hex').value.toUpperCase();
+  hex = hex.replace(/[^0-9A-F]+/g, "");
+  document.getElementById('sjis').value = "";
+  var teil;
+  for (var i = 0; i < hex.length; i += 2) {
+	teil = hex.substring(i, i + 2);
+	if (isNaN(tod2_to_unicode[teil])) {
+	  teil = hex.substring(i, i + 4);
+	  i += 2;
+	}
+	if (teil == '01') {
+	  document.getElementById('sjis').value += "\n";
+	}
+	else {
+	  document.getElementById('sjis').value += String.fromCharCode(tod2_to_unicode[teil]);
+	}
+  }
+}
