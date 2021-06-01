@@ -7,15 +7,15 @@ Dunmais Orphanage
 <Kyle>
 -----------------------
 #ただいま、母さん
-I'm home, Mom.
 #遅くなって、ごめん････
+I'm home, Mom.
 Sorry for being late....
 -----------------------
 <Kyle>
 -----------------------
 #あ、あのさ
-Um, actually.
 #実は話があるんだけど････
+Um, actually.
 There's something I need to tell you....
 -----------------------
 #ルーティ
@@ -38,8 +38,8 @@ Rutee
 <Kyle>
 -----------------------
 #聞いてよ、母さん
-C'mon, Mom listen to me.
 #オレ、話したいことがあるんだ！
+C'mon, Mom listen to me.
 I have something that I want to talk to you about!
 -----------------------
 <Kyle>
@@ -56,41 +56,41 @@ Do you have any idea what time it is!
 Rutee
 -----------------------
 #冒険なんて、あんたには
-I told you that it was way too early
 #まだ早すぎるって言ったのに････
-for you to be going on and adventure, and yet you still....
 #みんな、心配してたのよ！
+I told you that it was way too early
+for you to be going on and adventure, and yet you still....
 Everyone was worried sick about you!
 -----------------------
 <Kyle>
 -----------------------
 #だまって遺跡へ出かけたのは
-Look, I know it was wrong of me
 #悪かったって思ってる
-to go off to the ruins without telling you.
 #でも、そのおかげでわかったんだ
+Look, I know it was wrong of me
+to go off to the ruins without telling you.
 But thanks to that, I came to realize something.
 -----------------------
 <Kyle>
 -----------------------
 #母さん！
-Mom!
 #オレ、<Loni>といっしょに････
+Mom!
 <Loni>, and I, we....
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #いいから！
-Never mind that!
 #今日はもう寝なさい！
+Never mind that!
 Just march yourself straight to bed, young man!
 -----------------------
 <Kyle>
 -----------------------
 #いやだ！
-No, I won't!
 #ちゃんと聞いてよ、母さん！
+No, I won't!
 At least hear me out, Mom!
 -----------------------
 #ルーティ
@@ -107,10 +107,10 @@ Rutee
 <Kyle>
 -----------------------
 #････オレ、父さんみたいになりたいんだ！
-....I want to be like Dad!
 #父さんみたいな、すごい英雄に!!
-I want to become a great hero, just like he did!!
 #だから････!!
+....I want to be like Dad!
+I want to become a great hero, just like he did!!
 And that's why....!!
 -----------------------
 #ルーティ
@@ -136,17 +136,17 @@ You okay, <Kyle>?
 <Loni>
 -----------------------
 #今日は、日が悪かったんだ
-We picked a bad day to ask.
 #明日、もう一度話すことにしようぜ
+We picked a bad day to ask.
 Let's try talking to her again, tomorrow.
 -----------------------
 <Loni>
 -----------------------
 #なに、心配すんなって
-Eh, trust me, you ain't got nothing to worry about.
 #ちゃんと話せば、お前の真剣な気持ち
-If you sit down and talk things over,
 #きっと、わかってくれるさ
+Eh, trust me, you ain't got nothing to worry about.
+If you sit down and talk things over,
 then I'm sure she'll understand how you really feel.
 -----------------------
 <Kyle>
@@ -157,18 +157,19 @@ then I'm sure she'll understand how you really feel.
 <Loni>
 -----------------------
 #今日は、もう寝ろ
-Just call it a night, already.
 #いろいろあって、疲れてるだろうしな
+Just call it a night, already.
 You've gotta be bushed after all the crap we went through today.
 -----------------------
 <Loni>
 -----------------------
 #なにしてんだ、<Kyle>？
-What are you doing, <Kyle>?
 #ルーティさんに、話するんだろ？
+What are you doing, <Kyle>?
 You're going to tell Mrs. Rutee, right?
 -----------------------
-ルーティ
+#ルーティ
+Rutee
 -----------------------
 ････でさ、奥さんがワッて声を上げたら
 小麦粉の袋をひっくりかえして
@@ -193,18 +194,18 @@ Stahn
 <Kyle>
 -----------------------
 #父さん、母さん
-Mom, Dad
 #ちょっといいかな？
-Do you have a minute?
 #話したいことがあるんだけど
+Mom, Dad
+Do you have a minute?
 I have something to tell you.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #どうしたの？
-What's wrong?
 #急に改まっちゃって
+What's wrong?
 This isn't like you.
 -----------------------
 <Kyle>
@@ -228,22 +229,22 @@ Rutee
 <Kyle>
 -----------------------
 #旅がしてみたいんだ、オレ
-I want to travel.
 #広い世界を、自分の足で････
+I want to travel.
 I want to see the world myself....
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #旅ですって!?
-A trip!?
+Travel!?
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #なにいってんの！
-Are you nuts!
 #あんたにゃ、まだ早すぎるわよ！
+Are you nuts!
 You're too young for that!
 -----------------------
 <Kyle>
@@ -254,17 +255,17 @@ No, I'm not.
 <Kyle>
 -----------------------
 #母さんだってオレぐらいの歳には
-You know, Mom, 
 #もういっぱしの
-when you were my age,
 #レンズハンターだったんだろ？
+You know, Mom, 
+when you were my age,
 weren't you a full blown Lens Hunter?
 -----------------------
 <Kyle>
 -----------------------
 #それにオレには
-Dad's blood
 #父さんの血だって流れてる
+Dad's blood
 flows in my veins too, you know.
 -----------------------
 #ルーティ
@@ -288,26 +289,32 @@ Stahn
 -----------------------
 <Kyle>
 -----------------------
-止めてもムダだよ
-じつはもう
-準備だって終わってるんだ
+#止めてもムダだよ
+#じつはもう
+#準備だって終わってるんだ
+You can't stop me.
+Actually, I've
+already finished my preperations.
 -----------------------
 <Kyle>
 -----------------------
-反対されたら
-このまま出ていく
+#反対されたら
+#このまま出ていく
+If you object,
+then I'm leaving anyway.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
-<Kyle>、あんた････
+#<Kyle>、あんた････
+<Kyle>, you....
 -----------------------
 #スタン
 Stahn
 -----------------------
 #止めるつもりはないさ
-I won't stop you.
 #行ってくればいい
+I won't stop you.
 You can go.
 -----------------------
 #ルーティ
@@ -331,10 +338,10 @@ But, I have one condition.
 Stahn
 -----------------------
 #その旅の中で、たったひとつでいい
-When you're out there.
 #おまえにとってかけがえのないものを
-Look for what's most important to you,
 #見つけてくるんだ
+When you're out there.
+Look for what's most important to you,
 and don't let go of it.
 -----------------------
 <Kyle>
@@ -353,34 +360,34 @@ I'll be there to see you off.
 <Kyle>
 -----------------------
 #わかった････
-Okay....
 #ありがとう、父さん
+Okay....
 Thank you, Dad.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #あ～あ、バッカみたい
-Ahh, look at these idiots
 これじゃ、あたしひとり
 ヤな女じゃない
+Ahh, look at these idiots
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #････わかったわ
-....I understand.
 #スタンがそういうんなら
-If Stahn says so,
 #あたしも反対はしない
+....I understand.
+If Stahn says so,
 Then I won't object.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #気をつけていっといで
-Take care,
 #<Kyle>････
+Take care,
 <kyle>....
 -----------------------
 <Kyle>
