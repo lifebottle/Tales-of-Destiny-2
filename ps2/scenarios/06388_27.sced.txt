@@ -12,129 +12,203 @@
 ････どうやら、若い頃に大量生産した何かを
 廃棄したようだ
 -----------------------
-『神の眼を巡る騒乱の真実』
-騒乱の直後に売り出され、ベストセラーになった
-ノンフィクション小説だ
+#『神の眼を巡る騒乱の真実』
+#騒乱の直後に売り出され、ベストセラーになった
+#ノンフィクション小説だ
+『The truth about the Mayhem over the Eyes of God』
+It was sold after the disaster and because a best seller.
+It's a non-fiction novel.
 -----------------------
-著者は『集積レンズ砲』という兵器の
-開発に携わった科学者であるようだ
+#著者は『集積レンズ砲』という兵器の
+#開発に携わった科学者であるようだ
+The author had developed a weapon called the integrated lens gun.
+Seems like he was a scientist who was involved with the project.
 -----------------------
-フィリアの私物を収めた棚がある
-この中にフィリアの私生活が････！
+#フィリアの私物を収めた棚がある
+#この中にフィリアの私生活が････！
+There is a shelf of Phillia's personal belongings
+So this is her private life...!
 -----------------------
 ････犯罪になるので、開けるのは止めておいた
 非常に心残りだが････
 -----------------------
-フィリアが集めたのだろうか
-多種多様なジャンルの書物がある
+#フィリアが集めたのだろうか
+#多種多様なジャンルの書物がある
+I wonder if Phillia collected it.
+There are so many different genres.
 -----------------------
 『レンズ科学読本』『アタモニ信仰の起源』
 『<Harold>博士の伝記』
 『グミ嫌いが称号を制する』などなど
+『Lens Science Book "Origin of the Atomoni Faith"』
+『Dr. Harold's Biogrophy』
+In  the title 『Gummi Hater』
 -----------------------
 みなさんの無事を祈って、
 <item:000001B1>を差しあげますわ
 -----------------------
-ふふっ
-あなたたちを見ていると
-私も、昔を思い出します
+#ふふっ
+#あなたたちを見ていると
+#私も、昔を思い出します
+Heh heh
+When I look at you guys,
+It reminds me of the old days.
 -----------------------
-外の世界を知らなかった私が
-神殿を飛び出して
-仲間といっしょに世界中を旅して････
+#外の世界を知らなかった私が
+#神殿を飛び出して
+#仲間といっしょに世界中を旅して････
+I didn't know anything about the outside world.
+I just took a leap of faith,
+and traveled around the world with my friends.
 -----------------------
-悲しいこと
-大変だっこともあったけど
-楽しかった････
+#悲しいこと
+#大変だっこともあったけど
+#楽しかった････
+It was sometimes sad
+and there were hard times.
+But it was fun too....
 -----------------------
-みなさん、道中
-お気をつけて
-旅の無事を祈っていますわ
+#みなさん、道中
+#お気をつけて
+#旅の無事を祈っていますわ
+Everyone, before you leave.
+Please be careful.
+I wish you a safe journey.
 -----------------------
-ちゃんと渡してくださいね
+#ちゃんと渡してくださいね
+Please tell me the truth.
 -----------------------
 ジニーちゃんはどうですか？
 -----------------------
-私の言葉で誰かが元気になってくれるなら
-こんなにうれしいことはありません
+#私の言葉で誰かが元気になってくれるなら
+#こんなにうれしいことはありません
+If I can make someone fell better,
+then nothing makes me happier.
 -----------------------
-フィリア
+#フィリア
+Phillia
 -----------------------
-ふふっ
-あなたたちを見ていると
-私も、昔を思い出します
+#ふふっ
+#あなたたちを見ていると
+#私も、昔を思い出します
+Heh heh
+When I look at you guys,
+It reminds me of the old days.
 -----------------------
-外の世界を知らなかった私が
-神殿を飛び出して
-仲間といっしょに世界中を旅して････
+#外の世界を知らなかった私が
+#神殿を飛び出して
+#仲間といっしょに世界中を旅して････
+I didn't know anything about the outside world.
+I just took a leap of faith,
+and traveled around the world with my friends.
 -----------------------
-悲しいこと
-大変だっこともあったけど
-楽しかった････
+#悲しいこと
+#大変だっこともあったけど
+#楽しかった････
+It was sometimes sad
+and there were hard times.
+But it was fun too....
 -----------------------
-みなさん、道中
-お気をつけて
-旅の無事を祈っていますわ
+#みなさん、道中
+#お気をつけて
+#旅の無事を祈っていますわ
+Everyone, before you leave.
+Please be careful.
+I wish you a safe journey.
 -----------------------
 お力になれたのなら、うれしく思います
 -----------------------
 あの････<Judas>さん
 ････どこかで
 お会いしませんでしたか？
+Um.... <Judas>
+....Have we met
+somewhere before?
 -----------------------
 <Judas>
 -----------------------
-････いや
-あなたにお会いしたことはない
-人違いだろう
+#････いや
+#あなたにお会いしたことはない
+#人違いだろう
+....No
+I've never met you.
+You must be mistaken.
 -----------------------
-････そうですか
-失礼しました
-私の勘違いみたいです
+#････そうですか
+#失礼しました
+#私の勘違いみたいです
+....Yes sir.
+Please excuse me.
+I was mistaken.
 -----------------------
-そう････ですよね
-あの方が生きているはずは
-ありませんもの････
+#そう････ですよね
+#あの方が生きているはずは
+#ありませんもの････
+That's right....
+He shouldn't be alive.
+There's no way....
 -----------------------
 <Kyle>さん、あなたの行く手には
 とても困難なことが
 待っているかもしれません
 -----------------------
-ですが、決して逃げないでください
-前に進むことを、あきらめないでください
+#ですが、決して逃げないでください
+#前に進むことを、あきらめないでください
+But never run away.
+Don't ever give up.  Keep moving forward
 -----------------------
-たとえ、どんなにつらくても
-自分で選んだ道を歩いてください
-あなたのご両親が、そうだったように････
+#たとえ、どんなにつらくても
+#自分で選んだ道を歩いてください
+#あなたのご両親が、そうだったように････
+No matter how hard it gets.
+Please walk your own path.
+Just like your parents did....
 -----------------------
 <Kyle>
 -----------------------
 フィリアさん････
+Miss Phillia....
 -----------------------
-なにか、大変なことが
-起こる予感がします
+#なにか、大変なことが
+#起こる予感がします
+I have a terrible hunch,
+Something bad will happen.
 -----------------------
-かつて、ヒューゴが起こした動乱････
-いえ、それ以上のことが････
+#かつて、ヒューゴが起こした動乱････
+#いえ、それ以上のことが････
+The chaos that Hugo once caused....
+No, it's worse than that....
 -----------------------
-あなたの強い想いに
-ベルセリアの花が
-応えてくれますように････
+#あなたの強い想いに
+#ベルセリアの花が
+#応えてくれますように････
+I hope that the
+flowers of Verselia,
+will respond to your strong feelings....
 -----------------------
-あなたたちの旅の行く手に
-すばらしい出会いが待ってますように････
+#あなたたちの旅の行く手に
+#すばらしい出会いが待ってますように････
+I hope that yourney,
+has something wonderful waiting for you....
 -----------------------
-あら、あなた
-もしかして････<Kyle>さん？
+#あら、あなた
+#もしかして････<Kyle>さん？
+Oh, you.
+Perhaps.... <Kyle>?
 -----------------------
 <Kyle>
 -----------------------
 えっ！
 どうして、わかったんですか？
+Huh!
+What do you mean?
 -----------------------
 ふふっ！
 あなたが、そっくりだったからです
 かつて、世界を一緒に旅した人に
+Hu hu!
+Because you're just like he was,
+when we traveled together.
 -----------------------
 よくいらっしゃいました、<Kyle>さん
 ごらんのとおり
