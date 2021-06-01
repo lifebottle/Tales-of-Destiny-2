@@ -7,8 +7,8 @@ Dunmais Orphanage
 <Loni>
 -----------------------
 #なにしてんだ、<Kyle>？
-What are you doing, <Kyle>?
 #ルーティさんに、話するんだろ？
+What are you doing, <Kyle>?
 You're going to tell Mrs. Rutee, right?
 -----------------------
 #ここは夜の孤児院前です
@@ -17,8 +17,8 @@ In front of the orphanage at night.
 <Loni>
 -----------------------
 #ルーティさん
-It looks like
 #まだ起きてるみたいだな
+It looks like
 Mrs. Rutee's still awake doesn't it.
 -----------------------
 <Kyle>
@@ -28,36 +28,36 @@ Mrs. Rutee's still awake doesn't it.
 <Loni>
 -----------------------
 #どうする、<Kyle>？
-Now what, <Kyle>?
 #旅に出る話、言いづらかったら
-If it's too hard to ask her about going on a journey
 #俺が代わりに････
+Now what, <Kyle>?
+If it's too hard to ask her about going on a journey
 then I always could....
 -----------------------
 <Kyle>
 -----------------------
 #ダメだよ、<Loni>
-No you can't, <Loni>
 #オレ、自分で言うよ
-I think this is something....
 #そうじゃないと････いけないと思うんだ
+No you can't, <Loni>
+I think this is something....
 I have to do for myself.
 -----------------------
 <Loni>
 -----------------------
 #････そうだな、すまねえ
-....Yeah, I guess you're right.
 #よし！　それじゃいくか！
+....Yeah, I guess you're right.
 Alrighty then!  Shall we!
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #今日ね、また、<Kyle>のこと
-I hit <Kyle> again,
 #ぶっちゃったんだけど････
-I know I messed up but....
 #なんだか様子がちがったのよ、今回は
+I hit <Kyle> again,
+I know I messed up but....
 this time it's a different situation.
 -----------------------
 #ルーティ
@@ -71,44 +71,44 @@ Rutee
 Rutee
 -----------------------
 #あんたみたいな
-Just like you
 #英雄になりたいってさ、あの子
-He wants to be a hero.
 #････やっぱり、あんたの子ね
+Just like you
+He wants to be a hero.
 ....He is your child, after all.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #あ～あ、せめて、もう少し
-Oh, I wish that he could
 #あたしに似てくれたらなぁ
-be a little more like me.
 #そんなバカなこと、言わないのに････
+Oh, I wish that he could
+be a little more like me.
 No, I shouldn't be saying something like that....
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #････あ、笑ったでしょ、いま？
-....Ah, Are you laughing at me right now?
 #ふふっ！
+....Ah, Are you laughing at me right now?
 Huh!
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #心配しないで
-Don't worry about me.
 #覚悟はできてる････つもり
+Don't worry about me.
 I'm ready to.... to....
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #明日、あの子が打ち明けてきたら
-Tomorrow, when he goes to
 #そのときは、あたし････
+Tomorrow, when he goes to
 tell me, I'll....
 -----------------------
 <Kyle>
