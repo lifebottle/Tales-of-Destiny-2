@@ -40,27 +40,37 @@ Uncovering the Mysterious Power
 #トニア
 Tonya
 -----------------------
-もう、<Kyle>ってば
-歩きながら眠らないでよ
-ゾンビみたいで、こわいでしょ！
+#もう、<Kyle>ってば
+#歩きながら眠らないでよ
+#ゾンビみたいで、こわいでしょ！
+Hey, <Kyle>.
+Stop sleep walking.
+You look like a zombie and it's scary!
 -----------------------
 #トニア
 Tonya
 -----------------------
-ムニャムニャ････
-オナカ････へったぁ････
-もっと食べたいなぁ････
+#ムニャムニャ････
+#オナカ････へったぁ････
+#もっと食べたいなぁ････
+Mmmm, Mmmm....
+Ma, hey....
+'m still hungry....
 -----------------------
 #トニア
 Tonya
 -----------------------
-やっぱり、<Kyle>は
-本物の英雄をめざすんだね････
+#やっぱり、<Kyle>は
+#本物の英雄をめざすんだね････
+After all, <Kyle>
+Is aiming to be a real hero....
 -----------------------
 <Kyle>
 -----------------------
 ごめんな、トニア
 さびしい想いをさせるけど････
+I'm sorry, Tonya
+I know you're a bit lonely....
 -----------------------
 #トニア
 Tonya
@@ -68,13 +78,19 @@ Tonya
 ん、だいじょうぶ
 ルーティやみんながいるから････
 あたしは、さびしくないよ
+Hmm, It's fine.
+Because of Rutee and everyone else,
+I'm not lonely.
 -----------------------
 #トニア
 Tonya
 -----------------------
-ガンバってね、<Kyle>！
-ルーティが悲しむようなこと
-しちゃダメだかんね！
+#ガンバってね、<Kyle>！
+#ルーティが悲しむようなこと
+#しちゃダメだかんね！
+Dummy, <Kyle>!
+Don't do things that
+make Rutee sad!
 -----------------------
 #ユニー
 Yuni
