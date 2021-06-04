@@ -10,8 +10,10 @@ Old Darilsheid City
 #古都ダリルシェイド
 Old Darilsheid City
 -----------------------
-昔はこの先にダリルシェイド港があったようだ
-ガレキに覆われてとても進めそうに無い････
+#昔はこの先にダリルシェイド港があったようだ
+#ガレキに覆われてとても進めそうに無い････
+It seems the ruins of Darilsheid Port is ahead
+It's covered in rubble and unable to be crossed....
 -----------------------
 #おじさん
 Man
@@ -19,6 +21,9 @@ Man
 今さら、なにをしたってムダだよ
 なにかが変わるわけでも
 ないからな････
+It's pointless to try to cross
+Even if you tried,
+you couldn't.
 -----------------------
 #おじさん
 Man
@@ -36,9 +41,12 @@ Man
 #おじさん
 Man
 -----------------------
-ほっといてくれよ
-酒を飲んで、思い出にひたるくらいしか
-やることがないんだからよ････
+#ほっといてくれよ
+#酒を飲んで、思い出にひたるくらいしか
+#やることがないんだからよ････
+Leave me alone.
+I'm just drinking and remembering the good ol' days.
+God I'm so bored....
 -----------------------
 #おじさん
 Man
@@ -46,26 +54,37 @@ Man
 十八年前の騒乱が俺からすべてを
 もぎ取っていっちまったのさ
 家族も、財産も････
+That chaos that happened 18 years ago,
+My family, my property,
+all of it's gone....
 -----------------------
 #おじさん
 Man
 -----------------------
-どんなにさびれても
-俺は、この街が好きなんだ
+#どんなにさびれても
+#俺は、この街が好きなんだ
+No matter how old it is,
+I like this city.
 -----------------------
 #おじさん
 Man
 -----------------------
-だけど、ここにはなにもねえ
-いや、かつてはあったが十八年前の
+#だけど、ここにはなにもねえ
+#いや、かつてはあったが十八年前の
 騒乱が全部もっていきやがった
+But there's nothing here now.
+Not like it was 18 years ago.
+That chaos ruined it all.
 -----------------------
 #おじさん
 Man
 -----------------------
-待ってるだけじゃ、どうにもならねえ
-やっぱり、自分たちの力で
-動かないとな
+#待ってるだけじゃ、どうにもならねえ
+#やっぱり、自分たちの力で
+#動かないとな
+Just waiting won't help.
+We have to use our own power.
+If we want to move on.
 -----------------------
 #おじさん
 Man
@@ -73,13 +92,19 @@ Man
 ボウズも、街の復興作業に
 参加したくなったら
 いつでも、声をかけてくれよ！
+Bowes is also involved in reconstuction.
+If you want to help out,
+then you can ask me anytime!
 -----------------------
 #おじさん
 Man
 -----------------------
-みんなで力をあわせれば
-街の復興も進むと思うんだ
-だから、俺は組織を作ろうと考えてる
+#みんなで力をあわせれば
+#街の復興も進むと思うんだ
+#だから、俺は組織を作ろうと考えてる
+If we all work together,
+then I think we can reconstruct the city.
+So I'm thinking of creating an organization.
 -----------------------
 #おじさん
 Man
@@ -90,23 +115,32 @@ Man
 -----------------------
 <Kyle>
 -----------------------
-いいなぁ、そういうの！
-でも、オレには、やることがあるんだ
-ごめんね、おじさん
+#いいなぁ、そういうの！
+#でも、オレには、やることがあるんだ
+#ごめんね、おじさん
+Good, that's it!
+But there's something else I've gotta do.
+Sorry sir.
 -----------------------
 #おばさん
 Woman
 -----------------------
-今じゃ
-火をおこすだけでも苦労するよ
-ホント、昔はよかったねぇ
+#今じゃ
+#火をおこすだけでも苦労するよ
+#ホント、昔はよかったねぇ
+Now,
+it's hard just to make a fire.
+It was better in the old days.
 -----------------------
 #おばさん
 Woman
 -----------------------
-昔は、レンズ商品のおかげで
-楽できたのに
-不便な世の中になったもんだよ
+#昔は、レンズ商品のおかげで
+#楽できたのに
+#不便な世の中になったもんだよ
+Back then, when we had lens products,
+I was able to enjoy this.
+Now it's just so inconvienent.
 -----------------------
 <Kyle>
 -----------------------
@@ -116,37 +150,52 @@ Woman
 -----------------------
 <Loni>
 -----------------------
-オベロン社だよ
-俺がガキのころは
-いろんな品物があったぜ
+#オベロン社だよ
+#俺がガキのころは
+#いろんな品物があったぜ
+Oberon
+When I was a kid,
+there were lots of items.
 -----------------------
 #おばさん
 Woman
 -----------------------
-オベロン社っていう大きな会社が
-なくなってから、この街は
-すたれる一方さ
+#オベロン社っていう大きな会社が
+#なくなってから、この街は
+#すたれる一方さ
+A big company called Oberon.
+Since it's been gone,
+the city's gone down the hole.
 -----------------------
 #おばさん
 Woman
 -----------------------
-オベロン社総帥のヒューゴは
-大悪人だったけど、この街に
-レンズ商品の恩恵をもたらしてくれた
+#オベロン社総帥のヒューゴは
+#大悪人だったけど、この街に
+#レンズ商品の恩恵をもたらしてくれた
+Hugo, the manager of Oberon Corperation,
+He ended up being a villian
+but for the city, his lens products was so beneficial.
 -----------------------
 #おばさん
 Woman
 -----------------------
-そう考えると、あの男は
-この街に必要な人間だったのかも
-しれないね････
+#そう考えると、あの男は
+#この街に必要な人間だったのかも
+#しれないね････
+If you think about it,
+he was just the person this city needed.
+I don't know....
 -----------------------
 #おばさん
 Woman
 -----------------------
-たまごを焼くのだって
-まきを使ってたんだ
-昔の人は、それで生活してたんだよね
+#たまごを焼くのだって
+#まきを使ってたんだ
+#昔の人は、それで生活してたんだよね
+You were cooking eggs,
+so I had to use fire wood.
+That's how they did it in the old days, right?
 -----------------------
 #おばさん
 Woman
@@ -171,8 +220,10 @@ Old Man
 -----------------------
 <Kyle>
 -----------------------
-えっ!?
-それって本当!?
+#えっ!?
+#それって本当!?
+Eh!?
+Is that true?
 -----------------------
 #おじいさん
 Old Man
