@@ -42,7 +42,7 @@ NOTICE
 -----------------------
 notice
 -----------------------
-宝箱はチープトリックでした
+The treasure chest was a cheap trick.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
