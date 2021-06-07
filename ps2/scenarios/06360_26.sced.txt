@@ -17,11 +17,15 @@ Aigrette - Grand Bazaar
 #荷車には、アクアヴェイル産の食材が積まれている
 The cart is loaded with produce from Aquaveil.
 -----------------------
-アクアヴェイル地方で採れたライスだ
-ライスはアクアヴェイル地方の主食らしい
+#アクアヴェイル地方で採れたライスだ
+#ライスはアクアヴェイル地方の主食らしい
+Rice from the Aquaveil region.
+Apparently, rice is a staple food in the Aquaveil region.
 -----------------------
-工事用のヘルメットだ
-ずいぶんと使い込まれている
+#工事用のヘルメットだ
+#ずいぶんと使い込まれている
+It's a construction helmet.
+It's been used for a long time.
 -----------------------
 人の身長ほどもある、大きなタルだ
 中身は････食材のようだ
