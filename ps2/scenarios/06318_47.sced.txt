@@ -761,9 +761,12 @@ can you loan me your backyard?
 -----------------------
 <Nanaly>
 -----------------------
-イクシフォスラーを改造するんだってさ
-これから、どうするにせよ、
-準備だけは整えておかないとね
+#イクシフォスラーを改造するんだってさ
+#これから、どうするにせよ、
+#準備だけは整えておかないとね
+I'm going to have to rebuild Ixfossler now.
+I'll do what I can with it,
+because we have to be prepared.
 -----------------------
 <Harold>
 -----------------------
@@ -773,26 +776,34 @@ can you loan me your backyard?
 -----------------------
 <Harold>
 -----------------------
-改造が終わるまでには、ちょっと時間が
-かかるから、ま、適当に時間つぶしててよ
+#改造が終わるまでには、ちょっと時間が
+#かかるから、ま、適当に時間つぶしててよ
+It will take some time before we can finish rebuilding.
+Might as well go kill some time.
 -----------------------
 <Reala>
 -----------------------
-ね、<Kyle>
-ちょっとつきあってほしい場所があるんだけど
+#ね、<Kyle>
+#ちょっとつきあってほしい場所があるんだけど
+Hey, <Kyle>.
+I'm going somewhere.  Want to come with me?
 -----------------------
 <Kyle>
 -----------------------
-えっ？　ど、どこに？
+#えっ？　ど、どこに？
+Huh?  W, where?
 -----------------------
 <Reala>
 -----------------------
-ラグナ遺跡！
+#ラグナ遺跡！
+The Laguna Ruins!
 -----------------------
 <Reala>
 -----------------------
-行ってみたいの
-<Kyle>と初めて会った場所に
+#行ってみたいの
+#<Kyle>と初めて会った場所に
+I want to go
+Where I first met <Kyle>.
 -----------------------
 <Kyle>
 -----------------------
@@ -800,8 +811,10 @@ can you loan me your backyard?
 -----------------------
 <Loni>
 -----------------------
-行ってこいよ、<Kyle>
-イクシフォスラーの改造が済んだら知らせてやるから
+#行ってこいよ、<Kyle>
+#イクシフォスラーの改造が済んだら知らせてやるから
+Go on, <Kyle>
+I'll let you know when we're done.
 -----------------------
 <Kyle>
 -----------------------
