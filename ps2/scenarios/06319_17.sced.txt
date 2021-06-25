@@ -63,9 +63,12 @@ this time it's a different situation.
 #ルーティ
 Rutee
 -----------------------
-なんせ、あの子ったら
-あたしに歯向かおうとしたのよ
-このあたしに！
+#なんせ、あの子ったら
+#あたしに歯向かおうとしたのよ
+#このあたしに！
+Can you believe that boy?
+He was talking back to me.
+His own mother!
 -----------------------
 #ルーティ
 Rutee
