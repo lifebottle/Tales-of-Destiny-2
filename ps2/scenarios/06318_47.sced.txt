@@ -631,9 +631,12 @@ It's like I killed him myself.
 -----------------------
 <Loni>
 -----------------------
-しかも、そのことをずっと隠してた
-知らないほうがいい、そのほうが
-<Kyle>のためだって････
+#しかも、そのことをずっと隠してた
+#知らないほうがいい、そのほうが
+#<Kyle>のためだって････
+I had kept it from you.
+It's better that you didn't know.
+Because <Kyle>....
 -----------------------
 <Loni>
 -----------------------
@@ -770,9 +773,12 @@ because we have to be prepared.
 -----------------------
 <Harold>
 -----------------------
-ほら、よく言うでしょ？
-備えあれば、ロケットランチャー
-撃ちほうだいって
+#ほら、よく言うでしょ？
+#備えあれば、ロケットランチャー
+#撃ちほうだいって
+You know, don't you?
+If that doesn't work we can
+always use a rocket launcher.
 -----------------------
 <Harold>
 -----------------------
