@@ -827,7 +827,7 @@ I'll let you know when we're done.
 #････わかった
 #行こう<Reala>
 ....Okay.
-Let's go, <Raela>.
+Let's go, <Reala>.
 -----------------------
 <Reala>
 -----------------------
@@ -926,7 +926,7 @@ Come on, come on!
 <Kyle>
 -----------------------
 ････行こう、<Reala>！
-....Let's go, <Raela>!
+....Let's go, <Reala>!
 -----------------------
 <Reala>
 -----------------------
