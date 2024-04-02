@@ -10,5 +10,6 @@ Straylise Temple
 #ストレイライズ神殿
 Straylise Temple
 -----------------------
-ここはストレイライズ神殿です
+#ここはストレイライズ神殿です
+This is the Straylise Temple.
 -----------------------
